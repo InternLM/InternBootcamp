@@ -1,0 +1,18 @@
+[
+    {
+        "size": [6, 6],
+        "difficulty": 3
+    },
+    {
+        "size": [10, 10],
+        "difficulty": 3
+    },
+    {
+        "size": [15, 15],
+        "difficulty": 3
+    },
+    {
+        "size": [20, 20],
+        "difficulty": 3
+    }
+]

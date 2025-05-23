@@ -1,0 +1,18 @@
+[
+    {
+        "standard_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "reversed_alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "substitution_alphabet": "RFDJUHABCEGIKLMNOPQSTVWXYZ",
+        "min_length": 5,
+        "max_length": 10,
+        "encrypt_probability": 0.7
+    },
+    {
+        "standard_alphabet": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+        "reversed_alphabet": "ZYXWVUTSRQPONMLKJIHGFEDCBA",
+        "substitution_alphabet": "RFDJUHABCEGIKLMNOPQSTVWXYZ",
+        "min_length": 4,
+        "max_length": 6,
+        "encrypt_probability": 0.3
+    }
+]

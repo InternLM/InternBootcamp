@@ -1,0 +1,18 @@
+[
+    {
+        "max_n": 1,
+        "max_total_length": 100
+    },
+    {
+        "max_n": 200,
+        "max_total_length": 5000
+    },
+    {
+        "max_n": 500,
+        "max_total_length": 10000
+    },
+    {
+        "max_n": 1000,
+        "max_total_length": 20000
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 4,
+        "max_length": 4,
+        "question_prob": 0.4
+    },
+    {
+        "max_n": 5,
+        "max_length": 5,
+        "question_prob": 0.5
+    },
+    {
+        "max_n": 1,
+        "max_length": 1,
+        "question_prob": 0.0
+    },
+    {
+        "max_n": 3,
+        "max_length": 3,
+        "question_prob": 0.3
+    }
+]

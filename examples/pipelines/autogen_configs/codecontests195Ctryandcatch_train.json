@@ -1,0 +1,18 @@
+[
+    {
+        "max_depth": 5,
+        "case_type": 2
+    },
+    {
+        "max_depth": 2,
+        "case_type": 1
+    },
+    {
+        "max_depth": 1,
+        "case_type": 0
+    },
+    {
+        "max_depth": 3,
+        "case_type": 2
+    }
+]

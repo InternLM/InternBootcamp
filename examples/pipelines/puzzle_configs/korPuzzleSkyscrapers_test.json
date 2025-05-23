@@ -1,0 +1,22 @@
+[
+    {
+        "n": 7,
+        "seed": 121314,
+        "difficulty": "medium"
+    },
+    {
+        "n": 4,
+        "seed": 151617,
+        "difficulty": "hard"
+    },
+    {
+        "n": 4,
+        "seed": 1234,
+        "difficulty": "easy"
+    },
+    {
+        "n": 5,
+        "seed": 5678,
+        "difficulty": "medium"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "min_lines": 10,
+        "max_lines": 50,
+        "max_chars": 10000
+    },
+    {
+        "min_lines": 5,
+        "max_lines": 20,
+        "max_chars": 5000
+    },
+    {
+        "min_lines": 2,
+        "max_lines": 100,
+        "max_chars": 100000
+    }
+]

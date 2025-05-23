@@ -1,0 +1,17 @@
+[
+    {
+        "max_n": 500,
+        "min_n": 2,
+        "generate_prob": 0.8
+    },
+    {
+        "max_n": 1000,
+        "min_n": 2,
+        "generate_prob": 0.5
+    },
+    {
+        "max_n": 10000,
+        "min_n": 10,
+        "generate_prob": 0.6
+    }
+]

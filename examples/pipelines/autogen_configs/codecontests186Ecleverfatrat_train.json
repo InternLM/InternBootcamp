@@ -1,0 +1,35 @@
+[
+    {
+        "max_n": 3,
+        "min_a": 1,
+        "max_a": 50,
+        "min_w": 1,
+        "max_w": 100,
+        "n_rows_strategy": "fixed",
+        "aGenerationStrategy": "low",
+        "wGenerationStrategy": "high",
+        "test_case_type": "easy"
+    },
+    {
+        "max_n": 5,
+        "min_a": 50,
+        "max_a": 100,
+        "min_w": 1,
+        "max_w": 50,
+        "n_rows_strategy": "random",
+        "aGenerationStrategy": "high",
+        "wGenerationStrategy": "low",
+        "test_case_type": "hard"
+    },
+    {
+        "max_n": 2,
+        "min_a": 1,
+        "max_a": 10,
+        "min_w": 1,
+        "max_w": 10,
+        "n_rows_strategy": "fixed",
+        "aGenerationStrategy": "random",
+        "wGenerationStrategy": "random",
+        "test_case_type": "small"
+    }
+]

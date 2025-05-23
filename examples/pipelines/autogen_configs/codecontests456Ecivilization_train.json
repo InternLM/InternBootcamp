@@ -1,0 +1,32 @@
+[
+    {
+        "default_n": 10,
+        "default_m": 4,
+        "default_q": 5
+    },
+    {
+        "default_n": 2,
+        "default_m": 0,
+        "default_q": 2
+    },
+    {
+        "default_n": 1,
+        "default_m": 0,
+        "default_q": 1
+    },
+    {
+        "default_n": 8,
+        "default_m": 3,
+        "default_q": 4
+    },
+    {
+        "default_n": 5,
+        "default_m": 2,
+        "default_q": 3
+    },
+    {
+        "default_n": 4,
+        "default_m": 1,
+        "default_q": 3
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "min_nodes": 2,
+        "max_nodes": 300,
+        "grey_prob": 0.3,
+        "white_prob": 0.3,
+        "black_prob": 0.4
+    },
+    {
+        "min_nodes": 2,
+        "max_nodes": 200,
+        "grey_prob": 0.1,
+        "white_prob": 0.45,
+        "black_prob": 0.45
+    },
+    {
+        "min_nodes": 2,
+        "max_nodes": 250,
+        "grey_prob": 0.5,
+        "white_prob": 0.25,
+        "black_prob": 0.25
+    },
+    {
+        "min_nodes": 2,
+        "max_nodes": 300,
+        "grey_prob": 0.4,
+        "white_prob": 0.3,
+        "black_prob": 0.3
+    }
+]

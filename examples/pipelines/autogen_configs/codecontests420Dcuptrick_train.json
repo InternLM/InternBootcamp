@@ -1,0 +1,22 @@
+[
+    {
+        "n": 3,
+        "m": 2,
+        "valid_probability": 0.7
+    },
+    {
+        "n": 10,
+        "m": 5,
+        "valid_probability": 0.75
+    },
+    {
+        "n": 5,
+        "m": 3,
+        "valid_probability": 0.8
+    },
+    {
+        "n": 20,
+        "m": 10,
+        "valid_probability": 0.9
+    }
+]

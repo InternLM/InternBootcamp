@@ -1,0 +1,18 @@
+[
+    {
+        "max_depth": 2,
+        "max_children": 2
+    },
+    {
+        "max_depth": 4,
+        "max_children": 2
+    },
+    {
+        "max_depth": 3,
+        "max_children": 1
+    },
+    {
+        "max_depth": 2,
+        "max_children": 1
+    }
+]

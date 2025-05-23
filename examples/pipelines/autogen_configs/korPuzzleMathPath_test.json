@@ -1,0 +1,26 @@
+[
+    {
+        "max_ops": 3,
+        "allow_division": true,
+        "min_target": 10,
+        "max_target": 30
+    },
+    {
+        "max_ops": 2,
+        "allow_division": true,
+        "min_target": 0,
+        "max_target": 20
+    },
+    {
+        "max_ops": 4,
+        "allow_division": false,
+        "min_target": -20,
+        "max_target": 50
+    },
+    {
+        "max_ops": 4,
+        "allow_division": true,
+        "min_target": -30,
+        "max_target": 80
+    }
+]

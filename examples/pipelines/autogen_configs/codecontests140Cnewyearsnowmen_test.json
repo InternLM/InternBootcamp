@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 10000,
+        "max_radius": 100,
+        "seed": 321
+    },
+    {
+        "max_n": 50000,
+        "max_radius": 1000,
+        "seed": 789
+    },
+    {
+        "max_n": 5000,
+        "max_radius": 500,
+        "seed": 654
+    },
+    {
+        "max_n": 100000,
+        "max_radius": 1000000000,
+        "seed": 456
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "max_n": 5,
+        "max_word_length": 5
+    },
+    {
+        "max_n": 10,
+        "max_word_length": 3
+    },
+    {
+        "max_n": 10,
+        "max_word_length": 10
+    },
+    {
+        "max_n": 3,
+        "max_word_length": 10
+    }
+]

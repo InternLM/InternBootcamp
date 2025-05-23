@@ -1,0 +1,42 @@
+[
+    {
+        "node_range": [
+            3,
+            10
+        ],
+        "budget_range": [
+            1,
+            200
+        ]
+    },
+    {
+        "node_range": [
+            6,
+            12
+        ],
+        "budget_range": [
+            20,
+            50
+        ]
+    },
+    {
+        "node_range": [
+            5,
+            10
+        ],
+        "budget_range": [
+            5,
+            15
+        ]
+    },
+    {
+        "node_range": [
+            4,
+            12
+        ],
+        "budget_range": [
+            10,
+            200
+        ]
+    }
+]

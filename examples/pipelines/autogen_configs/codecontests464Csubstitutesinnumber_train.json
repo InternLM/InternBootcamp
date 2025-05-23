@@ -1,0 +1,26 @@
+[
+    {
+        "min_initial_length": 10,
+        "max_initial_length": 20,
+        "max_queries": 10,
+        "max_ti_length": 10
+    },
+    {
+        "min_initial_length": 1,
+        "max_initial_length": 10,
+        "max_queries": 0,
+        "max_ti_length": 5
+    },
+    {
+        "min_initial_length": 5,
+        "max_initial_length": 20,
+        "max_queries": 5,
+        "max_ti_length": 10
+    },
+    {
+        "min_initial_length": 1,
+        "max_initial_length": 50,
+        "max_queries": 3,
+        "max_ti_length": 20
+    }
+]

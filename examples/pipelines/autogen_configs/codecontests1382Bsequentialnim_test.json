@@ -1,0 +1,30 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 100000,
+        "min_a": 1,
+        "max_a": 1000000000,
+        "case_type": "mixed"
+    },
+    {
+        "min_n": 5,
+        "max_n": 100,
+        "min_a": 1,
+        "max_a": 1000000000,
+        "case_type": "first_gt1"
+    },
+    {
+        "min_n": 5,
+        "max_n": 100,
+        "min_a": 1,
+        "max_a": 1000000000,
+        "case_type": "first_gt1"
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "min_a": 1,
+        "max_a": 1,
+        "case_type": "all_ones"
+    }
+]

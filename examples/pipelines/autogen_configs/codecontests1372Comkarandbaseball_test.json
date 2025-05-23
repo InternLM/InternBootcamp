@@ -1,0 +1,42 @@
+[
+    {
+        "min_n": 10,
+        "max_n": 20,
+        "answer_type": 0
+    },
+    {
+        "min_n": 7,
+        "max_n": 15,
+        "answer_type": 1
+    },
+    {
+        "min_n": 10,
+        "max_n": 20,
+        "answer_type": 1
+    },
+    {
+        "min_n": 5,
+        "max_n": 10,
+        "answer_type": 2
+    },
+    {
+        "min_n": 7,
+        "max_n": 15,
+        "answer_type": 0
+    },
+    {
+        "min_n": 5,
+        "max_n": 10,
+        "answer_type": 0
+    },
+    {
+        "min_n": 7,
+        "max_n": 15,
+        "answer_type": 2
+    },
+    {
+        "min_n": 7,
+        "max_n": 15,
+        "answer_type": null
+    }
+]

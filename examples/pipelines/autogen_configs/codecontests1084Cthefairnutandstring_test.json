@@ -1,0 +1,22 @@
+[
+    {
+        "max_blocks": 5,
+        "max_a_per_block": 2,
+        "max_other_chars": 1
+    },
+    {
+        "max_blocks": 1,
+        "max_a_per_block": 5,
+        "max_other_chars": 0
+    },
+    {
+        "max_blocks": 2,
+        "max_a_per_block": 5,
+        "max_other_chars": 3
+    },
+    {
+        "max_blocks": 4,
+        "max_a_per_block": 4,
+        "max_other_chars": 1
+    }
+]

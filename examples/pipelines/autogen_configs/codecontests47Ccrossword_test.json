@@ -1,0 +1,62 @@
+[
+    {
+        "words": [
+            "APPLE",
+            "BANANA",
+            "ORANGE",
+            "GRAPE",
+            "PINEAPPLE",
+            "MANGO"
+        ]
+    },
+    {
+        "words": [
+            "SUN",
+            "MOON",
+            "STAR",
+            "PLANET",
+            "GALAXY",
+            "UNIVERSE"
+        ]
+    },
+    {
+        "words": [
+            "AAA",
+            "AAA",
+            "AAAAA",
+            "AAA",
+            "AAA",
+            "AAAAA"
+        ]
+    },
+    {
+        "words": [
+            "TEST",
+            "DATA",
+            "STRUCTURE",
+            "OBJECT",
+            "CLASS",
+            "INHERIT"
+        ]
+    },
+    {
+        "words": [
+            "NOD",
+            "BAA",
+            "YARD",
+            "AIRWAY",
+            "NEWTON",
+            "BURN"
+        ]
+    },
+    {
+        "words": [
+            "CODE",
+            "DEBUG",
+            "SCRIPT",
+            "FUNCTION",
+            "VARIABLE",
+            "LOOP"
+        ]
+    }
+]

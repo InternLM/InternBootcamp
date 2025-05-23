@@ -1,0 +1,26 @@
+[
+    {
+        "max_n": 4,
+        "max_m": 3,
+        "max_p": 8,
+        "weapon_a_max": 15000,
+        "weapon_ca_max": 1500000,
+        "armor_b_max": 15000,
+        "armor_cb_max": 1500000,
+        "monster_x_max": 15000,
+        "monster_y_max": 15000,
+        "monster_z_max": 150
+    },
+    {
+        "max_n": 3,
+        "max_m": 4,
+        "max_p": 5,
+        "weapon_a_max": 10000,
+        "weapon_ca_max": 1000000,
+        "armor_b_max": 10000,
+        "armor_cb_max": 1000000,
+        "monster_x_max": 10000,
+        "monster_y_max": 10000,
+        "monster_z_max": 100
+    }
+]

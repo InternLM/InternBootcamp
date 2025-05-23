@@ -1,0 +1,22 @@
+[
+    {
+        "num_add": 12,
+        "num_delete": 5,
+        "num_queries": 4
+    },
+    {
+        "num_add": 10,
+        "num_delete": 3,
+        "num_queries": 4
+    },
+    {
+        "num_add": 5,
+        "num_delete": 2,
+        "num_queries": 3
+    },
+    {
+        "num_add": 15,
+        "num_delete": 4,
+        "num_queries": 5
+    }
+]

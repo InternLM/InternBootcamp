@@ -1,0 +1,17 @@
+[
+    {
+        "min_irems": 5,
+        "max_items": 10,
+        "max_steps": 2
+    },
+    {
+        "min_irems": 10,
+        "max_items": 20,
+        "max_steps": 4
+    },
+    {
+        "min_irems": 20,
+        "max_items": 30,
+        "max_steps": 6
+    }
+]

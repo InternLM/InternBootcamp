@@ -1,0 +1,18 @@
+[
+    {
+        "max_platforms": 100,
+        "max_bridge": 100000
+    },
+    {
+        "max_platforms": 10,
+        "max_bridge": 1000
+    },
+    {
+        "max_platforms": 50000,
+        "max_bridge": 500000000000000000
+    },
+    {
+        "max_platforms": 1000,
+        "max_bridge": 1000000000
+    }
+]

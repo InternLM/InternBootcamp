@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 50,
+        "m_min": -100,
+        "m_max": 100,
+        "time_delta_min": 0,
+        "time_delta_max": 50
+    },
+    {
+        "n_min": 10,
+        "n_max": 50,
+        "m_min": -1000,
+        "m_max": 1000,
+        "time_delta_min": 0,
+        "time_delta_max": 100
+    },
+    {
+        "n_min": 50,
+        "n_max": 100,
+        "m_min": -200,
+        "m_max": 200,
+        "time_delta_min": 0,
+        "time_delta_max": 50
+    }
+]

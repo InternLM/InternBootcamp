@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "char_set": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "n_min": 2,
+        "n_max": 25,
+        "char_set": "abcdefghijklmnopqrstuvwxyz"
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "char_set": "abcde"
+    },
+    {
+        "n_min": 3,
+        "n_max": 15,
+        "char_set": "aeiou"
+    }
+]

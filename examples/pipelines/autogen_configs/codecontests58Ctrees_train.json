@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 200,
+        "max_height": 200
+    },
+    {
+        "max_n": 1000,
+        "max_height": 1000
+    },
+    {
+        "max_n": 100,
+        "max_height": 500
+    },
+    {
+        "max_n": 1,
+        "max_height": 1
+    },
+    {
+        "max_n": 500,
+        "max_height": 500
+    }
+]

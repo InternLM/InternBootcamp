@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 100000,
+        "allow_hypotenuse": false
+    },
+    {
+        "min_n": 1,
+        "max_n": 100000,
+        "allow_hypotenuse": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "allow_hypotenuse": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "allow_hypotenuse": false
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "max_bits": 20
+    },
+    {
+        "min_n": 1,
+        "max_n": 20,
+        "max_bits": 10
+    },
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "max_bits": 15
+    },
+    {
+        "min_n": 50,
+        "max_n": 200,
+        "max_bits": 20
+    },
+    {
+        "min_n": 100,
+        "max_n": 200,
+        "max_bits": 20
+    },
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "max_bits": 10
+    }
+]

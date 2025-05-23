@@ -1,0 +1,32 @@
+[
+    {
+        "min_val": -15,
+        "max_val": 15,
+        "equation_prob": 0.4
+    },
+    {
+        "min_val": -10,
+        "max_val": 10,
+        "equation_prob": 0.4
+    },
+    {
+        "min_val": -30,
+        "max_val": 30,
+        "equation_prob": 0.4
+    },
+    {
+        "min_val": -20,
+        "max_val": 20,
+        "equation_prob": 0.3
+    },
+    {
+        "min_val": -3,
+        "max_val": 3,
+        "equation_prob": 0.6
+    },
+    {
+        "min_val": -25,
+        "max_val": 25,
+        "equation_prob": 0.3
+    }
+]

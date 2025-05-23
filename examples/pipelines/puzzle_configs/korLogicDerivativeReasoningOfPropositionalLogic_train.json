@@ -1,0 +1,80 @@
+[
+    {
+        "apply_prob": 0.5,
+        "methods": [
+            "A",
+            "B",
+            "C"
+        ],
+        "subjects": [
+            "natural numbers",
+            "products",
+            "college students",
+            "true revolutionaries",
+            "formally correct reasoning"
+        ],
+        "predicates": [
+            "rational numbers",
+            "top-grade",
+            "patriots",
+            "upright and open",
+            "tested by practice"
+        ]
+    },
+    {
+        "apply_prob": 0.5,
+        "methods": [
+            "A",
+            "B"
+        ],
+        "subjects": [
+            "natural numbers",
+            "products",
+            "true revolutionaries"
+        ],
+        "predicates": [
+            "rational numbers",
+            "top-grade",
+            "upright and open"
+        ]
+    },
+    {
+        "apply_prob": 0.7,
+        "methods": [
+            "A",
+            "B",
+            "C"
+        ],
+        "subjects": [
+            "natural numbers",
+            "products",
+            "college students",
+            "true revolutionaries",
+            "formally correct reasoning"
+        ],
+        "predicates": [
+            "rational numbers",
+            "top-grade",
+            "patriots",
+            "upright and open",
+            "tested by practice"
+        ]
+    },
+    {
+        "apply_prob": 0.6,
+        "methods": [
+            "B",
+            "C"
+        ],
+        "subjects": [
+            "college students",
+            "true revolutionaries",
+            "formally correct reasoning"
+        ],
+        "predicates": [
+            "patriots",
+            "upright and open",
+            "tested by practice"
+        ]
+    }
+]

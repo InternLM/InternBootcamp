@@ -1,0 +1,30 @@
+[
+    {
+        "max_grid_size": 10,
+        "max_objects": 5
+    },
+    {
+        "max_grid_size": 1,
+        "max_objects": 8
+    },
+    {
+        "max_grid_size": 6,
+        "max_objects": 5
+    },
+    {
+        "max_grid_size": 6,
+        "max_objects": 6
+    },
+    {
+        "max_grid_size": 10,
+        "max_objects": 8
+    },
+    {
+        "max_grid_size": 8,
+        "max_objects": 8
+    },
+    {
+        "max_grid_size": 9,
+        "max_objects": 6
+    }
+]

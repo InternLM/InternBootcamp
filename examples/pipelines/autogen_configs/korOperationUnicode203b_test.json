@@ -1,0 +1,22 @@
+[
+    {
+        "C": 3,
+        "max_operand": 200,
+        "max_attempts": 200
+    },
+    {
+        "C": 2,
+        "max_operand": 100,
+        "max_attempts": 100
+    },
+    {
+        "C": 1,
+        "max_operand": 50,
+        "max_attempts": 50
+    },
+    {
+        "C": 4,
+        "max_operand": 150,
+        "max_attempts": 150
+    }
+]

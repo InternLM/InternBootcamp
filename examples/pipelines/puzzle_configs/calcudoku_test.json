@@ -1,0 +1,30 @@
+[
+    {
+        "size": 6,
+        "group_size_range": [
+            2,
+            3
+        ]
+    },
+    {
+        "size": 4,
+        "group_size_range": [
+            1,
+            2
+        ]
+    },
+    {
+        "size": 6,
+        "group_size_range": [
+            2,
+            4
+        ]
+    },
+    {
+        "size": 4,
+        "group_size_range": [
+            2,
+            3
+        ]
+    }
+]

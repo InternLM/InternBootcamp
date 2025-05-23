@@ -1,0 +1,22 @@
+[
+    {
+        "n": 100,
+        "q": 20,
+        "max_initial_length": 1000
+    },
+    {
+        "n": 4,
+        "q": 2,
+        "max_initial_length": 5000
+    },
+    {
+        "n": 5,
+        "q": 3,
+        "max_initial_length": 200
+    },
+    {
+        "n": 10,
+        "q": 10,
+        "max_initial_length": 500
+    }
+]

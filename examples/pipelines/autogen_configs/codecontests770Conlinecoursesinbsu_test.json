@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 12,
+        "cycle_prob": 0.5
+    },
+    {
+        "min_n": 5,
+        "max_n": 15,
+        "cycle_prob": 0.2
+    },
+    {
+        "min_n": 4,
+        "max_n": 20,
+        "cycle_prob": 0.4
+    },
+    {
+        "min_n": 6,
+        "max_n": 15,
+        "cycle_prob": 0.3
+    }
+]

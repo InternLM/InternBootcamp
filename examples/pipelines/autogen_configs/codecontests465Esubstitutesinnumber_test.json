@@ -1,0 +1,26 @@
+[
+    {
+        "s_min_length": 20,
+        "s_max_length": 200,
+        "max_queries": 20,
+        "max_total_ti_length": 1000
+    },
+    {
+        "s_min_length": 10,
+        "s_max_length": 200,
+        "max_queries": 20,
+        "max_total_ti_length": 2000
+    },
+    {
+        "s_min_length": 5,
+        "s_max_length": 150,
+        "max_queries": 15,
+        "max_total_ti_length": 1500
+    },
+    {
+        "s_min_length": 1,
+        "s_max_length": 10,
+        "max_queries": 5,
+        "max_total_ti_length": 500
+    }
+]

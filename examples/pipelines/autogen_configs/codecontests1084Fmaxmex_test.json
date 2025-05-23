@@ -1,0 +1,22 @@
+[
+    {
+        "max_nodes": 10,
+        "q_max": 5
+    },
+    {
+        "max_nodes": 4,
+        "q_max": 2
+    },
+    {
+        "max_nodes": 3,
+        "q_max": 1
+    },
+    {
+        "max_nodes": 7,
+        "q_max": 4
+    },
+    {
+        "max_nodes": 5,
+        "q_max": 3
+    }
+]

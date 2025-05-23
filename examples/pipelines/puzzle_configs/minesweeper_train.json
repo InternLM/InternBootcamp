@@ -1,0 +1,32 @@
+[
+    {
+        "rows": 7,
+        "cols": 7,
+        "mines_count": 12
+    },
+    {
+        "rows": 5,
+        "cols": 5,
+        "mines_count": 5
+    },
+    {
+        "rows": 9,
+        "cols": 9,
+        "mines_count": 14
+    },
+    {
+        "rows": 8,
+        "cols": 10,
+        "mines_count": 16
+    },
+    {
+        "rows": 10,
+        "cols": 8,
+        "mines_count": 16
+    },
+    {
+        "rows": 10,
+        "cols": 10,
+        "mines_count": 15
+    }
+]

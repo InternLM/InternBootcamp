@@ -1,0 +1,34 @@
+[
+    {
+        "ts_min": 50,
+        "ts_max": 1500,
+        "t_min": 5,
+        "t_max": 150,
+        "n_max": 80,
+        "max_visit_gap": 400
+    },
+    {
+        "ts_min": 1,
+        "ts_max": 1000,
+        "t_min": 1,
+        "t_max": 1000,
+        "n_max": 100,
+        "max_visit_gap": 500
+    },
+    {
+        "ts_min": 150,
+        "ts_max": 2500,
+        "t_min": 15,
+        "t_max": 250,
+        "n_max": 60,
+        "max_visit_gap": 350
+    },
+    {
+        "ts_min": 200,
+        "ts_max": 3000,
+        "t_min": 20,
+        "t_max": 300,
+        "n_max": 30,
+        "max_visit_gap": 200
+    }
+]

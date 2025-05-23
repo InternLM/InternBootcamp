@@ -1,0 +1,18 @@
+[
+    {
+        "max_L": 1000,
+        "max_range": 100
+    },
+    {
+        "max_L": 2000,
+        "max_range": 200
+    },
+    {
+        "max_L": 100,
+        "max_range": 100
+    },
+    {
+        "max_L": 5000,
+        "max_range": 500
+    }
+]

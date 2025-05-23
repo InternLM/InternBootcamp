@@ -1,0 +1,126 @@
+[
+    {
+        "2": [
+            "IT",
+            "IS",
+            "HE",
+            "SHE",
+            "WHO"
+        ],
+        "3": [
+            "THE",
+            "AND",
+            "FOR",
+            "NOT",
+            "YES",
+            "WHO"
+        ],
+        "4": [
+            "WHAT",
+            "WHERE",
+            "WHEN",
+            "WHY",
+            "HOW"
+        ],
+        "5": [
+            "WHENEVER",
+            "WHEREVER",
+            "WHYSOEVER"
+        ]
+    },
+    {
+        "2": [
+            "BE",
+            "NO",
+            "IN",
+            "TO",
+            "UP"
+        ],
+        "3": [
+            "CAT",
+            "DOG",
+            "BED",
+            "PEN",
+            "CAR",
+            "BAT",
+            "RAT",
+            "MAT",
+            "PAN"
+        ],
+        "4": [
+            "DESK",
+            "BALL",
+            "FISH",
+            "CAKE",
+            "ROAD",
+            "BEAN",
+            "UNIT",
+            "CRAB",
+            "TENT",
+            "SHIP"
+        ],
+        "5": [
+            "APPLE",
+            "TABLE",
+            "CHAIR",
+            "STOVE",
+            "LAPTOP"
+        ]
+    },
+    {
+        "2": [
+            "BE",
+            "NO",
+            "IN",
+            "TO"
+        ],
+        "3": [
+            "CAT",
+            "DOG",
+            "BED",
+            "PEN",
+            "CAR",
+            "BAT"
+        ],
+        "4": [
+            "DESK",
+            "BALL",
+            "FISH",
+            "CAKE"
+        ]
+    },
+    {
+        "2": [
+            "BE",
+            "NO",
+            "IN",
+            "TO",
+            "UP"
+        ],
+        "3": [
+            "CAT",
+            "DOG",
+            "BED",
+            "PEN",
+            "CAR",
+            "BAT",
+            "RAT",
+            "MAT",
+            "PAN"
+        ],
+        "4": [
+            "DESK",
+            "BALL",
+            "FISH",
+            "CAKE",
+            "ROAD",
+            "BEAN",
+            "UNIT"
+        ],
+        "5": [
+            "APPLE",
+            "TABLE",
+            "CHAIR"
+        ]
+    }
+]

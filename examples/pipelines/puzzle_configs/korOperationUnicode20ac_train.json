@@ -1,0 +1,22 @@
+[
+    {
+        "matrix_shape": [2,3],
+        "min_val": 0,
+        "max_val": 10
+    },
+    {
+        "matrix_shape": [3,3],
+        "min_val": -20,
+        "max_val": 20
+    },
+    {
+        "matrix_shape": [2,2],
+        "min_val": -5,
+        "max_val": 10
+    },
+    {
+        "matrix_shape": [2,2],
+        "min_val": -10,
+        "max_val": 10
+    }
+]

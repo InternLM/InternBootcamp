@@ -1,0 +1,41 @@
+[
+    {
+        "min_n": 8,
+        "max_n": 30,
+        "attribute_descriptions": [
+            "top scorer",
+            "perfect health",
+            "satisfied customer",
+            "damaged goods",
+            "active lifestyle",
+            "excessive noise",
+            "full recovery"
+        ]
+    },
+    {
+        "min_n": 3,
+        "max_n": 20,
+        "attribute_descriptions": [
+            "excellent performance",
+            "no diseases",
+            "content with product",
+            "faulty goods",
+            "consistent work",
+            "high pollution",
+            "successful surgery"
+        ]
+    },
+    {
+        "min_n": 5,
+        "max_n": 50,
+        "attribute_descriptions": [
+            "math score above 90",
+            "healthy",
+            "satisfied with facilities",
+            "defective",
+            "daily exercise",
+            "speeding behavior",
+            "positive response"
+        ]
+    }
+]

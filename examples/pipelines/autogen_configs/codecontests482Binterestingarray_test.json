@@ -1,0 +1,30 @@
+[
+    {
+        "n_min": 10,
+        "n_max": 20,
+        "m_min": 5,
+        "m_max": 10,
+        "p_unsolvable": 0.4
+    },
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "m_min": 4,
+        "m_max": 8,
+        "p_unsolvable": 0.35
+    },
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "m_min": 3,
+        "m_max": 5,
+        "p_unsolvable": 0.3
+    },
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "m_min": 3,
+        "m_max": 7,
+        "p_unsolvable": 0.25
+    }
+]

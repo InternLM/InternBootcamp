@@ -1,0 +1,18 @@
+[
+    {
+        "m_min": 5,
+        "m_max": 10,
+        "push_count_min": 2,
+        "push_count_max": 5,
+        "xi_min": 1,
+        "xi_max": 1000
+    },
+    {
+        "m_min": 3,
+        "m_max": 5,
+        "push_count_min": 1,
+        "push_count_max": 2,
+        "xi_min": 1,
+        "xi_max": 100
+    }
+]

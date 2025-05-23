@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 1000000,
+        "valid_case_prob": 0.6
+    },
+    {
+        "max_n": 100000,
+        "valid_case_prob": 0.75
+    },
+    {
+        "max_n": 100000000,
+        "valid_case_prob": 0.3
+    },
+    {
+        "max_n": 10000000,
+        "valid_case_prob": 0.4
+    },
+    {
+        "max_n": 1000000000,
+        "valid_case_prob": 0.5
+    }
+]

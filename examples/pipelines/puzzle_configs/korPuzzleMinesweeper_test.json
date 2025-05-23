@@ -1,0 +1,32 @@
+[
+    {
+        "size": 9,
+        "mine_ratio": 0.2,
+        "min_hints": 6
+    },
+    {
+        "size": 7,
+        "mine_ratio": 0.25,
+        "min_hints": 6
+    },
+    {
+        "size": 9,
+        "mine_ratio": 0.15,
+        "min_hints": 5
+    },
+    {
+        "size": 5,
+        "mine_ratio": 0.25,
+        "min_hints": 5
+    },
+    {
+        "size": 9,
+        "mine_ratio": 0.25,
+        "min_hints": 7
+    },
+    {
+        "size": 7,
+        "mine_ratio": 0.15,
+        "min_hints": 4
+    }
+]

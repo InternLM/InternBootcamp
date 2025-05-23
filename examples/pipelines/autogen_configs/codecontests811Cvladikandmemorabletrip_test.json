@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 4,
+        "max_n": 6,
+        "max_city": 4
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "max_city": 5
+    },
+    {
+        "min_n": 4,
+        "max_n": 7,
+        "max_city": 6
+    },
+    {
+        "min_n": 4,
+        "max_n": 8,
+        "max_city": 5
+    }
+]

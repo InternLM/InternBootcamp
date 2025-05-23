@@ -1,0 +1,23 @@
+[
+    {
+        "max_lucky_types": 4,
+        "min_n": 1,
+        "max_n": 15,
+        "max_rest_count": 6,
+        "max_lucky_count": 2
+    },
+    {
+        "max_lucky_types": 5,
+        "min_n": 1,
+        "max_n": 25,
+        "max_rest_count": 10,
+        "max_lucky_count": 4
+    },
+    {
+        "max_lucky_types": 3,
+        "min_n": 1,
+        "max_n": 10,
+        "max_rest_count": 5,
+        "max_lucky_count": 1
+    }
+]

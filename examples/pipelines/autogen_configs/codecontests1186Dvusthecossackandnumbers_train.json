@@ -1,0 +1,17 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "max_int": 10
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "max_int": 5
+    },
+    {
+        "n_min": 3,
+        "n_max": 15,
+        "max_int": 7
+    }
+]

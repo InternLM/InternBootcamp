@@ -1,0 +1,26 @@
+[
+    {
+        "k_min": 3,
+        "k_max": 5,
+        "min_weight": 500,
+        "max_weight": 10000
+    },
+    {
+        "k_min": 1,
+        "k_max": 1,
+        "min_weight": 1,
+        "max_weight": 100
+    },
+    {
+        "k_min": 1,
+        "k_max": 10,
+        "min_weight": 10,
+        "max_weight": 10000
+    },
+    {
+        "k_min": 2,
+        "k_max": 5,
+        "min_weight": 1,
+        "max_weight": 1000
+    }
+]

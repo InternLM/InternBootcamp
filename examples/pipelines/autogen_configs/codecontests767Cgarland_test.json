@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 6,
+        "max_n": 10,
+        "variant": "solvable"
+    },
+    {
+        "min_n": 3,
+        "max_n": 20,
+        "variant": "solvable"
+    },
+    {
+        "min_n": 3,
+        "max_n": 6,
+        "variant": "solvable"
+    },
+    {
+        "min_n": 5,
+        "max_n": 15,
+        "variant": "random"
+    }
+]

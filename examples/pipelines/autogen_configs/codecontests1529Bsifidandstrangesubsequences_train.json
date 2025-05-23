@@ -1,0 +1,30 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 25,
+        "element_min": -150,
+        "element_max": 150,
+        "special_cases_ratio": 0.2
+    },
+    {
+        "min_n": 1,
+        "max_n": 30,
+        "element_min": -500,
+        "element_max": 500,
+        "special_cases_ratio": 0.3
+    },
+    {
+        "min_n": 1,
+        "max_n": 20,
+        "element_min": -300,
+        "element_max": 300,
+        "special_cases_ratio": 0.4
+    },
+    {
+        "min_n": 1,
+        "max_n": 15,
+        "element_min": -200,
+        "element_max": 200,
+        "special_cases_ratio": 0.3
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "m_min": 3,
+        "m_max": 70,
+        "max_n_multiplier": 1.8
+    },
+    {
+        "m_min": 6,
+        "m_max": 80,
+        "max_n_multiplier": 2
+    },
+    {
+        "m_min": 3,
+        "m_max": 50,
+        "max_n_multiplier": 2
+    },
+    {
+        "m_min": 3,
+        "m_max": 40,
+        "max_n_multiplier": 1.5
+    },
+    {
+        "m_min": 4,
+        "m_max": 75,
+        "max_n_multiplier": 1.5
+    },
+    {
+        "m_min": 5,
+        "m_max": 90,
+        "max_n_multiplier": 2
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "n_min": 2,
+        "n_max": 20,
+        "k_min": 2,
+        "k_max": 10,
+        "red_prob": 0.5,
+        "seed": 123
+    },
+    {
+        "n_min": 2,
+        "n_max": 15,
+        "k_min": 2,
+        "k_max": 15,
+        "red_prob": 0.3,
+        "seed": 456
+    },
+    {
+        "n_min": 3,
+        "n_max": 18,
+        "k_min": 2,
+        "k_max": 9,
+        "red_prob": 0.6,
+        "seed": 321
+    },
+    {
+        "n_min": 5,
+        "n_max": 25,
+        "k_min": 3,
+        "k_max": 12,
+        "red_prob": 0.7,
+        "seed": 789
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 2,
+        "n_max": 5,
+        "min_val": -5,
+        "max_val": 5
+    },
+    {
+        "n_min": 2,
+        "n_max": 10,
+        "min_val": -100,
+        "max_val": 100
+    },
+    {
+        "n_min": 3,
+        "n_max": 6,
+        "min_val": -20,
+        "max_val": 20
+    },
+    {
+        "n_min": 1,
+        "n_max": 4,
+        "min_val": 0,
+        "max_val": 10
+    }
+]

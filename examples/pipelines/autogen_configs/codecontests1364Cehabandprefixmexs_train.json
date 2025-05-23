@@ -1,0 +1,32 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 5,
+        "allow_unsolvable": true
+    },
+    {
+        "min_n": 5,
+        "max_n": 5,
+        "allow_unsolvable": true
+    },
+    {
+        "min_n": 3,
+        "max_n": 20,
+        "allow_unsolvable": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 3,
+        "allow_unsolvable": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "allow_unsolvable": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "allow_unsolvable": false
+    }
+]

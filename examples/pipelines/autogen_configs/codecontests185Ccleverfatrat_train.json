@@ -1,0 +1,32 @@
+[
+    {
+        "max_n": 50,
+        "min_weight": 1,
+        "max_weight": 1000000
+    },
+    {
+        "max_n": 40,
+        "min_weight": 10000,
+        "max_weight": 100000
+    },
+    {
+        "max_n": 30,
+        "min_weight": 500,
+        "max_weight": 5000
+    },
+    {
+        "max_n": 20,
+        "min_weight": 1000,
+        "max_weight": 10000
+    },
+    {
+        "max_n": 15,
+        "min_weight": 200,
+        "max_weight": 2000
+    },
+    {
+        "max_n": 1,
+        "min_weight": 1,
+        "max_weight": 1
+    }
+]

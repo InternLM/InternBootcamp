@@ -1,0 +1,89 @@
+[
+    {
+        "problem_types": {
+            "relationship": 0.45,
+            "symbolization": 0.25,
+            "formula": 0.2,
+            "multiple_choice_formula": 0.1
+        },
+        "propositions": {
+            "p": [
+                "the store is open",
+                "the bank is closed",
+                "the library is quiet",
+                "the gym is busy",
+                "the café is empty",
+                "the museum is closed",
+                "the theater is showing a movie",
+                "the shop is having a sale",
+                "the office is quiet",
+                "the classroom is empty"
+            ],
+            "q": [
+                "the cashier is busy",
+                "the librarian is available",
+                "the trainer is working",
+                "the barista is making coffee",
+                "the guard is on duty"
+            ]
+        }
+    },
+    {
+        "problem_types": {
+            "relationship": 0.35,
+            "symbolization": 0.3,
+            "formula": 0.25,
+            "multiple_choice_formula": 0.1
+        },
+        "propositions": {
+            "p": [
+                "the train arrives on time",
+                "the meeting starts at 2 PM",
+                "the pizza is delicious",
+                "the book is interesting",
+                "the movie is exciting",
+                "the park is crowded",
+                "the concert is sold out",
+                "the weather is nice",
+                "the flight is delayed",
+                "the restaurant is busy"
+            ],
+            "q": [
+                "the teacher arrives early",
+                "the student completes the homework",
+                "the car needs maintenance",
+                "the battery is charged",
+                "the internet is working"
+            ]
+        }
+    },
+    {
+        "problem_types": {
+            "relationship": 0.3,
+            "symbolization": 0.35,
+            "formula": 0.2,
+            "multiple_choice_formula": 0.15
+        },
+        "propositions": {
+            "p": [
+                "the sun rises in the east",
+                "the moon shines at night",
+                "the earth orbits the sun",
+                "water boils at 100 degrees Celsius",
+                "ice melts at 0 degrees Celsius",
+                "plants need sunlight to grow",
+                "birds can fly",
+                "fish live in water",
+                "dogs are mammals",
+                "cats are carnivores"
+            ],
+            "q": [
+                "the sky is blue",
+                "the grass is green",
+                "the tree is tall",
+                "the flower is red",
+                "the mountain is high"
+            ]
+        }
+    }
+]

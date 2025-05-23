@@ -1,0 +1,18 @@
+[
+    {
+        "max_nodes": 20,
+        "seed": 0
+    },
+    {
+        "max_nodes": 5,
+        "seed": 123
+    },
+    {
+        "max_nodes": 8,
+        "seed": 0
+    },
+    {
+        "max_nodes": 13,
+        "seed": 789
+    }
+]

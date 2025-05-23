@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 20,
+        "max_str_len": 20,
+        "s_prob": 0.7
+    },
+    {
+        "max_n": 100,
+        "max_str_len": 100,
+        "s_prob": 0.5
+    },
+    {
+        "max_n": 5,
+        "max_str_len": 3,
+        "s_prob": 0.5
+    },
+    {
+        "max_n": 15,
+        "max_str_len": 25,
+        "s_prob": 0.3
+    }
+]

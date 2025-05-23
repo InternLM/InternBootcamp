@@ -1,0 +1,34 @@
+[
+    {
+        "min_n": 10,
+        "max_n": 20,
+        "min_m": 5,
+        "max_m": 20,
+        "cost_min": 0,
+        "cost_max": 500000
+    },
+    {
+        "min_n": 5,
+        "max_n": 15,
+        "min_m": 3,
+        "max_m": 15,
+        "cost_min": 0,
+        "cost_max": 100000
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "min_m": 1,
+        "max_m": 10,
+        "cost_min": 0,
+        "cost_max": 1000
+    },
+    {
+        "min_n": 5,
+        "max_n": 20,
+        "min_m": 1,
+        "max_m": 20,
+        "cost_min": 0,
+        "cost_max": 1000000
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "params": {
+            "max_case_size": 10
+        }
+    },
+    {
+        "params": {
+            "max_case_size": 5
+        }
+    },
+    {
+        "params": {
+            "max_case_size": 15
+        }
+    },
+    {
+        "params": {
+            "max_case_size": 25
+        }
+    }
+]

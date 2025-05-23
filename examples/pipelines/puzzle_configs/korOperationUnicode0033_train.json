@@ -1,0 +1,65 @@
+[
+    {
+        "compute_prob": 0.4,
+        "max_square": 12,
+        "operand_range": [
+            3,
+            5
+        ],
+        "max_depth": 3
+    },
+    {
+        "compute_prob": 0.5,
+        "max_square": 13,
+        "operand_range": [
+            1,
+            4
+        ],
+        "max_depth": 2
+    },
+    {
+        "compute_prob": 0.7,
+        "max_square": 8,
+        "operand_range": [
+            2,
+            4
+        ],
+        "max_depth": 2
+    },
+    {
+        "compute_prob": 0.8,
+        "max_square": 14,
+        "operand_range": [
+            3,
+            6
+        ],
+        "max_depth": 3
+    },
+    {
+        "compute_prob": 0.1,
+        "max_square": 9,
+        "operand_range": [
+            2,
+            5
+        ],
+        "max_depth": 1
+    },
+    {
+        "compute_prob": 0.9,
+        "max_square": 20,
+        "operand_range": [
+            2,
+            6
+        ],
+        "max_depth": 3
+    },
+    {
+        "compute_prob": 0.3,
+        "max_square": 15,
+        "operand_range": [
+            1,
+            6
+        ],
+        "max_depth": 2
+    }
+]

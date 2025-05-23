@@ -1,0 +1,26 @@
+[
+    {
+        "n": 6,
+        "has_cycle": true
+    },
+    {
+        "n": 5,
+        "has_cycle": true
+    },
+    {
+        "n": 3,
+        "has_cycle": false
+    },
+    {
+        "n": 3,
+        "has_cycle": true
+    },
+    {
+        "n": 2,
+        "has_cycle": false
+    },
+    {
+        "n": 4,
+        "has_cycle": true
+    }
+]

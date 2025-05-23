@@ -1,0 +1,10 @@
+[
+    {
+        "max_n": 15,
+        "max_height": 10000
+    },
+    {
+        "max_n": 5,
+        "max_height": 100
+    }
+]

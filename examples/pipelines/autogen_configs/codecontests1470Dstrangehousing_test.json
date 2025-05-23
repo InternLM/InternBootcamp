@@ -1,0 +1,18 @@
+[
+    {
+        "max_houses": 10,
+        "max_paths": 15
+    },
+    {
+        "max_houses": 5,
+        "max_paths": 7
+    },
+    {
+        "max_houses": 15,
+        "max_paths": 20
+    },
+    {
+        "max_houses": 8,
+        "max_paths": 12
+    }
+]

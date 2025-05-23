@@ -1,0 +1,11 @@
+[
+    {
+        "max_period": 2000
+    },
+    {
+        "max_period": 100
+    },
+    {
+        "max_period": 1000
+    }
+]

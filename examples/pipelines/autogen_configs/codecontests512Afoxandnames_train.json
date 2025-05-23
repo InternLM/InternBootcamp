@@ -1,0 +1,40 @@
+[
+    {
+        "n": 3,
+        "names": [
+            "cba",
+            "cdc",
+            "cde"
+        ]
+    },
+    {
+        "n": 5,
+        "names": [
+            "apple",
+            "banana",
+            "cherry",
+            "date",
+            "elder"
+        ]
+    },
+    {
+        "n": 3,
+        "names": [
+            "abc",
+            "abd",
+            "abe"
+        ]
+    },
+    {
+        "n": 7,
+        "names": [
+            "car",
+            "care",
+            "careful",
+            "carefully",
+            "becarefuldontforgetsomething",
+            "otherwiseyouwillbehacked",
+            "goodluck"
+        ]
+    }
+]

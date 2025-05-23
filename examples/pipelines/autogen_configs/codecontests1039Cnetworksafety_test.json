@@ -1,0 +1,32 @@
+[
+    {
+        "max_n": 5,
+        "max_k": 2,
+        "max_m_attempts": 8
+    },
+    {
+        "max_n": 6,
+        "max_k": 3,
+        "max_m_attempts": 10
+    },
+    {
+        "max_n": 3,
+        "max_k": 0,
+        "max_m_attempts": 4
+    },
+    {
+        "max_n": 9,
+        "max_k": 5,
+        "max_m_attempts": 18
+    },
+    {
+        "max_n": 8,
+        "max_k": 5,
+        "max_m_attempts": 15
+    },
+    {
+        "max_n": 7,
+        "max_k": 4,
+        "max_m_attempts": 12
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "size": 3,
+        "inequality_prob": 0.2,
+        "retain_ratio": 0.3
+    },
+    {
+        "size": 4,
+        "inequality_prob": 0.3,
+        "retain_ratio": 0.4
+    },
+    {
+        "size": 6,
+        "inequality_prob": 0.5,
+        "retain_ratio": 0.6
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "max_depth": 3,
+        "num_choices": 5
+    },
+    {
+        "max_depth": 4,
+        "num_choices": 5
+    },
+    {
+        "max_depth": 5,
+        "num_choices": 5
+    },
+    {
+        "max_depth": 6,
+        "num_choices": 5
+    }
+]

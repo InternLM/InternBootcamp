@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "p_1": 0.6,
+        "edge_case_prob": 0.3
+    },
+    {
+        "n_min": 3,
+        "n_max": 15,
+        "p_1": 0.4,
+        "edge_case_prob": 0.1
+    },
+    {
+        "n_min": 4,
+        "n_max": 18,
+        "p_1": 0.7,
+        "edge_case_prob": 0.2
+    },
+    {
+        "n_min": 1,
+        "n_max": 12,
+        "p_1": 0.5,
+        "edge_case_prob": 0.2
+    }
+]

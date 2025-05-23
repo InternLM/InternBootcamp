@@ -1,0 +1,22 @@
+[
+    {
+        "max_queries": 100,
+        "max_time": 100000000,
+        "max_speed": 1000000000
+    },
+    {
+        "max_queries": 200,
+        "max_time": 1000000000,
+        "max_speed": 1000000000
+    },
+    {
+        "max_queries": 50,
+        "max_time": 10000000,
+        "max_speed": 100000000
+    },
+    {
+        "max_queries": 20,
+        "max_time": 1000000,
+        "max_speed": 10000000
+    }
+]

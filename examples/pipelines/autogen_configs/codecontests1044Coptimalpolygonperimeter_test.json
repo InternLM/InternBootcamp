@@ -1,0 +1,34 @@
+[
+    {
+        "min_points": 3,
+        "max_points": 5,
+        "coord_range": [
+            -50,
+            50
+        ]
+    },
+    {
+        "min_points": 3,
+        "max_points": 10,
+        "coord_range": [
+            -50,
+            50
+        ]
+    },
+    {
+        "min_points": 3,
+        "max_points": 10,
+        "coord_range": [
+            -100,
+            100
+        ]
+    },
+    {
+        "min_points": 4,
+        "max_points": 8,
+        "coord_range": [
+            -150,
+            150
+        ]
+    }
+]

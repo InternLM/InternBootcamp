@@ -1,0 +1,22 @@
+[
+    {
+        "max_rows": 5,
+        "max_cols": 10,
+        "max_steps": 1000
+    },
+    {
+        "max_rows": 3,
+        "max_cols": 5,
+        "max_steps": 200
+    },
+    {
+        "max_rows": 3,
+        "max_cols": 3,
+        "max_steps": 100
+    },
+    {
+        "max_rows": 5,
+        "max_cols": 5,
+        "max_steps": 500
+    }
+]

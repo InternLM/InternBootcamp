@@ -1,0 +1,26 @@
+[
+    {
+        "max_procedures": 12,
+        "max_variables": 8,
+        "max_calls": 15,
+        "procedure_name_length": 6,
+        "var_name_length": 4,
+        "t_probability": 0.5
+    },
+    {
+        "max_procedures": 10,
+        "max_variables": 10,
+        "max_calls": 5,
+        "procedure_name_length": 3,
+        "var_name_length": 3,
+        "t_probability": 0.2
+    },
+    {
+        "max_procedures": 20,
+        "max_variables": 20,
+        "max_calls": 10,
+        "procedure_name_length": 7,
+        "var_name_length": 7,
+        "t_probability": 0.4
+    }
+]

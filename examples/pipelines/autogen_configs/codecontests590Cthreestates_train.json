@@ -1,0 +1,30 @@
+[
+    {
+        "n": 5,
+        "m": 5,
+        "min_country_cells": 1,
+        "max_country_cells": 3,
+        "max_roads": 10
+    },
+    {
+        "n": 4,
+        "m": 5,
+        "min_country_cells": 3,
+        "max_country_cells": 5,
+        "max_roads": 8
+    },
+    {
+        "n": 7,
+        "m": 6,
+        "min_country_cells": 3,
+        "max_country_cells": 6,
+        "max_roads": 12
+    },
+    {
+        "n": 6,
+        "m": 4,
+        "min_country_cells": 2,
+        "max_country_cells": 5,
+        "max_roads": 7
+    }
+]

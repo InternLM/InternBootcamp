@@ -1,0 +1,37 @@
+[
+    {
+        "solvable": false,
+        "cube_size": 4,
+        "max_shift": 3
+    },
+    {
+        "solvable": false,
+        "cube_size": 2,
+        "max_shift": 1
+    },
+    {
+        "solvable": true,
+        "cube_size": 5,
+        "max_shift": 5
+    },
+    {
+        "solvable": false,
+        "cube_size": 1,
+        "max_shift": 0
+    },
+    {
+        "solvable": false,
+        "cube_size": 5,
+        "max_shift": 5
+    },
+    {
+        "solvable": true,
+        "cube_size": 4,
+        "max_shift": 3
+    },
+    {
+        "solvable": true,
+        "cube_size": 3,
+        "max_shift": 2
+    }
+]

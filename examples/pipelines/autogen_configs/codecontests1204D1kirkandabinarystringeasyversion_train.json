@@ -1,0 +1,22 @@
+[
+    {
+        "min_length": 3,
+        "max_length": 2000,
+        "special_case_prob": 0
+    },
+    {
+        "min_length": 1,
+        "max_length": 5,
+        "special_case_prob": 0.2
+    },
+    {
+        "min_length": 5,
+        "max_length": 2000,
+        "special_case_prob": 0.5
+    },
+    {
+        "min_length": 3,
+        "max_length": 1000,
+        "special_case_prob": 0.3
+    }
+]

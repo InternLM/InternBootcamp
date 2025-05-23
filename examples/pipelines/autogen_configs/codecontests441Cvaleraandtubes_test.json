@@ -1,0 +1,32 @@
+[
+    {
+        "min_n": 2,
+        "max_n": 2,
+        "min_m": 2,
+        "max_m": 3
+    },
+    {
+        "min_n": 10,
+        "max_n": 10,
+        "min_m": 10,
+        "max_m": 10
+    },
+    {
+        "min_n": 2,
+        "max_n": 5,
+        "min_m": 2,
+        "max_m": 5
+    },
+    {
+        "min_n": 3,
+        "max_n": 3,
+        "min_m": 2,
+        "max_m": 2
+    },
+    {
+        "min_n": 5,
+        "max_n": 6,
+        "min_m": 5,
+        "max_m": 6
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 50,
+        "a_step_min": 5,
+        "a_step_max": 50,
+        "b_step_min": 5,
+        "b_step_max": 50
+    },
+    {
+        "n_min": 1,
+        "n_max": 100,
+        "a_step_min": 1,
+        "a_step_max": 100,
+        "b_step_min": 1,
+        "b_step_max": 100
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "a_step_min": 5,
+        "a_step_max": 20,
+        "b_step_min": 5,
+        "b_step_max": 20
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "a_step_min": 1,
+        "a_step_max": 10,
+        "b_step_min": 1,
+        "b_step_max": 10
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "max_length": 50,
+        "a_positive_prob": 0.7
+    },
+    {
+        "max_length": 60,
+        "a_positive_prob": 0.8
+    },
+    {
+        "max_length": 70,
+        "a_positive_prob": 0.9
+    },
+    {
+        "max_length": 40,
+        "a_positive_prob": 0.6
+    }
+]

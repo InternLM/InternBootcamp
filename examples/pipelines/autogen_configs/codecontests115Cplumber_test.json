@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 3,
+        "max_m": 4,
+        "empty_prob": 0.5
+    },
+    {
+        "max_n": 2,
+        "max_m": 2,
+        "empty_prob": 0.3
+    },
+    {
+        "max_n": 1,
+        "max_m": 5,
+        "empty_prob": 0.4
+    },
+    {
+        "max_n": 5,
+        "max_m": 1,
+        "empty_prob": 0.7
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {
+        "n_min": 3,
+        "n_max": 7,
+        "d_min": 2,
+        "d_max": 7
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "d_min": 1,
+        "d_max": 10
+    },
+    {
+        "n_min": 1,
+        "n_max": 5,
+        "d_min": 1,
+        "d_max": 10
+    },
+    {
+        "n_min": 1,
+        "n_max": 3,
+        "d_min": 1,
+        "d_max": 3
+    },
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "d_min": 5,
+        "d_max": 10
+    },
+    {
+        "n_min": 4,
+        "n_max": 8,
+        "d_min": 3,
+        "d_max": 8
+    }
+]

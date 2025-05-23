@@ -1,0 +1,22 @@
+[
+    {
+        "max_legs": 15,
+        "max_length": 150,
+        "max_energy": 250
+    },
+    {
+        "max_legs": 30,
+        "max_length": 200,
+        "max_energy": 300
+    },
+    {
+        "max_legs": 25,
+        "max_length": 120,
+        "max_energy": 200
+    },
+    {
+        "max_legs": 10,
+        "max_length": 50,
+        "max_energy": 100
+    }
+]

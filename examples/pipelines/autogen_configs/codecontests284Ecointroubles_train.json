@@ -1,0 +1,29 @@
+[
+    {
+        "n_range": [
+            4,
+            6
+        ],
+        "max_coin_value": 10,
+        "max_t": 100,
+        "max_generate_attempts": 1500
+    },
+    {
+        "n_range": [
+            3,
+            5
+        ],
+        "max_coin_value": 5,
+        "max_t": 50,
+        "max_generate_attempts": 1000
+    },
+    {
+        "n_range": [
+            5,
+            7
+        ],
+        "max_coin_value": 15,
+        "max_t": 150,
+        "max_generate_attempts": 2000
+    }
+]

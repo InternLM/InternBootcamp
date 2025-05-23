@@ -1,0 +1,50 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 5,
+        "m_min": 1,
+        "m_max": 5,
+        "ta_min": 1,
+        "ta_max": 100,
+        "tb_min": 1,
+        "tb_max": 100,
+        "k_min": 1,
+        "k_max": 10
+    },
+    {
+        "n_min": 5,
+        "n_max": 25,
+        "m_min": 5,
+        "m_max": 25,
+        "ta_min": 300,
+        "ta_max": 500,
+        "tb_min": 300,
+        "tb_max": 500,
+        "k_min": 5,
+        "k_max": 50
+    },
+    {
+        "n_min": 4,
+        "n_max": 20,
+        "m_min": 4,
+        "m_max": 20,
+        "ta_min": 200,
+        "ta_max": 400,
+        "tb_min": 200,
+        "tb_max": 400,
+        "k_min": 4,
+        "k_max": 40
+    },
+    {
+        "n_min": 2,
+        "n_max": 10,
+        "m_min": 2,
+        "m_max": 10,
+        "ta_min": 50,
+        "ta_max": 200,
+        "tb_min": 50,
+        "tb_max": 200,
+        "k_min": 2,
+        "k_max": 20
+    }
+]

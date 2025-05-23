@@ -1,0 +1,26 @@
+[
+    {
+        "max_s_length": 800,
+        "min_events": 4,
+        "max_events": 12,
+        "query_ratio": 0.6
+    },
+    {
+        "max_s_length": 600,
+        "min_events": 6,
+        "max_events": 14,
+        "query_ratio": 0.4
+    },
+    {
+        "max_s_length": 1200,
+        "min_events": 2,
+        "max_events": 8,
+        "query_ratio": 0.8
+    },
+    {
+        "max_s_length": 1000,
+        "min_events": 3,
+        "max_events": 10,
+        "query_ratio": 0.7
+    }
+]

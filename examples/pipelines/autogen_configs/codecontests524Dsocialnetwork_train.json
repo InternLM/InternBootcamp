@@ -1,0 +1,34 @@
+[
+    {
+        "min_n": 6,
+        "max_n": 12,
+        "min_M": 2,
+        "max_M": 4,
+        "min_T": 20,
+        "max_T": 200
+    },
+    {
+        "min_n": 7,
+        "max_n": 14,
+        "min_M": 4,
+        "max_M": 7,
+        "min_T": 15,
+        "max_T": 120
+    },
+    {
+        "min_n": 3,
+        "max_n": 8,
+        "min_M": 2,
+        "max_M": 5,
+        "min_T": 10,
+        "max_T": 50
+    },
+    {
+        "min_n": 4,
+        "max_n": 10,
+        "min_M": 2,
+        "max_M": 5,
+        "min_T": 10,
+        "max_T": 100
+    }
+]

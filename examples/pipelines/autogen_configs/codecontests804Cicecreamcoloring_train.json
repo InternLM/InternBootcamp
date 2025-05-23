@@ -1,0 +1,38 @@
+[
+    {
+        "n_range": [
+            3,
+            5
+        ],
+        "m_range": [
+            2,
+            5
+        ],
+        "max_type_nodes": 3,
+        "prob_assign": 0.8
+    },
+    {
+        "n_range": [
+            10,
+            20
+        ],
+        "m_range": [
+            10,
+            20
+        ],
+        "max_type_nodes": 10,
+        "prob_assign": 0.6
+    },
+    {
+        "n_range": [
+            20,
+            30
+        ],
+        "m_range": [
+            20,
+            30
+        ],
+        "max_type_nodes": 15,
+        "prob_assign": 0.5
+    }
+]

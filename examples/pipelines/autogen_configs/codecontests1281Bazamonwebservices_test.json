@@ -1,0 +1,22 @@
+[
+    {
+        "max_s_length": 25,
+        "max_c_length": 25,
+        "max_attempts": 400
+    },
+    {
+        "max_s_length": 15,
+        "max_c_length": 15,
+        "max_attempts": 200
+    },
+    {
+        "max_s_length": 20,
+        "max_c_length": 20,
+        "max_attempts": 300
+    },
+    {
+        "max_s_length": 30,
+        "max_c_length": 30,
+        "max_attempts": 500
+    }
+]

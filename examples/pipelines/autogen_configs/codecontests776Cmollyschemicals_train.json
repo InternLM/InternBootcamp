@@ -1,0 +1,34 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "min_abs_k": 1,
+        "max_abs_k": 10,
+        "array_min": -100,
+        "array_max": 100
+    },
+    {
+        "min_n": 3,
+        "max_n": 8,
+        "min_abs_k": 1,
+        "max_abs_k": 5,
+        "array_min": -200,
+        "array_max": 200
+    },
+    {
+        "min_n": 2,
+        "max_n": 5,
+        "min_abs_k": 2,
+        "max_abs_k": 5,
+        "array_min": -50,
+        "array_max": 50
+    },
+    {
+        "min_n": 4,
+        "max_n": 6,
+        "min_abs_k": 3,
+        "max_abs_k": 8,
+        "array_min": -150,
+        "array_max": 150
+    }
+]

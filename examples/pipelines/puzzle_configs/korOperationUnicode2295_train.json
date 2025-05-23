@@ -1,0 +1,22 @@
+[
+    {
+        "max_operand": 5,
+        "equation_prob": 0.3,
+        "allow_division": false
+    },
+    {
+        "max_operand": 20,
+        "equation_prob": 0.6,
+        "allow_division": true
+    },
+    {
+        "max_operand": 8,
+        "equation_prob": 0.4,
+        "allow_division": false
+    },
+    {
+        "max_operand": 10,
+        "equation_prob": 0.5,
+        "allow_division": true
+    }
+]

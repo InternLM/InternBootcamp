@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 4,
+        "n_max": 200,
+        "allow_unsolvable": true,
+        "force_solvable": false
+    },
+    {
+        "n_min": 3,
+        "n_max": 100,
+        "allow_unsolvable": true,
+        "force_solvable": false
+    },
+    {
+        "n_min": 3,
+        "n_max": 300,
+        "allow_unsolvable": false,
+        "force_solvable": true
+    },
+    {
+        "n_min": 3,
+        "n_max": 500,
+        "allow_unsolvable": true,
+        "force_solvable": false
+    }
+]

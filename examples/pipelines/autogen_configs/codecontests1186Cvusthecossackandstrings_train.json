@@ -1,0 +1,26 @@
+[
+    {
+        "a_min_len": 7,
+        "a_max_len": 14
+    },
+    {
+        "a_min_len": 4,
+        "a_max_len": 20
+    },
+    {
+        "a_min_len": 6,
+        "a_max_len": 10
+    },
+    {
+        "a_min_len": 8,
+        "a_max_len": 18
+    },
+    {
+        "a_min_len": 10,
+        "a_max_len": 20
+    },
+    {
+        "a_min_len": 3,
+        "a_max_len": 10
+    }
+]

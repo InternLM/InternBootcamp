@@ -1,0 +1,22 @@
+[
+    {
+        "max_words": 14,
+        "min_words": 4,
+        "mode": "solvable"
+    },
+    {
+        "max_words": 7,
+        "min_words": 4,
+        "mode": "unsolvable"
+    },
+    {
+        "max_words": 8,
+        "min_words": 5,
+        "mode": "solvable"
+    },
+    {
+        "max_words": 10,
+        "min_words": 5,
+        "mode": "unsolvable"
+    }
+]

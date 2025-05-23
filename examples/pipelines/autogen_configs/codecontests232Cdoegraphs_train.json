@@ -1,0 +1,26 @@
+[
+    {
+        "max_n": 70,
+        "max_queries": 30
+    },
+    {
+        "max_n": 30,
+        "max_queries": 20
+    },
+    {
+        "max_n": 50,
+        "max_queries": 50
+    },
+    {
+        "max_n": 20,
+        "max_queries": 10
+    },
+    {
+        "max_n": 90,
+        "max_queries": 100
+    },
+    {
+        "max_n": 80,
+        "max_queries": 50
+    }
+]

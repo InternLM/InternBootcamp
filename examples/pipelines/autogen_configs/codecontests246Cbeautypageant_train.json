@@ -1,0 +1,14 @@
+[
+    {
+        "n_min": 10,
+        "n_max": 20,
+        "beauty_min": 100,
+        "beauty_max": 1000
+    },
+    {
+        "n_min": 1,
+        "n_max": 5,
+        "beauty_min": 1,
+        "beauty_max": 100
+    }
+]

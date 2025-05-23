@@ -1,0 +1,22 @@
+[
+    {
+        "max_maxx": 4,
+        "max_ct": 3,
+        "max_v": 15
+    },
+    {
+        "max_maxx": 5,
+        "max_ct": 2,
+        "max_v": 20
+    },
+    {
+        "max_maxx": 3,
+        "max_ct": 2,
+        "max_v": 10
+    },
+    {
+        "max_maxx": 4,
+        "max_ct": 4,
+        "max_v": 25
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "n": 2,
+        "m": 2,
+        "ensure_solvable": false
+    },
+    {
+        "n": 2,
+        "m": 2,
+        "ensure_solvable": true
+    },
+    {
+        "n": 4,
+        "m": 3,
+        "ensure_solvable": true
+    },
+    {
+        "n": 3,
+        "m": 3,
+        "ensure_solvable": true
+    },
+    {
+        "n": 3,
+        "m": 4,
+        "ensure_solvable": true
+    }
+]

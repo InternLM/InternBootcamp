@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 4,
+        "max_n": 4,
+        "possible": false
+    },
+    {
+        "min_n": 3,
+        "max_n": 5,
+        "possible": true
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "possible": null
+    },
+    {
+        "min_n": 5,
+        "max_n": 7,
+        "possible": true
+    }
+]

@@ -1,0 +1,107 @@
+[
+    {
+        "size": [
+            5,
+            5
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "size": [
+            5,
+            5
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "size": [
+            5,
+            5
+        ],
+        "difficulty": "hard"
+    },
+    {
+        "size": [
+            7,
+            7
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "size": [
+            7,
+            7
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "size": [
+            7,
+            7
+        ],
+        "difficulty": "hard"
+    },
+    {
+        "size": [
+            10,
+            10
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "size": [
+            10,
+            10
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "size": [
+            10,
+            10
+        ],
+        "difficulty": "hard"
+    },
+    {
+        "size": [
+            3,
+            3
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "size": [
+            3,
+            3
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "size": [
+            3,
+            3
+        ],
+        "difficulty": "hard"
+    },
+    {
+        "size": [
+            8,
+            6
+        ],
+        "difficulty": "easy"
+    },
+    {
+        "size": [
+            8,
+            6
+        ],
+        "difficulty": "medium"
+    },
+    {
+        "size": [
+            8,
+            6
+        ],
+        "difficulty": "hard"
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "max_n": 100,
+        "max_m": 50,
+        "prefix_shuffle_ratio": 0.8
+    },
+    {
+        "max_n": 50,
+        "max_m": 20,
+        "case_type_ratio": {
+            "sorted": 0.2,
+            "unsorted": 0.7,
+            "boundary": 0.1
+        }
+    },
+    {
+        "max_n": 1,
+        "max_m": 0
+    },
+    {
+        "max_n": 10,
+        "max_m": 5
+    },
+    {
+        "max_n": 1000,
+        "max_m": 500,
+        "seed": 42
+    },
+    {
+        "max_n": 5000,
+        "max_m": 2500,
+        "seed": 123,
+        "case_type_ratio": {
+            "sorted": 0.1,
+            "unsorted": 0.8,
+            "boundary": 0.1
+        }
+    }
+]

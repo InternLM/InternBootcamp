@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 6,
+        "max_k": 4,
+        "time_max": 15
+    },
+    {
+        "max_n": 10,
+        "max_k": 2,
+        "time_max": 25
+    },
+    {
+        "max_n": 8,
+        "max_k": 5,
+        "time_max": 30
+    },
+    {
+        "max_n": 7,
+        "max_k": 2,
+        "time_max": 20
+    }
+]

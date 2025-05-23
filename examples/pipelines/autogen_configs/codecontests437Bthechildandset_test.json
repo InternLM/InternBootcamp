@@ -1,0 +1,22 @@
+[
+    {
+        "min_limit": 1,
+        "max_limit": 1000
+    },
+    {
+        "min_limit": 1,
+        "max_limit": 10
+    },
+    {
+        "min_limit": 5,
+        "max_limit": 50
+    },
+    {
+        "min_limit": 1,
+        "max_limit": 20
+    },
+    {
+        "min_limit": 10,
+        "max_limit": 100
+    }
+]

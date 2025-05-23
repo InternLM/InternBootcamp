@@ -1,0 +1,32 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 10000000000000000,
+        "include_boundary": true
+    },
+    {
+        "min_n": 1000000000,
+        "max_n": 1000000000000,
+        "include_boundary": false
+    },
+    {
+        "min_n": 100,
+        "max_n": 1000000,
+        "include_boundary": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 10000000000000000,
+        "include_boundary": false
+    },
+    {
+        "min_n": 1000000000000000,
+        "max_n": 10000000000000000,
+        "include_boundary": true
+    },
+    {
+        "min_n": 1000000,
+        "max_n": 1000000000000,
+        "include_boundary": true
+    }
+]

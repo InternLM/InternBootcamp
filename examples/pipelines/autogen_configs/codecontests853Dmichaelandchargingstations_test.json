@@ -1,0 +1,18 @@
+[
+    {
+        "max_days": 100,
+        "seed": null
+    },
+    {
+        "max_days": 10,
+        "seed": 456
+    },
+    {
+        "max_days": 300000,
+        "seed": 2048
+    },
+    {
+        "max_days": 200,
+        "seed": 1024
+    }
+]

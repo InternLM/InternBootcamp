@@ -1,0 +1,32 @@
+[
+    {
+        "n_max": 50,
+        "m_max": 20,
+        "q_max": 50,
+        "max_element": 2000,
+        "min_element": -2000,
+        "set_size_min": 5,
+        "set_size_max": 25,
+        "query_prob": 0.6
+    },
+    {
+        "n_max": 30,
+        "m_max": 15,
+        "q_max": 30,
+        "max_element": 1000,
+        "min_element": -1000,
+        "set_size_min": 3,
+        "set_size_max": 20,
+        "query_prob": 0.5
+    },
+    {
+        "n_max": 20,
+        "m_max": 10,
+        "q_max": 20,
+        "max_element": 500,
+        "min_element": -500,
+        "set_size_min": 2,
+        "set_size_max": 15,
+        "query_prob": 0.4
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "max_opening_pairs": 4,
+        "max_balanced_pairs": 1,
+        "max_invalid_sequences": 3,
+        "max_unmatched_sequences": 1
+    },
+    {
+        "max_opening_pairs": 2,
+        "max_balanced_pairs": 3,
+        "max_invalid_sequences": 1,
+        "max_unmatched_sequences": 3
+    },
+    {
+        "max_opening_pairs": 3,
+        "max_balanced_pairs": 2,
+        "max_invalid_sequences": 2,
+        "max_unmatched_sequences": 2
+    },
+    {
+        "max_opening_pairs": 5,
+        "max_balanced_pairs": 4,
+        "max_invalid_sequences": 3,
+        "max_unmatched_sequences": 4
+    }
+]

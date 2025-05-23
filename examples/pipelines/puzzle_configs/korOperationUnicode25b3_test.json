@@ -1,0 +1,26 @@
+[
+    {
+        "max_degree": 5,
+        "allow_x_value": false
+    },
+    {
+        "max_degree": 2,
+        "allow_x_value": true
+    },
+    {
+        "max_degree": 3,
+        "allow_x_value": true
+    },
+    {
+        "max_degree": 5,
+        "allow_x_value": true
+    },
+    {
+        "max_degree": 1,
+        "allow_x_value": true
+    },
+    {
+        "max_degree": 4,
+        "allow_x_value": false
+    }
+]

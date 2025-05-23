@@ -1,0 +1,25 @@
+[
+    {
+        "n": 2,
+        "min_n": 2,
+        "max_n": 2,
+        "p_question": 0.3
+    },
+    {
+        "min_n": 3,
+        "max_n": 5,
+        "p_question": 0.4
+    },
+    {
+        "n": 10,
+        "min_n": 10,
+        "max_n": 10,
+        "p_question": 0.8
+    },
+    {
+        "n": 5,
+        "min_n": 5,
+        "max_n": 5,
+        "p_question": 0.5
+    }
+]

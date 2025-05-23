@@ -1,0 +1,38 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 1000,
+        "min_m": 1,
+        "max_m": 1000,
+        "min_k": 2,
+        "max_k": 1000,
+        "ensure_solvable": true
+    },
+    {
+        "min_n": 1,
+        "max_n": 1000000,
+        "min_m": 1,
+        "max_m": 1000000,
+        "min_k": 2,
+        "max_k": 1000000,
+        "ensure_solvable": false
+    },
+    {
+        "min_n": 1,
+        "max_n": 1000,
+        "min_m": 1,
+        "max_m": 1000,
+        "min_k": 5,
+        "max_k": 1000,
+        "ensure_solvable": false
+    },
+    {
+        "min_n": 1,
+        "max_n": 1000000,
+        "min_m": 1,
+        "max_m": 1000000,
+        "min_k": 2,
+        "max_k": 1000000,
+        "ensure_solvable": true
+    }
+]

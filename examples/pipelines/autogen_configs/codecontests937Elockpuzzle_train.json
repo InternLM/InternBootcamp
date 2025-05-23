@@ -1,0 +1,26 @@
+[
+    {
+        "n": 6,
+        "allow_unsolvable": true
+    },
+    {
+        "n": 10,
+        "allow_unsolvable": true
+    },
+    {
+        "n": 15,
+        "allow_unsolvable": false
+    },
+    {
+        "n": 5,
+        "allow_unsolvable": false
+    },
+    {
+        "n": 20,
+        "allow_unsolvable": true
+    },
+    {
+        "n": 15,
+        "allow_unsolvable": true
+    }
+]

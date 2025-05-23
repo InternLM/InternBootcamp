@@ -1,0 +1,26 @@
+[
+    {
+        "num_problems": 4,
+        "max_quantifiers": 4
+    },
+    {
+        "num_problems": 5,
+        "max_quantifiers": 4
+    },
+    {
+        "num_problems": 2,
+        "max_quantifiers": 4
+    },
+    {
+        "num_problems": 5,
+        "max_quantifiers": 3
+    },
+    {
+        "num_problems": 4,
+        "max_quantifiers": 3
+    },
+    {
+        "num_problems": 2,
+        "max_quantifiers": 3
+    }
+]

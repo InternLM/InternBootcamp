@@ -1,0 +1,30 @@
+[
+    {
+        "finite_prob": 0.8,
+        "interval_prob": 0.1,
+        "special_prob": 0.1,
+        "max_size": 6,
+        "element_type": "letter"
+    },
+    {
+        "finite_prob": 0.6,
+        "interval_prob": 0.3,
+        "special_prob": 0.1,
+        "max_size": 4,
+        "element_type": "number"
+    },
+    {
+        "finite_prob": 0.9,
+        "interval_prob": 0.05,
+        "special_prob": 0.05,
+        "max_size": 3,
+        "element_type": "number"
+    },
+    {
+        "finite_prob": 0.7,
+        "interval_prob": 0.2,
+        "special_prob": 0.1,
+        "max_size": 5,
+        "element_type": "mixed"
+    }
+]

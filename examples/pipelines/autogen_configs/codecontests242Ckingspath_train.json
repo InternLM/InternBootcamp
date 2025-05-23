@@ -1,0 +1,12 @@
+[
+    {
+        "max_coord": 200,
+        "min_segments": 3,
+        "max_segments": 10
+    },
+    {
+        "max_coord": 100,
+        "min_segments": 1,
+        "max_segments": 5
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 3,
+        "min_m": 3,
+        "max_m": 3,
+        "seed": 2
+    },
+    {
+        "min_n": 4,
+        "max_n": 4,
+        "min_m": 5,
+        "max_m": 5,
+        "seed": 7
+    },
+    {
+        "min_n": 4,
+        "max_n": 4,
+        "min_m": 4,
+        "max_m": 4,
+        "seed": 3
+    },
+    {
+        "min_n": 6,
+        "max_n": 6,
+        "min_m": 6,
+        "max_m": 6,
+        "seed": 5
+    },
+    {
+        "min_n": 3,
+        "max_n": 3,
+        "min_m": 4,
+        "max_m": 4,
+        "seed": 6
+    },
+    {
+        "min_n": 5,
+        "max_n": 5,
+        "min_m": 5,
+        "max_m": 5,
+        "seed": 4
+    }
+]

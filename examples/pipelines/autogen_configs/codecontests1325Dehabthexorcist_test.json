@@ -1,0 +1,30 @@
+[
+    {
+        "min_u": 0,
+        "max_u": 1000,
+        "min_v": 0,
+        "max_v": 1000,
+        "case_type": "easy"
+    },
+    {
+        "min_u": 0,
+        "max_u": 0,
+        "min_v": 0,
+        "max_v": 0,
+        "case_type": "edge_case"
+    },
+    {
+        "min_u": 0,
+        "max_u": 1000000,
+        "min_v": 0,
+        "max_v": 1000000,
+        "case_type": "medium"
+    },
+    {
+        "min_u": 0,
+        "max_u": 1000000000000000000,
+        "min_v": 0,
+        "max_v": 1000000000000000000,
+        "case_type": "random"
+    }
+]

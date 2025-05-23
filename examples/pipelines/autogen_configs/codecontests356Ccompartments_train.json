@@ -1,0 +1,14 @@
+[
+    {
+        "max_compartments": 20
+    },
+    {
+        "max_compartments": 10
+    },
+    {
+        "max_compartments": 5
+    },
+    {
+        "max_compartments": 15
+    }
+]

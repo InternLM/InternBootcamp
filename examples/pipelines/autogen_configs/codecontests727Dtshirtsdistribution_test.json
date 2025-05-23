@@ -1,0 +1,22 @@
+[
+    {
+        "min_participants": 1,
+        "max_participants": 10,
+        "double_prob": 0.3
+    },
+    {
+        "min_participants": 2,
+        "max_participants": 7,
+        "double_prob": 0.4
+    },
+    {
+        "min_participants": 3,
+        "max_participants": 15,
+        "double_prob": 0.2
+    },
+    {
+        "min_participants": 5,
+        "max_participants": 20,
+        "double_prob": 0.25
+    }
+]

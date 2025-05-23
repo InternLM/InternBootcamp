@@ -1,0 +1,26 @@
+[
+    {
+        "n": 20,
+        "m": 20,
+        "max_val": 1000,
+        "max_query_val": 1000
+    },
+    {
+        "n": 3,
+        "m": 3,
+        "max_val": 500,
+        "max_query_val": 200
+    },
+    {
+        "n": 10,
+        "m": 10,
+        "max_val": 500,
+        "max_query_val": 500
+    },
+    {
+        "n": 5,
+        "m": 5,
+        "max_val": 100,
+        "max_query_val": 100
+    }
+]

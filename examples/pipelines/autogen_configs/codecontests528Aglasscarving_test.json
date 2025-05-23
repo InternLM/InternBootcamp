@@ -1,0 +1,22 @@
+[
+    {
+        "max_width": 500,
+        "max_height": 500,
+        "max_cuts": 50
+    },
+    {
+        "max_width": 100,
+        "max_height": 100,
+        "max_cuts": 10
+    },
+    {
+        "max_width": 5000,
+        "max_height": 5000,
+        "max_cuts": 500
+    },
+    {
+        "max_width": 2000,
+        "max_height": 2000,
+        "max_cuts": 100
+    }
+]

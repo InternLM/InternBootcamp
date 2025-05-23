@@ -1,0 +1,70 @@
+[
+    {
+        "threshold": 6,
+        "min_n": 15,
+        "max_n": 30,
+        "min_m": 12,
+        "max_m": 20,
+        "min_q": 12,
+        "max_q": 30,
+        "array_value_range": [
+            -30,
+            30
+        ],
+        "query_value_range": [
+            -300,
+            300
+        ]
+    },
+    {
+        "threshold": 4,
+        "min_n": 5,
+        "max_n": 25,
+        "min_m": 8,
+        "max_m": 15,
+        "min_q": 8,
+        "max_q": 25,
+        "array_value_range": [
+            -15,
+            15
+        ],
+        "query_value_range": [
+            -150,
+            150
+        ]
+    },
+    {
+        "threshold": 2,
+        "min_n": 5,
+        "max_n": 10,
+        "min_m": 3,
+        "max_m": 8,
+        "min_q": 3,
+        "max_q": 10,
+        "array_value_range": [
+            -5,
+            5
+        ],
+        "query_value_range": [
+            -50,
+            50
+        ]
+    },
+    {
+        "threshold": 3,
+        "min_n": 4,
+        "max_n": 15,
+        "min_m": 5,
+        "max_m": 10,
+        "min_q": 5,
+        "max_q": 15,
+        "array_value_range": [
+            -10,
+            10
+        ],
+        "query_value_range": [
+            -100,
+            100
+        ]
+    }
+]

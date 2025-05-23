@@ -1,0 +1,62 @@
+[
+    {
+        "min_value": 2,
+        "max_value": 256,
+        "problem_types": [
+            "compute"
+        ],
+        "allow_multilevel": true
+    },
+    {
+        "min_value": 2,
+        "max_value": 128,
+        "problem_types": [
+            "compute",
+            "solve"
+        ],
+        "allow_multilevel": true
+    },
+    {
+        "min_value": 2,
+        "max_value": 256,
+        "problem_types": [
+            "solve"
+        ],
+        "allow_multilevel": true
+    },
+    {
+        "min_value": 2,
+        "max_value": 256,
+        "problem_types": [
+            "compute",
+            "solve"
+        ],
+        "allow_multilevel": false
+    },
+    {
+        "min_value": 2,
+        "max_value": 256,
+        "problem_types": [
+            "compute",
+            "solve"
+        ],
+        "allow_multilevel": true
+    },
+    {
+        "min_value": 2,
+        "max_value": 256,
+        "problem_types": [
+            "compute",
+            "solve"
+        ],
+        "allow_multilevel": false
+    },
+    {
+        "min_value": 2,
+        "max_value": 512,
+        "problem_types": [
+            "compute"
+        ],
+        "allow_multilevel": true
+    }
+]

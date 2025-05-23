@@ -1,0 +1,18 @@
+[
+    {
+        "num_letters": 5,
+        "num_add": 4
+    },
+    {
+        "num_letters": 4,
+        "num_add": 2
+    },
+    {
+        "num_letters": 4,
+        "num_add": 3
+    },
+    {
+        "num_letters": 3,
+        "num_add": 2
+    }
+]

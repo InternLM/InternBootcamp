@@ -1,0 +1,23 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "cost_min": 0,
+        "cost_max": 200,
+        "max_scc_count": 3
+    },
+    {
+        "n_min": 3,
+        "n_max": 20,
+        "cost_min": 1,
+        "cost_max": 50,
+        "max_scc_count": 4
+    },
+    {
+        "n_min": 2,
+        "n_max": 10,
+        "cost_min": 0,
+        "cost_max": 100,
+        "max_scc_count": 3
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "n": 10,
+        "min_o": 2,
+        "max_o": 4,
+        "move_types": [
+            "knight"
+        ],
+        "move_type": "knight"
+    },
+    {
+        "n": 5,
+        "min_o": 1,
+        "max_o": 3,
+        "move_types": [
+            "random",
+            "rook"
+        ],
+        "move_type": "rook"
+    },
+    {
+        "n": 25,
+        "min_o": 2,
+        "max_o": 4,
+        "move_types": [
+            "random",
+            "rook",
+            "knight"
+        ],
+        "move_type": "random"
+    },
+    {
+        "n": 20,
+        "min_o": 3,
+        "max_o": 5,
+        "move_types": [
+            "rook",
+            "knight"
+        ],
+        "move_type": "rook"
+    }
+]

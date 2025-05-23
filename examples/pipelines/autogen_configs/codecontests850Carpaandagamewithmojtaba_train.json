@@ -1,0 +1,30 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 40,
+        "max_prime": 60,
+        "max_factors": 2,
+        "max_exponent": 3
+    },
+    {
+        "min_n": 1,
+        "max_n": 30,
+        "max_prime": 40,
+        "max_factors": 3,
+        "max_exponent": 2
+    },
+    {
+        "min_n": 5,
+        "max_n": 100,
+        "max_prime": 100,
+        "max_factors": 4,
+        "max_exponent": 4
+    },
+    {
+        "min_n": 1,
+        "max_n": 50,
+        "max_prime": 50,
+        "max_factors": 3,
+        "max_exponent": 3
+    }
+]

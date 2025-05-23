@@ -1,0 +1,18 @@
+[
+    {
+        "size": 8,
+        "clue_density": 0.3
+    },
+    {
+        "size": 8,
+        "clue_density": 0.5
+    },
+    {
+        "size": 4,
+        "clue_density": 0.5
+    },
+    {
+        "size": 6,
+        "clue_density": 0.4
+    }
+]

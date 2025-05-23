@@ -1,0 +1,47 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "k_min": 1,
+        "k_max": 5,
+        "subset_size_min": 1,
+        "subset_size_max": 3,
+        "max_retries": 1000
+    },
+    {
+        "n_min": 15,
+        "n_max": 20,
+        "k_min": 10,
+        "k_max": 15,
+        "subset_size_min": 3,
+        "subset_size_max": 5,
+        "max_retries": 1000
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "k_min": 3,
+        "k_max": 10,
+        "subset_size_min": 1,
+        "subset_size_max": 5,
+        "max_retries": 1000
+    },
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "k_min": 1,
+        "k_max": 3,
+        "subset_size_min": 1,
+        "subset_size_max": 2,
+        "max_retries": 1000
+    },
+    {
+        "n_min": 10,
+        "n_max": 15,
+        "k_min": 5,
+        "k_max": 10,
+        "subset_size_min": 2,
+        "subset_size_max": 4,
+        "max_retries": 1000
+    }
+]

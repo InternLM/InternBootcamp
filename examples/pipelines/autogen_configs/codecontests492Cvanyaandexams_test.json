@@ -1,0 +1,22 @@
+[
+    {
+        "max_exams": 50,
+        "max_r": 500,
+        "max_bi": 1000
+    },
+    {
+        "max_exams": 500,
+        "max_r": 10000,
+        "max_bi": 1000000
+    },
+    {
+        "max_exams": 200,
+        "max_r": 5000,
+        "max_bi": 100000
+    },
+    {
+        "max_exams": 10,
+        "max_r": 100,
+        "max_bi": 100
+    }
+]

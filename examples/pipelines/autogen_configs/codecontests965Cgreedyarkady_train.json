@@ -1,0 +1,22 @@
+[
+    {
+        "max_k": 20,
+        "max_D": 20,
+        "M_range": 100
+    },
+    {
+        "max_k": 10,
+        "max_D": 10,
+        "M_range": 50
+    },
+    {
+        "max_k": 15,
+        "max_D": 15,
+        "M_range": 80
+    },
+    {
+        "max_k": 8,
+        "max_D": 12,
+        "M_range": 40
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "min_n": 2,
+        "max_n": 15,
+        "min_ai": 2,
+        "max_ai": 8,
+        "max_total": 20000
+    },
+    {
+        "min_n": 2,
+        "max_n": 10,
+        "min_ai": 2,
+        "max_ai": 5,
+        "max_total": 1000
+    },
+    {
+        "min_n": 1,
+        "max_n": 5,
+        "min_ai": 1,
+        "max_ai": 3,
+        "max_total": 100
+    },
+    {
+        "min_n": 1,
+        "max_n": 26,
+        "min_ai": 1,
+        "max_ai": 10,
+        "max_total": 100000
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "min_ai": 1,
+        "max_ai": 5,
+        "max_total": 500
+    },
+    {
+        "min_n": 5,
+        "max_n": 20,
+        "min_ai": 3,
+        "max_ai": 10,
+        "max_total": 2000
+    }
+]

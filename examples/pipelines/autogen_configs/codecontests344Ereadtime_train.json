@@ -1,0 +1,17 @@
+[
+    {
+        "max_heads": 4,
+        "max_tracks": 8,
+        "max_value": 500000
+    },
+    {
+        "max_heads": 5,
+        "max_tracks": 10,
+        "max_value": 1000000
+    },
+    {
+        "max_heads": 3,
+        "max_tracks": 5,
+        "max_value": 100000
+    }
+]

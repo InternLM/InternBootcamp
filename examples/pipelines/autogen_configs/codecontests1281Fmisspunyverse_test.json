@@ -1,0 +1,38 @@
+[
+    {
+        "max_t": 10,
+        "max_n": 50,
+        "max_m": 20,
+        "value_range": [
+            10,
+            250
+        ]
+    },
+    {
+        "max_t": 5,
+        "max_n": 20,
+        "max_m": 10,
+        "value_range": [
+            0,
+            100
+        ]
+    },
+    {
+        "max_t": 3,
+        "max_n": 15,
+        "max_m": 7,
+        "value_range": [
+            50,
+            300
+        ]
+    },
+    {
+        "max_t": 4,
+        "max_n": 25,
+        "max_m": 15,
+        "value_range": [
+            0,
+            150
+        ]
+    }
+]

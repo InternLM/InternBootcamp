@@ -1,0 +1,44 @@
+[
+    {
+        "size": 7,
+        "number_range": [
+            1,
+            10
+        ]
+    },
+    {
+        "size": 6,
+        "number_range": [
+            1,
+            10
+        ]
+    },
+    {
+        "size": 8,
+        "number_range": [
+            1,
+            8
+        ]
+    },
+    {
+        "size": 5,
+        "number_range": [
+            1,
+            10
+        ]
+    },
+    {
+        "size": 7,
+        "number_range": [
+            1,
+            7
+        ]
+    },
+    {
+        "size": 8,
+        "number_range": [
+            1,
+            10
+        ]
+    }
+]

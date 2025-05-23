@@ -1,0 +1,38 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "v_min": -3,
+        "v_max": 3,
+        "c_max": 5,
+        "q_min": 1,
+        "q_max": 4
+    },
+    {
+        "n_min": 4,
+        "n_max": 8,
+        "v_min": -5,
+        "v_max": 5,
+        "c_max": 4,
+        "q_min": 2,
+        "q_max": 5
+    },
+    {
+        "n_min": 3,
+        "n_max": 7,
+        "v_min": -8,
+        "v_max": 8,
+        "c_max": 5,
+        "q_min": 1,
+        "q_max": 3
+    },
+    {
+        "n_min": 2,
+        "n_max": 5,
+        "v_min": -10,
+        "v_max": 10,
+        "c_max": 2,
+        "q_min": 1,
+        "q_max": 2
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "max_length": 3000
+    },
+    {
+        "max_length": 50
+    },
+    {
+        "max_length": 100
+    },
+    {
+        "max_length": 2000
+    }
+]

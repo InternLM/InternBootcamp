@@ -1,0 +1,29 @@
+[
+    {
+        "min_n": 10,
+        "max_n": 20,
+        "min_q": 3,
+        "max_q": 10,
+        "max_v": 30,
+        "max_color": 20,
+        "max_ab": 30
+    },
+    {
+        "min_n": 5,
+        "max_n": 15,
+        "min_q": 2,
+        "max_q": 7,
+        "max_v": 20,
+        "max_color": 15,
+        "max_ab": 20
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "min_q": 1,
+        "max_q": 5,
+        "max_v": 10,
+        "max_color": 10,
+        "max_ab": 10
+    }
+]

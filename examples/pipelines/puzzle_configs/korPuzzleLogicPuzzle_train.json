@@ -1,0 +1,97 @@
+[
+    {
+        "num_entries": 5,
+        "years": [
+            1700,
+            1720,
+            1740,
+            1760,
+            1780
+        ],
+        "attributes": {
+            "windmills": [
+                "Molen A",
+                "Molen B",
+                "Molen C",
+                "Molen D",
+                "Molen E"
+            ],
+            "families": [
+                "Family 1",
+                "Family 2",
+                "Family 3",
+                "Family 4",
+                "Family 5"
+            ]
+        }
+    },
+    {
+        "num_entries": 4,
+        "years": [
+            1683,
+            1706,
+            1729,
+            1752
+        ],
+        "attributes": {
+            "windmills": [
+                "Vlietmolen",
+                "Westmolen",
+                "Zemelmolen",
+                "Other"
+            ],
+            "families": [
+                "Van Dijk",
+                "Visser",
+                "De Jong",
+                "Other Family"
+            ]
+        }
+    },
+    {
+        "num_entries": 5,
+        "years": [
+            1800,
+            1825,
+            1850,
+            1875,
+            1900
+        ],
+        "attributes": {
+            "windmills": [
+                "A",
+                "B",
+                "C",
+                "D",
+                "E"
+            ],
+            "families": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5"
+            ]
+        }
+    },
+    {
+        "num_entries": 3,
+        "years": [
+            1600,
+            1650,
+            1700
+        ],
+        "attributes": {
+            "windmills": [
+                "Old Molen",
+                "Middle Molen",
+                "New Molen"
+            ],
+            "families": [
+                "Ancient Family",
+                "Middle Family",
+                "Modern Family"
+            ]
+        }
+    }
+]

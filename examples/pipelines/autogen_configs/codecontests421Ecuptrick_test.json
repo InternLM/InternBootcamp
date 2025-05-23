@@ -1,0 +1,22 @@
+[
+    {
+        "n": 2,
+        "m": 1,
+        "gen_valid": true
+    },
+    {
+        "n": 5,
+        "m": 3,
+        "gen_valid": false
+    },
+    {
+        "n": 4,
+        "m": 2,
+        "gen_valid": true
+    },
+    {
+        "n": 3,
+        "m": 3,
+        "gen_valid": false
+    }
+]

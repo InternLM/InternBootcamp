@@ -1,0 +1,34 @@
+[
+    {
+        "max_n": 15,
+        "max_k": 5,
+        "coord_range": [
+            1,
+            10000
+        ]
+    },
+    {
+        "max_n": 18,
+        "max_k": 7,
+        "coord_range": [
+            5,
+            20000
+        ]
+    },
+    {
+        "max_n": 14,
+        "max_k": 3,
+        "coord_range": [
+            10,
+            15000
+        ]
+    },
+    {
+        "max_n": 20,
+        "max_k": 6,
+        "coord_range": [
+            1,
+            100000
+        ]
+    }
+]

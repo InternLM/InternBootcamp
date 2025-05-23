@@ -1,0 +1,30 @@
+[
+    {
+        "max_n": 100,
+        "min_n": 10,
+        "lucky_edge_prob": 0.5,
+        "min_block_size": 2,
+        "max_block_size": 20
+    },
+    {
+        "max_n": 100000,
+        "min_n": 1000,
+        "lucky_edge_prob": 0.5,
+        "min_block_size": 20,
+        "max_block_size": 200
+    },
+    {
+        "max_n": 10000,
+        "min_n": 100,
+        "lucky_edge_prob": 0.2,
+        "min_block_size": 10,
+        "max_block_size": 100
+    },
+    {
+        "max_n": 1000,
+        "min_n": 50,
+        "lucky_edge_prob": 0.7,
+        "min_block_size": 5,
+        "max_block_size": 50
+    }
+]

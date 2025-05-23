@@ -1,0 +1,17 @@
+[
+    {
+        "min_length": 4,
+        "max_length": 20,
+        "replace_prob": 0.5
+    },
+    {
+        "min_length": 8,
+        "max_length": 18,
+        "replace_prob": 0.35
+    },
+    {
+        "min_length": 2,
+        "max_length": 10,
+        "replace_prob": 0.3
+    }
+]

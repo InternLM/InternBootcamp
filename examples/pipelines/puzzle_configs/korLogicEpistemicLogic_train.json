@@ -1,0 +1,76 @@
+[
+    {
+        "names": [
+            "Alice",
+            "Bob",
+            "Charlie",
+            "Eve",
+            "Dave"
+        ],
+        "propositions": [
+            "太阳从东方升起",
+            "2+2=4",
+            "图书馆今天开放",
+            "氧气是无色的",
+            "水在0℃结冰"
+        ],
+        "groups": [
+            "Friends",
+            "Colleagues",
+            "Students"
+        ]
+    },
+    {
+        "names": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "propositions": [
+            "太阳从东方升起",
+            "2+2=4",
+            "图书馆今天开放"
+        ],
+        "groups": [
+            "G",
+            "GroupA",
+            "GroupB"
+        ]
+    },
+    {
+        "names": [
+            "Alice",
+            "Bob",
+            "Charlie"
+        ],
+        "propositions": [
+            "水在100℃沸腾",
+            "地球围绕太阳转",
+            "图书馆今天关闭"
+        ],
+        "groups": [
+            "GroupX",
+            "GroupY",
+            "GroupZ"
+        ]
+    },
+    {
+        "names": [
+            "Alice",
+            "Bob",
+            "Charlie",
+            "Eve"
+        ],
+        "propositions": [
+            "太阳从东方升起",
+            "2+2=4",
+            "图书馆今天开放",
+            "氧气是无色的"
+        ],
+        "groups": [
+            "Team1",
+            "Team2",
+            "Team3"
+        ]
+    }
+]

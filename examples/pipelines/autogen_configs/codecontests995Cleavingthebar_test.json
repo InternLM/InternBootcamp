@@ -1,0 +1,37 @@
+[
+    {
+        "min_n": 200,
+        "max_n": 2000,
+        "max_vector_length": 500000
+    },
+    {
+        "min_n": 1,
+        "max_n": 1000,
+        "max_vector_length": 1000000
+    },
+    {
+        "min_n": 3,
+        "max_n": 30,
+        "max_vector_length": 5000
+    },
+    {
+        "min_n": 10,
+        "max_n": 100,
+        "max_vector_length": 50000
+    },
+    {
+        "min_n": 5,
+        "max_n": 50,
+        "max_vector_length": 1000
+    },
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "max_vector_length": 1000000
+    },
+    {
+        "min_n": 2,
+        "max_n": 500,
+        "max_vector_length": 1000000
+    }
+]
