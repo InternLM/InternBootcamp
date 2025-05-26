@@ -189,5 +189,5 @@ Find the maximum possible final value. Put your answer in [answer]...[/answer]."
         total = sum(a)
         if any(x < 0 for x in a) ^ any(x >= 0 for x in a):
             min_val, max_val = min(a), max(a)
-            return solution == (total - 2*min_val) if any(x >=0 for x in a) else (2*max_val - total)
+            return solution == ((total - 2*min_val) if any(x >=0 for x in a) else (2*max_val - total))
         return solution == sum(abs(x) for x in a)
