@@ -4,36 +4,33 @@ import random
 from typing import List, Tuple, Dict, Set, Optional
 
 class InternGObootcamp(Basebootcamp):
-    def __init__(self, min_length=8, max_length=20, error_prob=0.8):
-        """
-        初始化Dyck语言训练场
-        
-        参数:
-            min_length: 生成序列的最小长度
-            max_length: 生成序列的最大长度
-            error_prob: 注入错误的概率
-        """
-        self.min_length = min_length
-        self.max_length = max_length
-        self.error_prob = error_prob
-        self.bracket_pairs = {'(': ')', '[': ']', '{': '}', '<': '>'}
-        self.open_brackets = set(self.bracket_pairs.keys())
-        self.close_brackets = set(self.bracket_pairs.values())
+    def __init__(self):
         
     def case_generator(self) -> Dict:
         """
-        GO bootcamp暂时没有case generator。
+            Collection from game records
         """
-
-        pass 
+        pass
     
     def prompt_func(self, identity: Dict) -> str:
         """
         生成提示
         """
         
-        pass 
-    
+        query = "你是一位专业的围棋棋手。你的任务是根据给定的棋局记录，分析局面信息，挑选若干可能的下一步并进行分析，推演对应的后续变化，进行合理的分析与思考，最后总结并挑选出最好的下一步位置。在给出的棋局中，\"X\"表示黑棋，\"O\"表示白棋。棋盘的大小为19x19，每个落子的坐标是一个字母加上一个数字的形式。字母为A-T(跳过)I，对应于棋盘上从左到右。数字为1-19，对应于棋盘上从下到上。\n你需要首先对当前局面进行合理的分析和思考，对后续的步骤进行合理的预测、推演和分析，并最后总结你的思考结果，选择出最合适的下一步。请进行严谨和详细的推理分析，并及时进行总结。你的输出格式为:\n\n<reasoning>\n你的思考过程。\n</reasoning>\n\n<answer>\n\\boxed{下一步颜色:黑/白}\n\\boxed{下一步位置:落子位置}\n\n</answer>" 
+        # moves=['Q17','D4', ..., ] 
+        # a demo case 
+        original_moves = identity['moves'] 
+        accumulated_moves_str = ""
+        for i, move in enumerate(original_moves):
+            current_move_number = start_move_number + i
+            if current_move_number % 2 == 1: # 黑棋
+                accumulated_moves_str += f"{current_move_number}.X-{move}\n"
+            else: # 白棋
+                accumulated_moves_str += f"{current_move_number}.O-{move}\n"  
+        query = query + "以下是当前的对局记录：\n\n"+ accumulated_moves_str + "\n\n请遵循给出的格式，预测并分析下一步的落子位置。"
+        return query
+
     @staticmethod
     def extract_output(output: str) -> Optional[str]:
         
