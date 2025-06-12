@@ -12,9 +12,9 @@ timestamp=$(date +"%Y-%m-%d-%H:%M:%S")
 # cipher输入集
 cipher_input_file='internbootcamp/libs/data/words_alpha_370000.txt'
 
-tokenizer="your tokenizer path" # tokenizer is used to calculate the sequence length of the prompt
+tokenizer="/cpfs01/shared/llm_ddd/lipeiji/hf_hub_1/models--Qwen--Qwen2.5-32B-Instruct/snapshots/afb2829595f63efa3548e9d6b13aa66e61aa0f38" # tokenizer is used to calculate the sequence length of the prompt
 max_prompt_len=4096
-max_jobs=64  # 设置最大并发进程数
+max_jobs=60  # 设置最大并发进程数
 jobs=()     # 用于存储后台进程的PID
 
 cipher_test_nums_for_single_cipher=0
@@ -39,17 +39,6 @@ while IFS= read -r line || [ -n "$line" ]; do
     fi
 
     # 异步运行Python脚本
-    python examples/pipelines/data_generator.py \
-        --bootcamp_name "$bootcamp_name" \
-        --n $sample_number \
-        --save_file "examples/bootcamp_generator_outputs/$timestamp/train/${bootcamp_name}.jsonl" \
-        --config_file "examples/pipelines/puzzle_configs/${config_file}_train.json" \
-        --bootcamp_cls_name "$bootcamp_cls_name" \
-        --tokenizer "$tokenizer" \
-        --max_prompt_len $max_prompt_len \
-        --shuffle 
-
-    # If there is no problem with the above command, you can use the following line to run it in multiple processes, replacing the above command
     # python examples/pipelines/data_generator.py \
     #     --bootcamp_name "$bootcamp_name" \
     #     --n $sample_number \
@@ -58,7 +47,18 @@ while IFS= read -r line || [ -n "$line" ]; do
     #     --bootcamp_cls_name "$bootcamp_cls_name" \
     #     --tokenizer "$tokenizer" \
     #     --max_prompt_len $max_prompt_len \
-    #     --shuffle &
+    #     --shuffle 
+
+    # If there is no problem with the above command, you can use the following line to run it in multiple processes, replacing the above command
+    python examples/pipelines/data_generator.py \
+        --bootcamp_name "$bootcamp_name" \
+        --n $sample_number \
+        --save_file "examples/bootcamp_generator_outputs/$timestamp/train/${bootcamp_name}.jsonl" \
+        --config_file "examples/pipelines/puzzle_configs/${config_file}_train.json" \
+        --bootcamp_cls_name "$bootcamp_cls_name" \
+        --tokenizer "$tokenizer" \
+        --max_prompt_len $max_prompt_len \
+        --shuffle &
 
     pid=$!  # 获取后台进程的PID
     jobs+=("$pid")  # 将PID加入数组

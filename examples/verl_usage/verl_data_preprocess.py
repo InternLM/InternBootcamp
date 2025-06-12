@@ -91,17 +91,21 @@ def convert_to_parquet(src_jsonl, tgt_parquet, split, shuffle=True):
                 # 构造目标格式的数据结构
                 formatted_data = {
                     "data_source": 'bootcamp/' + data_source,
-                    "prompt": [{
-                        "role": "user",
-                        "content": prompt
+                    "prompt": [
+                        {
+                            "role": "system",
+                            "content": "You are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags. After careful thought, present your final solution or answer clearly."
+                        },
+                        {
+                            "role": "user",
+                            "content": prompt
                     }],
                     "reward_model": {
                         "style": "rule",
                         "ground_truth": json.dumps(ground_truth, ensure_ascii=False)
                     },
                     "extra_info": {
-                        'split': split,  # 使用传入的 split 值
-                        'index': idx
+                        'index': str(idx), # modify this to make it consistent with current verl format
                     }
                 }
                 

@@ -170,12 +170,14 @@ if __name__ == '__main__':
     parser.add_argument('--split', type=str)
     parser.add_argument('--timestamp', type=str)
     parser.add_argument('--filepath', type=str)
+    parser.add_argument('--coef', type=float, default=30/144, help='Coef for balance cipher data tasks')
     args = parser.parse_args()
 
     # 获取传入的参数
     nums = int(args.nums)
     if nums == 0:
         exit()
+    nums = int(nums * args.coef)
     split = str(args.split)
     timestamp = str(args.timestamp)
     # df = pd.read_csv(r'internbootcamp/libs/data/train.tsv', sep='\t')

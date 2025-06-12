@@ -9,7 +9,7 @@ import re
 
 # 每个puzzle的gen数量
 train_sample_number = 1000
-test_sample_number = 64
+test_sample_number = 100
 
 def checkpath(target_dir):
 # 检查目录是否存在
@@ -58,7 +58,7 @@ def process_data_config():
 
         entry_train = {
             "bootcamp_name": bootcamp_name,
-            "sample_number": train_sample_number,
+            "sample_number": train_sample_number,  
             "config_file": config_file,
             "bootcamp_cls_name": f"{bootcamp_cls_name}bootcamp"
         }

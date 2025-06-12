@@ -34,7 +34,6 @@ def main_pipeline(
                 configs = json.load(f)
             except:
                 import pdb;pdb.set_trace()
-    
     if not configs:
         configs = [{}]
     n_per_config = [n // len(configs) for _ in configs]

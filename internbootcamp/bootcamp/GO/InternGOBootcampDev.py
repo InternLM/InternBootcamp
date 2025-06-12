@@ -5,7 +5,7 @@ from typing import List, Tuple, Dict, Set, Optional
 
 class InternGObootcamp(Basebootcamp):
     def __init__(self):
-        
+        pass
     def case_generator(self) -> Dict:
         """
             Collection from game records
