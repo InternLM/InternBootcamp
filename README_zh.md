@@ -13,6 +13,7 @@ Internbootcamp是一个易用、可扩展的推理模型训练训练场环境。
 ## Getting Started
 
 * [安装](#section3)
+* [快速开始](examples/get_started_zh.md)
 * [接口及用法](#section4)
 
 
