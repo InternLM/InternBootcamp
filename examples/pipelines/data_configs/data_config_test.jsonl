@@ -79,3 +79,4 @@
 {"bootcamp_name": "korLogicCanonicalPropositions", "sample_number": 64, "config_file": "korLogicCanonicalPropositions", "bootcamp_cls_name": "KorLogicCanonicalPropositionsbootcamp"}
 {"bootcamp_name": "korPuzzleConnectWords", "sample_number": 64, "config_file": "korPuzzleConnectWords", "bootcamp_cls_name": "KorPuzzleConnectWordsbootcamp"}
 {"bootcamp_name": "korLogicFormalFallacies", "sample_number": 64, "config_file": "korLogicFormalFallacies", "bootcamp_cls_name": "KorLogicFormalFallaciesbootcamp"}
+{"bootcamp_name": "BBEHHyperbaton", "sample_number": 64, "config_file": "BBEHHyperbaton", "bootcamp_cls_name": "BBEHHyperbatonbootcamp"}
