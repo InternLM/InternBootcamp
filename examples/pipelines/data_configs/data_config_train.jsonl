@@ -79,3 +79,4 @@
 {"bootcamp_name": "korLogicPredicateLogicFormalization", "sample_number": 1000, "config_file": "korLogicPredicateLogicFormalization", "bootcamp_cls_name": "KorLogicPredicateLogicFormalizationbootcamp"}
 {"bootcamp_name": "galaxies", "sample_number": 2000, "config_file": "galaxies", "bootcamp_cls_name": "Galaxiesbootcamp"}
 {"bootcamp_name": "korOperationUnicode25a0", "sample_number": 1000, "config_file": "korOperationUnicode25a0", "bootcamp_cls_name": "KorOperationUnicode25a0bootcamp"}
+{"bootcamp_name": "BBEHHyperbaton", "sample_number": 1000, "config_file": "BBEHHyperbaton", "bootcamp_cls_name": "BBEHHyperbatonbootcamp"}
