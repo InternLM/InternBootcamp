@@ -7,11 +7,10 @@ from rdkit.Chem import Crippen
 from .InChI2logPBootCamp import InChI2logPbootcamp
 
 class SMILES2logPBootCamp(InChI2logPbootcamp):
-    def __init__(self, num_numbers=4, min_len=5, max_len=25, 
+    def __init__(self,min_len=5, max_len=25, 
                  seed=None):
         # super.__init__()
-        self.num_numbers = num_numbers
-        self.SMILESGenerator = SMILESGenerator(min_len=5, max_len=25, seed=None)
+        self.SMILESGenerator = SMILESGenerator(min_len=min_len, max_len=max_len, seed=seed)
         
     def case_generator(self) -> str:
         """
@@ -35,9 +34,8 @@ class SMILES2logPBootCamp(InChI2logPbootcamp):
         """ 
         mol = Chem.MolFromSmiles(SMILES)
         true_logp = Crippen.MolLogP(mol)
-        print(f"Comparing pred: {solution}, ground_truth: {true_logp}")
-        return abs(true_logp - float(solution)) <= 0.01  # maybe mse or mae better?
-        
-
-
-
+        solution_float = float(solution)
+        if true_logp == 0:
+            return abs(solution_float) <= 0.01  # Just check if solution is close to 0
+        else:
+            return abs(true_logp - solution_float)/abs(true_logp) <= 0.01

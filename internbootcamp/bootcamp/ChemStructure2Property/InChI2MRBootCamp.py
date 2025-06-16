@@ -12,7 +12,6 @@ class InChI2MRBootCamp(InChI2logPbootcamp):
         prompt = instruction + '\n' + instruction_following
         return prompt
     
-        
     @classmethod 
     def _verify_correction(cls, solution, InChI)->bool:
         """
@@ -20,9 +19,11 @@ class InChI2MRBootCamp(InChI2logPbootcamp):
         """ 
         mol = Chem.MolFromInchi(InChI)
         true_MR = Crippen.MolMR(mol)
-        print(f"Comparing pred: {solution}, ground_truth: {true_MR}")
-        return abs(true_MR - float(solution)) <= 0.01  # maybe mse or mae better?
+        solution_float = float(solution)
         
-
-
+        # Handle case where true_logp is 0
+        if true_MR == 0:
+            return abs(solution_float) <= 0.01  # Just check if solution is close to 0
+        else:
+            return abs(true_MR - solution_float)/abs(true_MR) <= 0.01
 

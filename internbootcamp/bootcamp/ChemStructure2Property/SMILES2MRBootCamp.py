@@ -8,8 +8,6 @@ from .SMILES2logPBootCamp import SMILES2logPBootCamp
 
 class SMILES2MRBootCamp(SMILES2logPBootCamp):
 
-
-
     def prompt_func(self,  SMILES) -> str:
 
         instruction = f"Given the  SMILES, determine the Molar Refractivity (MR) value of the material. The  SMILES is: {SMILES}"
@@ -26,9 +24,9 @@ class SMILES2MRBootCamp(SMILES2logPBootCamp):
         """ 
         mol = Chem.MolFromSmiles(SMILES)
         true_MR = Crippen.MolMR(mol)
-        print(f"Comparing pred: {solution}, ground_truth: {true_MR}")
-        return abs(true_MR - float(solution)) <= 0.01  # maybe mse or mae better?
+        solution_float = float(solution)
+        if true_MR == 0:
+            return abs(solution_float) <= 0.01  # Just check if solution is close to 0
+        else:
+            return abs(true_MR - solution_float)/abs(true_MR) <= 0.01
         
-
-
-
