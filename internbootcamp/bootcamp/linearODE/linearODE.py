@@ -5,7 +5,7 @@ from scipy.integrate import odeint
 from internbootcamp.bootcamp.base import Basebootcamp
 
 
-class LinearODEBootcamp(Basebootcamp):
+class LinearODEbootcamp(Basebootcamp):
     def __init__(
         self,
         k_range=(0.1, 1.0),
@@ -38,41 +38,70 @@ class LinearODEBootcamp(Basebootcamp):
         return (
             f"下面给出变量 x(t) 的观测数据点：\n{points}\n\n"
             "请找出其满足的微分方程，形式为：dx/dt = f(x)。\n"
-            "只需返回 “dx/dt = <表达式>”。"
+            "以dx/dt = <表达式>格式表示你的答案。"
+            "并且使用[answer]标签包裹你的最终答案, 例如[answer]dx/dt = <表达式>[/answer]."
         )
 
     @staticmethod
-    def extract_output(output: str) -> str:
-        # 用正则提取“dx/dt = …”右侧的表达式
-        m = re.search(r"dx/dt\s*=\s*([^\n\r]+)", output)
-        return m.group(1).strip() if m else None
+    def extract_output(output):
+        import re
+        matches = re.findall(r'\[answer\](.*?)\[/answer\]', output, re.DOTALL)
+        if not matches:
+            return None
+        last_match = matches[-1].strip()
+        try:
+            raw_expr = last_match.replace('dx/dt = ', '').strip()
+            expr = raw_expr.strip()
+            pattern = re.fullmatch(
+                r"""
+                ([+-]?\s*            # 可选的正负号，后可带空格
+                (?:\d+(?:\.\d*)?     # 整数或小数点后数字
+                |\.\d+)?             # 或只有小数部分
+                (?:[eE][+-]?\d+)?    # 可选的科学计数部分
+                )?                   # 整个系数是可选的（允许直接 x 或 -x）
+                \s*\*?\s*            # 可选乘号，前后允许空格
+                [xX]                 # x 或 X
+                """,
+                expr,
+                re.VERBOSE
+            )
+
+            if pattern:
+                raw = pattern.group(1)
+                if raw is None or raw.strip() == '':
+                    return 1.0
+                elif raw.strip() in ['+', '+1']:
+                    return 1.0
+                elif raw.strip() in ['-', '-1']:
+                    return -1.0
+                else:
+                    return float(raw)
+            else:
+                return None 
+        except ValueError:
+            return None
 
     @classmethod
-    def _verify_correction(cls, solution: str, identity: dict) -> bool:
-        # 解析 LLM 给出的系数 c，形如 “c*x”
-        sol = solution.replace(" ", "")
-        match = re.fullmatch(r"([\-0-9\.eE]+)\*x", sol)
-        if not match:
-            return False
-        c = float(match.group(1))
-        # 验证 c ≈ -k
-        return abs(c + identity["k"]) < 1e-2
+    def _verify_correction(cls, solution: float, identity: dict) -> bool:
+        delta = abs(solution + identity["k"])
+        return delta < 1e-2
 
 
 if __name__ == "__main__":
-    bootcamp = LinearODEBootcamp(seed=123)
+    bootcamp = LinearODEbootcamp(seed=123)
     # 生成几个样例
     examples = [bootcamp.case_generator() for _ in range(3)]
 
     for identity in examples:
         # 构造“模型”返回答案，模拟 LLM 的输出
         coeff = -identity["k"]
-        sol = f"{coeff:.4f}*x"
+        sol = f"[answer]dx/dt = {coeff:.2f}*x[/answer]"
         # 调用 Basebootcamp 提供的 verify_score 接口进行验证
-        score = bootcamp.verify_score(sol, identity, short_threshold=1e-2)
+        score = bootcamp.verify_score(sol, identity, short_penalty=False,format_penalty=False)
         # 打印结果
         print(json.dumps({
             "identity": identity,
             "solution": sol,
+            "extract_output": LinearODEbootcamp.extract_output(sol),
             "verify_score": score
         }, ensure_ascii=False, indent=2))

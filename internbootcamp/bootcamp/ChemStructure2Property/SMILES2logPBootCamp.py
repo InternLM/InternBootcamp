@@ -6,16 +6,19 @@ from rdkit.Chem import Crippen
 
 from .InChI2logPBootCamp import InChI2logPbootcamp
 
-class SMILES2logPBootCamp(InChI2logPbootcamp):
+class SMILES2logPbootcamp(InChI2logPbootcamp):
     def __init__(self,min_len=5, max_len=25, 
                  seed=None):
         # super.__init__()
-        self.SMILESGenerator = SMILESGenerator(min_len=min_len, max_len=max_len, seed=seed)
+        self.min_len = min_len
+        self.max_len = max_len
+        # self.SMILESGenerator = SMILESGenerator(min_len=min_len, max_len=max_len, seed=seed)
         
     def case_generator(self) -> str:
         """
         生成一组数字和目标值。
         """
+        self.SMILESGenerator = SMILESGenerator(min_len=self.min_len, max_len=self.max_len, seed=None)
         return self.SMILESGenerator.generate_n_valid_smiles(1)[0]
 
     def prompt_func(self,  SMILES) -> str:

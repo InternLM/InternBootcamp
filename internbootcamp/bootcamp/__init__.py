@@ -32,10 +32,13 @@ from .bbeh_boolean_expressions.bbeh_boolean_expressions import Bbehbooleanexpres
 
 
 from .ChemStructure2Property.InChI2logPBootCamp import InChI2logPbootcamp
-from .ChemStructure2Property.InChI2MRBootCamp import InChI2MRBootCamp
-from .ChemStructure2Property.SMILES2logPBootCamp import SMILES2logPBootCamp
-from .ChemStructure2Property.SMILES2MRBootCamp import SMILES2MRBootCamp
+from .ChemStructure2Property.InChI2MRBootCamp import InChI2MRbootCamp
+from .ChemStructure2Property.SMILES2logPBootCamp import SMILES2logPbootcamp
+from .ChemStructure2Property.SMILES2MRBootCamp import SMILES2MRbootCamp
 
+
+from .earth_dew2humidity.earth_dew2humidity import Earthdew2humiditybootcamp
+from .linearODE.linearODE import LinearODEbootcamp
 
 from .kakurasu.kakurasu import Kakurasubootcamp
 from .nonograms.nonograms import Nonogramsbootcamp

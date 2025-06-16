@@ -4,9 +4,9 @@ from .utils import last_boxed_only_string, remove_boxed
 from rdkit import Chem
 from rdkit.Chem import Crippen
 
-from .SMILES2logPBootCamp import SMILES2logPBootCamp
+from .SMILES2logPBootCamp import SMILES2logPbootcamp
 
-class SMILES2MRBootCamp(SMILES2logPBootCamp):
+class SMILES2MRbootCamp(SMILES2logPbootcamp):
 
     def prompt_func(self,  SMILES) -> str:
 

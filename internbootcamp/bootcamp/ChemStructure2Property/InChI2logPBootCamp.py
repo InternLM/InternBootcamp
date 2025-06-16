@@ -8,13 +8,16 @@ from rdkit.Chem import Crippen
 class InChI2logPbootcamp(Basebootcamp):
     def __init__(self, max_atoms=15, min_atoms=3, elements=None, seed=None):
         # super.__init__()
-        self.InChIGenerator = InChIGenerator(max_atoms=max_atoms, min_atoms=min_atoms, elements=elements, seed=seed)
-        self.tolerance_factor = tolerance_factor # 1 for 1% error consider true, 0.1 for 0.1% error true, 10 for 10% error
+        self.max_atoms = max_atoms
+        self.min_atoms = min_atoms
+        # self.InChIGenerator = InChIGenerator(max_atoms=max_atoms, min_atoms=min_atoms, elements=elements, seed=seed)
+        # self.tolerance_factor = tolerance_factor # 1 for 1% error consider true, 0.1 for 0.1% error true, 10 for 10% error
 
     def case_generator(self) -> str:
         """
         生成一组数字和目标值。
         """
+        self.InChIGenerator = InChIGenerator(max_atoms=self.max_atoms, min_atoms=self.min_atoms, elements=None, seed=None)
         return self.InChIGenerator.generate_n_valid_inchi(1)[0]
 
     def prompt_func(self, InChI) -> str:
