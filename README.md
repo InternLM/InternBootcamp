@@ -11,6 +11,7 @@ Internbootcamp is an easy-to-use and extensible library of bootcamp environments
 
 ## Getting Started
 
+**Quickly get started with data generation, reinforcement learning training, model evaluation, and custom Bootcamp creation!**
 * [Installation](#section3)
 * [Quick Start](examples/get_started.md)
 * [Interfaces and Usages](#section4)

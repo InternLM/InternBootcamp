@@ -11,7 +11,7 @@
 Internbootcamp是一个易用、可扩展的推理模型训练训练场环境。通过集成大量可验证的推理任务并为其支持无限量的**自动化问题生成**和**结果验证**，Internbootcamp旨在提供推理形式多样且难度可控的大规模数据资源，以推动大模型在广泛场景下的推理能力提升及泛化。目前，Internbootcamp已集成上千种可验证的、难度可控的推理任务，包含游戏（games）、逻辑问题（logic）、谜题（puzzles）、算法问题（algorithms）等，并在持续扩展中。
 
 ## Getting Started
-
+**快速开始数据生成、模型训练、模型评测以及自定义Bootcamp！**
 * [安装](#section3)
 * [快速开始](examples/get_started_zh.md)
 * [接口及用法](#section4)
