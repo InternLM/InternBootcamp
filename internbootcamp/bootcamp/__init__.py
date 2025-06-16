@@ -30,6 +30,13 @@ from .bbeh_hyperbaton.hyperbaton_default import BBEHHyperbatonbootcamp
 from .bbeh_boardgame_qa.bbeh_boardgame_qa import Bbehboardgameqabootcamp
 from .bbeh_boolean_expressions.bbeh_boolean_expressions import Bbehbooleanexpressionsbootcamp
 
+
+from .ChemStructure2Property.InChI2logPBootCamp import InChI2logPbootcamp
+from .ChemStructure2Property.InChI2MRBootCamp import InChI2MRBootCamp
+from .ChemStructure2Property.SMILES2logPBootCamp import SMILES2logPBootCamp
+from .ChemStructure2Property.SMILES2MRBootCamp import SMILES2MRBootCamp
+
+
 from .kakurasu.kakurasu import Kakurasubootcamp
 from .nonograms.nonograms import Nonogramsbootcamp
 from .hitori.hitori import Hitoribootcamp
