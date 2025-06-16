@@ -250,15 +250,15 @@ async def main():
                         help='Base URL of the OpenAI API compatible service. Default format is http://{ip}:{port}/v1.')
     parser.add_argument('--api_key', default='EMPTY',
                         help='API key for accessing the model service. Set to "EMPTY" if no key is required.')
-    parser.add_argument('--model_name', default='Qwen2.5-32B-Instruct',
+    parser.add_argument('--model_name', default='r1_32b',
                         help='Name of the model to be evaluated, e.g., r1_32B or other custom model name.')
-    parser.add_argument('--test_dir', default='/cpfs01/shared/llm_ddd/lipeiji/InternBootcamp/examples/bootcamp_generator_outputs/2025-06-12-14:29:13/test',
+    parser.add_argument('--test_dir', default='/cpfs01/shared/llm_ddd/lipeiji/InternBootcamp/examples/bootcamp_generator_outputs/2025-06-16-16:47:31/test',
                         help='Path to the directory containing test JSONL files for evaluation.')
     parser.add_argument('--max_concurrent_requests', type=int, default=144,
                         help='Maximum number of concurrent requests allowed globally.')
-    parser.add_argument('--template', default='internbootcamp_v2',choices=['r1', 'qwen', 'internthinker', 'chatml','internbootcamp'],
+    parser.add_argument('--template', default='r1',choices=['r1', 'qwen', 'internthinker', 'chatml','internbootcamp'],
                         help='Predefined conversation template used to format prompts. Only valid when api_mode is completion.')
-    parser.add_argument('--max_tokens', type=int, default=8192,
+    parser.add_argument('--max_tokens', type=int, default=16384,
                         help='Maximum number of tokens the model can generate.')
     parser.add_argument('--temperature', type=float, default=0,
                         help='Controls randomness in text generation. Lower values produce more deterministic outputs.')

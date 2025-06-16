@@ -85,30 +85,29 @@ class Arcbootcamp(Basebootcamp):
     verifiers_mapper = get_verifiers()
     def __init__(self, task_key_file: str = None):
         task_key_file = "/".join(__file__.split('/')[:-4]) + "/" + task_key_file
-        task_key = [json.loads(f) for f in open(task_key_file, 'r').readlines()]
-        self.task_key = random.choice(task_key)['key']
+        self.task_keys = [json.loads(f) for f in open(task_key_file, 'r').readlines()]
         self.generators = get_generators()
-        self.hint_examples = []
         self.current_example = None
 
 
     def case_generator(self):
-        if self.task_key not in self.generators:
-            raise ValueError(f"Task key '{self.task_key}' not found in generators.")
-        generator = self.generators[self.task_key]
+        task_key = random.choice(self.task_keys)['key']
+        if task_key not in self.generators:
+            raise ValueError(f"Task key '{task_key}' not found in generators.")
+        generator = self.generators[task_key]
         self.current_example = generator(0, 1)
-        
+        hint_examples = []
         for _ in range(3):
-            self.hint_examples.append(generator(0, 1))
+            hint_examples.append(generator(0, 1))
         input_grid = self.current_example['input']
-        return  {'input_grid': input_grid, 'task_key': self.task_key}
+        return  {'hint_examples':hint_examples ,'input_grid': input_grid, 'task_key': task_key}
     
 
     def prompt_func(self, identity) -> str:
         """
         Process the input_data and return the processed prompt.
         """
-        return generate_arc_puzzle(self.hint_examples, identity['input_grid'])
+        return generate_arc_puzzle(identity['hint_examples'], identity['input_grid'])
     
     @staticmethod
     def extract_output(output:str)->Grid:

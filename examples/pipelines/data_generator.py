@@ -65,26 +65,27 @@ def main_pipeline(
                 print("bootcamp_name:", bootcamp_cls_name,"+", bootcamp_cls)
         count = 0
         failure = 0
+        bootcamp = bootcamp_cls(**config)
         while count < _n:
             try:
-                bootcamp = bootcamp_cls(**config)
+                
                 bootcamp_case = bootcamp.case_generator()
                 prompt = bootcamp.prompt_func(bootcamp_case)
                 if tokenizer is not None:
                     length = len(tokenizer.encode(prompt))
                     if length > max_prompt_len:
                         continue
-                failure = 0
                 writer.write(json.dumps({
                     "data_source": bootcamp_cls_name.replace("bootcamp", ""),
                     "prompt": prompt.strip(),
                     "ground_truth": bootcamp_case
                 }, ensure_ascii=False) + "\n")
                 bar.update()
+                
                 count += 1
             except Exception as e:
                 failure += 1
-                if failure > 1000:
+                if failure > 512:
                     print(config, f"seems to be a too challenging config to generate cases , because of {e}")
                 continue
             

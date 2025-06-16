@@ -1085,3 +1085,4 @@ from .ddistinctpaths.ddistinctpaths import Ddistinctpathsbootcamp
 from .eereaderdisplay.eereaderdisplay import Eereaderdisplaybootcamp
 from .clunarnewyearandnumberdivision.clunarnewyearandnumberdivision import Clunarnewyearandnumberdivisionbootcamp
 from .med_calculator.med_calculator import Medcalculatorbootcamp
+from .symbolic_regression.symbolic_regression import SymbolicRegressionbootcamp

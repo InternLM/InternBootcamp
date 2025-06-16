@@ -47,7 +47,7 @@ class Basebootcamp:
     
 
     @classmethod
-    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=256, ans_threshold=128, format_penalty=False) -> float:
+    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=256, think_threshold=128, ans_threshold=128, format_penalty=False) -> float:
         """
         Verify the output against the ground truth.
         
@@ -83,10 +83,11 @@ class Basebootcamp:
             pass
         
         ans_output = model_output.rsplit("</think>", 1)[1] if "</think>" in model_output else ""
-        
-        if (short_penalty and len(model_output) < short_threshold) or (short_penalty and len(ans_output) < ans_threshold):
+        think_length = len(model_output) - len(ans_output)
+        score = max(0, score)  # Ensure score is non-negative
+        if (short_penalty and len(model_output) < short_threshold) or (short_penalty and len(ans_output) < ans_threshold) or (short_penalty and think_length < think_threshold):
             # if the output is too short, consider it incorrect
-            return min(score * len(model_output) / short_threshold, score * len(ans_output) / ans_threshold)
+            return min(score * len(model_output) / short_threshold, score * len(ans_output) / ans_threshold, score * think_length / think_threshold)
         
         # This for training Debug
         if random.randint(1,1024) == 1:
