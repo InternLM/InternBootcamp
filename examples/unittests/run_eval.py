@@ -20,6 +20,7 @@ TEMPLATE_MAP = {
     "qwen": {"chat_template":"<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]}, # default qwen template
     "internthinker":{"chat_template":"<|im_start|>system\nYou are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
     "internbootcamp":{"chat_template":"<|im_start|>system\nYou are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags. After careful thought, present your final solution or answer clearly.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
+    "internbootcamp_v2":{"chat_template":"<|im_start|>system\nYou are a helpful assistant, skilled at solving various complex reasoning problems. When faced with any user questions, please first conduct a detailed thinking process, similar to drafting, where you can freely analyze problem-solving strategies and verify the correctness of your thought process. Please put your thinking process within <think> and </think> tags. After completing the thinking process, provide the user with a detailed response. Please note that the response accessible to the user will start after \"</think>\", so ensure that detailed chain-of-thought solution steps should be provided after the </think> tag.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
     "chatml":{"chat_template":"<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]}, # No sys prompt chatml
 }
 
@@ -249,13 +250,13 @@ async def main():
                         help='Base URL of the OpenAI API compatible service. Default format is http://{ip}:{port}/v1.')
     parser.add_argument('--api_key', default='EMPTY',
                         help='API key for accessing the model service. Set to "EMPTY" if no key is required.')
-    parser.add_argument('--model_name', default='DeepSeek-R1-Distill-Qwen-32B',
+    parser.add_argument('--model_name', default='Qwen2.5-32B-Instruct',
                         help='Name of the model to be evaluated, e.g., r1_32B or other custom model name.')
-    parser.add_argument('--test_dir', default='/cpfs01/shared/llm_ddd/lipeiji/InternBootcamp/examples/bootcamp_generator_outputs/2025-05-30-16:26:35/test',
+    parser.add_argument('--test_dir', default='/cpfs01/shared/llm_ddd/lipeiji/InternBootcamp/examples/bootcamp_generator_outputs/2025-06-12-14:29:13/test',
                         help='Path to the directory containing test JSONL files for evaluation.')
     parser.add_argument('--max_concurrent_requests', type=int, default=144,
                         help='Maximum number of concurrent requests allowed globally.')
-    parser.add_argument('--template', default='r1',choices=['r1', 'qwen', 'internthinker', 'chatml'],
+    parser.add_argument('--template', default='internbootcamp_v2',choices=['r1', 'qwen', 'internthinker', 'chatml','internbootcamp'],
                         help='Predefined conversation template used to format prompts. Only valid when api_mode is completion.')
     parser.add_argument('--max_tokens', type=int, default=8192,
                         help='Maximum number of tokens the model can generate.')

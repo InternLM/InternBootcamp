@@ -17,8 +17,10 @@ max_prompt_len=4096
 max_jobs=60  # 设置最大并发进程数
 jobs=()     # 用于存储后台进程的PID
 
+
+# initialize, do not modify this
 cipher_test_nums_for_single_cipher=0
-cipehr_train_nums_for_single_cipher=0
+cipher_train_nums_for_single_cipher=0
 
 while IFS= read -r line || [ -n "$line" ]; do
     # 跳过空行
@@ -135,7 +137,7 @@ python examples/pipelines/cipher_data_generator.py \
 
 # cipher train——set gen
 python examples/pipelines/cipher_data_generator.py \
-    --nums $cipehr_train_nums_for_single_cipher \
+    --nums $cipher_train_nums_for_single_cipher \
     --split train \
     --timestamp $timestamp \
     --filepath $cipher_input_file

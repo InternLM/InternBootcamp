@@ -8,7 +8,7 @@ import glob
 import re
 
 # 每个puzzle的gen数量
-train_sample_number = 1000
+train_sample_number = 10000
 test_sample_number = 100
 
 def checkpath(target_dir):

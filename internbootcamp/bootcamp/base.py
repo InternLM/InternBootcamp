@@ -47,7 +47,7 @@ class Basebootcamp:
     
 
     @classmethod
-    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=100, format_penalty=False) -> float:
+    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=256, ans_threshold=128, format_penalty=False) -> float:
         """
         Verify the output against the ground truth.
         
@@ -60,9 +60,6 @@ class Basebootcamp:
             float: The score of the output.
         """
         score = 0. 
-        if short_penalty and len(model_output) < short_threshold:
-            # if the output is too short, consider it incorrect
-            return score
         if format_penalty and ("<think>" not in model_output or "</think>" not in model_output):
             return score
         if format_penalty and (model_output.count("<think>") > 1 or model_output.count("</think>") > 1 or model_output.count("<think>") != model_output.count("</think>") or not model_output.startswith("<think>") or model_output.endswith("</think>")):
@@ -84,6 +81,14 @@ class Basebootcamp:
         except Exception as e:
             # print("Error in verify_score:", e)
             pass
+        
+        ans_output = model_output.rsplit("</think>", 1)[1] if "</think>" in model_output else ""
+        
+        if (short_penalty and len(model_output) < short_threshold) or (short_penalty and len(ans_output) < ans_threshold):
+            # if the output is too short, consider it incorrect
+            return min(score * len(model_output) / short_threshold, score * len(ans_output) / ans_threshold)
+        
+        # This for training Debug
         if random.randint(1,1024) == 1:
             print("=============DEBUG=============")
             print("model_output:\n", model_output)

@@ -1084,3 +1084,4 @@ from .eguessthetree.eguessthetree import Eguessthetreebootcamp
 from .ddistinctpaths.ddistinctpaths import Ddistinctpathsbootcamp
 from .eereaderdisplay.eereaderdisplay import Eereaderdisplaybootcamp
 from .clunarnewyearandnumberdivision.clunarnewyearandnumberdivision import Clunarnewyearandnumberdivisionbootcamp
+from .med_calculator.med_calculator import Medcalculatorbootcamp

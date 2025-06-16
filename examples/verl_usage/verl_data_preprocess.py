@@ -94,7 +94,7 @@ def convert_to_parquet(src_jsonl, tgt_parquet, split, shuffle=True):
                     "prompt": [
                         {
                             "role": "system",
-                            "content": "You are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags. After careful thought, present your final solution or answer clearly."
+                            "content": "You are a helpful assistant, skilled at solving various complex reasoning problems. When faced with any user questions, please first conduct a detailed thinking process, similar to drafting, where you can freely analyze problem-solving strategies and verify the correctness of your thought process. Please put your thinking process within <think> and </think> tags. After completing the thinking process, provide the user with a detailed response. Please note that the response accessible to the user will start after \"</think>\", so ensure that detailed chain-of-thought solution steps should be provided after the </think> tag."
                         },
                         {
                             "role": "user",
