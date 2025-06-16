@@ -1,37 +1,80 @@
 import re
 import json
 import requests
+import random
 from internbootcamp.bootcamp.base import Basebootcamp
 from sklearn.metrics import r2_score, root_mean_squared_error
 import numpy as np
 import sympy as sp
 import pickle
+def last_boxed_only_string(string):
+    idx = string.rfind("\\boxed")
+    if "\\boxed " in string:
+        return "\\boxed " + string.split("\\boxed ")[-1].split("$")[0]
+    if idx < 0:
+        idx = string.rfind("\\fbox")
+        if idx < 0:
+            return None
+
+    i = idx
+    right_brace_idx = None
+    num_left_braces_open = 0
+    while i < len(string):
+        if string[i] == "{":
+            num_left_braces_open += 1
+        if string[i] == "}":
+            num_left_braces_open -= 1
+            if num_left_braces_open == 0:
+                right_brace_idx = i
+                break
+        i += 1
+
+    if right_brace_idx is None:
+        retval = None
+    else:
+        retval = string[idx:right_brace_idx + 1]
+
+    return retval
 
 
-class SymblocRegression(Basebootcamp):
-    def __init__(self, data_path):
+def remove_boxed(s):
+    if "\\boxed " in s:
+        left = "\\boxed "
+        assert s[:len(left)] == left
+        return s[len(left):]
+
+    left = "\\boxed{"
+
+    assert s[:len(left)] == left
+    assert s[-1] == "}"
+
+    return s[len(left):-1]
+
+class SymbolicRegressionbootcamp(Basebootcamp):
+    def __init__(self, data_path='./internbootcamp/libs/symbolic_regression/train_data.pkl', sample_num_range=[64,144]):
         super().__init__()
         self.data_path = data_path
+        self.sample_num_range = sample_num_range
+        with open(f'{self.data_path}', 'rb') as f:
+            self.formula_data = pickle.load(f)
         
-    def case_generator(self, sample_num=300) -> object:
+    def case_generator(self) -> object:
         """
         生成一组数字和目标值。
         """
         
-        with open(f'{self.data_path}', 'rb') as f:
-            formula_data = pickle.load(f)
-        data_list = []
-        for i in range(len(formula_data)):
-            true_formula = formula_data[i]['formula']
-            dataset = formula_data[i]['data']
-            rand_idx = np.random.choice(dataset.shape[0], sample_num, replace=False)
-            dataset = dataset[rand_idx]
-            data_list.append({
-                'id': formula_data[i]['id'],
-                'true_formula': true_formula,
-                'data':dataset,
-            }) 
-        return data_list
+        i = random.choice(range(len(self.formula_data)))
+        true_formula = self.formula_data[i]['formula']
+        dataset = self.formula_data[i]['data']
+        sample_num = np.random.randint(self.sample_num_range[0], self.sample_num_range[1])
+        rand_idx = np.random.choice(dataset.shape[0], sample_num, replace=False)
+        dataset = dataset[rand_idx]
+        return {
+            # 'id': formula_data[i]['id'],
+            'true_formula': true_formula,
+            'data':dataset.tolist(),
+        }
+
     
     def prompt_func(self, identity) -> str:
         """
@@ -43,10 +86,13 @@ class SymblocRegression(Basebootcamp):
         Returns:
             str: The processed prompt.
         """
-        data = identity['data']
+        data = np.array(identity['data'])
         length_data = data.shape[0]
         split_idx = int(length_data * 0.97)
-        prompt = f"""You will be provided with a set of input-output pairs. Based on these data, infer the mathematical relationship between y and multiple input variables. Please note that the possible mathematical operations include: +, -, *, /, exp, sqrt, sin, arcsin, and constant terms. The input sample data are as follows: {change_data_to_prompt(data[:split_idx, :])} Based on the above data, please infer the possible formula. Ensure that your inference applies to all the provided data points, and consider both linear and nonlinear combinations. Verify whether your formula applies to the following new data point and adjust it to ensure accuracy: {change_data_to_prompt(data[split_idx:, :])} Finally, please output only the formula string you inferred (e.g. z=x_0 * x_1), without any additional information."""
+        prompt = f"""You will be provided with a set of input-output pairs. Based on these data, infer the mathematical relationship between y and multiple input variables. Please note that the possible mathematical operations include: +, -, *, /, exp, sqrt, sin, arcsin, and constant terms. The input sample data are as follows:
+{change_data_to_prompt(data[:split_idx, :])}
+Based on the above data, please infer the possible formula. Ensure that your inference applies to all the provided data points, and consider both linear and nonlinear combinations. Verify whether your formula applies to the following new data point and adjust it to ensure accuracy:
+{change_data_to_prompt(data[split_idx:, :])}""" + """Finally, please output the formula string you inferred within \\boxed{}(e.g. \\boxed{y=sqrt(x0 + x1) / (2 * pi)}). Note that you should express mathematical formulas using Python syntax(sqrt(x0)) instead of LaTeX format(\sqrt(x_0))."""
         return prompt
     
     @staticmethod
@@ -60,9 +106,11 @@ class SymblocRegression(Basebootcamp):
         Returns:
             The processed output.
         """
-        infer_formula = llm_translate(output, mllm='gpt-4o')  # gpt-4o Qwen2.5-vl-72b
-        infer_formula = clean_formula_string(infer_formula)
-        return infer_formula
+        # infer_formula = llm_translate(output, mllm='gpt-4o')  # gpt-4o Qwen2.5-vl-72b
+        output = last_boxed_only_string(output)
+        if output is None:
+            return None
+        return remove_boxed(output)
         
     @classmethod 
     def _verify_correction(self, infer_formula, gt_case, mllm='gpt-4o')->bool:
@@ -70,9 +118,9 @@ class SymblocRegression(Basebootcamp):
         Verify the correction of the solution.
         """ 
         gt_formula = gt_case['true_formula']
-        data = gt_case['data']
+        data = np.array(gt_case['data'])
         metrics = {
-            'LLM_Score': None,
+            # 'LLM_Score': None,
             'RMSE': None,
             'NMSE': None,   # 新增：Normalized MSE
             'SymbolicMatch': False,
@@ -80,13 +128,21 @@ class SymblocRegression(Basebootcamp):
         }
 
         # 结构评分（用 LLM）
-        metrics['LLM_Score'] = llm_evaluate(infer_formula, gt_formula, mllm=mllm)
+        # metrics['LLM_Score'] = llm_evaluate(infer_formula, gt_formula, mllm=mllm)
 
         # 数值拟合
-        func_pred, variable_names = parse_formula(infer_formula)
-        func_gt, variable_names = parse_formula(gt_formula)
-        var_num = len(variable_names)
-        x, y_true = data[:, :var_num], data[:, -1]
+        try:
+            func_pred, variable_names = parse_formula(infer_formula)
+            func_gt, variable_names = parse_formula(gt_formula)
+            var_num = len(variable_names)
+            x, y_true = data[:, :var_num], data[:, -1]
+        except Exception as e:
+            # import traceback
+            print("Exception while parsing symbolic formulas:", e)
+            print("Infer formula:", infer_formula)
+            print("Ground truth formula:", gt_formula)
+            # traceback.print_exc()
+            return 0.0
         if func_pred is not None:
             try:
                 x_vars = [x[:, i] for i in range(var_num)]
@@ -122,7 +178,10 @@ class SymblocRegression(Basebootcamp):
         # 判断方程等价性
         metrics['SymbolicMatch'] = is_symbolically_equivalent(infer_formula, gt_formula, var_num)
 
-        return metrics
+        if metrics['SymbolicMatch']:
+            return 1
+        else:
+            return max(0, metrics['R2'])
 
 
 def _send_request(messages, mllm='gpt-4o'):
@@ -258,6 +317,8 @@ def parse_formula(formula_str: str):
         return func, variable_names
     except (SyntaxError, TypeError, AttributeError, sp.SympifyError) as e:
         print(f'[Parse Error] 无法解析公式 "{formula_str}": {e}')
+        # import traceback
+        # traceback.print_exc()
         return None
     except Exception as e:
         print(f'[Parse Error] 解析公式 "{formula_str}" 时发生意外错误: {e}')
@@ -292,11 +353,13 @@ def change_data_to_prompt(points):
 
 if __name__ == '__main__':
     # example
-    data_path = 'test_data.pkl'
-    bootcamp = SymblocRegression(data_path)
-    case = bootcamp.case_generator()[0]  # 选取1个case
+    random.seed(42)  # For reproducibility
+    bootcamp = SymbolicRegressionbootcamp()
+    case = bootcamp.case_generator()  # 选取1个case
     print(bootcamp.prompt_func(case))
-    example_answer = "y = x0 * x1"
+    example_answer = """这道问题的解是：\\boxed{ sqrt(x0)} hahaha"""
     print(f"answer: {example_answer}")
+    example_answer = bootcamp.extract_output(example_answer)
+    print(f'Extracted answer: {example_answer}')
     metrics = bootcamp._verify_correction(example_answer, case)
-    print(f'GT: {case['true_formula'].ljust(40)} | Pred: {example_answer.ljust(40)} | Score: {metrics["LLM_Score"]} | RMSE: {metrics["RMSE"]} | NMSE: {metrics["NMSE"]} | R2: {metrics["R2"]} | Match: {metrics["SymbolicMatch"]}')
+    print(f'GT: {case["true_formula"].ljust(40)} | Pred: {example_answer.ljust(40)} | Metrics: {metrics}')

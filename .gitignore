@@ -44,3 +44,6 @@ examples/unittests/output/
 test.*
 test*
 wandb
+
+# assets
+internbootcamp/libs/symbolic_regression

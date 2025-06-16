@@ -1,7 +1,11 @@
 import json
 import math
 import random
+<<<<<<< HEAD
+from bootcamp import Basebootcamp
+=======
 from internbootcamp.bootcamp.base import Basebootcamp
+>>>>>>> remotes/origin/main
 
 def remove_boxed(s):
     if "\\boxed " in s:
@@ -45,8 +49,8 @@ def last_boxed_only_string(string):
 
     return retval
 
-class MedCalculatorSandbox(Basebootcamp): # 医学计算器类
-    def __init__(self, conf_file="med_calculator.json", seed=None):
+class Medcalculatorbootcamp(Basebootcamp): # 医学计算器类
+    def __init__(self, conf_file="./internbootcamp/libs/med_calculator/med_calculator.json", seed=None):
         random.seed(seed)
         with open(conf_file, "r", encoding="utf-8") as f:
             self.config = json.load(f)
@@ -154,7 +158,11 @@ class MedCalculatorSandbox(Basebootcamp): # 医学计算器类
         return cases
 
 if __name__ == '__main__':
+<<<<<<< HEAD
+    bootcamp = MedCalculatorbootcamp(seed=42)
+=======
     bootcamp = MedCalculatorSandbox(seed=42)
+>>>>>>> remotes/origin/main
     identity = bootcamp.case_generator()
     print(f'{identity = }')
 

@@ -10,15 +10,19 @@ fi
 # 时间戳
 timestamp=$(date +"%Y-%m-%d-%H:%M:%S")
 # cipher输入集
-cipher_input_file='internbootcamp/libs/data/words_alpha_370000.txt'
 
-tokenizer="your tokenizer path" # tokenizer is used to calculate the sequence length of the prompt
+
+tokenizer="/cpfs01/shared/llm_ddd/lipeiji/hf_hub_1/models--Qwen--Qwen2.5-32B-Instruct/snapshots/afb2829595f63efa3548e9d6b13aa66e61aa0f38" # tokenizer is used to calculate the sequence length of the prompt
 max_prompt_len=4096
 max_jobs=64  # 设置最大并发进程数
 jobs=()     # 用于存储后台进程的PID
 
+
+
+# initialize, do not modify below part
+cipher_input_file='internbootcamp/libs/data/words_alpha_370000.txt'
 cipher_test_nums_for_single_cipher=0
-cipehr_train_nums_for_single_cipher=0
+cipher_train_nums_for_single_cipher=0
 
 while IFS= read -r line || [ -n "$line" ]; do
     # 跳过空行
@@ -39,17 +43,6 @@ while IFS= read -r line || [ -n "$line" ]; do
     fi
 
     # 异步运行Python脚本
-    python examples/pipelines/data_generator.py \
-        --bootcamp_name "$bootcamp_name" \
-        --n $sample_number \
-        --save_file "examples/bootcamp_generator_outputs/$timestamp/train/${bootcamp_name}.jsonl" \
-        --config_file "examples/pipelines/puzzle_configs/${config_file}_train.json" \
-        --bootcamp_cls_name "$bootcamp_cls_name" \
-        --tokenizer "$tokenizer" \
-        --max_prompt_len $max_prompt_len \
-        --shuffle 
-
-    # If there is no problem with the above command, you can use the following line to run it in multiple processes, replacing the above command
     # python examples/pipelines/data_generator.py \
     #     --bootcamp_name "$bootcamp_name" \
     #     --n $sample_number \
@@ -58,11 +51,23 @@ while IFS= read -r line || [ -n "$line" ]; do
     #     --bootcamp_cls_name "$bootcamp_cls_name" \
     #     --tokenizer "$tokenizer" \
     #     --max_prompt_len $max_prompt_len \
-    #     --shuffle &
+    #     --shuffle 
+
+    # If there is no problem with the above command, you can use the following line to run it in multiple processes, replacing the above command
+    python examples/pipelines/data_generator.py \
+        --bootcamp_name "$bootcamp_name" \
+        --n $sample_number \
+        --save_file "examples/bootcamp_generator_outputs/$timestamp/train/${bootcamp_name}.jsonl" \
+        --config_file "examples/pipelines/puzzle_configs/${config_file}_train.json" \
+        --bootcamp_cls_name "$bootcamp_cls_name" \
+        --tokenizer "$tokenizer" \
+        --max_prompt_len $max_prompt_len \
+        --shuffle &
 
     pid=$!  # 获取后台进程的PID
     jobs+=("$pid")  # 将PID加入数组
-
+    # 打印当前进程总数
+    # echo "Current running jobs: ${#jobs[@]}"
     # 控制并发数量
     while [ ${#jobs[@]} -ge $max_jobs ]; do
         wait -n  # 等待任意一个子进程结束
@@ -77,6 +82,9 @@ while IFS= read -r line || [ -n "$line" ]; do
     done
 done < examples/pipelines/data_configs/data_config_train.jsonl
 
+wait
+
+echo "train set generation finished, start test generation."
 
 while IFS= read -r line || [ -n "$line" ]; do
     # 跳过空行
@@ -123,8 +131,9 @@ while IFS= read -r line || [ -n "$line" ]; do
     done
 done < examples/pipelines/data_configs/data_config_test.jsonl
 
-# 等待所有后台任务完成
 wait
+
+echo "test set generation finished"
 
 # cipher test-set gen 
 python examples/pipelines/cipher_data_generator.py \
@@ -135,7 +144,7 @@ python examples/pipelines/cipher_data_generator.py \
 
 # cipher train——set gen
 python examples/pipelines/cipher_data_generator.py \
-    --nums $cipehr_train_nums_for_single_cipher \
+    --nums $cipher_train_nums_for_single_cipher \
     --split train \
     --timestamp $timestamp \
     --filepath $cipher_input_file

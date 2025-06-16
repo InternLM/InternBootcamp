@@ -1,3 +1,4 @@
+{"bootcamp_name": "SymbolicRegression", "sample_number": 30000, "config_file": "Symbolic_Regression", "bootcamp_cls_name": "SymbolicRegressionbootcamp"}
 {"bootcamp_name": "cipher", "sample_number": 200, "config_file": "cipher", "bootcamp_cls_name": "Cipherbootcamp"}
 {"bootcamp_name": "korLogicDisjunctiveNormalFormAndConjunctiveNormalForm", "sample_number": 1000, "config_file": "korLogicDisjunctiveNormalFormAndConjunctiveNormalForm", "bootcamp_cls_name": "KorLogicDisjunctiveNormalFormAndConjunctiveNormalFormbootcamp"}
 {"bootcamp_name": "korLogicFigureOfTheSyllogism", "sample_number": 1000, "config_file": "korLogicFigureOfTheSyllogism", "bootcamp_cls_name": "KorLogicFigureOfTheSyllogismbootcamp"}

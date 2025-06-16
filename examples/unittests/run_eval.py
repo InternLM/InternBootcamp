@@ -19,6 +19,8 @@ TEMPLATE_MAP = {
     "r1": {"chat_template":"<｜begin▁of▁sentence｜><｜User｜>{input}<｜Assistant｜><think>\n","stop_words":["<｜end▁of▁sentence｜>"]}, # r1 new chat template
     "qwen": {"chat_template":"<|im_start|>system\nYou are a helpful assistant.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]}, # default qwen template
     "internthinker":{"chat_template":"<|im_start|>system\nYou are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
+    "internbootcamp":{"chat_template":"<|im_start|>system\nYou are an expert reasoner with extensive experience in mathematical and code competitions. You approach problems through systematic thinking and rigorous reasoning. Your response should reflect deep understanding and precise logical thinking, making your solution path and reasoning clear to others. Please put your thinking process within <think>...</think> tags. After careful thought, present your final solution or answer clearly.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
+    "internbootcamp_v2":{"chat_template":"<|im_start|>system\nYou are a helpful assistant, skilled at solving various complex reasoning problems. When faced with any user questions, please first conduct a detailed thinking process, similar to drafting, where you can freely analyze problem-solving strategies and verify the correctness of your thought process. Please put your thinking process within <think> and </think> tags. After completing the thinking process, provide the user with a detailed response. Please note that the response accessible to the user will start after \"</think>\", so ensure that detailed chain-of-thought solution steps should be provided after the </think> tag.<|im_end|>\n<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]},
     "chatml":{"chat_template":"<|im_start|>user\n{input}<|im_end|>\n<|im_start|>assistant\n","stop_words":["<|im_end|>", "<|endoftext|>"]}, # No sys prompt chatml
 }
 
@@ -174,6 +176,9 @@ async def process_item(client, item, bootcamp, template, output_dir, semaphore, 
         score = bootcamp.verify_score(output, item["ground_truth"], short_penalty=False, format_penalty=False)
         try:
             extracted = bootcamp.extract_output(output)
+            if type(extracted) is not str:
+                # Convert non-string extracted output to string, only in this way we can ensure that the output is JSON serializable
+                extracted = str(extracted)
         except:
             extracted = None
         output_len = response.usage.completion_tokens if 'usage' in response else len(output.split())
@@ -241,19 +246,19 @@ async def evaluate_dataset(file_path, bootcamp, output_dir, template, semaphore,
 
 async def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--url', default='http://{ip}:{port}/v1',
+    parser.add_argument('--url', default='http://10.130.133.35:8000/v1',
                         help='Base URL of the OpenAI API compatible service. Default format is http://{ip}:{port}/v1.')
     parser.add_argument('--api_key', default='EMPTY',
                         help='API key for accessing the model service. Set to "EMPTY" if no key is required.')
-    parser.add_argument('--model_name', required=True,
+    parser.add_argument('--model_name', default='r1_32b',
                         help='Name of the model to be evaluated, e.g., r1_32B or other custom model name.')
-    parser.add_argument('--test_dir', required=True,
+    parser.add_argument('--test_dir', default='/cpfs01/shared/llm_ddd/lipeiji/InternBootcamp/examples/bootcamp_generator_outputs/2025-06-16-16:47:31/test',
                         help='Path to the directory containing test JSONL files for evaluation.')
-    parser.add_argument('--max_concurrent_requests', type=int, default=128,
+    parser.add_argument('--max_concurrent_requests', type=int, default=144,
                         help='Maximum number of concurrent requests allowed globally.')
-    parser.add_argument('--template', default='chatml',choices=['r1', 'qwen', 'internthinker', 'chatml'],
+    parser.add_argument('--template', default='r1',choices=['r1', 'qwen', 'internthinker', 'chatml','internbootcamp'],
                         help='Predefined conversation template used to format prompts. Only valid when api_mode is completion.')
-    parser.add_argument('--max_tokens', type=int, default=32768,
+    parser.add_argument('--max_tokens', type=int, default=16384,
                         help='Maximum number of tokens the model can generate.')
     parser.add_argument('--temperature', type=float, default=0,
                         help='Controls randomness in text generation. Lower values produce more deterministic outputs.')
@@ -263,7 +268,7 @@ async def main():
                         help='API mode to use: "completion" for raw text generation or "chat_completion" for chat-style APIs.')
     parser.add_argument('--sys_prompt', type=str,
                         help='System prompt content used in chat_completion mode. If not provided, uses the default from the template (if any).')
-    parser.add_argument('--max_retries', type=int, default=16,
+    parser.add_argument('--max_retries', type=int, default=8,
                         help='Maximum number of retries for failed requests.')
     parser.add_argument('--max_retrying_delay', type=int, default=60,
                         help='Maximum delay between retries in seconds (using exponential backoff).')

@@ -1,5 +1,6 @@
 import re
 import json
+import random
 
 
 class Basebootcamp:
@@ -46,7 +47,7 @@ class Basebootcamp:
     
 
     @classmethod
-    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=True, short_threshold=100, format_penalty=True) -> float:
+    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=256, think_threshold=128, ans_threshold=128, format_penalty=False) -> float:
         """
         Verify the output against the ground truth.
         
@@ -59,10 +60,10 @@ class Basebootcamp:
             float: The score of the output.
         """
         score = 0. 
-        if short_penalty and len(model_output) < short_threshold:
-            # if the output is too short, consider it incorrect
+        if format_penalty and ("<think>" not in model_output or "</think>" not in model_output):
             return score
-        if format_penalty and "</think>" not in model_output:
+        if format_penalty and (model_output.count("<think>") > 1 or model_output.count("</think>") > 1 or model_output.count("<think>") != model_output.count("</think>") or not model_output.startswith("<think>") or model_output.endswith("</think>")):
+            # should not end with </think>
             return score
         try:
             extract_solution = cls.extract_output(model_output)
@@ -80,6 +81,22 @@ class Basebootcamp:
         except Exception as e:
             # print("Error in verify_score:", e)
             pass
+        
+        ans_output = model_output.rsplit("</think>", 1)[1] if "</think>" in model_output else ""
+        think_length = len(model_output) - len(ans_output)
+        score = max(0, score)  # Ensure score is non-negative
+        if (short_penalty and len(model_output) < short_threshold) or (short_penalty and len(ans_output) < ans_threshold) or (short_penalty and think_length < think_threshold):
+            # if the output is too short, consider it incorrect
+            return min(score * len(model_output) / short_threshold, score * len(ans_output) / ans_threshold, score * think_length / think_threshold)
+        
+        # This for training Debug
+        if random.randint(1,1024) == 1:
+            print("=============DEBUG=============")
+            print("model_output:\n", model_output)
+            print("identity:\n", identity)
+            print("extract_solution:\n", extract_solution)
+            print("score:", score)
+            print("===============================")
         return score
 
 
