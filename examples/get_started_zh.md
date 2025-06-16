@@ -189,7 +189,7 @@ def _verify_correction(cls, solution, identity: dict) -> bool:
 
 ### 7. 配置 JSON 文件（可选，若无需生成数据，则不需要实现）
 
-在 `examples/pipelines/puzzle_configs` 目录下创建一个与 Bootcamp 类名一致的 JSON 配置文件（如 `BinaryArithmeticOperationsbootcamp_train.json`），用于定义该任务的参数。以下是一个示例配置：
+在 `examples/pipelines/puzzle_configs` 目录下创建两个(train与test)与 Bootcamp 类名一致但去除bootcamp后缀的 JSON 配置文件（如 `BinaryArithmeticOperations_train.json`、`BinaryArithmeticOperations_test.json`），用于定义该任务的参数。以下是一个示例配置：
 
 ```json
 [

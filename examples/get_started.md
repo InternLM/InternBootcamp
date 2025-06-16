@@ -189,7 +189,7 @@ def _verify_correction(cls, solution, identity: dict) -> bool:
 
 ### 7. Configure the JSON file (optional if no data generation is needed)
 
-Create a JSON configuration file consistent with the Bootcamp class name (e.g., `BinaryArithmeticOperationsbootcamp_train.json`) in the `examples/pipelines/puzzle_configs` directory to define the task parameters. Below is an example configuration:
+Create two JSON configuration files (for training and testing) in the `examples/pipelines/puzzle_configs` directory, with names matching the Bootcamp class name but without the "bootcamp" suffix (e.g., `BinaryArithmeticOperations_train.json`, `BinaryArithmeticOperations_test.json`), to define the parameters for this task. Below is an example configuration:
 
 ```json
 [
