@@ -12,6 +12,7 @@ Internbootcamp is an easy-to-use and extensible library of bootcamp environments
 ## Getting Started
 
 * [Installation](#section3)
+* [Quick Start](examples/get_started.md)
 * [Interfaces and Usages](#section4)
 
 

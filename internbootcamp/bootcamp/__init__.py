@@ -26,7 +26,7 @@ from .bbeh_multistep_arithmetic.multistep_arithmetic_default import BbehMultiste
 from .bbeh_multistep_arithmetic.multistep_arithmetic import BBEHMultistepArithmeticV2bootcamp
 from .bbeh_shuff_object.shuff_object import Bbehshuffobjectbootcamp
 from .bbeh_dyck.bbeh_dyck_languages_InternBootcampDEV import BbehDyckLanguagesbootcamp
-
+from .bbeh_hyperbaton.hyperbaton_default import BBEHHyperbatonbootcamp
 from .bbeh_boardgame_qa.bbeh_boardgame_qa import Bbehboardgameqabootcamp
 from .bbeh_boolean_expressions.bbeh_boolean_expressions import Bbehbooleanexpressionsbootcamp
 
