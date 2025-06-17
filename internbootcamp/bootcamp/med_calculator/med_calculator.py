@@ -154,7 +154,7 @@ class Medcalculatorbootcamp(Basebootcamp): # 医学计算器类
         return cases
 
 if __name__ == '__main__':
-    bootcamp = MedCalculatorbootcamp(seed=42)
+    bootcamp = Medcalculatorbootcamp(seed=42)
     identity = bootcamp.case_generator()
     print(f'{identity = }')
 

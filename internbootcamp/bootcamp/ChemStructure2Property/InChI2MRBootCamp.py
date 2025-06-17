@@ -2,7 +2,7 @@ from rdkit import Chem
 from rdkit.Chem import Crippen
 from .InChI2logPBootCamp import InChI2logPbootcamp
 
-class InChI2MRBootCamp(InChI2logPbootcamp):
+class InChI2MRbootCamp(InChI2logPbootcamp):
 
     def prompt_func(self, InChI) -> str:
 

@@ -19,7 +19,8 @@ setuptools.setup(
         "transformers",
         "langdetect",
         "pympler",
-        "shortuuid"
+        "shortuuid",
+        "rdkit"
     ],
 
     package_data={
