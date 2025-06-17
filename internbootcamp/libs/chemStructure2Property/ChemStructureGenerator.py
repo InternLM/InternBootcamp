@@ -9,7 +9,7 @@ class InChIGenerator:
     def __init__(self, max_atoms=15, min_atoms=3, elements=None, 
                  seed=None):
         RDLogger.DisableLog('rdApp.*')
-        random.seed(42) if seed is None else random.seed(seed)
+        random.seed(seed)
         self.max_atoms = max_atoms
         self.min_atoms = min_atoms
         if elements is None:
@@ -123,7 +123,7 @@ class SMILESGenerator:
     def __init__(self, min_len=5, max_len=25, 
                  seed=None):
         RDLogger.DisableLog('rdApp.*')
-        random.seed(42) if seed is None else random.seed(seed)
+        random.seed(seed)
         self.min_len = min_len
         self.max_len = max_len
 
