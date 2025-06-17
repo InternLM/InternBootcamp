@@ -113,7 +113,7 @@ class InChIGenerator:
                     except Exception as e:
                         # This can happen if the molecule is somehow malformed even after sanitization,
                         # or if InChI generation itself encounters an issue (rare).
-                        print(f"Debug: MolToInchi failed: {e} for SMILES: {Chem.MolToSmiles(mol)}")
+                        # print(f"Debug: MolToInchi failed: {e} for SMILES: {Chem.MolToSmiles(mol)}")
                         pass
 
         return list(valid_inchi_set)
@@ -244,7 +244,7 @@ class SMILESGenerator:
         valid_smiles_set = set()
         total_attempts_overall = 0
 
-        print(f"Attempting to generate {n} valid SMILES (min_len={self.min_len}, max_len={self.max_len})...")
+        # print(f"Attempting to generate {n} valid SMILES (min_len={self.min_len}, max_len={self.max_len})...")
         while len(valid_smiles_set) < n:
             attempts_for_current_smiles = 0
             generated_this_round = False

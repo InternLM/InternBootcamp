@@ -20,11 +20,10 @@ class InChI2logPbootcamp(Basebootcamp):
         生成一组数字和目标值。
         """
         self.InChIGenerator = InChIGenerator(max_atoms=self.max_atoms, min_atoms=self.min_atoms, elements=None, seed=None)
-        inchis = self.InChIGenerator.generate_n_valid_inchi(10)
+        inchis = self.InChIGenerator.generate_n_valid_inchi(1)
         # print(inchis)
-        n = random.randint(0, 9)
         # print(n)
-        return inchis[n]
+        return inchis[0]
 
     def prompt_func(self, InChI) -> str:
 
@@ -76,7 +75,7 @@ class InChI2logPbootcamp(Basebootcamp):
             return 0.0  # Error is too large, score is 0
         else:
             # Linear interpolation: score decreases linearly from 1 to 0 as error goes from 0 to max_relative_error
-            return 1.0 
+            # return 1.0 
             return 1 - (relative_error / max_relative_error) * 0.5 ## For RL
         
 if __name__ == "__main__":
