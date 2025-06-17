@@ -1,11 +1,7 @@
 import json
 import math
 import random
-<<<<<<< HEAD
-from bootcamp import Basebootcamp
-=======
 from internbootcamp.bootcamp.base import Basebootcamp
->>>>>>> remotes/origin/main
 
 def remove_boxed(s):
     if "\\boxed " in s:
@@ -158,11 +154,7 @@ class Medcalculatorbootcamp(Basebootcamp): # 医学计算器类
         return cases
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     bootcamp = MedCalculatorbootcamp(seed=42)
-=======
-    bootcamp = MedCalculatorSandbox(seed=42)
->>>>>>> remotes/origin/main
     identity = bootcamp.case_generator()
     print(f'{identity = }')
 
