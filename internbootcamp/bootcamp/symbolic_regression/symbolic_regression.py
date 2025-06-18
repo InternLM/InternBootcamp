@@ -138,9 +138,9 @@ Based on the above data, please infer the possible formula. Ensure that your inf
             x, y_true = data[:, :var_num], data[:, -1]
         except Exception as e:
             # import traceback
-            print("Exception while parsing symbolic formulas:", e)
-            print("Infer formula:", infer_formula)
-            print("Ground truth formula:", gt_formula)
+            # print("Exception while parsing symbolic formulas:", e)
+            # print("Infer formula:", infer_formula)
+            # print("Ground truth formula:", gt_formula)
             # traceback.print_exc()
             return 0.0
         if func_pred is not None:
@@ -157,7 +157,7 @@ Based on the above data, please infer the possible formula. Ensure that your inf
                 metrics['R2'] = r2_score(y_true, y_pred)
                 metrics['NMSE'] = np.mean((y_true - y_pred) ** 2) / np.var(y_true)
             except Exception as e:
-                print(f"Exception: {e}")
+                # print(f"Exception: {e}")
                 try:
                     x0_vals, x1_vals = generate_samples()
                     gt_vals = func_gt(x0_vals, x1_vals)
@@ -174,7 +174,8 @@ Based on the above data, please infer the possible formula. Ensure that your inf
                     metrics['R2'] = 1 - np.sum((gt_valid - pred_valid) ** 2) / np.var(gt_valid)
                     metrics['NMSE'] = np.mean((gt_valid - pred_valid) ** 2) / np.var(gt_valid)
                 except Exception as e:
-                    print(e)
+                    # print(e)
+                    pass
         # 判断方程等价性
         metrics['SymbolicMatch'] = is_symbolically_equivalent(infer_formula, gt_formula, var_num)
 
@@ -215,7 +216,7 @@ def _send_request(messages, mllm='gpt-4o'):
             content = response.json()['choices'][0]['message']['content']
             break
         except Exception as e:
-            print(f"Error: {e}, {response.json()}")
+            # print(f"Error: {e}, {response.json()}")
             pass
     return content
 
@@ -299,7 +300,7 @@ def parse_formula(formula_str: str):
             expr_str = formula_str.strip()
 
         if not expr_str:
-            print(f"[Parse Error] 公式字符串为空或剥离后为空: '{formula_str}'")
+            # print(f"[Parse Error] 公式字符串为空或剥离后为空: '{formula_str}'")
             return None
 
         local_dict = {"sin": sp.sin, "cos": sp.cos, "exp": sp.exp, "sqrt": sp.sqrt, "log": sp.log,
@@ -316,12 +317,12 @@ def parse_formula(formula_str: str):
         func = sp.lambdify(symbols, expr, modules=numpy_modules)
         return func, variable_names
     except (SyntaxError, TypeError, AttributeError, sp.SympifyError) as e:
-        print(f'[Parse Error] 无法解析公式 "{formula_str}": {e}')
+        # print(f'[Parse Error] 无法解析公式 "{formula_str}": {e}')
         # import traceback
         # traceback.print_exc()
         return None
     except Exception as e:
-        print(f'[Parse Error] 解析公式 "{formula_str}" 时发生意外错误: {e}')
+        # print(f'[Parse Error] 解析公式 "{formula_str}" 时发生意外错误: {e}')
         return None  
     
 

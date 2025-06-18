@@ -20,7 +20,7 @@ setuptools.setup(
         "langdetect",
         "pympler",
         "shortuuid",
-        "rdkit"
+        "rdkit==2024.3.2"
     ],
 
     package_data={
