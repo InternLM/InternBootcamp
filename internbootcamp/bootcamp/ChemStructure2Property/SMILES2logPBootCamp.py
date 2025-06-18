@@ -21,7 +21,7 @@ class SMILES2logPbootcamp(InChI2logPbootcamp):
         生成一组数字和目标值。
         """
         self.SMILESGenerator = SMILESGenerator(min_len=self.min_len, max_len=self.max_len, seed=None)
-        return self.SMILESGenerator.generate_n_valid_smiles(10)[random.randint(0, 9)]
+        return self.SMILESGenerator.generate_n_valid_smiles(1)[0]
 
     def prompt_func(self,  SMILES) -> str:
 
@@ -63,5 +63,5 @@ class SMILES2logPbootcamp(InChI2logPbootcamp):
             return 0.0  # Error is too large, score is 0
         else:
             # Linear interpolation: score decreases linearly from 1 to 0 as error goes from 0 to max_relative_error
-            return 1.0
+            # return 1.0
             return 1 - (relative_error / max_relative_error) * 0.5 ## For RL

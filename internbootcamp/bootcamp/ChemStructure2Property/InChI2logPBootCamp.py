@@ -20,11 +20,10 @@ class InChI2logPbootcamp(Basebootcamp):
         生成一组数字和目标值。
         """
         self.InChIGenerator = InChIGenerator(max_atoms=self.max_atoms, min_atoms=self.min_atoms, elements=None, seed=None)
-        inchis = self.InChIGenerator.generate_n_valid_inchi(10)
+        inchis = self.InChIGenerator.generate_n_valid_inchi(1)
         # print(inchis)
-        n = random.randint(0, 9)
         # print(n)
-        return inchis[n]
+        return inchis[0]
 
     def prompt_func(self, InChI) -> str:
 
