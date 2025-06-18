@@ -11,6 +11,7 @@ from .cipher.cipher_default import Cipherbootcamp
 from .crypto_math.crypto_math import Cryptomathbootcamp
 from .futoshiki.futoshiki import Futoshikibootcamp
 from .game24.game_default import Game24bootcamp
+from .circuit.circuit import Circuitbootcamp
 from .skyscrapers.skyscrapers import Skyscrapersbootcamp
 from .starbattle.starbattle_default import Starbattlebootcamp
 # from .masyu.masyu_default import Masyubootcamp
