@@ -15,16 +15,16 @@ class CoreCircuit:
         Ensures the graph is connected if n_nodes > 1.
         Seedable for reproducibility.
         """
-        print(f"[DEBUG libcircuit] generate_random_graph_edges called with n_nodes={n_nodes}, seed={seed}")
+        # print(f"[DEBUG libcircuit] generate_random_graph_edges called with n_nodes={n_nodes}, seed={seed}")
         if seed is not None:
             np.random.seed(seed)
-            print(f"[DEBUG libcircuit] NumPy random seed set to {seed}")
+            # print(f"[DEBUG libcircuit] NumPy random seed set to {seed}")
 
         if n_nodes == 0:
-            print("[DEBUG libcircuit] n_nodes is 0, returning []")
+            # print("[DEBUG libcircuit] n_nodes is 0, returning []")
             return []
         if n_nodes == 1:
-            print("[DEBUG libcircuit] n_nodes is 1, returning []")
+            # print("[DEBUG libcircuit] n_nodes is 1, returning []")
             return [] # No edges for a single node typically in circuit problems unless specified
 
         edges = []
@@ -40,19 +40,19 @@ class CoreCircuit:
             E = np.random.randint(min_e_int, max_e_int + 1) # Generate integer E
             edges.append((R, E, u, v))
         
-        print(f"[DEBUG libcircuit] Edges after spanning tree: {len(edges)}")
+        # print(f"[DEBUG libcircuit] Edges after spanning tree: {len(edges)}")
 
         max_possible_edges = n_nodes * (n_nodes -1) // 2
-        print(f"[DEBUG libcircuit] max_possible_edges: {max_possible_edges}")
+        # print(f"[DEBUG libcircuit] max_possible_edges: {max_possible_edges}")
 
         if n_nodes > 2:
             num_additional_edges_max = max(0, min(int(n_nodes * 0.5), max_possible_edges - (n_nodes - 1)))
-            print(f"[DEBUG libcircuit] num_additional_edges_max: {num_additional_edges_max}")
+            # print(f"[DEBUG libcircuit] num_additional_edges_max: {num_additional_edges_max}")
             
             num_target_additional_edges = 0
             if num_additional_edges_max > 0:
                 num_target_additional_edges = np.random.randint(2, num_additional_edges_max + 1)
-            print(f"[DEBUG libcircuit] num_target_additional_edges: {num_target_additional_edges}")
+            # print(f"[DEBUG libcircuit] num_target_additional_edges: {num_target_additional_edges}")
 
             existing_pairs = set()
             for _, _, u, v in edges:
@@ -62,10 +62,10 @@ class CoreCircuit:
             max_attempts_per_edge = n_nodes * n_nodes # A relatively loose attempt limit
 
             if num_target_additional_edges > 0:
-                print(f"[DEBUG libcircuit] Attempting to add {num_target_additional_edges} additional edges.")
+                # print(f"[DEBUG libcircuit] Attempting to add {num_target_additional_edges} additional edges.")
                 for i in range(num_target_additional_edges):
                     if len(existing_pairs) >= max_possible_edges:
-                        print("[DEBUG libcircuit] Graph is full, cannot add more edges.")
+                        # print("[DEBUG libcircuit] Graph is full, cannot add more edges.")
                         break # Graph is full
 
                     current_attempts = 0
@@ -79,23 +79,26 @@ class CoreCircuit:
                             existing_pairs.add(tuple(sorted((u, v))))
                             successfully_added_edges += 1
                             added_this_iteration = True
-                            print(f"[DEBUG libcircuit] Successfully added additional edge #{successfully_added_edges} (target {i+1}/{num_target_additional_edges}). Total edges: {len(edges)}")
+                            # print(f"[DEBUG libcircuit] Successfully added additional edge #{successfully_added_edges} (target {i+1}/{num_target_additional_edges}). Total edges: {len(edges)}")
                             break # Successfully added, break from while
                         current_attempts += 1
                     
                     if not added_this_iteration:
-                        print(f"[DEBUG libcircuit] Failed to add additional edge target {i+1}/{num_target_additional_edges} after {max_attempts_per_edge} attempts.")
+                        # print(f"[DEBUG libcircuit] Failed to add additional edge target {i+1}/{num_target_additional_edges} after {max_attempts_per_edge} attempts.")
                         # Optional: log a warning if an edge couldn't be added despite many attempts
                         # print(f"Warning: Could not add target additional edge after {max_attempts_per_edge} attempts.")
                         # break # Stop trying to add more additional edges if one attempt fails badly
+                        pass
             else:
-                print("[DEBUG libcircuit] num_target_additional_edges is 0, no additional edges will be attempted.")
+                # print("[DEBUG libcircuit] num_target_additional_edges is 0, no additional edges will be attempted.")
+                pass
             
-            print(f"[DEBUG libcircuit] Total successfully_added_edges: {successfully_added_edges}")
+            # print(f"[DEBUG libcircuit] Total successfully_added_edges: {successfully_added_edges}")
         else:
-            print("[DEBUG libcircuit] n_nodes is not > 2, skipping additional edge logic.")
+            # print("[DEBUG libcircuit] n_nodes is not > 2, skipping additional edge logic.")
+            pass
         
-        print(f"[DEBUG libcircuit] Returning {len(edges)} edges.")
+        # print(f"[DEBUG libcircuit] Returning {len(edges)} edges.")
         return edges
 
     @staticmethod
