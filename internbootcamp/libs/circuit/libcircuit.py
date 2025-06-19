@@ -50,8 +50,10 @@ class CoreCircuit:
             # print(f"[DEBUG libcircuit] num_additional_edges_max: {num_additional_edges_max}")
             
             num_target_additional_edges = 0
-            if num_additional_edges_max > 0:
+            if num_additional_edges_max > 1:
                 num_target_additional_edges = np.random.randint(2, num_additional_edges_max + 1)
+            elif num_additional_edges_max == 1:
+                num_target_additional_edges = 1
             # print(f"[DEBUG libcircuit] num_target_additional_edges: {num_target_additional_edges}")
 
             existing_pairs = set()
