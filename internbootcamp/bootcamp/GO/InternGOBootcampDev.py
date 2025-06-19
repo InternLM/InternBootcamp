@@ -109,7 +109,7 @@ class InternGObootcamp(Basebootcamp):
             return None
 
     @classmethod
-    def verify_score(cls, model_output, identity:dict, format_score=0.2) -> float:
+    def verify_score(cls, model_output, identity:dict, format_score=0.2, **kwargs) -> float:
         """
         验证LLM的输出是否符合要求
         
