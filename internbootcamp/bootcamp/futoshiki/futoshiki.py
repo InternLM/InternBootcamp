@@ -1,6 +1,5 @@
-
-
-### 谜题描述
+"""
+谜题描述
 
 Futoshiki is a logic puzzle played on an N×N grid where the objective is to fill each cell with a unique number from 1 to N, adhering to three core principles:
 
@@ -11,13 +10,12 @@ Futoshiki is a logic puzzle played on an N×N grid where the objective is to fil
    Between certain pairs of adjacent cells (horizontally or vertically), there are inequality symbols (< or >). These symbols enforce relationships:  
    - **A > B** means the number in cell A must be greater than the number in cell B.  
    - **A < B** means the number in cell A must be less than the number in cell B.  
-   The direction of the symbol determines the comparison (e.g., a \">\" between two horizontal cells means the left cell is greater; a \">\" between vertical cells means the upper cell is greater).
+   The direction of the symbol determines the comparison (e.g., a ">" between two horizontal cells means the left cell is greater; a ">" between vertical cells means the upper cell is greater).
 
 3. **Deductive Logic**:  
    The puzzle begins with some numbers pre-filled and inequalities provided. Solvers must deduce the remaining numbers by ensuring all uniqueness and inequality rules are satisfied simultaneously. Inequalities override potential number placements even if row/column uniqueness is temporarily met.
 
 The challenge lies in balancing the constraints of uniqueness and inequalities to uniquely determine the solution.
-
 
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
