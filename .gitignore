@@ -1,3 +1,6 @@
+## flangeplane
+internbootcamp/bootcamp/flangeplane/DeepCAD/work_dir/
+internbootcamp/bootcamp/flangeplane/DeepCAD/squashfs-root/
 
 ## outputs
 data_generator_outputs/
@@ -31,8 +34,9 @@ autoverifier/outputs
 test_bootcamp.py
 test_bootcamp_*.py
 fig.png
-
+examples/pipelines/filter_autogen_configs.py
 test*.py
+examples/pipelines/quickgen_data_configs_from_eval_meta.py
 
 
 # training
