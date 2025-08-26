@@ -60,7 +60,8 @@ python examples/unittests/run_eval.py \
     --max_concurrent_requests 128 \
     --timeout 6000 \
     --max_retries 16 \
-    --max_retrying_delay 60
+    --max_retrying_delay 60 \
+    --resume
 ```
 
 注意：当 `api_mode` 指定为 `completion` 时，需正确设置对应的 `template`（支持 `r1`、`qwen`、`internthinker`、`chatml`（无系统提示））。更详细的内容请参考 [评测手册](/examples/unittests/README_zh.md)。
