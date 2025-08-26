@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 20,
+        "seed": null
+    },
+    {
+        "min_n": 1,
+        "max_n": 5,
+        "seed": null
+    },
+    {
+        "min_n": 100,
+        "max_n": 500,
+        "seed": null
+    },
+    {
+        "min_n": 50,
+        "max_n": 100,
+        "seed": 123
+    }
+]

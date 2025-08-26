@@ -1,0 +1,30 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 1000,
+        "v_min": 0,
+        "v_max": 100000,
+        "m_max_ratio": 0.9
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "v_min": 10,
+        "v_max": 200,
+        "m_max_ratio": 0.3
+    },
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "v_min": 10,
+        "v_max": 300,
+        "m_max_ratio": 0.6
+    },
+    {
+        "n_min": 10,
+        "n_max": 20,
+        "v_min": 50,
+        "v_max": 500,
+        "m_max_ratio": 0.7
+    }
+]

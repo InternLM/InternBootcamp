@@ -1,0 +1,50 @@
+[
+    {
+        "min_n": 50,
+        "max_n": 500,
+        "allow_positive": true,
+        "allow_negative": true,
+        "min_val": -1000000000,
+        "max_val": 1000000000
+    },
+    {
+        "min_n": 1,
+        "max_n": 1,
+        "allow_positive": true,
+        "allow_negative": true,
+        "min_val": 0,
+        "max_val": 0
+    },
+    {
+        "min_n": 10,
+        "max_n": 100,
+        "allow_positive": true,
+        "allow_negative": true,
+        "min_val": -1000,
+        "max_val": 1000
+    },
+    {
+        "min_n": 2,
+        "max_n": 5,
+        "allow_positive": false,
+        "allow_negative": true,
+        "min_val": -1000000000,
+        "max_val": -1
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "allow_positive": true,
+        "allow_negative": false,
+        "min_val": 1,
+        "max_val": 1000000000
+    },
+    {
+        "min_n": 5,
+        "max_n": 20,
+        "allow_positive": false,
+        "allow_negative": true,
+        "min_val": -100,
+        "max_val": -1
+    }
+]

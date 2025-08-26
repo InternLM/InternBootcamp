@@ -1,0 +1,18 @@
+[
+    {
+        "max_n": 5,
+        "element_range": 50
+    },
+    {
+        "max_n": 10,
+        "element_range": 100
+    },
+    {
+        "max_n": 15,
+        "element_range": 150
+    },
+    {
+        "max_n": 30,
+        "element_range": 300
+    }
+]

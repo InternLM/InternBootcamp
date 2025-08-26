@@ -1,0 +1,38 @@
+[
+    {
+        "max_t": 3,
+        "max_n": 10,
+        "min_t": 1,
+        "pal_ratio": 0.4
+    },
+    {
+        "max_t": 5,
+        "max_n": 50,
+        "min_t": 1,
+        "pal_ratio": 0.3
+    },
+    {
+        "max_t": 5,
+        "max_n": 25,
+        "min_t": 1,
+        "pal_ratio": 0.5
+    },
+    {
+        "max_t": 3,
+        "max_n": 5,
+        "min_t": 1,
+        "pal_ratio": 0.4
+    },
+    {
+        "max_t": 10,
+        "max_n": 20,
+        "min_t": 1,
+        "pal_ratio": 0.4
+    },
+    {
+        "max_t": 5,
+        "max_n": 30,
+        "min_t": 1,
+        "pal_ratio": 0.6
+    }
+]

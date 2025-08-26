@@ -1,0 +1,38 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 1000,
+        "solvable_probability": 0.7,
+        "value_range": [
+            0,
+            10000
+        ]
+    },
+    {
+        "min_n": 1,
+        "max_n": 500,
+        "solvable_probability": 0.5,
+        "value_range": [
+            0,
+            1000
+        ]
+    },
+    {
+        "min_n": 2,
+        "max_n": 500,
+        "solvable_probability": 0.4,
+        "value_range": [
+            0,
+            100
+        ]
+    },
+    {
+        "min_n": 1,
+        "max_n": 200,
+        "solvable_probability": 0.3,
+        "value_range": [
+            0,
+            100
+        ]
+    }
+]

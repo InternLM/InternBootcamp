@@ -1,0 +1,32 @@
+[
+    {
+        "difficulty": "easy",
+        "timeout": 30,
+        "language": "zh"
+    },
+    {
+        "difficulty": "medium",
+        "timeout": 30,
+        "language": "zh"
+    },
+    {
+        "difficulty": "hard",
+        "timeout": 30,
+        "language": "zh"
+    },
+    {
+        "difficulty": "easy",
+        "timeout": 30,
+        "language": "en"
+    },
+    {
+        "difficulty": "medium",
+        "timeout": 30,
+        "language": "en"
+    },
+    {
+        "difficulty": "hard",
+        "timeout": 30,
+        "language": "en"
+    }
+]

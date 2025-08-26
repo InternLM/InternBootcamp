@@ -1,0 +1,18 @@
+[
+    {
+        "max_steps": 2,
+        "max_size": 8
+    },
+    {
+        "max_steps": 7,
+        "max_size": 256
+    },
+    {
+        "max_steps": 6,
+        "max_size": 128
+    },
+    {
+        "max_steps": 4,
+        "max_size": 32
+    }
+]

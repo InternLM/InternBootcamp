@@ -1,0 +1,10 @@
+[
+    {
+        "seed": 456,
+        "solvable_prob": 0.3
+    },
+    {
+        "seed": 123,
+        "solvable_prob": 0.7
+    }
+]

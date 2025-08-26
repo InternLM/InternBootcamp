@@ -1,0 +1,17 @@
+[
+    {
+        "max_n": 10,
+        "max_m": 10,
+        "random_seed": 4321
+    },
+    {
+        "max_n": 15,
+        "max_m": 15,
+        "random_seed": 9876
+    },
+    {
+        "max_n": 7,
+        "max_m": 6,
+        "random_seed": 12345
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "n": 4,
+        "k_list": [
+            0,
+            1,
+            2,
+            3
+        ],
+        "correct_answer": 4
+    },
+    {
+        "n": 3,
+        "k_list": [
+            2,
+            1,
+            4
+        ],
+        "correct_answer": 5
+    },
+    {
+        "n": 4,
+        "k_list": [
+            3,
+            1,
+            4,
+            1
+        ],
+        "correct_answer": 6
+    },
+    {
+        "n": 5,
+        "k_list": [
+            3,
+            1,
+            4,
+            1,
+            5
+        ],
+        "correct_answer": 11
+    },
+    {
+        "n": 4,
+        "k_list": [
+            3,
+            1,
+            4,
+            4
+        ],
+        "correct_answer": 6
+    },
+    {
+        "n": 2,
+        "k_list": [
+            2,
+            5
+        ],
+        "correct_answer": 5
+    }
+]

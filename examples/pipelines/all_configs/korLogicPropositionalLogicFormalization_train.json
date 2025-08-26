@@ -1,0 +1,44 @@
+[
+    {
+        "problem_type": "symbolize",
+        "num_propositions": 3,
+        "max_questions": 3,
+        "allowed_connectives": [
+            "&",
+            "||",
+            "~"
+        ]
+    },
+    {
+        "problem_type": "symbolize",
+        "num_propositions": 3,
+        "max_questions": 4,
+        "allowed_connectives": [
+            "&",
+            "=>",
+            "~"
+        ]
+    },
+    {
+        "problem_type": "symbolize",
+        "num_propositions": 4,
+        "max_questions": 3,
+        "allowed_connectives": [
+            "&",
+            "||",
+            "~",
+            "=>",
+            "="
+        ]
+    },
+    {
+        "problem_type": "symbolize",
+        "num_propositions": 2,
+        "max_questions": 5,
+        "allowed_connectives": [
+            "&",
+            "||",
+            "~"
+        ]
+    }
+]

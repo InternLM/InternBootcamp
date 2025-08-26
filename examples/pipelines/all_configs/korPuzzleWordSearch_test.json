@@ -1,0 +1,34 @@
+[
+    {
+        "grid_size": 20,
+        "word_list": [
+            "PYTHON",
+            "JAVASCRIPT",
+            "HTML",
+            "CSS",
+            "SQL",
+            "RUBY"
+        ]
+    },
+    {
+        "grid_size": 10,
+        "word_list": [
+            "COMPUTER",
+            "PROGRAM",
+            "ALGORITHM"
+        ]
+    },
+    {
+        "grid_size": 8,
+        "word_list": [
+            "SUN",
+            "MOON",
+            "STARS",
+            "PLANET"
+        ]
+    },
+    {
+        "grid_size": 13,
+        "word_list": null
+    }
+]

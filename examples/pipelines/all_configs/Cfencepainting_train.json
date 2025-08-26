@@ -1,0 +1,37 @@
+[
+    {
+        "possible": true,
+        "max_n": 20,
+        "max_m": 10
+    },
+    {
+        "possible": true,
+        "max_n": 5,
+        "max_m": 5
+    },
+    {
+        "possible": true,
+        "max_n": 10,
+        "max_m": 5
+    },
+    {
+        "possible": true,
+        "max_n": 15,
+        "max_m": 5
+    },
+    {
+        "possible": true,
+        "max_n": 5,
+        "max_m": 10
+    },
+    {
+        "possible": false,
+        "max_n": 15,
+        "max_m": 15
+    },
+    {
+        "possible": false,
+        "max_n": 20,
+        "max_m": 20
+    }
+]

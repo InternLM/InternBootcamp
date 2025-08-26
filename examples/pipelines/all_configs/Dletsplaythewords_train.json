@@ -1,0 +1,20 @@
+[
+    {
+        "min_words": 5,
+        "max_words": 20,
+        "min_length": 3,
+        "max_length": 8
+    },
+    {
+        "min_words": 2,
+        "max_words": 10,
+        "min_length": 2,
+        "max_length": 10
+    },
+    {
+        "min_words": 3,
+        "max_words": 15,
+        "min_length": 4,
+        "max_length": 12
+    }
+]

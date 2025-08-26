@@ -1,0 +1,26 @@
+[
+    {
+        "k_min": 1,
+        "k_max": 4,
+        "element_min": 5,
+        "element_max": 20
+    },
+    {
+        "k_min": 1,
+        "k_max": 5,
+        "element_min": 1,
+        "element_max": 10
+    },
+    {
+        "k_min": 1,
+        "k_max": 3,
+        "element_min": 1,
+        "element_max": 5
+    },
+    {
+        "k_min": 1,
+        "k_max": 10,
+        "element_min": 1,
+        "element_max": 50
+    }
+]

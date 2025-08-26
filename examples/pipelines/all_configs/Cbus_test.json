@@ -1,0 +1,30 @@
+[
+    {
+        "max_n": 75,
+        "min_n": 1,
+        "max_m": 20,
+        "max_t_step": 7,
+        "max_x": 800
+    },
+    {
+        "max_n": 20,
+        "min_n": 1,
+        "max_m": 5,
+        "max_t_step": 3,
+        "max_x": 500
+    },
+    {
+        "max_n": 80,
+        "min_n": 1,
+        "max_m": 40,
+        "max_t_step": 8,
+        "max_x": 900
+    },
+    {
+        "max_n": 50,
+        "min_n": 1,
+        "max_m": 25,
+        "max_t_step": 5,
+        "max_x": 500
+    }
+]

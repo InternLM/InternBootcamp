@@ -1,0 +1,50 @@
+[
+    {
+        "n_min": 3,
+        "n_max": 50,
+        "seed": 123,
+        "enforce_valid": false,
+        "sizes": [
+            2,
+            2,
+            2
+        ],
+        "edge_ratio": 0.8
+    },
+    {
+        "n_min": 3,
+        "n_max": 20,
+        "seed": 42,
+        "enforce_valid": true,
+        "sizes": [
+            1,
+            1,
+            1
+        ],
+        "edge_ratio": 1.0
+    },
+    {
+        "n_min": 3,
+        "n_max": 15,
+        "seed": 101,
+        "enforce_valid": false,
+        "sizes": [
+            1,
+            2,
+            3
+        ],
+        "edge_ratio": 0.9
+    },
+    {
+        "n_min": 3,
+        "n_max": 25,
+        "seed": 202,
+        "enforce_valid": true,
+        "sizes": [
+            4,
+            4,
+            4
+        ],
+        "edge_ratio": 1.0
+    }
+]

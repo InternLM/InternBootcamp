@@ -1,0 +1,34 @@
+[
+    {
+        "n_range": [
+            1,
+            25
+        ],
+        "mask_prob": 0.6,
+        "unsolve_prob": 0.1
+    },
+    {
+        "n_range": [
+            1,
+            20
+        ],
+        "mask_prob": 0.5,
+        "unsolve_prob": 0.2
+    },
+    {
+        "n_range": [
+            1,
+            10
+        ],
+        "mask_prob": 0.4,
+        "unsolve_prob": 0.3
+    },
+    {
+        "n_range": [
+            1,
+            15
+        ],
+        "mask_prob": 0.3,
+        "unsolve_prob": 0.4
+    }
+]

@@ -86,7 +86,10 @@ def main_pipeline(
             except Exception as e:
                 failure += 1
                 if failure > 512:
-                    print(config, f"seems to be a too challenging config to generate cases , because of {e}")
+                    import traceback
+                    traceback.print_exc()
+                    print(bootcamp_cls_name.replace("bootcamp", ""), config, f"seems to be a too challenging config to generate cases , because of {e}")
+                    failure = 0
                 continue
             
     writer.close()

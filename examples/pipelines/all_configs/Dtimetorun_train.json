@@ -1,0 +1,58 @@
+[
+    {
+        "min_n": 20,
+        "max_n": 50,
+        "min_m": 20,
+        "max_m": 50,
+        "possible_prob": 0.4,
+        "max_k": 10000
+    },
+    {
+        "min_n": 1,
+        "max_n": 50,
+        "min_m": 1,
+        "max_m": 50,
+        "possible_prob": 0.4,
+        "max_k": 15000
+    },
+    {
+        "min_n": 4,
+        "max_n": 35,
+        "min_m": 4,
+        "max_m": 35,
+        "possible_prob": 0.5,
+        "max_k": 12000
+    },
+    {
+        "min_n": 10,
+        "max_n": 40,
+        "min_m": 10,
+        "max_m": 40,
+        "possible_prob": 0.6,
+        "max_k": 20000
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "min_m": 1,
+        "max_m": 10,
+        "possible_prob": 0.9,
+        "max_k": 500
+    },
+    {
+        "min_n": 2,
+        "max_n": 30,
+        "min_m": 2,
+        "max_m": 30,
+        "possible_prob": 0.5,
+        "max_k": 5000
+    },
+    {
+        "min_n": 1,
+        "max_n": 20,
+        "min_m": 1,
+        "max_m": 20,
+        "possible_prob": 0.3,
+        "max_k": 1000
+    }
+]

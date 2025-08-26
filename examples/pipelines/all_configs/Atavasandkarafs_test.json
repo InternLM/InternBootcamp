@@ -1,0 +1,30 @@
+[
+    {
+        "min_A": 1,
+        "max_A": 50,
+        "min_B": 1,
+        "max_B": 200,
+        "n_queries": 5
+    },
+    {
+        "min_A": 1,
+        "max_A": 100,
+        "min_B": 1,
+        "max_B": 100,
+        "n_queries": 3
+    },
+    {
+        "min_A": 50,
+        "max_A": 200,
+        "min_B": 10,
+        "max_B": 300,
+        "n_queries": 4
+    },
+    {
+        "min_A": 200,
+        "max_A": 500,
+        "min_B": 100,
+        "max_B": 300,
+        "n_queries": 3
+    }
+]

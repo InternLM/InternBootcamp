@@ -1,0 +1,30 @@
+[
+    {
+        "solvable_prob": 0.7,
+        "min_n": 1,
+        "max_n": 4,
+        "min_m": 1,
+        "max_m": 6
+    },
+    {
+        "solvable_prob": 0.3,
+        "min_n": 3,
+        "max_n": 6,
+        "min_m": 2,
+        "max_m": 8
+    },
+    {
+        "solvable_prob": 0.4,
+        "min_n": 4,
+        "max_n": 8,
+        "min_m": 3,
+        "max_m": 10
+    },
+    {
+        "solvable_prob": 0.5,
+        "min_n": 2,
+        "max_n": 5,
+        "min_m": 0,
+        "max_m": 3
+    }
+]

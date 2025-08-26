@@ -1,0 +1,30 @@
+[
+    {
+        "max_b_length": 2,
+        "max_c_length": 3,
+        "max_a_length": 10,
+        "min_length": 1,
+        "max_attempts": 2000
+    },
+    {
+        "max_b_length": 6,
+        "max_c_length": 7,
+        "max_a_length": 25,
+        "min_length": 2,
+        "max_attempts": 1500
+    },
+    {
+        "max_b_length": 3,
+        "max_c_length": 4,
+        "max_a_length": 15,
+        "min_length": 1,
+        "max_attempts": 500
+    },
+    {
+        "max_b_length": 4,
+        "max_c_length": 6,
+        "max_a_length": 18,
+        "min_length": 2,
+        "max_attempts": 800
+    }
+]

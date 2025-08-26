@@ -1,0 +1,10 @@
+[
+    {
+        "min_nodes": 1,
+        "max_nodes": 1000
+    },
+    {
+        "min_nodes": 1,
+        "max_nodes": 100
+    }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "max_length": 4,
+        "max_questions": 4
+    },
+    {
+        "max_length": 7,
+        "max_questions": 5
+    },
+    {
+        "max_length": 1,
+        "max_questions": 0
+    },
+    {
+        "max_length": 5,
+        "max_questions": 3
+    },
+    {
+        "max_length": 3,
+        "max_questions": 1
+    }
+]

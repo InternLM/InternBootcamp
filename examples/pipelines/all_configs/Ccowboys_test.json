@@ -1,0 +1,32 @@
+[
+    {
+        "min_length": 3,
+        "max_length": 60,
+        "random_seed": null
+    },
+    {
+        "min_length": 3,
+        "max_length": 10,
+        "random_seed": 101
+    },
+    {
+        "min_length": 5,
+        "max_length": 50,
+        "random_seed": 123
+    },
+    {
+        "min_length": 3,
+        "max_length": 20,
+        "random_seed": 42
+    },
+    {
+        "min_length": 3,
+        "max_length": 100,
+        "random_seed": 1234
+    },
+    {
+        "min_length": 3,
+        "max_length": 100,
+        "random_seed": null
+    }
+]

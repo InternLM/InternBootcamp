@@ -1,0 +1,44 @@
+[
+    {
+        "student_count_range": [
+            5,
+            20
+        ],
+        "school_coord_range": [
+            0,
+            1000
+        ],
+        "student_coord_range": [
+            0,
+            1000
+        ]
+    },
+    {
+        "student_count_range": [
+            5,
+            20
+        ],
+        "school_coord_range": [
+            0,
+            100000
+        ],
+        "student_coord_range": [
+            0,
+            100000
+        ]
+    },
+    {
+        "student_count_range": [
+            10,
+            50
+        ],
+        "school_coord_range": [
+            0,
+            1000000
+        ],
+        "student_coord_range": [
+            0,
+            1000000
+        ]
+    }
+]

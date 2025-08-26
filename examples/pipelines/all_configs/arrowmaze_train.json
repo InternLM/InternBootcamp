@@ -1,0 +1,62 @@
+[
+    {
+        "size": [
+            2,
+            2
+        ],
+        "start_pos": [
+            0,
+            0
+        ],
+        "end_pos": [
+            1,
+            1
+        ],
+        "max_solution_step": 4
+    },
+    {
+        "size": [
+            3,
+            3
+        ],
+        "start_pos": [
+            0,
+            0
+        ],
+        "end_pos": [
+            2,
+            2
+        ],
+        "max_solution_step": 9
+    },
+    {
+        "size": [
+            4,
+            4
+        ],
+        "start_pos": [
+            0,
+            0
+        ],
+        "end_pos": [
+            3,
+            3
+        ],
+        "max_solution_step": 16
+    },
+    {
+        "size": [
+            5,
+            5
+        ],
+        "start_pos": [
+            0,
+            0
+        ],
+        "end_pos": [
+            4,
+            4
+        ],
+        "max_solution_step": 25
+    }
+]

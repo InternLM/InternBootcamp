@@ -1,0 +1,32 @@
+[
+    {
+        "case_type": "k2",
+        "min_length": 5,
+        "max_length": 15
+    },
+    {
+        "case_type": "impossible",
+        "min_length": 4,
+        "max_length": 20
+    },
+    {
+        "case_type": "k2",
+        "min_length": 3,
+        "max_length": 10
+    },
+    {
+        "case_type": "k1",
+        "min_length": 4,
+        "max_length": 25
+    },
+    {
+        "case_type": "k1",
+        "min_length": 3,
+        "max_length": 20
+    },
+    {
+        "case_type": "impossible",
+        "min_length": 5,
+        "max_length": 25
+    }
+]

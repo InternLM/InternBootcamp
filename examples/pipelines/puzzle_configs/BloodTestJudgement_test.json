@@ -1,0 +1,32 @@
+[
+    {
+        "seed": 3407,
+        "max_num_items": 2,
+        "augment_unit": true
+    },
+    {
+        "seed": 3408,
+        "max_num_items": 4,
+        "augment_unit": false
+    },
+    {
+        "seed": 3409,
+        "max_num_items": 8,
+        "augment_unit": false
+    },
+    {
+        "seed": 3410,
+        "max_num_items": 16,
+        "augment_unit": false
+    },
+    {
+        "seed": 3411,
+        "max_num_items": 20,
+        "augment_unit": false
+    },
+    {
+        "seed": 514,
+        "max_num_items": 24,
+        "augment_unit": false
+    }
+]

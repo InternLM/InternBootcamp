@@ -1,0 +1,34 @@
+[
+    {
+        "k_min": 2,
+        "k_max": 5,
+        "n_min": 5,
+        "n_max": 10,
+        "w_min": 3,
+        "w_max": 5
+    },
+    {
+        "k_min": 1,
+        "k_max": 10,
+        "n_min": 5,
+        "n_max": 15,
+        "w_min": 1,
+        "w_max": 5
+    },
+    {
+        "k_min": 5,
+        "k_max": 10,
+        "n_min": 10,
+        "n_max": 20,
+        "w_min": 1,
+        "w_max": 5
+    },
+    {
+        "k_min": 1,
+        "k_max": 5,
+        "n_min": 5,
+        "n_max": 15,
+        "w_min": 1,
+        "w_max": 3
+    }
+]

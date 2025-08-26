@@ -1,0 +1,18 @@
+[
+    {
+        "n": 3,
+        "max_digits": 5
+    },
+    {
+        "n": 50,
+        "max_digits": 25
+    },
+    {
+        "n": 1,
+        "max_digits": 1
+    },
+    {
+        "n": 100,
+        "max_digits": 25
+    }
+]

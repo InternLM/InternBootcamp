@@ -1,0 +1,26 @@
+[
+    {
+        "max_attempts": 1,
+        "seed": 2,
+        "difficulty": "easy"
+    },
+    {
+        "max_attempts": 4,
+        "seed": 123,
+        "difficulty": "hard"
+    },
+    {
+        "max_attempts": 3,
+        "seed": 0,
+        "difficulty": "medium"
+    },
+    {
+        "max_attempts": 1,
+        "seed": 999
+    },
+    {
+        "max_attempts": 5,
+        "seed": 1,
+        "difficulty": "hard"
+    }
+]

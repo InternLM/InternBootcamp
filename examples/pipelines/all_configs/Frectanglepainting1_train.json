@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 12,
+        "black_prob": 0.5
+    },
+    {
+        "n_min": 2,
+        "n_max": 5,
+        "black_prob": 0.6
+    },
+    {
+        "n_min": 4,
+        "n_max": 6,
+        "black_prob": 0.7
+    },
+    {
+        "n_min": 3,
+        "n_max": 8,
+        "black_prob": 0.4
+    }
+]
