@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mahmoud and Ehab are in the fourth stage now.
 
 Dr. Evil has a hidden binary string of length n. He guarantees that there is at least one '0' symbol and at least one '1' symbol in it. Now he wants Mahmoud and Ehab to find a position of any '0' symbol and any '1' symbol. In order to do this, Mahmoud and Ehab can ask Dr. Evil up to 15 questions. They tell Dr. Evil some binary string of length n, and Dr. Evil tells the Hamming distance between these two strings. Hamming distance between 2 binary strings of the same length is the number of positions in which they have different symbols. You can find the definition of Hamming distance in the notes section below.

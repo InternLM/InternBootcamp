@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Igor the analyst fell asleep on the work and had a strange dream. In the dream his desk was crowded with computer mice, so he bought a mousetrap to catch them.
 
 The desk can be considered as an infinite plane, then the mousetrap is a rectangle which sides are parallel to the axes, and which opposite sides are located in points (x1, y1) and (x2, y2).

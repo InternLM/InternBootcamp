@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 People in the Tomskaya region like magic formulas very much. You can see some of them below.
 
 Imagine you are given a sequence of positive integer numbers p1, p2, ..., pn. Lets write down some magic formulas:

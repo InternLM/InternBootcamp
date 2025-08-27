@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Everybody knows what an arithmetic progression is. Let us remind you just in case that an arithmetic progression is such sequence of numbers a1, a2, ..., an of length n, that the following condition fulfills: 
 
 a2 - a1 = a3 - a2 = a4 - a3 = ... = ai + 1 - ai = ... = an - an - 1.

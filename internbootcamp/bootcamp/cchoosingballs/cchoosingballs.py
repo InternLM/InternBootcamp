@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n balls. They are arranged in a row. Each ball has a color (for convenience an integer) and an integer value. The color of the i-th ball is ci and the value of the i-th ball is vi.
 
 Squirrel Liss chooses some balls and makes a new sequence without changing the relative order of the balls. She wants to maximize the value of this sequence.

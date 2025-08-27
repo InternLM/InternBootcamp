@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 After years of hard work scientists invented an absolutely new e-reader display. The new display has a larger resolution, consumes less energy and its production is cheaper. And besides, one can bend it. The only inconvenience is highly unusual management. For that very reason the developers decided to leave the e-readers' software to programmers.
 
 The display is represented by n × n square of pixels, each of which can be either black or white. The display rows are numbered with integers from 1 to n upside down, the columns are numbered with integers from 1 to n from the left to the right. The display can perform commands like \"x, y\". When a traditional display fulfills such command, it simply inverts a color of (x, y), where x is the row number and y is the column number. But in our new display every pixel that belongs to at least one of the segments (x, x) - (x, y) and (y, y) - (x, y) (both ends of both segments are included) inverts a color.

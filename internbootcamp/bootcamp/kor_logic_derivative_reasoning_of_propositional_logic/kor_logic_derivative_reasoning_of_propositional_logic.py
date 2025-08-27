@@ -260,10 +260,9 @@ Please answer in the format of [[A/B/C]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import re
 import random
-from bootcamp import Basebootcamp
 
 class KorLogicDerivativeReasoningOfPropositionalLogicbootcamp(Basebootcamp):
     def __init__(self, apply_prob=0.7, methods=None, subjects=None, predicates=None):
@@ -291,9 +290,6 @@ class KorLogicDerivativeReasoningOfPropositionalLogicbootcamp(Basebootcamp):
         }
 
     def case_generator(self):
-        if random.random() < self.apply_prob:
-            return self._generate_apply_case()
-        else:
             return self._generate_infer_case()
 
     def _generate_apply_case(self):
@@ -408,3 +404,18 @@ class KorLogicDerivativeReasoningOfPropositionalLogicbootcamp(Basebootcamp):
                    identity['correct_answer'].lower().replace(' ', '').replace('.','')
         else:
             return solution.upper() == identity['correct_method']
+
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicDerivativeReasoningOfPropositionalLogicbootcamp
+        bootcamp = KorLogicDerivativeReasoningOfPropositionalLogicbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, 'case', '='*50 + '\n', case,'='*50, 'case', '='*50)
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case),'\n' +'='*50, bootcamp_cls.__name__, '='*50)
+            input_answer = input('Enter your answer: ')
+            print('提取到的答案：', bootcamp_cls.extract_output(input_answer), '\n')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

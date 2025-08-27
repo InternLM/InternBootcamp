@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Boboniu defines BN-string as a string s of characters 'B' and 'N'.
 
 You can perform the following operations on the BN-string s:

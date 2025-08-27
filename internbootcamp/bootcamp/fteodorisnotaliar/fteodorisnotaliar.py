@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Young Teodor enjoys drawing. His favourite hobby is drawing segments with integer borders inside his huge [1;m] segment. One day Teodor noticed that picture he just drawn has one interesting feature: there doesn't exist an integer point, that belongs each of segments in the picture. Having discovered this fact, Teodor decided to share it with Sasha.
 
 Sasha knows that Teodor likes to show off so he never trusts him. Teodor wants to prove that he can be trusted sometimes, so he decided to convince Sasha that there is no such integer point in his picture, which belongs to each segment. However Teodor is lazy person and neither wills to tell Sasha all coordinates of segments' ends nor wills to tell him their amount, so he suggested Sasha to ask him series of questions 'Given the integer point xi, how many segments in Fedya's picture contain that point?', promising to tell correct answers for this questions.

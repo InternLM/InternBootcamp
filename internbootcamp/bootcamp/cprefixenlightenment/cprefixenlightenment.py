@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n lamps on a line, numbered from 1 to n. Each one has an initial state off (0) or on (1).
 
 You're given k subsets A_1, …, A_k of \{1, 2, ..., n\}, such that the intersection of any three subsets is empty. In other words, for all 1 ≤ i_1 < i_2 < i_3 ≤ k, A_{i_1} ∩ A_{i_2} ∩ A_{i_3} = ∅.

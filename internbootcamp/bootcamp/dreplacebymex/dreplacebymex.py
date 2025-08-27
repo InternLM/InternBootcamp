@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You're given an array of n integers between 0 and n inclusive.
 
 In one operation, you can choose any element of the array and replace it by the MEX of the elements of the array (which may change after the operation).

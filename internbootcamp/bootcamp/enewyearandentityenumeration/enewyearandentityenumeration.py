@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given an integer m.
 
 Let M = 2m - 1.

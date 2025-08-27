@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Dima's got a staircase that consists of n stairs. The first stair is at height a1, the second one is at a2, the last one is at an (1 ≤ a1 ≤ a2 ≤ ... ≤ an). 
 
 Dima decided to play with the staircase, so he is throwing rectangular boxes at the staircase from above. The i-th box has width wi and height hi. Dima throws each box vertically down on the first wi stairs of the staircase, that is, the box covers stairs with numbers 1, 2, ..., wi. Each thrown box flies vertically down until at least one of the two following events happen:

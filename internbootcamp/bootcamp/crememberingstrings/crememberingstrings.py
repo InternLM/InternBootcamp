@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You have multiset of n strings of the same length, consisting of lowercase English letters. We will say that those strings are easy to remember if for each string there is some position i and some letter c of the English alphabet, such that this string is the only string in the multiset that has letter c in position i.
 
 For example, a multiset of strings {\"abc\", \"aba\", \"adc\", \"ada\"} are not easy to remember. And multiset {\"abc\", \"ada\", \"ssa\"} is easy to remember because: 

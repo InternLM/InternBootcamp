@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 The objective of the Bridges puzzle (Hashiwokakero) is to connect all numbered \"islands\" on a grid using horizontal/vertical bridges, adhering to these principles:
 

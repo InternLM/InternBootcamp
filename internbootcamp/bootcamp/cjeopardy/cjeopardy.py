@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 'Jeopardy!' is an intellectual game where players answer questions and earn points. Company Q conducts a simplified 'Jeopardy!' tournament among the best IT companies. By a lucky coincidence, the old rivals made it to the finals: company R1 and company R2. 
 
 The finals will have n questions, m of them are auction questions and n - m of them are regular questions. Each question has a price. The price of the i-th question is ai points. During the game the players chose the questions. At that, if the question is an auction, then the player who chose it can change the price if the number of his current points is strictly larger than the price of the question. The new price of the question cannot be less than the original price and cannot be greater than the current number of points of the player who chose the question. The correct answer brings the player the points equal to the price of the question. The wrong answer to the question reduces the number of the player's points by the value of the question price.

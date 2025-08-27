@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Daniel has a string s, consisting of lowercase English letters and period signs (characters '.'). Let's define the operation of replacement as the following sequence of steps: find a substring \"..\" (two consecutive periods) in string s, of all occurrences of the substring let's choose the first one, and replace this substring with string \".\". In other words, during the replacement operation, the first two consecutive periods are replaced by one. If string s contains no two consecutive periods, then nothing happens.
 
 Let's define f(s) as the minimum number of operations of replacement to perform, so that the string does not have any two consecutive periods left.

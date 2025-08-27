@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 NN is an experienced internet user and that means he spends a lot of time on the social media. Once he found the following image on the Net, which asked him to compare the sizes of inner circles:
 
 <image>

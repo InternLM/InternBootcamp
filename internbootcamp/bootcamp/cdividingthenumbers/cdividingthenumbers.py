@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Petya has n integers: 1, 2, 3, ..., n. He wants to split these integers in two non-empty groups in such a way that the absolute difference of sums of integers in each group is as small as possible. 
 
 Help Petya to split the integers. Each of n integers should be exactly in one group.

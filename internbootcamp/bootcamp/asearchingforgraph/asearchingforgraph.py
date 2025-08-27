@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let's call an undirected graph of n vertices p-interesting, if the following conditions fulfill: 
 
   * the graph contains exactly 2n + p edges; 

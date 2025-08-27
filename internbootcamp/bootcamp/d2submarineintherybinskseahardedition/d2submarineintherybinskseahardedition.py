@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This problem differs from the previous one only in the absence of the constraint on the equal length of all numbers a_1, a_2, ..., a_n.
 
 A team of SIS students is going to make a trip on a submarine. Their target is an ancient treasure in a sunken ship lying on the bottom of the Great Rybinsk sea. Unfortunately, the students don't know the coordinates of the ship, so they asked Meshanya (who is a hereditary mage) to help them. He agreed to help them, but only if they solve his problem.

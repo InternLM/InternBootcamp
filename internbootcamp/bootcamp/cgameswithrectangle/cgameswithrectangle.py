@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In this task Anna and Maria play the following game. Initially they have a checkered piece of paper with a painted n × m rectangle (only the border, no filling). Anna and Maria move in turns and Anna starts. During each move one should paint inside the last-painted rectangle a new lesser rectangle (along the grid lines). The new rectangle should have no common points with the previous one. Note that when we paint a rectangle, we always paint only the border, the rectangles aren't filled.
 
 Nobody wins the game — Anna and Maria simply play until they have done k moves in total. Count the number of different ways to play this game.

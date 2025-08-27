@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ayoub thinks that he is a very smart person, so he created a function f(s), where s is a binary string (a string which contains only symbols \"0\" and \"1\"). The function f(s) is equal to the number of substrings in the string s that contains at least one symbol, that is equal to \"1\".
 
 More formally, f(s) is equal to the number of pairs of integers (l, r), such that 1 ≤ l ≤ r ≤ |s| (where |s| is equal to the length of string s), such that at least one of the symbols s_l, s_{l+1}, …, s_r is equal to \"1\". 

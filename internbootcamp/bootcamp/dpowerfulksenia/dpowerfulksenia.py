@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ksenia has an array a consisting of n positive integers a_1, a_2, …, a_n. 
 
 In one operation she can do the following: 

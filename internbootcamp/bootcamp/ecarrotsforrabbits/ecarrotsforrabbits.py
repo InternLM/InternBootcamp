@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are some rabbits in Singapore Zoo. To feed them, Zookeeper bought n carrots with lengths a_1, a_2, a_3, …, a_n. However, rabbits are very fertile and multiply very quickly. Zookeeper now has k rabbits and does not have enough carrots to feed all of them. To solve this problem, Zookeeper decided to cut the carrots into k pieces. For some reason, all resulting carrot lengths must be positive integers.
 
 Big carrots are very difficult for rabbits to handle and eat, so the time needed to eat a carrot of size x is x^2.

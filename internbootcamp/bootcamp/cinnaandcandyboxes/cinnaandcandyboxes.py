@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Inna loves sweets very much. She has n closed present boxes lines up in a row in front of her. Each of these boxes contains either a candy (Dima's work) or nothing (Sereja's work). Let's assume that the boxes are numbered from 1 to n, from left to right.
 
 As the boxes are closed, Inna doesn't know which boxes contain candies and which boxes contain nothing. Inna chose number k and asked w questions to Dima to find that out. Each question is characterised by two integers li, ri (1 ≤ li ≤ ri ≤ n; r - l + 1 is divisible by k), the i-th question is: \"Dima, is that true that among the boxes with numbers from li to ri, inclusive, the candies lie only in boxes with numbers li + k - 1, li + 2k - 1, li + 3k - 1, ..., ri?\"

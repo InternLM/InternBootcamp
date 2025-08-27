@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a directed graph G with n vertices and m arcs (multiple arcs and self-loops are allowed). You have to paint each vertex of the graph into one of the k (k ≤ n) colors in such way that for all arcs of the graph leading from a vertex u to vertex v, vertex v is painted with the next color of the color used to paint vertex u.
 
 The colors are numbered cyclically 1 through k. This means that for each color i (i < k) its next color is color i + 1. In addition, the next color of color k is color 1. Note, that if k = 1, then the next color for color 1 is again color 1.

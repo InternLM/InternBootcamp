@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nastya came to her informatics lesson, and her teacher who is, by the way, a little bit famous here gave her the following task.
 
 Two matrices A and B are given, each of them has size n × m. Nastya can perform the following operation to matrix A unlimited number of times: 

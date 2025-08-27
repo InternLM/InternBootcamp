@@ -306,11 +306,10 @@ Please give your answer in the format [[A/B/C/D]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import random
 import re
 from typing import Dict, List
-from bootcamp import Basebootcamp
 
 class KorLogicSpeechActsbootcamp(Basebootcamp):
     # 增强型属性映射表
@@ -453,3 +452,18 @@ Respond with [[LETTER ONLY]].'''
     @classmethod
     def _verify_correction(cls, solution: str, identity: Dict) -> bool:
         return solution == identity["correct_answer"]
+
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicSpeechActsbootcamp
+        bootcamp = KorLogicSpeechActsbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, 'case', '='*50 + '\n', case, '\n' ,'='*50, 'case', '='*50)
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case),'\n' +'='*50, bootcamp_cls.__name__, '='*50)
+            input_answer = input('Enter your answer: ')
+            print('提取到的答案：', bootcamp_cls.extract_output(input_answer), '\n')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

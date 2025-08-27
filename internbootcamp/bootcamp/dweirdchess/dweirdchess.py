@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Igor has been into chess for a long time and now he is sick of the game by the ordinary rules. He is going to think of new rules of the game and become world famous.
 
 Igor's chessboard is a square of size n × n cells. Igor decided that simple rules guarantee success, that's why his game will have only one type of pieces. Besides, all pieces in his game are of the same color. The possible moves of a piece are described by a set of shift vectors. The next passage contains a formal description of available moves.

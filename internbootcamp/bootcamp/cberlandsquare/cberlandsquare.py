@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Last year the world's largest square was built in Berland. It is known that the square can be represented as an infinite plane with an introduced Cartesian system of coordinates. On that square two sets of concentric circles were painted. Let's call the set of concentric circles with radii 1, 2, ..., K and the center in the point (z, 0) a (K, z)-set. Thus, on the square were painted a (N, x)-set and a (M, y)-set. You have to find out how many parts those sets divided the square into.
 
 Input

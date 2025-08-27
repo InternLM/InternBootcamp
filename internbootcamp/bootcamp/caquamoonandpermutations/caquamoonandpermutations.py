@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Cirno has prepared n arrays of length n each. Each array is a permutation of n integers from 1 to n. These arrays are special: for all 1 ≤ i ≤ n, if we take the i-th element of each array and form another array of length n with these elements, the resultant array is also a permutation of n integers from 1 to n. In the other words, if you put these n arrays under each other to form a matrix with n rows and n columns, this matrix is a [Latin square](https://en.wikipedia.org/wiki/Latin_square).
 
 Afterwards, Cirno added additional n arrays, each array is a permutation of n integers from 1 to n. For all 1 ≤ i ≤ n, there exists at least one position 1 ≤ k ≤ n, such that for the i-th array and the (n + i)-th array, the k-th element of both arrays is the same. Notice that the arrays indexed from n + 1 to 2n don't have to form a Latin square. 

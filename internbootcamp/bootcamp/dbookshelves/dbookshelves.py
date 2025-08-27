@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mr Keks is a typical white-collar in Byteland.
 
 He has a bookshelf in his office with some books on it, each book has an integer positive price.

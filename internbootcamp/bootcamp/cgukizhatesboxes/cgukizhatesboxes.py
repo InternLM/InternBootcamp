@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Professor GukiZ is concerned about making his way to school, because massive piles of boxes are blocking his way. 
 
 In total there are n piles of boxes, arranged in a line, from left to right, i-th pile (1 ≤ i ≤ n) containing ai boxes. Luckily, m students are willing to help GukiZ by removing all the boxes from his way. Students are working simultaneously. At time 0, all students are located left of the first pile. It takes one second for every student to move from this position to the first pile, and after that, every student must start performing sequence of two possible operations, each taking one second to complete. Possible operations are:

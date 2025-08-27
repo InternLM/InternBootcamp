@@ -14,7 +14,7 @@ class Starbattlebootcamp(Basebootcamp):
         self.grid, self.star_positions = generate_star_battle_grid(self.size)
         return self.grid
 
-    def case_generator(self, size:tuple = (8,8), expect_camp_number:int = 8, random_rate:float = 0.1 , seed:int = None):
+    def case_generator(self):
         grid = self.generator()
 
         return {

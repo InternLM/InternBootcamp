@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 'In Boolean logic, a formula is in conjunctive normal form (CNF) or clausal normal form if it is a conjunction of clauses, where a clause is a disjunction of literals' (cited from https://en.wikipedia.org/wiki/Conjunctive_normal_form)
 
 In the other words, CNF is a formula of type <image>, where & represents a logical \"AND\" (conjunction), <image> represents a logical \"OR\" (disjunction), and vij are some boolean variables or their negations. Each statement in brackets is called a clause, and vij are called literals.

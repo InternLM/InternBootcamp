@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Gildong has a square board consisting of n rows and n columns of square cells, each consisting of a single digit (from 0 to 9). The cell at the j-th column of the i-th row can be represented as (i, j), and the length of the side of each cell is 1. Gildong likes big things, so for each digit d, he wants to find a triangle such that:
 
   * Each vertex of the triangle is in the center of a cell. 

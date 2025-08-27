@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is the second subtask of problem F. The only differences between this and the first subtask are the constraints on the value of m and the time limit. It is sufficient to solve this subtask in order to hack it, but you need to solve both subtasks in order to hack the first one.
 
 There are n+1 distinct colours in the universe, numbered 0 through n. There is a strip of paper m centimetres long initially painted with colour 0. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Kleofáš is participating in an n-thlon - a tournament consisting of n different competitions in n different disciplines (numbered 1 through n). There are m participants in the n-thlon and each of them participates in all competitions.
 
 In each of these n competitions, the participants are given ranks from 1 to m in such a way that no two participants are given the same rank - in other words, the ranks in each competition form a permutation of numbers from 1 to m. The score of a participant in a competition is equal to his/her rank in it.

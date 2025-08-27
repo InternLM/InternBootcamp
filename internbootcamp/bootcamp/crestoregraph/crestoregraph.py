@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Valera had an undirected connected graph without self-loops and multiple edges consisting of n vertices. The graph had an interesting property: there were at most k edges adjacent to each of its vertices. For convenience, we will assume that the graph vertices were indexed by integers from 1 to n.
 
 One day Valera counted the shortest distances from one of the graph vertices to all other ones and wrote them out in array d. Thus, element d[i] of the array shows the shortest distance from the vertex Valera chose to vertex number i.

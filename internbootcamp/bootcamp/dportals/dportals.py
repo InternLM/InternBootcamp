@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You play a strategic video game (yeah, we ran out of good problem legends). In this game you control a large army, and your goal is to conquer n castles of your opponent.
 
 Let's describe the game process in detail. Initially you control an army of k warriors. Your enemy controls n castles; to conquer the i-th castle, you need at least a_i warriors (you are so good at this game that you don't lose any warriors while taking over a castle, so your army stays the same after the fight). After you take control over a castle, you recruit new warriors into your army — formally, after you capture the i-th castle, b_i warriors join your army. Furthermore, after capturing a castle (or later) you can defend it: if you leave at least one warrior in a castle, this castle is considered defended. Each castle has an importance parameter c_i, and your total score is the sum of importance values over all defended castles. There are two ways to defend a castle:

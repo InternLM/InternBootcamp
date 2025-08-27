@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Metropolis computer network consists of n servers, each has an encryption key in the range from 0 to 2^k - 1 assigned to it. Let c_i be the encryption key assigned to the i-th server. Additionally, m pairs of servers are directly connected via a data communication channel. Because of the encryption algorithms specifics, a data communication channel can only be considered safe if the two servers it connects have distinct encryption keys. The initial assignment of encryption keys is guaranteed to keep all data communication channels safe.
 
 You have been informed that a new virus is actively spreading across the internet, and it is capable to change the encryption key of any server it infects. More specifically, the virus body contains some unknown number x in the same aforementioned range, and when server i is infected, its encryption key changes from c_i to c_i ⊕ x, where ⊕ denotes the [bitwise XOR operation](https://en.wikipedia.org/wiki/Bitwise_operation#XOR).

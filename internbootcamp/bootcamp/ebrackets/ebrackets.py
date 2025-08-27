@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A two dimensional array is called a bracket array if each grid contains one of the two possible brackets — \"(\" or \")\". A path through the two dimensional array cells is called monotonous if any two consecutive cells in the path are side-adjacent and each cell of the path is located below or to the right from the previous one. 
 
 A two dimensional array whose size equals n × m is called a correct bracket array, if any string formed by writing out the brackets on some monotonous way from cell (1, 1) to cell (n, m) forms a correct bracket sequence. 

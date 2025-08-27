@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Rainbow built h cells in a row that are numbered from 1 to h from left to right. There are n cells with treasure. We call each of these n cells \"Treasure Cell\". The i-th \"Treasure Cell\" is the ai-th cell and the value of treasure in it is ci dollars.
 
 Then, Freda went in the first cell. For now, she can go just k cells forward, or return to the first cell. That means Freda was able to reach the 1st, (k + 1)-th, (2·k + 1)-th, (3·k + 1)-th cells and so on.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Iahub got lost in a very big desert. The desert can be represented as a n × n square matrix, where each cell is a zone of the desert. The cell (i, j) represents the cell at row i and column j (1 ≤ i, j ≤ n). Iahub can go from one cell (i, j) only down or right, that is to cells (i + 1, j) or (i, j + 1). 
 
 Also, there are m cells that are occupied by volcanoes, which Iahub cannot enter. 

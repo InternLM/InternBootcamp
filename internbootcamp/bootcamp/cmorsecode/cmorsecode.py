@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In Morse code, an letter of English alphabet is represented as a string of some length from 1 to 4. Moreover, each Morse code representation of an English letter contains only dots and dashes. In this task, we will represent a dot with a \"0\" and a dash with a \"1\".
 
 Because there are 2^1+2^2+2^3+2^4 = 30 strings with length 1 to 4 containing only \"0\" and/or \"1\", not all of them correspond to one of the 26 English letters. In particular, each string of \"0\" and/or \"1\" of length at most 4 translates into a distinct English letter, except the following four strings that do not correspond to any English alphabet: \"0011\", \"0101\", \"1110\", and \"1111\".

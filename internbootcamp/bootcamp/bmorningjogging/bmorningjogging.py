@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The 2050 volunteers are organizing the \"Run! Chase the Rising Sun\" activity. Starting on Apr 25 at 7:30 am, runners will complete the 6km trail around the Yunqi town.
 
 There are n+1 checkpoints on the trail. They are numbered by 0, 1, ..., n. A runner must start at checkpoint 0 and finish at checkpoint n. No checkpoint is skippable — he must run from checkpoint 0 to checkpoint 1, then from checkpoint 1 to checkpoint 2 and so on. Look at the picture in notes section for clarification.

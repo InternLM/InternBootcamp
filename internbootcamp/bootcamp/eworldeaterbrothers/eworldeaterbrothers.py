@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You must have heard of the two brothers dreaming of ruling the world. With all their previous plans failed, this time they decided to cooperate with each other in order to rule the world. 
 
 As you know there are n countries in the world. These countries are connected by n - 1 directed roads. If you don't consider direction of the roads there is a unique path between every pair of countries in the world, passing through each road at most once. 

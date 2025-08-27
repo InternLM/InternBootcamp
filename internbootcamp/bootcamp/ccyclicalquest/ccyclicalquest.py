@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Some days ago, WJMZBMR learned how to answer the query \"how many times does a string x occur in a string s\" quickly by preprocessing the string s. But now he wants to make it harder.
 
 So he wants to ask \"how many consecutive substrings of s are cyclical isomorphic to a given string x\". You are given string s and n strings xi, for each string xi find, how many consecutive substrings of s are cyclical isomorphic to xi.

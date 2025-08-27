@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Drazil likes heap very much. So he created a problem with heap:
 
 There is a max heap with a height h implemented on the array. The details of this heap are the following:

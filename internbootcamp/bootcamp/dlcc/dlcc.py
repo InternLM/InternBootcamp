@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 An infinitely long Line Chillland Collider (LCC) was built in Chillland. There are n pipes with coordinates x_i that are connected to LCC. When the experiment starts at time 0, i-th proton flies from the i-th pipe with speed v_i. It flies to the right with probability p_i and flies to the left with probability (1 - p_i). The duration of the experiment is determined as the time of the first collision of any two protons. In case there is no collision, the duration of the experiment is considered to be zero.
 
 Find the expected value of the duration of the experiment.

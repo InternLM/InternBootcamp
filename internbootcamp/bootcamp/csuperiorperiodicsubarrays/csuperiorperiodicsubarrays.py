@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given an infinite periodic array a0, a1, ..., an - 1, ... with the period of length n. Formally, <image>. A periodic subarray (l, s) (0 ≤ l < n, 1 ≤ s < n) of array a is an infinite periodic array with a period of length s that is a subsegment of array a, starting with position l.
 
 A periodic subarray (l, s) is superior, if when attaching it to the array a, starting from index l, any element of the subarray is larger than or equal to the corresponding element of array a. An example of attaching is given on the figure (top — infinite array a, bottom — its periodic subarray (l, s)):

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Alexander is learning how to convert numbers from the decimal system to any other, however, he doesn't know English letters, so he writes any number only as a decimal number, it means that instead of the letter A he will write the number 10. Thus, by converting the number 475 from decimal to hexadecimal system, he gets 11311 (475 = 1·162 + 13·161 + 11·160). Alexander lived calmly until he tried to convert the number back to the decimal number system.
 
 Alexander remembers that he worked with little numbers so he asks to find the minimum decimal number so that by converting it to the system with the base n he will get the number k.

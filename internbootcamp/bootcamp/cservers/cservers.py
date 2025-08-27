@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n servers in a laboratory, each of them can perform tasks. Each server has a unique id — integer from 1 to n.
 
 It is known that during the day q tasks will come, the i-th of them is characterized with three integers: ti — the moment in seconds in which the task will come, ki — the number of servers needed to perform it, and di — the time needed to perform this task in seconds. All ti are distinct.

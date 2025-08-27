@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given two permutations p and q, consisting of n elements, and m queries of the form: l1, r1, l2, r2 (l1 ≤ r1; l2 ≤ r2). The response for the query is the number of such integers from 1 to n, that their position in the first permutation is in segment [l1, r1] (borders included), and position in the second permutation is in segment [l2, r2] (borders included too).
 
 A permutation of n elements is the sequence of n distinct integers, each not less than 1 and not greater than n.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 On the competitive programming platform CodeCook, every person has a rating graph described by an array of integers a of length n. You are now updating the infrastructure, so you've created a program to compress these graphs.
 
 The program works as follows. Given an integer parameter k, the program takes the minimum of each contiguous subarray of length k in a.

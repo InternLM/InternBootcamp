@@ -5,24 +5,7 @@ import re
 import os
 from typing import Optional, Dict, List, Tuple, Any
 # Attempt to import Basebootcamp, assuming the path is accessible
-try:
-    from internbootcamp.bootcamp.base import Basebootcamp
-except ImportError:
-    # Fallback if the specific path is not found, e.g. for local testing
-    # This might need adjustment based on the actual execution environment
-    class Basebootcamp:
-        def __init__(self, *args, **kwargs):
-            pass
-        def case_generator(self):
-            raise NotImplementedError
-        def prompt_func(self, identity):
-            raise NotImplementedError
-        @staticmethod
-        def extract_output(output_str):
-            raise NotImplementedError
-        @classmethod
-        def _verify_correction(cls, solution, identity):
-            raise NotImplementedError
+from internbootcamp.bootcamp.base import Basebootcamp
 
 # Import the new core logic class
 # Assuming the path is relative to the workspace root or correctly configured in PYTHONPATH
@@ -130,13 +113,13 @@ class Circuitbootcamp(Basebootcamp):
 
     @staticmethod
     def _parse_and_eval_equation(eq_str: str, true_branch_currents: List[Optional[float]], atol: float = 1e-2, rtol: float = 1e-3) -> bool:
-        # print(f"[DEBUG _parse_and_eval_equation] Evaluating equation: '{eq_str}' with currents: {true_branch_currents}")
+        # # print(f"[DEBUG _parse_and_eval_equation] Evaluating equation: '{eq_str}' with currents: {true_branch_currents}")
         if "=" not in eq_str:
             # print("[DEBUG _parse_and_eval_equation] No '=' found in equation string.")
             return False
 
         lhs_str, rhs_str = eq_str.split('=', 1)
-        # print(f"[DEBUG _parse_and_eval_equation] LHS string: '{lhs_str}', RHS string: '{rhs_str}'")
+        # # print(f"[DEBUG _parse_and_eval_equation] LHS string: '{lhs_str}', RHS string: '{rhs_str}'")
 
         # Create a very limited scope for eval
         # Only allow math constants and functions that don't interact with system
@@ -149,7 +132,7 @@ class Circuitbootcamp(Basebootcamp):
 
 
         def evaluate_side(side_str: str, true_branch_currents: List[Optional[float]]) -> Optional[float]:
-            # print(f"[DEBUG evaluate_side] Evaluating side: '{side_str}'")
+            # # print(f"[DEBUG evaluate_side] Evaluating side: '{side_str}'")
             substituted_side_str = side_str.strip()
 
             # 自动补全省略的乘号，例如 10 I_2 -> 10*I_2，I_1 I_2 -> I_1*I_2
@@ -164,11 +147,11 @@ class Circuitbootcamp(Basebootcamp):
 
             # Find all I_(\d+) tokens, sort by index (desc) to replace I_10 before I_1
             current_vars = sorted(list(set(re.findall(r'I_(\d+)', substituted_side_str))), key=lambda x: int(x), reverse=True)
-            # print(f"[DEBUG evaluate_side] Found current variables: {current_vars}")
+            # # print(f"[DEBUG evaluate_side] Found current variables: {current_vars}")
 
             for idx_str in current_vars:
                 current_idx = int(idx_str)
-                # print(f"[DEBUG evaluate_side] Attempting to substitute I_{current_idx}")
+                # # print(f"[DEBUG evaluate_side] Attempting to substitute I_{current_idx}")
                 if 0 < current_idx <= len(true_branch_currents):
                     val = true_branch_currents[current_idx - 1]
                     if val is None:
@@ -177,7 +160,7 @@ class Circuitbootcamp(Basebootcamp):
                     # Ensure substitution is for the whole variable name, e.g. I_1 not I_10
                     original_substituted_side_str = substituted_side_str
                     substituted_side_str = re.sub(r'\bI_' + idx_str + r'\b', f"({str(val)})", substituted_side_str)
-                    # print(f"[DEBUG evaluate_side] Substituting I_{idx_str} with ({str(val)}). Before: '{original_substituted_side_str}', After: '{substituted_side_str}'")
+                    # # print(f"[DEBUG evaluate_side] Substituting I_{idx_str} with ({str(val)}). Before: '{original_substituted_side_str}', After: '{substituted_side_str}'")
                 else:
                     # print(f"[DEBUG evaluate_side] Warning: Current index I_{idx_str} out of bounds for true_branch_currents (len {len(true_branch_currents)})")
                     return None  # Current index out of bounds
@@ -186,17 +169,17 @@ class Circuitbootcamp(Basebootcamp):
             # Allows 'e' or 'E' for scientific notation.
             remaining_vars_match = re.search(r'[a-df-zA-DF-Z]', substituted_side_str) # Check for letters other than e/E
             if remaining_vars_match:
-                # print(f"[DEBUG evaluate_side] Warning: Expression '{substituted_side_str}' contains unhandled variables or functions (e.g., '{remaining_vars_match.group(0)}') after substitution.")
+                # # print(f"[DEBUG evaluate_side] Warning: Expression '{substituted_side_str}' contains unhandled variables or functions (e.g., '{remaining_vars_match.group(0)}') after substitution.")
                 return None
             else:
-                # print(f"[DEBUG evaluate_side] No unhandled variables found in '{substituted_side_str}'.")
+                # # print(f"[DEBUG evaluate_side] No unhandled variables found in '{substituted_side_str}'.")
                 pass
             
             try:
-                # print(f"[DEBUG evaluate_side] Attempting to eval: '{substituted_side_str}'")
+                # # print(f"[DEBUG evaluate_side] Attempting to eval: '{substituted_side_str}'")
                 # Evaluate the expression string.
                 value = eval(substituted_side_str, safe_globals, safe_locals)
-                # print(f"[DEBUG evaluate_side] Eval result for '{substituted_side_str}': {value}")
+                # # print(f"[DEBUG evaluate_side] Eval result for '{substituted_side_str}': {value}")
                 return float(value)
             except Exception as e:
                 # print(f"[DEBUG evaluate_side] Error evaluating expression side '{substituted_side_str}': {e}")
@@ -205,11 +188,11 @@ class Circuitbootcamp(Basebootcamp):
         lhs_val = evaluate_side(lhs_str, true_branch_currents)
         rhs_val = evaluate_side(rhs_str, true_branch_currents)
 
-        # print(f"[DEBUG _parse_and_eval_equation] LHS evaluated value: {lhs_val}, RHS evaluated value: {rhs_val}")
+        # # print(f"[DEBUG _parse_and_eval_equation] LHS evaluated value: {lhs_val}, RHS evaluated value: {rhs_val}")
 
         if lhs_val is not None and rhs_val is not None:
             is_close = np.isclose(lhs_val, rhs_val, atol=atol, rtol=rtol)
-            # print(f"[DEBUG _parse_and_eval_equation] Comparison np.isclose({lhs_val}, {rhs_val}) results in: {is_close}")
+            # # print(f"[DEBUG _parse_and_eval_equation] Comparison np.isclose({lhs_val}, {rhs_val}) results in: {is_close}")
             return is_close
         
         # print("[DEBUG _parse_and_eval_equation] LHS or RHS evaluation resulted in None. Returning False.")
@@ -236,12 +219,12 @@ class Circuitbootcamp(Basebootcamp):
 
     @staticmethod
     def _evaluate_expression_for_coeffs(expr_str: str, current_values: List[float], num_total_currents: int) -> Optional[float]:
-        # print(f"[DEBUG _evaluate_expression_for_coeffs] Evaluating expr: '{expr_str}' with I_values: {current_values}")
+        # # print(f"[DEBUG _evaluate_expression_for_coeffs] Evaluating expr: '{expr_str}' with I_values: {current_values}")
         substituted_expr_str = expr_str
 
         # Apply implicit multiplication rules
         substituted_expr_str = Circuitbootcamp._apply_implicit_multiplication(substituted_expr_str)
-        # print(f"[DEBUG _evaluate_expression_for_coeffs] After implicit multiplication: '{substituted_expr_str}'")
+        # # print(f"[DEBUG _evaluate_expression_for_coeffs] After implicit multiplication: '{substituted_expr_str}'")
 
         # Substitute I_k variables from highest index to lowest to avoid issues like I_10 vs I_1
         for i in range(num_total_currents, 0, -1):
@@ -249,7 +232,7 @@ class Circuitbootcamp(Basebootcamp):
             # Wrap in parentheses for safety, especially for negative numbers
             substituted_expr_str = re.sub(r'\bI_' + str(i) + r'\b', f"({str(val_to_sub)})", substituted_expr_str)
         
-        # print(f"[DEBUG _evaluate_expression_for_coeffs] After substituting I_k: '{substituted_expr_str}'")
+        # # print(f"[DEBUG _evaluate_expression_for_coeffs] After substituting I_k: '{substituted_expr_str}'")
 
         # Check for any remaining I_k variables (should not happen if all substituted) or other letters
         # Allows 'e' or 'E' for scientific notation in numbers.
@@ -264,7 +247,7 @@ class Circuitbootcamp(Basebootcamp):
         try:
             # Evaluate the expression string.
             value = eval(substituted_expr_str, safe_globals, safe_locals)
-            # print(f"[DEBUG _evaluate_expression_for_coeffs] Eval result for '{substituted_expr_str}': {value}")
+            # # print(f"[DEBUG _evaluate_expression_for_coeffs] Eval result for '{substituted_expr_str}': {value}")
             return float(value)
         except Exception as e:
             # print(f"[DEBUG _evaluate_expression_for_coeffs] Error evaluating expression '{substituted_expr_str}': {e}")
@@ -272,7 +255,7 @@ class Circuitbootcamp(Basebootcamp):
 
     @staticmethod
     def _get_equation_coefficients(eq_str: str, num_branch_currents: int) -> Optional[List[float]]:
-        # print(f"[DEBUG _get_equation_coefficients] Processing eq: '{eq_str}' for {num_branch_currents} current variables")
+        # # print(f"[DEBUG _get_equation_coefficients] Processing eq: '{eq_str}' for {num_branch_currents} current variables")
         if num_branch_currents == 0: # No currents, no variable coefficients
             # Try to evaluate the expression directly if it's like "const1 = const2"
             if "=" not in eq_str:
@@ -290,7 +273,7 @@ class Circuitbootcamp(Basebootcamp):
                 lhs_val = float(eval(lhs_s, safe_globals, safe_locals))
                 rhs_val = float(eval(rhs_s, safe_globals, safe_locals))
                 # constant term for "expr = 0" is "lhs_val - rhs_val"
-                # print(f"[DEBUG _get_equation_coefficients] Eq with no currents: '{eq_str}', const_term = {lhs_val - rhs_val}")
+                # # print(f"[DEBUG _get_equation_coefficients] Eq with no currents: '{eq_str}', const_term = {lhs_val - rhs_val}")
                 return [lhs_val - rhs_val] # Just the constant term
             except Exception as e:
                 # print(f"[DEBUG _get_equation_coefficients] Could not eval '{eq_str}' as const=const: {e}")
@@ -303,7 +286,7 @@ class Circuitbootcamp(Basebootcamp):
         lhs_str, rhs_str = eq_str.split('=', 1)
         # Form the expression string "LHS - (RHS)" which should evaluate to 0
         expression_str = f"({lhs_str.strip()}) - ({rhs_str.strip()})"
-        # print(f"[DEBUG _get_equation_coefficients] Standardized expr: '{expression_str}'")
+        # # print(f"[DEBUG _get_equation_coefficients] Standardized expr: '{expression_str}'")
 
         coeffs = [0.0] * (num_branch_currents + 1) # +1 for the constant term
 
@@ -314,7 +297,7 @@ class Circuitbootcamp(Basebootcamp):
             # print(f"[DEBUG _get_equation_coefficients] Failed to evaluate constant term for: {expression_str}")
             return None
         coeffs[num_branch_currents] = constant_term
-        # print(f"[DEBUG _get_equation_coefficients] Constant term = {constant_term}")
+        # # print(f"[DEBUG _get_equation_coefficients] Constant term = {constant_term}")
 
         # Calculate coefficient for each I_k
         for k_idx in range(num_branch_currents): # k_idx from 0 to num_branch_currents-1
@@ -323,14 +306,14 @@ class Circuitbootcamp(Basebootcamp):
             
             val_Ik_one = Circuitbootcamp._evaluate_expression_for_coeffs(expression_str, current_values_Ik_one, num_branch_currents)
             if val_Ik_one is None:
-                # print(f"[DEBUG _get_equation_coefficients] Failed to evaluate for I_{k_idx+1}=1 for: {expression_str}")
+                # # print(f"[DEBUG _get_equation_coefficients] Failed to evaluate for I_{k_idx+1}=1 for: {expression_str}")
                 return None
             
             # Coefficient of I_k is (Value of expr with I_k=1, others=0) - (Value of expr with all I_k=0, i.e. constant_term)
             coeffs[k_idx] = val_Ik_one - constant_term
-            # print(f"[DEBUG _get_equation_coefficients] Coeff for I_{k_idx+1} = {val_Ik_one} - {constant_term} = {coeffs[k_idx]}")
+            # # print(f"[DEBUG _get_equation_coefficients] Coeff for I_{k_idx+1} = {val_Ik_one} - {constant_term} = {coeffs[k_idx]}")
 
-        # print(f"[DEBUG _get_equation_coefficients] Successfully extracted coeffs for '{eq_str}': {coeffs}")
+        # # print(f"[DEBUG _get_equation_coefficients] Successfully extracted coeffs for '{eq_str}': {coeffs}")
         return coeffs
 
     @staticmethod
@@ -340,16 +323,16 @@ class Circuitbootcamp(Basebootcamp):
         优先从 markdown 代码块（```...```）中提取 Equations 区块。
         电流和电势也优先从最后一个 markdown 代码块中的相应区块提取。
         """
-        # print(f"\\n[DEBUG extract_output] --- Starting Extraction ---")
+        # # print(f"\\n[DEBUG extract_output] --- Starting Extraction ---")
         temp_output_preview = output_str[:100] if output_str else 'None'
-        # print(f"[DEBUG extract_output] Input output_str (first 100 chars): '{temp_output_preview}'...")
+        # # print(f"[DEBUG extract_output] Input output_str (first 100 chars): '{temp_output_preview}'...")
 
         if output_str is None:
             # print("[DEBUG extract_output] output_str is None, returning None, None, []")
             return None, None, []
         
         output_str = output_str.strip()
-        # print(f"[DEBUG extract_output] Stripped output_str (first 100 chars): '{output_str[:100]}'...") # Redundant with above
+        # # print(f"[DEBUG extract_output] Stripped output_str (first 100 chars): '{output_str[:100]}'...") # Redundant with above
         
         branch_currents: List[Optional[float]] = []
         node_potentials: List[Optional[float]] = []
@@ -360,23 +343,23 @@ class Circuitbootcamp(Basebootcamp):
 
         # ADDED: Primitive checks for "```"
         literal_backtick_count = output_str.count("```")
-        # print(f"[DEBUG extract_output] output_str.count('```'): {literal_backtick_count}")
+        # # print(f"[DEBUG extract_output] output_str.count('```'): {literal_backtick_count}")
         literal_backtick_matches = list(re.finditer(r"```", output_str))
-        # print(f"[DEBUG extract_output] Positions of literal '```' found by re.finditer(r'```', output_str): {[m.start() for m in literal_backtick_matches]}")
+        # # print(f"[DEBUG extract_output] Positions of literal '```' found by re.finditer(r'```', output_str): {[m.start() for m in literal_backtick_matches]}")
 
         # MODIFIED REGEX for code block matching
         code_block_matches = list(re.finditer(r'```((?:.|\n)*?)```', output_str)) 
-        # print(f"[DEBUG extract_output] Number of code blocks found (using new regex): {len(code_block_matches)}") 
+        # # print(f"[DEBUG extract_output] Number of code blocks found (using new regex): {len(code_block_matches)}") 
 
         if code_block_matches:
             # ADDED DEBUG to see all captured blocks if there are few
-            if len(code_block_matches) < 5: # Print all if not too many
+            if len(code_block_matches) < 5: # # print all if not too many
                 for i, match in enumerate(code_block_matches):
-                    # print(f"[DEBUG extract_output] Code block {i} content (first 200 chars):\n'''{match.group(1).strip()[:200]}...'''")
+                    # # print(f"[DEBUG extract_output] Code block {i} content (first 200 chars):\n'''{match.group(1).strip()[:200]}...'''")
                     pass
             
             last_code_block_content = code_block_matches[-1].group(1).strip()
-            # print(f"[DEBUG extract_output] LAST code block content (first 500 chars):\n'''{last_code_block_content[:500]}...'''") # MODIFIED DEBUG
+            # # print(f"[DEBUG extract_output] LAST code block content (first 500 chars):\n'''{last_code_block_content[:500]}...'''") # MODIFIED DEBUG
         else: # ADDED DEBUG
             # print("[DEBUG extract_output] No markdown code blocks found by re.finditer.")
             pass
@@ -397,35 +380,35 @@ class Circuitbootcamp(Basebootcamp):
 
         if equations_section_match_target:
             equations_text = equations_section_match_target.group(1).strip()
-            # print(f"[DEBUG extract_output] Equations section found. Text:\n'''{equations_text}'''")
+            # # print(f"[DEBUG extract_output] Equations section found. Text:\n'''{equations_text}'''")
             # MODIFIED: Use splitlines() for robust line splitting
             raw_eq_lines = equations_text.splitlines() 
-            # print(f"[DEBUG extract_output] Number of raw equation lines found: {len(raw_eq_lines)}") # ADDED DEBUG
+            # # print(f"[DEBUG extract_output] Number of raw equation lines found: {len(raw_eq_lines)}") # ADDED DEBUG
             for i, line in enumerate(raw_eq_lines):
                 line = line.strip()
-                # print(f"[DEBUG extract_output] Processing equation line {i+1}/{len(raw_eq_lines)}: '{line}'") # MODIFIED DEBUG
+                # # print(f"[DEBUG extract_output] Processing equation line {i+1}/{len(raw_eq_lines)}: '{line}'") # MODIFIED DEBUG
                 if not line or line == "...": 
-                    # print(f"[DEBUG extract_output] Skipping empty or '...' line.") # ADDED DEBUG
+                    # # print(f"[DEBUG extract_output] Skipping empty or '...' line.") # ADDED DEBUG
                     continue
                 
                 # KCL Match Attempt
                 kcl_regex = r'KCL\s+at\s+Node\s+\w+:\s*(.*)'
                 kcl_match = re.match(kcl_regex, line, re.IGNORECASE)
-                # print(f"[DEBUG extract_output] KCL match for '{line}' using regex '{kcl_regex}': {bool(kcl_match)}") # ADDED DEBUG
+                # # print(f"[DEBUG extract_output] KCL match for '{line}' using regex '{kcl_regex}': {bool(kcl_match)}") # ADDED DEBUG
                 if kcl_match:
                     eq_s = kcl_match.group(1).strip()
                     eq_s_cleaned = eq_s.split('//')[0].strip()
                     if eq_s_cleaned and not eq_s_cleaned.startswith("<equation_node_"):
                         extracted_equations.append({"type": "kcl", "equation_str": eq_s_cleaned})
-                        # print(f"[DEBUG extract_output] Appended KCL equation: {eq_s_cleaned}")
+                        # # print(f"[DEBUG extract_output] Appended KCL equation: {eq_s_cleaned}")
                     else: 
-                        # print(f"[DEBUG extract_output] KCL equation '{eq_s_cleaned}' not appended (empty or placeholder).") # ADDED DEBUG
+                        # # print(f"[DEBUG extract_output] KCL equation '{eq_s_cleaned}' not appended (empty or placeholder).") # ADDED DEBUG
                         continue
                 
                 # KVL Match Attempt
                 kvl_regex = r'KVL\s+for\s+(.+?):\s*(.*)'
                 kvl_match = re.match(kvl_regex, line, re.IGNORECASE)
-                # print(f"[DEBUG extract_output] KVL match for '{line}' using regex '{kvl_regex}': {bool(kvl_match)}") # ADDED DEBUG
+                # # print(f"[DEBUG extract_output] KVL match for '{line}' using regex '{kvl_regex}': {bool(kvl_match)}") # ADDED DEBUG
                 if kvl_match:
                     eq_s = kvl_match.group(2).strip()
                     eq_s_cleaned = eq_s.split('//')[0].strip()
@@ -433,12 +416,12 @@ class Circuitbootcamp(Basebootcamp):
                         extracted_equations.append({"type": "kvl", "equation_str": eq_s_cleaned})
                         # 保存 KVL 方程到文件
                         Circuitbootcamp._save_kvl_equation_to_file(eq_s_cleaned)
-                        # print(f"[DEBUG extract_output] Appended KVL equation: {eq_s_cleaned}")
+                        # # print(f"[DEBUG extract_output] Appended KVL equation: {eq_s_cleaned}")
                     else: 
-                        # print(f"[DEBUG extract_output] KVL equation '{eq_s_cleaned}' not appended (empty or placeholder).") # ADDED DEBUG
+                        # # print(f"[DEBUG extract_output] KVL equation '{eq_s_cleaned}' not appended (empty or placeholder).") # ADDED DEBUG
                         continue
                 
-                # print(f"[DEBUG extract_output] Line did not match KCL or KVL pattern.") # ADDED DEBUG
+                # # print(f"[DEBUG extract_output] Line did not match KCL or KVL pattern.") # ADDED DEBUG
         else:
             # print("[DEBUG extract_output] Equations section not found in preferred or global search.")
             pass
@@ -450,7 +433,7 @@ class Circuitbootcamp(Basebootcamp):
         parsed_potentials_from_block = False
 
         if last_code_block_content:
-            # print("[DEBUG extract_output] Attempting to extract Currents and Potentials from LAST CODE BLOCK.")
+            # # print("[DEBUG extract_output] Attempting to extract Currents and Potentials from LAST CODE BLOCK.")
             current_section_text_block = None
             potential_section_text_block = None
             
@@ -458,25 +441,25 @@ class Circuitbootcamp(Basebootcamp):
             current_match_block = re.search(r'Currents?:?\s*((?:.|\n)*?)(?=Potentials?:?|$)', last_code_block_content, re.IGNORECASE)
             if current_match_block:
                 current_section_text_block = current_match_block.group(1).strip()
-                # print(f"[DEBUG extract_output] [BLOCK] Currents section found. Text:\n'''{current_section_text_block}'''")
+                # # print(f"[DEBUG extract_output] [BLOCK] Currents section found. Text:\n'''{current_section_text_block}'''")
                 
                 temp_currents_map: Dict[int, float] = {}
                 # MODIFIED: Process line by line
                 current_lines = current_section_text_block.splitlines()
-                # print(f"[DEBUG extract_output] [BLOCK] Number of current lines: {len(current_lines)}")
+                # # print(f"[DEBUG extract_output] [BLOCK] Number of current lines: {len(current_lines)}")
                 for line_idx, current_line in enumerate(current_lines):
                     current_line = current_line.strip()
-                    # print(f"[DEBUG extract_output] [BLOCK] Processing current line {line_idx+1}: '{current_line}'")
+                    # # print(f"[DEBUG extract_output] [BLOCK] Processing current line {line_idx+1}: '{current_line}'")
                     # Try primary pattern: I_X = VAL A
                     match_primary = re.match(r'I_(\d+)\s*=\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*A', current_line, re.IGNORECASE)
                     if match_primary:
                         edge_idx_str, current_str = match_primary.groups()
-                        # print(f"[DEBUG extract_output] [BLOCK] Primary match: idx='{edge_idx_str}', val='{current_str}'")
+                        # # print(f"[DEBUG extract_output] [BLOCK] Primary match: idx='{edge_idx_str}', val='{current_str}'")
                         try:
                             edge_idx = int(edge_idx_str) - 1  
                             if edge_idx >= 0: 
                                 temp_currents_map[edge_idx] = float(current_str)
-                                # print(f"[DEBUG extract_output] [BLOCK] Parsed current I_{edge_idx+1} = {current_str}")
+                                # # print(f"[DEBUG extract_output] [BLOCK] Parsed current I_{edge_idx+1} = {current_str}")
                                 parsed_currents_from_block = True # Mark success if at least one parsed
                         except ValueError:
                             # print(f"[DEBUG extract_output] [BLOCK] ValueError parsing current: idx='{edge_idx_str}', val='{current_str}'")
@@ -487,12 +470,12 @@ class Circuitbootcamp(Basebootcamp):
                     match_alt = re.match(r'(?:Edge|Current)\s+(\d+)\s*:?\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*A', current_line, re.IGNORECASE)
                     if match_alt:
                         edge_idx_str, current_str = match_alt.groups()
-                        # print(f"[DEBUG extract_output] [BLOCK] Alt match: idx='{edge_idx_str}', val='{current_str}'")
+                        # # print(f"[DEBUG extract_output] [BLOCK] Alt match: idx='{edge_idx_str}', val='{current_str}'")
                         try:
                             edge_idx = int(edge_idx_str) - 1  
                             if edge_idx >= 0: 
                                 temp_currents_map[edge_idx] = float(current_str)
-                                # print(f"[DEBUG extract_output] [BLOCK] Parsed current (alt) I_{edge_idx+1} = {current_str}")
+                                # # print(f"[DEBUG extract_output] [BLOCK] Parsed current (alt) I_{edge_idx+1} = {current_str}")
                                 parsed_currents_from_block = True # Mark success
                         except ValueError:
                             # print(f"[DEBUG extract_output] [BLOCK] ValueError parsing current (alt): idx='{edge_idx_str}', val='{current_str}'")
@@ -503,7 +486,7 @@ class Circuitbootcamp(Basebootcamp):
                          pass
                 
                 # Removed old re.findall logic for block currents
-                # print(f"[DEBUG extract_output] [BLOCK] Currents: Primary indexed matches={len(current_matches_primary_block)}, Alt indexed matches={len(current_matches_alt_block)}")
+                # # print(f"[DEBUG extract_output] [BLOCK] Currents: Primary indexed matches={len(current_matches_primary_block)}, Alt indexed matches={len(current_matches_alt_block)}")
 
                 # for edge_idx_str, current_str in all_current_matches_block:
                 # ... (old loop removed)
@@ -512,7 +495,7 @@ class Circuitbootcamp(Basebootcamp):
                     branch_currents = [temp_currents_map.get(i) for i in range(max_idx + 1)]
                     # parsed_currents_from_block = True # This is now set inside the loop on first success
                 # else:
-                #    print("[DEBUG extract_output] [BLOCK] No indexed currents found in Currents section of the code block.")
+                #    # print("[DEBUG extract_output] [BLOCK] No indexed currents found in Currents section of the code block.")
             else:
                 # print("[DEBUG extract_output] [BLOCK] Currents section not found in the code block.")
                 pass
@@ -521,25 +504,25 @@ class Circuitbootcamp(Basebootcamp):
             potential_match_block = re.search(r'Potentials?:?\s*((?:.|\n)*?)(?=$)', last_code_block_content, re.IGNORECASE)
             if potential_match_block:
                 potential_section_text_block = potential_match_block.group(1).strip()
-                # print(f"[DEBUG extract_output] [BLOCK] Potentials section found. Text:\n'''{potential_section_text_block}'''")
+                # # print(f"[DEBUG extract_output] [BLOCK] Potentials section found. Text:\n'''{potential_section_text_block}'''")
 
                 temp_potentials_map: Dict[int, float] = {}
                 # MODIFIED: Process line by line
                 potential_lines = potential_section_text_block.splitlines()
-                # print(f"[DEBUG extract_output] [BLOCK] Number of potential lines: {len(potential_lines)}")
+                # # print(f"[DEBUG extract_output] [BLOCK] Number of potential lines: {len(potential_lines)}")
                 for line_idx, p_line in enumerate(potential_lines):
                     p_line = p_line.strip()
-                    # print(f"[DEBUG extract_output] [BLOCK] Processing potential line {line_idx+1}: '{p_line}'")
+                    # # print(f"[DEBUG extract_output] [BLOCK] Processing potential line {line_idx+1}: '{p_line}'")
                     # Try primary pattern: V_X = VAL V
                     match_primary_pot = re.match(r'V_(\d+)\s*=\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*V', p_line, re.IGNORECASE)
                     if match_primary_pot:
                         node_idx_str, potential_str = match_primary_pot.groups()
-                        # print(f"[DEBUG extract_output] [BLOCK] Primary potential match: idx='{node_idx_str}', val='{potential_str}'")
+                        # # print(f"[DEBUG extract_output] [BLOCK] Primary potential match: idx='{node_idx_str}', val='{potential_str}'")
                         try:
                             node_idx = int(node_idx_str)
                             if node_idx >= 0: 
                                 temp_potentials_map[node_idx] = float(potential_str)
-                                # print(f"[DEBUG extract_output] [BLOCK] Parsed potential V_{node_idx} = {potential_str}")
+                                # # print(f"[DEBUG extract_output] [BLOCK] Parsed potential V_{node_idx} = {potential_str}")
                                 parsed_potentials_from_block = True # Mark success
                         except ValueError:
                             # print(f"[DEBUG extract_output] [BLOCK] ValueError parsing potential: idx='{node_idx_str}', val='{potential_str}'")
@@ -549,23 +532,23 @@ class Circuitbootcamp(Basebootcamp):
                     match_alt_pot = re.match(r'(?:Node|Potential)\s+(\d+)\s*:?\s*([-+]?\d*\.?\d+(?:[eE][-+]?\d+)?)\s*V', p_line, re.IGNORECASE)
                     if match_alt_pot:
                         node_idx_str, potential_str = match_alt_pot.groups()
-                        # print(f"[DEBUG extract_output] [BLOCK] Alt potential match: idx='{node_idx_str}', val='{potential_str}'")
+                        # # print(f"[DEBUG extract_output] [BLOCK] Alt potential match: idx='{node_idx_str}', val='{potential_str}'")
                         try:
                             node_idx = int(node_idx_str)
                             if node_idx >= 0: 
                                 temp_potentials_map[node_idx] = float(potential_str)
-                                # print(f"[DEBUG extract_output] [BLOCK] Parsed potential (alt) V_{node_idx} = {potential_str}")
+                                # # print(f"[DEBUG extract_output] [BLOCK] Parsed potential (alt) V_{node_idx} = {potential_str}")
                                 parsed_potentials_from_block = True # Mark success
                         except ValueError:
                             # print(f"[DEBUG extract_output] [BLOCK] ValueError parsing potential (alt): idx='{node_idx_str}', val='{potential_str}'")
                             pass
                         continue
                     if p_line: # If line is not empty and didn't match
-                        # print(f"[DEBUG extract_output] [BLOCK] No potential pattern matched for line: '{p_line}'")
+                        # # print(f"[DEBUG extract_output] [BLOCK] No potential pattern matched for line: '{p_line}'")
                         pass
                 
                 # Removed old re.findall logic for block potentials
-                # print(f"[DEBUG extract_output] [BLOCK] Potentials: Primary indexed matches={len(potential_matches_primary_block)}, Alt indexed matches={len(potential_matches_alt_block)}")
+                # # print(f"[DEBUG extract_output] [BLOCK] Potentials: Primary indexed matches={len(potential_matches_primary_block)}, Alt indexed matches={len(potential_matches_alt_block)}")
 
                 # for node_idx_str, potential_str in all_potential_matches_block:
                 # ... (old loop removed)
@@ -591,19 +574,19 @@ class Circuitbootcamp(Basebootcamp):
 
         # --- Step 4: Global search if not found or incomplete from code block ---
         if not parsed_currents_from_block:
-            # print("[DEBUG extract_output] Currents not found in code block or parsing failed, trying GLOBAL search.")
+            # # print("[DEBUG extract_output] Currents not found in code block or parsing failed, trying GLOBAL search.")
             current_section_text_global = None
             # MODIFIED REGEX for capturing group
             current_match_global = re.search(r'Currents?:?\s*((?:.|\n)*?)(?=Potentials?:?|$)', output_str, re.IGNORECASE)
             if current_match_global:
                 current_section_text_global = current_match_global.group(1).strip()
-                # print(f"[DEBUG extract_output] [GLOBAL] Currents section found. Text (first 100 chars):\n'''{current_section_text_global[:100]}...'''")
+                # # print(f"[DEBUG extract_output] [GLOBAL] Currents section found. Text (first 100 chars):\n'''{current_section_text_global[:100]}...'''")
                 
                 temp_currents_map: Dict[int, float] = {}
                 current_matches_primary_global = re.findall(r'I_(\\d+)\\s*=\\s*([-+]?\\d*\\.?\\d+(?:[eE][-+]?\\d+)?)\\s*A', current_section_text_global, re.IGNORECASE)
                 current_matches_alt_global = re.findall(r'(?:Edge|Current)\\s+(\\d+)\\s*:?\\s*([-+]?\\d*\\.?\\d+(?:[eE][-+]?\\d+)?)\\s*A', current_section_text_global, re.IGNORECASE)
                 all_current_matches_global = current_matches_primary_global + current_matches_alt_global
-                # print(f"[DEBUG extract_output] [GLOBAL] Currents: Primary indexed matches={len(current_matches_primary_global)}, Alt indexed matches={len(current_matches_alt_global)}")
+                # # print(f"[DEBUG extract_output] [GLOBAL] Currents: Primary indexed matches={len(current_matches_primary_global)}, Alt indexed matches={len(current_matches_alt_global)}")
 
                 for edge_idx_str, current_str in all_current_matches_global:
                     try:
@@ -615,7 +598,7 @@ class Circuitbootcamp(Basebootcamp):
                     branch_currents = [temp_currents_map.get(i) for i in range(max_idx + 1)]
                 # NO FALLBACK TO ALL FLOATS FOR GLOBAL SEARCH EITHER - keep it strict
                 # else:
-                #    print("[DEBUG extract_output] [GLOBAL] No indexed currents, trying to extract any floats for currents.") # Old fallback
+                #    # print("[DEBUG extract_output] [GLOBAL] No indexed currents, trying to extract any floats for currents.") # Old fallback
                 #    values_only = re.findall(r'([-+]\\d*\\.?\\d+(?:[eE][-+]?\\d+)?)\\s*(?:A|Amperes?)?', current_section_text_global)
                 #    if values_only: branch_currents = [float(val) for val in values_only]
             else:
@@ -623,7 +606,7 @@ class Circuitbootcamp(Basebootcamp):
                 pass
         
         if not parsed_potentials_from_block:
-            # print("[DEBUG extract_output] Potentials not found in code block or parsing failed, trying GLOBAL search.")
+            # # print("[DEBUG extract_output] Potentials not found in code block or parsing failed, trying GLOBAL search.")
             potential_section_text_global = None
             # MODIFIED REGEX for capturing group
             potential_match_global = re.search(r'Potentials?:?\s*((?:.|\n)*?)(?=$)', output_str, re.IGNORECASE)
@@ -735,10 +718,10 @@ class Circuitbootcamp(Basebootcamp):
         final_branch_currents = branch_currents if branch_currents else None
         final_node_potentials = node_potentials if node_potentials else None
         
-        # print(f"[DEBUG extract_output] Final extracted currents: {final_branch_currents}")
-        # print(f"[DEBUG extract_output] Final extracted potentials: {final_node_potentials}")
-        # print(f"[DEBUG extract_output] Final extracted equations: {extracted_equations}")
-        # print(f"[DEBUG extract_output] --- Ending Extraction ---")
+        # # print(f"[DEBUG extract_output] Final extracted currents: {final_branch_currents}")
+        # # print(f"[DEBUG extract_output] Final extracted potentials: {final_node_potentials}")
+        # # print(f"[DEBUG extract_output] Final extracted equations: {extracted_equations}")
+        # # print(f"[DEBUG extract_output] --- Ending Extraction ---")
         return final_branch_currents, final_node_potentials, extracted_equations
 
     @staticmethod
@@ -785,22 +768,24 @@ class Circuitbootcamp(Basebootcamp):
         + 0.5 * (正确的KVL方程数/理应有的KVL方程数[边数-节点数+1])
         - (不独立的方程数[方程数-系数矩阵的秩] / (理应有的KCL方程数+理应有的KVL方程数))
         """
-        # print(f"\\n[DEBUG verify_score] --- Starting Verification ---")
-        # print(f"[DEBUG verify_score] model_output (first 300 chars):\n'''{model_output[:300]}...'''")
-        # print(f"[DEBUG verify_score] identity: {identity}") # Can be verbose
+        # # print(f"\\n[DEBUG verify_score] --- Starting Verification ---")
+        # # print(f"[DEBUG verify_score] model_output (first 300 chars):\n'''{model_output[:300]}...'''")
+        # # print(f"[DEBUG verify_score] identity: {identity}") # Can be verbose
 
         if model_output is None or not model_output.strip():
+            # print(f"[DEBUG verify_score] Model output is None or empty. Returning score_min: {score_min}")
             # print(f"[DEBUG verify_score] Model output is None or empty. Returning score_min: {score_min}")
             return score_min
         
         if not (0 <= equation_reward_weight <= 1.0):
             # print(f"[DEBUG verify_score] Invalid equation_reward_weight: {equation_reward_weight}. Using 1.0 as default.")
+            # print(f"[DEBUG verify_score] Invalid equation_reward_weight: {equation_reward_weight}. Using 1.0 as default.")
             equation_reward_weight = 1.0 
 
         extracted_currents, extracted_potentials, extracted_equations = cls.extract_output(model_output)
-        # print(f"[DEBUG verify_score] Extracted Currents: {extracted_currents}")
-        # print(f"[DEBUG verify_score] Extracted Potentials: {extracted_potentials}")
-        # print(f"[DEBUG verify_score] Extracted Equations: {extracted_equations}")
+        # # print(f"[DEBUG verify_score] Extracted Currents: {extracted_currents}")
+        # # print(f"[DEBUG verify_score] Extracted Potentials: {extracted_potentials}")
+        # # print(f"[DEBUG verify_score] Extracted Equations: {extracted_equations}")
         
         # --- Score for Currents and Potentials ---
         correct_vars_count = 0
@@ -808,13 +793,13 @@ class Circuitbootcamp(Basebootcamp):
         
         expected_currents = identity.get('branch_currents')
         expected_potentials = identity.get('node_potentials')
-        # print(f"[DEBUG verify_score] Expected Currents: {expected_currents}")
-        # print(f"[DEBUG verify_score] Expected Potentials: {expected_potentials}")
+        # # print(f"[DEBUG verify_score] Expected Currents: {expected_currents}")
+        # # print(f"[DEBUG verify_score] Expected Potentials: {expected_potentials}")
 
         if expected_currents is not None:
             num_currents_to_compare = len(expected_currents)
             total_vars_count += num_currents_to_compare
-            # print(f"[DEBUG verify_score] Comparing {num_currents_to_compare} expected currents.")
+            # # print(f"[DEBUG verify_score] Comparing {num_currents_to_compare} expected currents.")
             if extracted_currents is not None and len(extracted_currents) > 0 :
                 for i in range(num_currents_to_compare):
                     is_correct = False
@@ -824,14 +809,15 @@ class Circuitbootcamp(Basebootcamp):
                             is_correct = True
                     val_extracted = extracted_currents[i] if i < len(extracted_currents) else 'N/A'
                     # print(f"[DEBUG verify_score] Current I_{i+1}: Expected={expected_currents[i]}, Extracted={val_extracted}, Correct={is_correct}")
+                    # print(f"[DEBUG verify_score] Current I_{i+1}: Expected={expected_currents[i]}, Extracted={val_extracted}, Correct={is_correct}")
             else:
-                # print(f"[DEBUG verify_score] Extracted currents are None or empty, all {num_currents_to_compare} expected currents count as incorrect.")
+                # # print(f"[DEBUG verify_score] Extracted currents are None or empty, all {num_currents_to_compare} expected currents count as incorrect.")
                 pass
 
         if expected_potentials is not None:
             num_potentials_to_compare = len(expected_potentials)
             total_vars_count += num_potentials_to_compare
-            # print(f"[DEBUG verify_score] Comparing {num_potentials_to_compare} expected potentials.")
+            # # print(f"[DEBUG verify_score] Comparing {num_potentials_to_compare} expected potentials.")
             if extracted_potentials is not None and len(extracted_potentials) > 0:
                 for i in range(num_potentials_to_compare):
                     is_correct = False
@@ -844,13 +830,14 @@ class Circuitbootcamp(Basebootcamp):
                             is_correct = True
                     val_extracted = extracted_potentials[i] if i < len(extracted_potentials) else 'N/A'
                     # print(f"[DEBUG verify_score] Potential V_{i}: Expected={expected_val}, Extracted={val_extracted}, Correct={is_correct}")
+                    # print(f"[DEBUG verify_score] Potential V_{i}: Expected={expected_val}, Extracted={val_extracted}, Correct={is_correct}")
             else:
-                # print(f"[DEBUG verify_score] Extracted potentials are None or empty, all {num_potentials_to_compare} expected potentials count as incorrect.")
+                # # print(f"[DEBUG verify_score] Extracted potentials are None or empty, all {num_potentials_to_compare} expected potentials count as incorrect.")
                 pass
         current_potential_score_ratio = 0.0
         if total_vars_count > 0:
             current_potential_score_ratio = correct_vars_count / total_vars_count
-        # print(f"[DEBUG verify_score] Correct Vars: {correct_vars_count}, Total Vars: {total_vars_count}, Var Ratio: {current_potential_score_ratio:.4f}")
+        # # print(f"[DEBUG verify_score] Correct Vars: {correct_vars_count}, Total Vars: {total_vars_count}, Var Ratio: {current_potential_score_ratio:.4f}")
         
         # --- 新的方程分数计算逻辑 ---
         equation_accuracy_ratio = 0.0
@@ -1110,30 +1097,31 @@ class Circuitbootcamp(Basebootcamp):
         return len(visited) == len(nodes_in_edges)
 
     @staticmethod
-    def _save_kvl_equation_to_file(equation_str: str, kvl_file_path: str = "/cpfs01/shared/llm_ddd/yuzijie/new/kvlstore.txt"):
+    def _save_kvl_equation_to_file(equation_str: str):
         """
         将提取到的 KVL 方程追加到指定文件中
         Args:
             equation_str: KVL 方程字符串
             kvl_file_path: 保存 KVL 方程的文件路径
         """
-        try:
-            import datetime
-            # 获取当前时间戳
-            timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        # try:
+        #     import datetime
+        #     # 获取当前时间戳
+        #     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             
-            # 确保目录存在
-            os.makedirs(os.path.dirname(kvl_file_path), exist_ok=True)
+        #     # 确保目录存在
+        #     os.makedirs(os.path.dirname(kvl_file_path), exist_ok=True)
             
-            # 追加 KVL 方程到文件
-            with open(kvl_file_path, 'a', encoding='utf-8') as f:
-                f.write(f"[{timestamp}] KVL Equation: {equation_str}\n")
+        #     # 追加 KVL 方程到文件
+        #     with open(kvl_file_path, 'a', encoding='utf-8') as f:
+        #         f.write(f"[{timestamp}] KVL Equation: {equation_str}\n")
             
-            # print(f"[DEBUG] KVL equation saved to {kvl_file_path}: {equation_str}")
-            pass
-        except Exception as e:
-            # print(f"[ERROR] Failed to save KVL equation to file: {e}")
-            pass
+        #     # print(f"[DEBUG] KVL equation saved to {kvl_file_path}: {equation_str}")
+        #     pass
+        # except Exception as e:
+        #     # print(f"[ERROR] Failed to save KVL equation to file: {e}")
+        #     pass
+        pass
 
 # Example usage in __main__ would need to be updated to test equations:
 # 1. Sample outputs in __main__ should include an "Equations:" section.
@@ -1143,19 +1131,19 @@ class Circuitbootcamp(Basebootcamp):
 if __name__ == '__main__':
     bootcamp = Circuitbootcamp(min_nodes=3, max_nodes=4, seed=42) # Use a fixed seed for consistent tests
     
-    # print("--- Test Case Generation and Prompt ---")
+    # # print("--- Test Case Generation and Prompt ---")
     # test_case_identity = bootcamp.case_generator()
-    # print("Generated Case:")
-    # print(f"  Nodes: {test_case_identity['n_nodes']}")
-    # print(f"  Edges: {test_case_identity['edges']}")
-    # print(f"  Branch Currents (True): {test_case_identity['branch_currents']}")
-    # print(f"  Node Potentials (True): {test_case_identity['node_potentials']}")
+    # # print("Generated Case:")
+    # # print(f"  Nodes: {test_case_identity['n_nodes']}")
+    # # print(f"  Edges: {test_case_identity['edges']}")
+    # # print(f"  Branch Currents (True): {test_case_identity['branch_currents']}")
+    # # print(f"  Node Potentials (True): {test_case_identity['node_potentials']}")
     
     # prompt = bootcamp.prompt_func(test_case_identity)
-    # # print("\\nGenerated Prompt:\\n", prompt) # Can be very long
-    # print("-" * 30)
+    # # # print("\\nGenerated Prompt:\\n", prompt) # Can be very long
+    # # print("-" * 30)
 
-    # print("\\n--- Test Output Extraction and Scoring ---")
+    # # print("\\n--- Test Output Extraction and Scoring ---")
 
     # Mock model output - Perfect Match including equations
     # For seed 42, n_nodes=3, edges=[(R,E,u,v),...], true_currents, true_potentials
@@ -1495,9 +1483,9 @@ KVL for Loop 2: I_5 + I_6  = 0
 
 These are the equations based on the given circuit and Kirchhoff's Laws.
 """
-    print(f"Testing with perfect output:")
+    # print(f"Testing with perfect output:")
     score = bootcamp.verify_score(perfect_output_str_eq_test, test_identity_main, equation_reward_weight=1)
-    print(f"  Score: {score}") # Expect 1.0
+    # print(f"  Score: {score}") # Expect 1.0
 
 #     partial_output_str_eq_test = """
 # Equations:
@@ -1517,9 +1505,9 @@ These are the equations based on the given circuit and Kirchhoff's Laws.
 #     # Total vars correct: 2+2=4. Total vars expected: 3+4=7. Var_ratio = 4/7
 #     # Equations: Eq1 (False), Eq2 (True) -> 1/2 correct. Eq_ratio = 0.5
 #     # Score = 0.7 * (4/7) + 0.3 * (0.5) = 0.7 * 0.5714 + 0.3 * 0.5 = 0.4 + 0.15 = 0.55
-#     print(f"Testing with partial output (eq_weight=0.3):")
+#     # print(f"Testing with partial output (eq_weight=0.3):")
 #     score = bootcamp.verify_score(partial_output_str_eq_test, test_identity_main, equation_reward_weight=0.3)
-#     print(f"  Score: {score}") # Expect approx 0.55
+#     # print(f"  Score: {score}") # Expect approx 0.55
 
 #     only_equations_correct_str = """
 # Equations:
@@ -1533,13 +1521,13 @@ These are the equations based on the given circuit and Kirchhoff's Laws.
 #     # Variables: I1(F), I2(M), I3(M) -> 0/3. V0(T), V1(M), V2(M), V3(M) -> 1/4. Var_ratio = 1/7
 #     # Equations: Eq1(T), Eq2(T) -> 2/2 = 1.0. Eq_ratio = 1.0
 #     # Score = 0.7 * (1/7) + 0.3 * (1.0) = 0.7 * 0.1428 + 0.3 = 0.09996 + 0.3 = ~0.40
-#     print(f"Testing with only equations mostly correct (eq_weight=0.3):")
+#     # print(f"Testing with only equations mostly correct (eq_weight=0.3):")
 #     score = bootcamp.verify_score(only_equations_correct_str, test_identity_main, equation_reward_weight=0.3)
-#     print(f"  Score: {score}") # Expect approx 0.40
+#     # print(f"  Score: {score}") # Expect approx 0.40
     
 #     bad_format_output_str = "This is not parseable."
-#     print(f"Testing with bad format (eq_weight=0.3):")
+#     # print(f"Testing with bad format (eq_weight=0.3):")
 #     score = bootcamp.verify_score(bad_format_output_str, test_identity_main, equation_reward_weight=0.3)
-#     print(f"  Score: {score}") # Expect 0.0 (score_min)
+#     # print(f"  Score: {score}") # Expect 0.0 (score_min)
 
-    print("\\nCircuit bootcamp tests with equation scoring complete.")
+    # print("\\nCircuit bootcamp tests with equation scoring complete.")

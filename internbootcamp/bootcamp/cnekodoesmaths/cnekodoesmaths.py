@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Neko loves divisors. During the latest number theory lesson, he got an interesting exercise from his math teacher.
 
 Neko has two integers a and b. His goal is to find a non-negative integer k such that the least common multiple of a+k and b+k is the smallest possible. If there are multiple optimal integers k, he needs to choose the smallest one.

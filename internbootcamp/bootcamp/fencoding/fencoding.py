@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Polycarp invented a new way to encode strings. Let's assume that we have string T, consisting of lowercase English letters. Let's choose several pairs of letters of the English alphabet in such a way that each letter occurs in at most one pair. Then let's replace each letter in T with its pair letter if there is a pair letter for it. For example, if you chose pairs (l, r), (p, q) and (a, o), then word \"parallelogram\" according to the given encoding principle transforms to word \"qolorreraglom\".
 
 Polycarpus already has two strings, S and T. He suspects that string T was obtained after applying the given encoding method from some substring of string S. Find all positions mi in S (1 ≤ mi ≤ |S| - |T| + 1), such that T can be obtained fro substring SmiSmi + 1... Smi + |T| - 1 by applying the described encoding operation by using some set of pairs of English alphabet letters

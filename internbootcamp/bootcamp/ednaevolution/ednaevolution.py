@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Everyone knows that DNA strands consist of nucleotides. There are four types of nucleotides: \"A\", \"T\", \"G\", \"C\". A DNA strand is a sequence of nucleotides. Scientists decided to track evolution of a rare species, which DNA strand was string s initially. 
 
 Evolution of the species is described as a sequence of changes in the DNA. Every change is a change of some nucleotide, for example, the following change can happen in DNA strand \"AAGC\": the second nucleotide can change to \"T\" so that the resulting DNA strand is \"ATGC\".

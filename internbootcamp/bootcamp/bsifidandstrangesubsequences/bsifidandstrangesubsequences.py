@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A sequence (b_1, b_2, …, b_k) is called strange, if the absolute difference between any pair of its elements is greater than or equal to the maximum element in the sequence. Formally speaking, it's strange if for every pair (i, j) with 1 ≤ i<j ≤ k, we have |a_i-a_j|≥ MAX, where MAX is the largest element of the sequence. In particular, any sequence of length at most 1 is strange.
 
 For example, the sequences (-2021, -1, -1, -1) and (-1, 0, 1) are strange, but (3, 0, 1) is not, because |0 - 1| < 3.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You're trying to set the record on your favorite video game. The game consists of N levels, which must be completed sequentially in order to beat the game. You usually complete each level as fast as possible, but sometimes finish a level slower. Specifically, you will complete the i-th level in either Fi seconds or Si seconds, where Fi < Si, and there's a Pi percent chance of completing it in Fi seconds. After completing a level, you may decide to either continue the game and play the next level, or reset the game and start again from the first level. Both the decision and the action are instant.
 
 Your goal is to complete all the levels sequentially in at most R total seconds. You want to minimize the expected amount of time playing before achieving that goal. If you continue and reset optimally, how much total time can you expect to spend playing?

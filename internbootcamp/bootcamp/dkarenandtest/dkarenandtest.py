@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Karen has just arrived at school, and she has a math test today!
 
 <image>

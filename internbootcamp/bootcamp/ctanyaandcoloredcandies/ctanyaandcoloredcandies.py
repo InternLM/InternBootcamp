@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n candy boxes in front of Tania. The boxes are arranged in a row from left to right, numbered from 1 to n. The i-th box contains r_i candies, candies have the color c_i (the color can take one of three values ​​— red, green, or blue). All candies inside a single box have the same color (and it is equal to c_i).
 
 Initially, Tanya is next to the box number s. Tanya can move to the neighbor box (that is, with a number that differs by one) or eat candies in the current box. Tanya eats candies instantly, but the movement takes one second.

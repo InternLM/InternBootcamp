@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Little Elephant loves the LCM (least common multiple) operation of a non-empty set of positive integers. The result of the LCM operation of k positive integers x1, x2, ..., xk is the minimum positive integer that is divisible by each of numbers xi.
 
 Let's assume that there is a sequence of integers b1, b2, ..., bn. Let's denote their LCMs as lcm(b1, b2, ..., bn) and the maximum of them as max(b1, b2, ..., bn). The Little Elephant considers a sequence b good, if lcm(b1, b2, ..., bn) = max(b1, b2, ..., bn).

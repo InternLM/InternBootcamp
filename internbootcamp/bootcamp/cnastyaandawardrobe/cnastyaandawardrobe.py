@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nastya received a gift on New Year — a magic wardrobe. It is magic because in the end of each month the number of dresses in it doubles (i.e. the number of dresses becomes twice as large as it is in the beginning of the month).
 
 Unfortunately, right after the doubling the wardrobe eats one of the dresses (if any) with the 50% probability. It happens every month except the last one in the year. 

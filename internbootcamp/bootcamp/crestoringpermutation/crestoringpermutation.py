@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a sequence b_1, b_2, …, b_n. Find the lexicographically minimal permutation a_1, a_2, …, a_{2n} such that b_i = min(a_{2i-1}, a_{2i}), or determine that it is impossible.
 
 Input

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Dreamoon loves summing up something for no reason. One day he obtains two integers a and b occasionally. He wants to calculate the sum of all nice integers. Positive integer x is called nice if <image> and <image>, where k is some integer number in range [1, a].
 
 By <image> we denote the quotient of integer division of x and y. By <image> we denote the remainder of integer division of x and y. You can read more about these operations here: http://goo.gl/AcsXhT.

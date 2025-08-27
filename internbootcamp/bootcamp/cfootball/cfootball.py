@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 One day, at the \"Russian Code Cup\" event it was decided to play football as an out of competition event. All participants was divided into n teams and played several matches, two teams could not play against each other more than once.
 
 The appointed Judge was the most experienced member — Pavel. But since he was the wisest of all, he soon got bored of the game and fell asleep. Waking up, he discovered that the tournament is over and the teams want to know the results of all the matches.

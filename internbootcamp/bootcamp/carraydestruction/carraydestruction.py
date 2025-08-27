@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You found a useless array a of 2n positive integers. You have realized that you actually don't need this array, so you decided to throw out all elements of a.
 
 It could have been an easy task, but it turned out that you should follow some rules: 

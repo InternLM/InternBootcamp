@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let's call beauty of an array b_1, b_2, …, b_n (n > 1) — min_{1 ≤ i < j ≤ n} |b_i - b_j|.
 
 You're given an array a_1, a_2, … a_n and a number k. Calculate the sum of beauty over all subsequences of the array of length exactly k. As this number can be very large, output it modulo 998244353.

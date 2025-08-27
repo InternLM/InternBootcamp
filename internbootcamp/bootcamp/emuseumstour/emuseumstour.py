@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In the country N, there are n cities connected by m one-way roads. Although this country seems unremarkable, there are two interesting facts about it. At first, a week lasts d days here. At second, there is exactly one museum in each city of the country N.
 
 Travel agency \"Open museums\" is developing a new program for tourists interested in museums. Agency's employees know which days each of the museums is open. The tour should start in the capital — the city number 1, and the first day of the tour must be on the first day of a week. Each day a tourist will be in some city, watching the exposition in its museum (in case museum is open today), and by the end of the day, the tour either ends or the tourist goes into another city connected by a road with the current one. The road system of N is designed in such a way that traveling by a road always takes one night and also all the roads are one-way. It's allowed to visit a city multiple times during the trip.

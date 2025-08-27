@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 \"Duel!\"
 
 Betting on the lovely princess Claris, the duel between Tokitsukaze and Quailty has started.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 JATC loves Banh-mi (a Vietnamese food). His affection for Banh-mi is so much that he always has it for breakfast. This morning, as usual, he buys a Banh-mi and decides to enjoy it in a special way.
 
 First, he splits the Banh-mi into n parts, places them on a row and numbers them from 1 through n. For each part i, he defines the deliciousness of the part as x_i ∈ \{0, 1\}. JATC's going to eat those parts one by one. At each step, he chooses arbitrary remaining part and eats it. Suppose that part is the i-th part then his enjoyment of the Banh-mi will increase by x_i and the deliciousness of all the remaining parts will also increase by x_i. The initial enjoyment of JATC is equal to 0.

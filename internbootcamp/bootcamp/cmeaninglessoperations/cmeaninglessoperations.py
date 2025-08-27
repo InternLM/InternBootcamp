@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Can the greatest common divisor and bitwise operations have anything in common? It is time to answer this question.
 
 Suppose you are given a positive integer a. You want to choose some integer b from 1 to a - 1 inclusive in such a way that the [greatest common divisor (GCD)](https://en.wikipedia.org/wiki/Greatest_common_divisor) of integers a ⊕ b and a \> \& \> b is as large as possible. In other words, you'd like to compute the following function:

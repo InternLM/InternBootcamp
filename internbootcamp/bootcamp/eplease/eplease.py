@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 As we all know Barney's job is \"PLEASE\" and he has not much to do at work. That's why he started playing \"cups and key\". In this game there are three identical cups arranged in a line from left to right. Initially key to Barney's heart is under the middle cup.
 
 <image>

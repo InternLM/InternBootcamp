@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 One day little Vasya found mom's pocket book. The book had n names of her friends and unusually enough, each name was exactly m letters long. Let's number the names from 1 to n in the order in which they are written.
 
 As mom wasn't home, Vasya decided to play with names: he chose three integers i, j, k (1 ≤ i < j ≤ n, 1 ≤ k ≤ m), then he took names number i and j and swapped their prefixes of length k. For example, if we take names \"CBDAD\" and \"AABRD\" and swap their prefixes with the length of 3, the result will be names \"AABAD\" and \"CBDRD\".

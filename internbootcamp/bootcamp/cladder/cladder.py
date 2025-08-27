@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You've got an array, consisting of n integers a1, a2, ..., an. Also, you've got m queries, the i-th query is described by two integers li, ri. Numbers li, ri define a subsegment of the original array, that is, the sequence of numbers ali, ali + 1, ali + 2, ..., ari. For each query you should check whether the corresponding segment is a ladder. 
 
 A ladder is a sequence of integers b1, b2, ..., bk, such that it first doesn't decrease, then doesn't increase. In other words, there is such integer x (1 ≤ x ≤ k), that the following inequation fulfills: b1 ≤ b2 ≤ ... ≤ bx ≥ bx + 1 ≥ bx + 2... ≥ bk. Note that the non-decreasing and the non-increasing sequences are also considered ladders.

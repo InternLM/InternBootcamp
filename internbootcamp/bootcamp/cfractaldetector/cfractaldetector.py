@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little Vasya likes painting fractals very much.
 
 He does it like this. First the boy cuts out a 2 × 2-cell square out of squared paper. Then he paints some cells black. The boy calls the cut out square a fractal pattern. Then he takes a clean square sheet of paper and paints a fractal by the following algorithm:

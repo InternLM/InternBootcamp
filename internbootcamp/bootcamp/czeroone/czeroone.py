@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little Petya very much likes playing with little Masha. Recently he has received a game called \"Zero-One\" as a gift from his mother. Petya immediately offered Masha to play the game with him.
 
 Before the very beginning of the game several cards are lain out on a table in one line from the left to the right. Each card contains a digit: 0 or 1. Players move in turns and Masha moves first. During each move a player should remove a card from the table and shift all other cards so as to close the gap left by the removed card. For example, if before somebody's move the cards on the table formed a sequence 01010101, then after the fourth card is removed (the cards are numbered starting from 1), the sequence will look like that: 0100101. 

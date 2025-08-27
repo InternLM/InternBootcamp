@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Alice has got addicted to a game called Sirtet recently.
 
 In Sirtet, player is given an n × m grid. Initially a_{i,j} cubes are stacked up in the cell (i,j). Two cells are called adjacent if they share a side. Player can perform the following operations: 

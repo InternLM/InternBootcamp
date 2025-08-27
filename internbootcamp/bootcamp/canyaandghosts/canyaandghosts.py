@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Anya loves to watch horror movies. In the best traditions of horror, she will be visited by m ghosts tonight. Anya has lots of candles prepared for the visits, each candle can produce light for exactly t seconds. It takes the girl one second to light one candle. More formally, Anya can spend one second to light one candle, then this candle burns for exactly t seconds and then goes out and can no longer be used.
 
 For each of the m ghosts Anya knows the time at which it comes: the i-th visit will happen wi seconds after midnight, all wi's are distinct. Each visit lasts exactly one second.

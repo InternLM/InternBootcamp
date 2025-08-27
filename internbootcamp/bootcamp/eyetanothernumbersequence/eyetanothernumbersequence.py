@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Everyone knows what the Fibonacci sequence is. This sequence can be defined by the recurrence relation: 
 
 F1 = 1, F2 = 2, Fi = Fi - 1 + Fi - 2 (i > 2).

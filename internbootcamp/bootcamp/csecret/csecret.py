@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Greatest Secret Ever consists of n words, indexed by positive integers from 1 to n. The secret needs dividing between k Keepers (let's index them by positive integers from 1 to k), the i-th Keeper gets a non-empty set of words with numbers from the set Ui = (ui, 1, ui, 2, ..., ui, |Ui|). Here and below we'll presuppose that the set elements are written in the increasing order.
 
 We'll say that the secret is safe if the following conditions are hold:

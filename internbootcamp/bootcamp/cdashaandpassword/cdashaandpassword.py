@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 After overcoming the stairs Dasha came to classes. She needed to write a password to begin her classes. The password is a string of length n which satisfies the following requirements:
 
   * There is at least one digit in the string, 

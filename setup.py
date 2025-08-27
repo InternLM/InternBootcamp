@@ -22,7 +22,8 @@ setuptools.setup(
         "shortuuid",
         "rdkit==2024.3.2",
         "scipy",
-        "scikit-learn"
+        "scikit-learn==1.7.0",
+        "pandas==2.3.0"
     ],
 
     package_data={

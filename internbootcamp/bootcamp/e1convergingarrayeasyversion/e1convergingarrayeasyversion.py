@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is the easy version of the problem. The only difference is that in this version q = 1. You can make hacks only if both versions of the problem are solved.
 
 There is a process that takes place on arrays a and b of length n and length n-1 respectively. 

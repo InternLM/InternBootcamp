@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Inna and Dima bought a table of size n × m in the shop. Each cell of the table contains a single letter: \"D\", \"I\", \"M\", \"A\".
 
 Inna loves Dima, so she wants to go through his name as many times as possible as she moves through the table. For that, Inna acts as follows:

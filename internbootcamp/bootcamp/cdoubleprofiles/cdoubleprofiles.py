@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You have been offered a job in a company developing a large social network. Your first task is connected with searching profiles that most probably belong to the same user.
 
 The social network contains n registered profiles, numbered from 1 to n. Some pairs there are friends (the \"friendship\" relationship is mutual, that is, if i is friends with j, then j is also friends with i). Let's say that profiles i and j (i ≠ j) are doubles, if for any profile k (k ≠ i, k ≠ j) one of the two statements is true: either k is friends with i and j, or k isn't friends with either of them. Also, i and j can be friends or not be friends.

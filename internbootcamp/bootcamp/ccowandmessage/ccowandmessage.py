@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Bessie the cow has just intercepted a text that Farmer John sent to Burger Queen! However, Bessie is sure that there is a secret message hidden inside.
 
 The text is a string s of lowercase Latin letters. She considers a string t as hidden in string s if t exists as a subsequence of s whose indices form an arithmetic progression. For example, the string aab is hidden in string aaabb because it occurs at indices 1, 3, and 5, which form an arithmetic progression with a common difference of 2. Bessie thinks that any hidden string that occurs the most times is the secret message. Two occurrences of a subsequence of S are distinct if the sets of indices are different. Help her find the number of occurrences of the secret message!

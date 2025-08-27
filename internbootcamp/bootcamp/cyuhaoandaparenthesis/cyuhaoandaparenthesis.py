@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 One day, Yuhao came across a problem about checking if some bracket sequences are correct bracket sequences.
 
 A bracket sequence is any non-empty sequence of opening and closing parentheses. A bracket sequence is called a correct bracket sequence if it's possible to obtain a correct arithmetic expression by inserting characters \"+\" and \"1\" into this sequence. For example, the sequences \"(())()\", \"()\" and \"(()(()))\" are correct, while the bracket sequences \")(\", \"(()\" and \"(()))(\" are not correct.

@@ -19,8 +19,8 @@ class bootcampJudger(BaseJudger):
         self,
         stop_word="<|im_end|>",
         format_score=0,
-        format_penalty=True,
-        short_penalty=True,
+        format_penalty=False,
+        short_penalty=False,
         short_threshold=128,
 
     ):
@@ -70,9 +70,11 @@ class bootcampJudger(BaseJudger):
         bootcamp_cls= getattr(internbootcamp, data_source[0].upper() + data_source[1:] + "bootcamp")
         try:
             score = bootcamp_cls.verify_score(response,identity,format_score=self.format_score,format_penalty=self.format_penalty,short_penalty=self.short_penalty,short_threshold=self.short_threshold)
-        except:
-            score = bootcamp_cls.verify_score(response,identity,format_score=self.format_score)
-        return score
+            return float(score)
+        except Exception as e:
+            print(f"Error in bootcampJudger {data_source}: {e}")
+            return 0.0
+
         # print(f"[Debug] Prompt: {prompt}")
         # print(f"[Debug]: score: {score}, response: {response}")
         # if type(score) == int:

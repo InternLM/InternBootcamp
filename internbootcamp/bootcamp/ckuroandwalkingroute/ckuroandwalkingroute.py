@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Kuro is living in a country called Uberland, consisting of n towns, numbered from 1 to n, and n - 1 bidirectional roads connecting these towns. It is possible to reach each town from any other. Each road connects two towns a and b. Kuro loves walking and he is planning to take a walking marathon, in which he will choose a pair of towns (u, v) (u ≠ v) and walk from u using the shortest path to v (note that (u, v) is considered to be different from (v, u)).
 
 Oddly, there are 2 special towns in Uberland named Flowrisa (denoted with the index x) and Beetopia (denoted with the index y). Flowrisa is a town where there are many strong-scent flowers, and Beetopia is another town where many bees live. In particular, Kuro will avoid any pair of towns (u, v) if on the path from u to v, he reaches Beetopia after he reached Flowrisa, since the bees will be attracted with the flower smell on Kuro’s body and sting him.

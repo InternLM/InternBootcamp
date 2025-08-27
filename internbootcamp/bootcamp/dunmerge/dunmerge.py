@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let a and b be two arrays of lengths n and m, respectively, with no elements in common. We can define a new array merge(a,b) of length n+m recursively as follows:
 
   * If one of the arrays is empty, the result is the other array. That is, merge(∅,b)=b and merge(a,∅)=a. In particular, merge(∅,∅)=∅. 

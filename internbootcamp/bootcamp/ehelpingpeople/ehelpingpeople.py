@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Malek is a rich man. He also is very generous. That's why he decided to split his money between poor people. A charity institute knows n poor people numbered from 1 to n. The institute gave Malek q recommendations. A recommendation is a segment of people like [l, r] which means the institute recommended that Malek gives one dollar to every person whose number is in this segment.
 
 However this charity has very odd rules about the recommendations. Because of those rules the recommendations are given in such a way that for every two recommendation [a, b] and [c, d] one of the following conditions holds: 

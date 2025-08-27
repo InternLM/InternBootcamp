@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is a harder version of the problem. The difference is only in constraints.
 
 You are given a rectangular n × m matrix a. In one move you can choose any column and cyclically shift elements in this column. You can perform this operation as many times as you want (possibly zero). You can perform this operation to a column multiple times.

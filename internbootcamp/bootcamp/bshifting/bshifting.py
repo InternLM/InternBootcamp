@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 John Doe has found the beautiful permutation formula.
 
 Let's take permutation p = p1, p2, ..., pn. Let's define transformation f of this permutation: 

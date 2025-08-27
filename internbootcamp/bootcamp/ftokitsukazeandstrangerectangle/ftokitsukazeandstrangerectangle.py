@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n points on the plane, the i-th of which is at (x_i, y_i). Tokitsukaze wants to draw a strange rectangular area and pick all the points in the area.
 
 The strange area is enclosed by three lines, x = l, y = a and x = r, as its left side, its bottom side and its right side respectively, where l, r and a can be any real numbers satisfying that l < r. The upper side of the area is boundless, which you can regard as a line parallel to the x-axis at infinity. The following figure shows a strange rectangular area.

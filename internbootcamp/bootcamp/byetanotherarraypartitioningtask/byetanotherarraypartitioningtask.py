@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 An array b is called to be a subarray of a if it forms a continuous subsequence of a, that is, if it is equal to a_l, a_{l + 1}, …, a_r for some l, r.
 
 Suppose m is some known constant. For any array, having m or more elements, let's define it's beauty as the sum of m largest elements of that array. For example: 

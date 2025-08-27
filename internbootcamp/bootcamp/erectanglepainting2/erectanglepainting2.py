@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There is a square grid of size n × n. Some cells are colored in black, all others are colored in white. In one operation you can select some rectangle and color all its cells in white. It costs min(h, w) to color a rectangle of size h × w. You are to make all cells white for minimum total cost.
 
 The square is large, so we give it to you in a compressed way. The set of black cells is the union of m rectangles.

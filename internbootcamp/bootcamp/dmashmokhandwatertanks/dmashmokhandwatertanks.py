@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mashmokh is playing a new game. In the beginning he has k liters of water and p coins. Additionally he has a rooted tree (an undirected connected acyclic graph) that consists of m vertices. Each vertex of the tree contains a water tank that is empty in the beginning.
 
 The game begins with the fact that Mashmokh chooses some (no more than k) of these tanks (except the root) and pours into each of them exactly 1 liter of water. Then the following process is performed until there is no water remained in tanks.

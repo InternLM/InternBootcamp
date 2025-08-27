@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Recently Vasya learned that, given two points with different x coordinates, you can draw through them exactly one parabola with equation of type y = x^2 + bx + c, where b and c are reals. Let's call such a parabola an U-shaped one.
 
 Vasya drew several distinct points with integer coordinates on a plane and then drew an U-shaped parabola through each pair of the points that have different x coordinates. The picture became somewhat messy, but Vasya still wants to count how many of the parabolas drawn don't have any drawn point inside their internal area. Help Vasya.

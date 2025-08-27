@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Tsumugi brought n delicious sweets to the Light Music Club. They are numbered from 1 to n, where the i-th sweet has a sugar concentration described by an integer a_i.
 
 Yui loves sweets, but she can eat at most m sweets each day for health reasons.

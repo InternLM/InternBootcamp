@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Palindromic characteristics of string s with length |s| is a sequence of |s| integers, where k-th number is the total number of non-empty substrings of s which are k-palindromes.
 
 A string is 1-palindrome if and only if it reads the same backward as forward.

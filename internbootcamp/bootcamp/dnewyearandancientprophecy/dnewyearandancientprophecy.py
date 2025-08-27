@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Limak is a little polar bear. In the snow he found a scroll with the ancient prophecy. Limak doesn't know any ancient languages and thus is unable to understand the prophecy. But he knows digits!
 
 One fragment of the prophecy is a sequence of n digits. The first digit isn't zero. Limak thinks that it's a list of some special years. It's hard to see any commas or spaces, so maybe ancient people didn't use them. Now Limak wonders what years are listed there.

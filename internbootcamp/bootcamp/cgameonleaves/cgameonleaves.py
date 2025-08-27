@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ayush and Ashish play a game on an unrooted tree consisting of n nodes numbered 1 to n. Players make the following move in turns: 
 
   * Select any leaf node in the tree and remove it together with any edge which has this node as one of its endpoints. A leaf node is a node with degree less than or equal to 1. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You invited n guests to dinner! You plan to arrange one or more circles of chairs. Each chair is going to be either occupied by one guest, or be empty. You can make any number of circles. 
 
 Your guests happen to be a little bit shy, so the i-th guest wants to have a least l_i free chairs to the left of his chair, and at least r_i free chairs to the right. The \"left\" and \"right\" directions are chosen assuming all guests are going to be seated towards the center of the circle. Note that when a guest is the only one in his circle, the l_i chairs to his left and r_i chairs to his right may overlap.

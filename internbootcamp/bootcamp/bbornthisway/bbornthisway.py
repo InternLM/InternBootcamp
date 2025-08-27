@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Arkady bought an air ticket from a city A to a city C. Unfortunately, there are no direct flights, but there are a lot of flights from A to a city B, and from B to C.
 
 There are n flights from A to B, they depart at time moments a_1, a_2, a_3, ..., a_n and arrive at B t_a moments later.

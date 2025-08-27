@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Sereja has two sequences a1, a2, ..., an and b1, b2, ..., bm, consisting of integers. One day Sereja got bored and he decided two play with them. The rules of the game was very simple. Sereja makes several moves, in one move he can perform one of the following actions:
 
   1. Choose several (at least one) first elements of sequence a (non-empty prefix of a), choose several (at least one) first elements of sequence b (non-empty prefix of b); the element of sequence a with the maximum index among the chosen ones must be equal to the element of sequence b with the maximum index among the chosen ones; remove the chosen elements from the sequences. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 One remarkable day company \"X\" received k machines. And they were not simple machines, they were mechanical programmers! This was the last unsuccessful step before switching to android programmers, but that's another story.
 
 The company has now n tasks, for each of them we know the start time of its execution si, the duration of its execution ti, and the company profit from its completion ci. Any machine can perform any task, exactly one at a time. If a machine has started to perform the task, it is busy at all moments of time from si to si + ti - 1, inclusive, and it cannot switch to another task.

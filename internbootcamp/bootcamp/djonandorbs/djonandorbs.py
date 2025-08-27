@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Jon Snow is on the lookout for some orbs required to defeat the white walkers. There are k different types of orbs and he needs at least one of each. One orb spawns daily at the base of a Weirwood tree north of the wall. The probability of this orb being of any kind is equal. As the north of wall is full of dangers, he wants to know the minimum number of days he should wait before sending a ranger to collect the orbs such that the probability of him getting at least one of each kind of orb is at least <image>, where ε < 10 - 7.
 
 To better prepare himself, he wants to know the answer for q different values of pi. Since he is busy designing the battle strategy with Sam, he asks you for your help.

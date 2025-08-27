@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Grigory loves strings. Recently he found a metal strip on a loft. The strip had length n and consisted of letters \"V\" and \"K\". Unfortunately, rust has eaten some of the letters so that it's now impossible to understand which letter was written.
 
 Grigory couldn't understand for a long time what these letters remind him of, so he became interested in the following question: if we put a letter \"V\" or \"K\" on each unreadable position, which values can the period of the resulting string be equal to?

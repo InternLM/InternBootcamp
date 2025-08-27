@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The problem uses a simplified TCP/IP address model, please make sure you've read the statement attentively.
 
 Polycarpus has found a job, he is a system administrator. One day he came across n IP addresses. Each IP address is a 32 bit number, represented as a group of four 8-bit numbers (without leading zeroes), separated by dots. For example, the record 0.255.1.123 shows a correct IP address and records 0.256.1.123 and 0.255.1.01 do not. In this problem an arbitrary group of four 8-bit numbers is a correct IP address.

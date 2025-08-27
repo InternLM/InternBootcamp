@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You've got an array a, consisting of n integers. The array elements are indexed from 1 to n. Let's determine a two step operation like that:
 
   1. First we build by the array a an array s of partial sums, consisting of n elements. Element number i (1 ≤ i ≤ n) of array s equals <image>. The operation x mod y means that we take the remainder of the division of number x by number y. 

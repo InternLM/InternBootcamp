@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Shingoki is a logic puzzle where players draw a single continuous, non-intersecting loop on a grid. Here are the core rules:
 

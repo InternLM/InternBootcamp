@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vanya wants to pass n exams and get the academic scholarship. He will get the scholarship if the average grade mark for all the exams is at least avg. The exam grade cannot exceed r. Vanya has passed the exams and got grade ai for the i-th exam. To increase the grade for the i-th exam by 1 point, Vanya must write bi essays. He can raise the exam grade multiple times.
 
 What is the minimum number of essays that Vanya needs to write to get scholarship?

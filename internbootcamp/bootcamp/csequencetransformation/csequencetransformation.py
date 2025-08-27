@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let's call the following process a transformation of a sequence of length n.
 
 If the sequence is empty, the process ends. Otherwise, append the [greatest common divisor](https://en.wikipedia.org/wiki/Greatest_common_divisor) (GCD) of all the elements of the sequence to the result and remove one arbitrary element from the sequence. Thus, when the process ends, we have a sequence of n integers: the greatest common divisors of all the elements in the sequence before each deletion.

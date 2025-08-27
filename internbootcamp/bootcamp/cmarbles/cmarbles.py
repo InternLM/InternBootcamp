@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In the spirit of the holidays, Saitama has given Genos two grid paths of length n (a weird gift even by Saitama's standards). A grid path is an ordered sequence of neighbouring squares in an infinite grid. Two squares are neighbouring if they share a side.
 
 One example of a grid path is (0, 0) → (0, 1) → (0, 2) → (1, 2) → (1, 1) → (0, 1) → ( - 1, 1). Note that squares in this sequence might be repeated, i.e. path has self intersections.

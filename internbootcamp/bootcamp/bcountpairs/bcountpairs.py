@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a prime number p, n integers a_1, a_2, …, a_n, and an integer k. 
 
 Find the number of pairs of indexes (i, j) (1 ≤ i < j ≤ n) for which (a_i + a_j)(a_i^2 + a_j^2) ≡ k mod p.

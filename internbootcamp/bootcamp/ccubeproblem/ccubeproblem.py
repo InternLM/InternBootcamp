@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Yaroslav, Andrey and Roman love playing cubes. Sometimes they get together and play cubes for hours and hours! 
 
 Today they got together again and they are playing cubes. Yaroslav took unit cubes and composed them into an a × a × a cube, Andrey made a b × b × b cube and Roman made a c × c × c cube. After that the game was finished and the guys left. But later, Vitaly entered the room. He saw the cubes and wanted to make a cube as well. But what size should the cube be? Of course it should be a large cube with the side of length a + b + c. Besides, Vitaly decided to decompose the cubes built by Yaroslav, Andrey and Roman and compose his own large cube out of them. However, it turned out that the unit cubes he got from destroying the three cubes just weren't enough to make a large cube. We know that Vitaly was short of exactly n cubes. Vitaly got upset, demolished everything and left. As he was leaving, he met Petya and told him that there had been three cubes in the room and that he needed another n unit cubes to make his own large cube.

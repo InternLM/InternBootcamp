@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 General Payne has a battalion of n soldiers. The soldiers' beauty contest is coming up, it will last for k days. Payne decided that his battalion will participate in the pageant. Now he has choose the participants.
 
 All soldiers in the battalion have different beauty that is represented by a positive integer. The value ai represents the beauty of the i-th soldier.

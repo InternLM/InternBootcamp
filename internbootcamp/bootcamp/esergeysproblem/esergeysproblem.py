@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Sergey just turned five years old! When he was one year old, his parents gave him a number; when he was two years old, his parents gave him an array of integers. On his third birthday he received a string. When he was four, his mother woke him up in a quiet voice, wished him to be a good boy and gave him a rooted tree. Today he celebrates his birthday again! He found a directed graph without loops as a present from his parents.
 
 Since Sergey is a very curious boy, he immediately came up with a thing to do. He decided to find a set Q of vertices in this graph, such that no two vertices x, y ∈ Q are connected by an edge, and it is possible to reach any vertex z ∉ Q from some vertex of Q in no more than two moves. 

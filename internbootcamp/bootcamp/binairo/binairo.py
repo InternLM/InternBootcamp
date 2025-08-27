@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Binairo is a logic puzzle played on a rectangular grid (typically square and even-sized, e.g., 6x6, 8x8). The goal is to fill the grid with **0s and 1s** while adhering to these rules:
 

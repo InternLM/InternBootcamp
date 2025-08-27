@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya has written some permutation p_1, p_2, …, p_n of integers from 1 to n, so for all 1 ≤ i ≤ n it is true that 1 ≤ p_i ≤ n and all p_1, p_2, …, p_n are different. After that he wrote n numbers next_1, next_2, …, next_n. The number next_i is equal to the minimal index i < j ≤ n, such that p_j > p_i. If there is no such j let's let's define as next_i = n + 1.
 
 In the evening Vasya went home from school and due to rain, his notebook got wet. Now it is impossible to read some written numbers. Permutation and some values next_i are completely lost! If for some i the value next_i is lost, let's say that next_i = -1.

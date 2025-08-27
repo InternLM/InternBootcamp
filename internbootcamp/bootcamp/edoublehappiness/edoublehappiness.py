@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 On the math lesson a teacher asked each pupil to come up with his own lucky numbers. As a fan of number theory Peter chose prime numbers. Bob was more original. He said that number t is his lucky number, if it can be represented as: 
 
 t = a2 + b2,  where a, b are arbitrary positive integers.

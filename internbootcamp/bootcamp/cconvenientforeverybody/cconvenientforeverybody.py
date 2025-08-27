@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In distant future on Earth day lasts for n hours and that's why there are n timezones. Local times in adjacent timezones differ by one hour. For describing local time, hours numbers from 1 to n are used, i.e. there is no time \"0 hours\", instead of it \"n hours\" is used. When local time in the 1-st timezone is 1 hour, local time in the i-th timezone is i hours.
 
 Some online programming contests platform wants to conduct a contest that lasts for an hour in such a way that its beginning coincides with beginning of some hour (in all time zones). The platform knows, that there are ai people from i-th timezone who want to participate in the contest. Each person will participate if and only if the contest starts no earlier than s hours 00 minutes local time and ends not later than f hours 00 minutes local time. Values s and f are equal for all time zones. If the contest starts at f hours 00 minutes local time, the person won't participate in it.

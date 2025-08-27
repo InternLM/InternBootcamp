@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The black king is standing on a chess field consisting of 109 rows and 109 columns. We will consider the rows of the field numbered with integers from 1 to 109 from top to bottom. The columns are similarly numbered with integers from 1 to 109 from left to right. We will denote a cell of the field that is located in the i-th row and j-th column as (i, j).
 
 You know that some squares of the given chess field are allowed. All allowed cells of the chess field are given as n segments. Each segment is described by three integers ri, ai, bi (ai ≤ bi), denoting that cells in columns from number ai to number bi inclusive in the ri-th row are allowed.

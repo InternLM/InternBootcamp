@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Alexandra has a paper strip with n numbers on it. Let's call them ai from left to right.
 
 Now Alexandra wants to split it into some pieces (possibly 1). For each piece of strip, it must satisfy:

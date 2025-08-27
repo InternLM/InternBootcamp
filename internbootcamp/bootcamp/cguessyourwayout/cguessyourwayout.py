@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Amr bought a new video game \"Guess Your Way Out!\". The goal of the game is to find an exit from the maze that looks like a perfect binary tree of height h. The player is initially standing at the root of the tree and the exit from the tree is located at some leaf node. 
 
 Let's index all the leaf nodes from the left to the right from 1 to 2h. The exit is located at some node n where 1 ≤ n ≤ 2h, the player doesn't know where the exit is so he has to guess his way out!

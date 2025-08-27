@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A rectangle with sides A and B is cut into rectangles with cuts parallel to its sides. For example, if p horizontal and q vertical cuts were made, (p + 1) ⋅ (q + 1) rectangles were left after the cutting. After the cutting, rectangles were of n different types. Two rectangles are different if at least one side of one rectangle isn't equal to the corresponding side of the other. Note that the rectangle can't be rotated, this means that rectangles a × b and b × a are considered different if a ≠ b.
 
 For each type of rectangles, lengths of the sides of rectangles are given along with the amount of the rectangles of this type that were left after cutting the initial rectangle.

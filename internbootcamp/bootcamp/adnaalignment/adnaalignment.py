@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya became interested in bioinformatics. He's going to write an article about similar cyclic DNA sequences, so he invented a new method for determining the similarity of cyclic sequences.
 
 Let's assume that strings s and t have the same length n, then the function h(s, t) is defined as the number of positions in which the respective symbols of s and t are the same. Function h(s, t) can be used to define the function of Vasya distance ρ(s, t): 

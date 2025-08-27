@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Scott Lang is at war with Darren Cross. There are n chairs in a hall where they are, numbered with 1, 2, ..., n from left to right. The i-th chair is located at coordinate xi. Scott is on chair number s and Cross is on chair number e. Scott can jump to all other chairs (not only neighboring chairs). He wants to start at his position (chair number s), visit each chair exactly once and end up on chair number e with Cross. 
 
 As we all know, Scott can shrink or grow big (grow big only to his normal size), so at any moment of time he can be either small or large (normal). The thing is, he can only shrink or grow big while being on a chair (not in the air while jumping to another chair). Jumping takes time, but shrinking and growing big takes no time. Jumping from chair number i to chair number j takes |xi - xj| seconds. Also, jumping off a chair and landing on a chair takes extra amount of time. 

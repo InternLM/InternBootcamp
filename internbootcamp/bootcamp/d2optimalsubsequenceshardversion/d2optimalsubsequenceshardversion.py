@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is the harder version of the problem. In this version, 1 ≤ n, m ≤ 2⋅10^5. You can hack this problem if you locked it. But you can hack the previous problem only if you locked both problems.
 
 You are given a sequence of integers a=[a_1,a_2,...,a_n] of length n. Its subsequence is obtained by removing zero or more elements from the sequence a (they do not necessarily go consecutively). For example, for the sequence a=[11,20,11,33,11,20,11]:

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You're given an integer n. For every integer i from 2 to n, assign a positive integer a_i such that the following conditions hold:
 
   * For any pair of integers (i,j), if i and j are coprime, a_i ≠ a_j. 

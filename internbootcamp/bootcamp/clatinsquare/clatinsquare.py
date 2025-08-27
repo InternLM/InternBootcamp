@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a square matrix of size n. Every row and every column of this matrix is a permutation of 1, 2, …, n. Let a_{i, j} be the element at the intersection of i-th row and j-th column for every 1 ≤ i, j ≤ n. Rows are numbered 1, …, n top to bottom, and columns are numbered 1, …, n left to right.
 
 There are six types of operations: 

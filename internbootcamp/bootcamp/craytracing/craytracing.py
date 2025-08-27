@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are k sensors located in the rectangular room of size n × m meters. The i-th sensor is located at point (xi, yi). All sensors are located at distinct points strictly inside the rectangle. 
 
 Opposite corners of the room are located at points (0, 0) and (n, m). Walls of the room are parallel to coordinate axes.

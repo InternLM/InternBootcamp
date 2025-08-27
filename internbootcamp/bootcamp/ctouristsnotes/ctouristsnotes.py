@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A tourist hiked along the mountain range. The hike lasted for n days, during each day the tourist noted height above the sea level. On the i-th day height was equal to some integer hi. The tourist pick smooth enough route for his hike, meaning that the between any two consecutive days height changes by at most 1, i.e. for all i's from 1 to n - 1 the inequality |hi - hi + 1| ≤ 1 holds.
 
 At the end of the route the tourist rafted down a mountain river and some notes in the journal were washed away. Moreover, the numbers in the notes could have been distorted. Now the tourist wonders what could be the maximum height during his hike. Help him restore the maximum possible value of the maximum height throughout the hike or determine that the notes were so much distorted that they do not represent any possible height values that meet limits |hi - hi + 1| ≤ 1.

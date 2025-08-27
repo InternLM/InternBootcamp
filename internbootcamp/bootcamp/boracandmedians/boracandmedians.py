@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Slime has a sequence of positive integers a_1, a_2, …, a_n.
 
 In one operation Orac can choose an arbitrary subsegment [l … r] of this sequence and replace all values a_l, a_{l + 1}, …, a_r to the value of median of \\{a_l, a_{l + 1}, …, a_r\}.

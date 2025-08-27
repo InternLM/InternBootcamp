@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Arseniy is already grown-up and independent. His mother decided to leave him alone for m days and left on a vacation. She have prepared a lot of food, left some money and washed all Arseniy's clothes. 
 
 Ten minutes before her leave she realized that it would be also useful to prepare instruction of which particular clothes to wear on each of the days she will be absent. Arseniy's family is a bit weird so all the clothes is enumerated. For example, each of Arseniy's n socks is assigned a unique integer from 1 to n. Thus, the only thing his mother had to do was to write down two integers li and ri for each of the days — the indices of socks to wear on the day i (obviously, li stands for the left foot and ri for the right). Each sock is painted in one of k colors.

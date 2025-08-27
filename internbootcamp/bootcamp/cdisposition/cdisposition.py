@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya bought the collected works of a well-known Berland poet Petya in n volumes. The volumes are numbered from 1 to n. He thinks that it does not do to arrange the book simply according to their order. Vasya wants to minimize the number of the disposition’s divisors — the positive integers i such that for at least one j (1 ≤ j ≤ n) is true both: j mod i = 0 and at the same time p(j) mod i = 0, where p(j) is the number of the tome that stands on the j-th place and mod is the operation of taking the division remainder. Naturally, one volume can occupy exactly one place and in one place can stand exactly one volume.
 
 Help Vasya — find the volume disposition with the minimum number of divisors.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Do you like summer? Residents of Berland do. They especially love eating ice cream in the hot summer. So this summer day a large queue of n Berland residents lined up in front of the ice cream stall. We know that each of them has a certain amount of berland dollars with them. The residents of Berland are nice people, so each person agrees to swap places with the person right behind him for just 1 dollar. More formally, if person a stands just behind person b, then person a can pay person b 1 dollar, then a and b get swapped. Of course, if person a has zero dollars, he can not swap places with person b.
 
 Residents of Berland are strange people. In particular, they get upset when there is someone with a strictly smaller sum of money in the line in front of them.

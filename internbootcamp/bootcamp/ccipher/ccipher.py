@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Sherlock Holmes found a mysterious correspondence of two VIPs and made up his mind to read it. But there is a problem! The correspondence turned out to be encrypted. The detective tried really hard to decipher the correspondence, but he couldn't understand anything. 
 
 At last, after some thought, he thought of something. Let's say there is a word s, consisting of |s| lowercase Latin letters. Then for one operation you can choose a certain position p (1 ≤ p < |s|) and perform one of the following actions: 

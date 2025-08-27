@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya will fancy any number as long as it is an integer power of two. Petya, on the other hand, is very conservative and only likes a single integer p (which may be positive, negative, or zero). To combine their tastes, they invented p-binary numbers of the form 2^x + p, where x is a non-negative integer.
 
 For example, some -9-binary (\"minus nine\" binary) numbers are: -8 (minus eight), 7 and 1015 (-8=2^0-9, 7=2^4-9, 1015=2^{10}-9).

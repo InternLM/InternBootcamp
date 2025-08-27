@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Hitori is a logic puzzle played on a square grid where each cell contains a number. The objective is to shade (blacken) cells according to the following rules:
 

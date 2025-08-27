@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 During the quarantine, Sicromoft has more free time to create the new functions in \"Celex-2021\". The developers made a new function GAZ-GIZ, which infinitely fills an infinite table to the right and down from the upper left corner as follows:
 
 <image> The cell with coordinates (x, y) is at the intersection of x-th row and y-th column. Upper left cell (1,1) contains an integer 1.

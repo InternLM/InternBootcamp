@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Momiji has got a rooted tree, consisting of n nodes. The tree nodes are numbered by integers from 1 to n. The root has number 1. Momiji decided to play a game on this tree.
 
 The game consists of several steps. On each step, Momiji chooses one of the remaining tree nodes (let's denote it by v) and removes all the subtree nodes with the root in node v from the tree. Node v gets deleted as well. The game finishes when the tree has no nodes left. In other words, the game finishes after the step that chooses the node number 1.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In mathematical terms, the sequence Fn of Fibonacci numbers is defined by the recurrence relation 
 
 F1 = 1; F2 = 1; Fn = Fn - 1 + Fn - 2 (n > 2).

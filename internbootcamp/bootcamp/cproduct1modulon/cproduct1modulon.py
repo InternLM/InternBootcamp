@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Now you get Baby Ehab's first words: \"Given an integer n, find the longest subsequence of [1,2, …, n-1] whose product is 1 modulo n.\" Please solve the problem.
 
 A sequence b is a subsequence of an array a if b can be obtained from a by deleting some (possibly all) elements. The product of an empty subsequence is equal to 1.

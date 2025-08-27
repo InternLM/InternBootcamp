@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There is an infinite set generated as follows:
 
   * 1 is in this set. 

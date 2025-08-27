@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Convexity of a set of points on the plane is the size of the largest subset of points that form a convex polygon. Your task is to build a set of n points with the convexity of exactly m. Your set of points should not contain three points that lie on a straight line.
 
 Input

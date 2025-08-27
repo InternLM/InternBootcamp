@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Oak has n nesting places, numbered with integers from 1 to n. Nesting place i is home to b_i bees and w_i wasps.
 
 Some nesting places are connected by branches. We call two nesting places adjacent if there exists a branch between them. A simple path from nesting place x to y is given by a sequence s_0, …, s_p of distinct nesting places, where p is a non-negative integer, s_0 = x, s_p = y, and s_{i-1} and s_{i} are adjacent for each i = 1, …, p. The branches of The Oak are set up in such a way that for any two pairs of nesting places x and y, there exists a unique simple path from x to y. Because of this, biologists and computer scientists agree that The Oak is in fact, a tree.

@@ -258,8 +258,7 @@ Please give your answer in the format [[]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import random
 import re
 
@@ -307,35 +306,38 @@ class KorLogicStatisticalReasoningbootcamp(Basebootcamp):
     
     @staticmethod
     def prompt_func(question_case):
+        
+        rule = "1. Statistical Reasoning Categories and Symbolization\n\n(1) U-Generalization\n    - Symbol: `U`\n    - Definition: If all individuals in a sample possess a certain attribute, we infer that all individuals in the population may also possess that attribute.\n\n(2) P-Generalization\n    - Symbol: `P`\n    - Definition: If a portion of the individuals in a sample possess a certain attribute, we infer that a certain proportion of the individuals in the population may possess that attribute.\n\n(3) C-Reasoning\n    - Symbol: `C`\n    - Definition: If two samples exhibit similarities in certain attributes, we infer that these two samples may come from populations with similar attribute proportions.\n\n2. Statistical Attribute Inference Based on Samples\n\n(1) Rule Description:\n- Randomly select a representative sample from the population.\n- Observe and record specific attributes of individuals in the sample.\n- Depending on the frequency of the attributes and the type of sample, apply the following rules:\n\n(2) U-Generalization Rule:\n- If all individuals (denoted as `n`) in the sample possess attribute `A`, then we can infer that all individuals in the population also possess attribute `A`.\n- Symbolization: If `U(A, n)`, then `∀x ∈ P, A(x)`.\n\n(3) P-Generalization Rule:\n- If `k` individuals in the sample possess attribute `A`, where `k < n`, then we can infer that approximately `k/n` proportion of the individuals in the population possess attribute `A`.\n- Symbolization: If `P(A, k, n)`, then `Pr(A) ≈ k/n`.\n\n(4) C-Reasoning Rule:\n- If two samples S1 and S2 exhibit similar proportions in attribute `A`, i.e., `P(A, k1, n1)` and `P(A, k2, n2)`, then we can infer that these two samples may come from populations with similar proportions of attribute `A`.\n- Symbolization: If `C(A, k1/n1, k2/n2)`, then `Pr(A, P1) ≈ Pr(A, P2)`.\n"
+        
         attr = question_case['attribute']
         qt = question_case['question_type']
         
         if qt == 'U_calculation':
-            return (
+            return rule + (
                 f"In a study, {question_case['n']} subjects were randomly selected and all demonstrated "
                 f"{attr['desc']} (denoted as {attr['symbol']}). Using U-Generalization Rule, estimate the proportion. "
                 "Format your answer as [[number%]]."
             )
         elif qt == 'U_symbolization':
-            return (
+            return rule + (
                 f"Represent symbolically: All {question_case['n']} sampled subjects have {attr['desc']} "
                 f"(denoted as {attr['symbol']}). Apply U-Generalization Rule. "
                 f"Format your answer as [[U({attr['symbol']}, {question_case['n']})]]."
             )
         elif qt == 'P_calculation':
-            return (
+            return rule + (
                 f"In a sample of {question_case['n']} subjects, {question_case['k']} demonstrated "
                 f"{attr['desc']} (denoted as {attr['symbol']}). Using P-Generalization Rule, estimate the proportion. "
                 "Format your answer as [[number%]]."
             )
         elif qt == 'P_symbolization':
-            return (
+            return rule + (
                 f"Symbolize: {question_case['k']} out of {question_case['n']} samples show {attr['desc']} "
                 f"(denoted as {attr['symbol']}). Apply P-Generalization Rule. "
                 f"Format your answer as [[P({attr['symbol']}, {question_case['k']}, {question_case['n']})]]."
             )
         elif qt == 'C_symbolization':
-            return (
+            return rule + (
                 f"Two samples show {attr['desc']} (denoted as {attr['symbol']}): "
                 f"Sample 1 has {question_case['k1']} out of {question_case['n1']}, "
                 f"Sample 2 has {question_case['k2']} out of {question_case['n2']}. Apply C-Reasoning Rule. "
@@ -375,3 +377,18 @@ class KorLogicStatisticalReasoningbootcamp(Basebootcamp):
             return False
         except:
             return False
+
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicStatisticalReasoningbootcamp
+        bootcamp = KorLogicStatisticalReasoningbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, 'case', '='*50 + '\n', case, '\n' ,'='*50, 'case', '='*50)
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case),'\n' +'='*50, bootcamp_cls.__name__, '='*50)
+            input_answer = input('Enter your answer: ')
+            print('提取到的答案：', bootcamp_cls.extract_output(input_answer), '\n')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

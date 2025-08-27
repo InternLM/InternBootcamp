@@ -163,8 +163,10 @@ def main(src, tgt=None):
     :param src: 源文件或目录路径
     :param tgt: 目标文件或目录路径
     """
+    from datetime import datetime
+    current_time = datetime.now().strftime("%Y-%m-%d-%H:%M:%S")
     if not tgt and os.path.isdir(src):
-        tgt = src + '_for_verl'
+        tgt = src + '_for_verl' + '_' + current_time
     
     if not os.path.exists(src):
         raise ValueError(f"Source path does not exist: {src}")

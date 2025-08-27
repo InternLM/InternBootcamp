@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Norinori is a grid-based logic puzzle where the goal is to partition the entire grid into non-overlapping **domino regions** (each covering exactly two orthogonally adjacent cells). The rules are as follows:
 

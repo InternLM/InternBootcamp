@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 [INSPION FullBand Master - INSPION](https://www.youtube.com/watch?v=kwsciXm_7sA)
 
 [INSPION - IOLITE-SUNSTONE](https://www.youtube.com/watch?v=kwsciXm_7sA)

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Arthur has bought a beautiful big table into his new flat. When he came home, Arthur noticed that the new table is unstable.
 
 In total the table Arthur bought has n legs, the length of the i-th leg is li.

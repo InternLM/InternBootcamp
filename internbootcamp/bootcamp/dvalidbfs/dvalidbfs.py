@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The [BFS](https://en.wikipedia.org/wiki/Breadth-first_search) algorithm is defined as follows.
 
   1. Consider an undirected graph with vertices numbered from 1 to n. Initialize q as a new [queue](http://gg.gg/queue_en) containing only vertex 1, mark the vertex 1 as used. 

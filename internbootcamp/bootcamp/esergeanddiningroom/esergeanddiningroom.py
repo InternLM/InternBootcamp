@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Serge came to the school dining room and discovered that there is a big queue here. There are m pupils in the queue. He's not sure now if he wants to wait until the queue will clear, so he wants to know which dish he will receive if he does. As Serge is very tired, he asks you to compute it instead of him.
 
 Initially there are n dishes with costs a_1, a_2, …, a_n. As you already know, there are the queue of m pupils who have b_1, …, b_m togrogs respectively (pupils are enumerated by queue order, i.e the first pupil in the queue has b_1 togrogs and the last one has b_m togrogs)

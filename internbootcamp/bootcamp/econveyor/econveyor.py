@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Anton came to a chocolate factory. There he found a working conveyor and decided to run on it from the beginning to the end.
 
 The conveyor is a looped belt with a total length of 2l meters, of which l meters are located on the surface and are arranged in a straight line. The part of the belt which turns at any moment (the part which emerges from under the floor to the surface and returns from the surface under the floor) is assumed to be negligibly short.

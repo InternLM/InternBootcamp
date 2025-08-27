@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Pushok the dog has been chasing Imp for a few hours already.
 
 <image>

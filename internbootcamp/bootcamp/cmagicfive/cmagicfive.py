@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There is a long plate s containing n digits. Iahub wants to delete some digits (possibly none, but he is not allowed to delete all the digits) to form his \"magic number\" on the plate, a number that is divisible by 5. Note that, the resulting number may contain leading zeros.
 
 Now Iahub wants to count the number of ways he can obtain magic number, modulo 1000000007 (109 + 7). Two ways are different, if the set of deleted positions in s differs.

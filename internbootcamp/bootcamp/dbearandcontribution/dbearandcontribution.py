@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Codeforces is a wonderful platform and one its feature shows how much someone contributes to the community. Every registered user has contribution — an integer number, not necessarily positive. There are n registered users and the i-th of them has contribution ti.
 
 Limak is a little polar bear and he's new into competitive programming. He doesn't even have an account in Codeforces but he is able to upvote existing blogs and comments. We assume that every registered user has infinitely many blogs and comments.

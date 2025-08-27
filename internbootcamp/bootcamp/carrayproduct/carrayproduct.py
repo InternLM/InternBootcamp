@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given an array a consisting of n integers. You can perform the following operations with it: 
 
   1. Choose some positions i and j (1 ≤ i, j ≤ n, i ≠ j), write the value of a_i ⋅ a_j into the j-th cell and remove the number from the i-th cell; 

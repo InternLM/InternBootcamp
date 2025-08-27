@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 BigData Inc. is a corporation that has n data centers indexed from 1 to n that are located all over the world. These data centers provide storage for client data (you can figure out that client data is really big!).
 
 Main feature of services offered by BigData Inc. is the access availability guarantee even under the circumstances of any data center having an outage. Such a guarantee is ensured by using the two-way replication. Two-way replication is such an approach for data storage that any piece of data is represented by two identical copies that are stored in two different data centers.

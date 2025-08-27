@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 **Objective**: Clear a rectangular grid of hidden cells without detonating any mines. Cells contain either mines or numbers indicating adjacent mines.
 

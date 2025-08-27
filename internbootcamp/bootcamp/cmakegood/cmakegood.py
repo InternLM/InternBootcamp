@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let's call an array a_1, a_2, ..., a_m of nonnegative integer numbers good if a_1 + a_2 + ... + a_m = 2⋅(a_1 ⊕ a_2 ⊕ ... ⊕ a_m), where ⊕ denotes the [bitwise XOR operation](https://en.wikipedia.org/wiki/Bitwise_operation#XOR).
 
 For example, array [1, 2, 3, 6] is good, as 1 + 2 + 3 + 6 = 12 = 2⋅ 6 = 2⋅ (1⊕ 2 ⊕ 3 ⊕ 6). At the same time, array [1, 2, 1, 3] isn't good, as 1 + 2 + 1 + 3 = 7 ≠ 2⋅ 1 = 2⋅(1⊕ 2 ⊕ 1 ⊕ 3).

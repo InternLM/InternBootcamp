@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A lot of students spend their winter holidays productively. Vlad has advanced very well in doing so! For three days already, fueled by salads and tangerines — the leftovers from New Year celebration — he has been calibrating his rating in his favorite MOBA game, playing as a hero named Perun.
 
 Perun has an ultimate ability called \"Thunderwrath\". At the instant of its activation, each enemy on the map (n of them in total) loses <image> health points as a single-time effect. It also has a restriction: it can only activated when the moment of time is an integer. The initial bounty for killing an enemy is <image>. Additionally, it increases by <image> each second. Formally, if at some second t the ability is activated and the i-th enemy is killed as a result (i.e. his health drops to zero or lower), Vlad earns <image> units of gold.

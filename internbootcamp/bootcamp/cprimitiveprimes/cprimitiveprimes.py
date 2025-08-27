@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 It is Professor R's last class of his teaching career. Every time Professor R taught a class, he gave a special problem for the students to solve. You being his favourite student, put your heart into solving it one last time.
 
 You are given two polynomials f(x) = a_0 + a_1x + ... + a_{n-1}x^{n-1} and g(x) = b_0 + b_1x + ... + b_{m-1}x^{m-1}, with positive integral coefficients. It is guaranteed that the cumulative GCD of the coefficients is equal to 1 for both the given polynomials. In other words, gcd(a_0, a_1, ..., a_{n-1}) = gcd(b_0, b_1, ..., b_{m-1}) = 1. Let h(x) = f(x)⋅ g(x). Suppose that h(x) = c_0 + c_1x + ... + c_{n+m-2}x^{n+m-2}. 

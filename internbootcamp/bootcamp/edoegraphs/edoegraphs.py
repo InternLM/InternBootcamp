@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 John Doe decided that some mathematical object must be named after him. So he invented the Doe graphs. The Doe graphs are a family of undirected graphs, each of them is characterized by a single non-negative number — its order. 
 
 We'll denote a graph of order k as D(k), and we'll denote the number of vertices in the graph D(k) as |D(k)|. Then let's define the Doe graphs as follows:
