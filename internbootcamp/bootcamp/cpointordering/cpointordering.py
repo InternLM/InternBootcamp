@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is an interactive problem.
 
 Khanh has n points on the Cartesian plane, denoted by a_1, a_2, …, a_n. All points' coordinates are integers between -10^9 and 10^9, inclusive. No three points are collinear. He says that these points are vertices of a convex polygon; in other words, there exists a permutation p_1, p_2, …, p_n of integers from 1 to n such that the polygon a_{p_1} a_{p_2} … a_{p_n} is convex and vertices are listed in counter-clockwise order.

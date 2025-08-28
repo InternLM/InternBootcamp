@@ -1,0 +1,22 @@
+[
+    {
+        "max_stairs": 5,
+        "max_boxes": 3,
+        "max_height": 1000000
+    },
+    {
+        "max_stairs": 10,
+        "max_boxes": 5,
+        "max_height": 10000000
+    },
+    {
+        "max_stairs": 20,
+        "max_boxes": 15,
+        "max_height": 1000000000
+    },
+    {
+        "max_stairs": 25,
+        "max_boxes": 20,
+        "max_height": 10000000000
+    }
+]

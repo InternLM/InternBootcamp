@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 10,
+        "n_max": 20,
+        "rotation_prob": 0.5
+    },
+    {
+        "n_min": 3,
+        "n_max": 10,
+        "rotation_prob": 0.3
+    },
+    {
+        "n_min": 4,
+        "n_max": 8,
+        "rotation_prob": 0.6
+    },
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "rotation_prob": 0.7
+    }
+]

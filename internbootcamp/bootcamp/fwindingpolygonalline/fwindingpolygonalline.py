@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya has n different points A_1, A_2, … A_n on the plane. No three of them lie on the same line He wants to place them in some order A_{p_1}, A_{p_2}, …, A_{p_n}, where p_1, p_2, …, p_n — some permutation of integers from 1 to n.
 
 After doing so, he will draw oriented polygonal line on these points, drawing oriented segments from each point to the next in the chosen order. So, for all 1 ≤ i ≤ n-1 he will draw oriented segment from point A_{p_i} to point A_{p_{i+1}}. He wants to make this polygonal line satisfying 2 conditions: 

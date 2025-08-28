@@ -1,0 +1,34 @@
+[
+    {
+        "min_d": 1,
+        "max_d": 200,
+        "min_mult": 1,
+        "max_mult": 200,
+        "min_queries": 5,
+        "max_queries": 10
+    },
+    {
+        "min_d": 1,
+        "max_d": 50,
+        "min_mult": 1,
+        "max_mult": 200,
+        "min_queries": 3,
+        "max_queries": 5
+    },
+    {
+        "min_d": 5,
+        "max_d": 50,
+        "min_mult": 1,
+        "max_mult": 100,
+        "min_queries": 4,
+        "max_queries": 7
+    },
+    {
+        "min_d": 1,
+        "max_d": 50,
+        "min_mult": 1,
+        "max_mult": 50,
+        "min_queries": 3,
+        "max_queries": 5
+    }
+]

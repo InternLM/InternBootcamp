@@ -1,5 +1,4 @@
-
-
+"""
 ### 谜题描述
 
 The \"Pipes\" puzzle is a grid-based logic game where players connect colored endpoints with continuous, non-overlapping paths under the following rules:

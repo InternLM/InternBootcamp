@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nikita has a stack. A stack in this problem is a data structure that supports two operations. Operation push(x) puts an integer x on the top of the stack, and operation pop() deletes the top integer from the stack, i. e. the last added. If the stack is empty, then the operation pop() does nothing.
 
 Nikita made m operations with the stack but forgot them. Now Nikita wants to remember them. He remembers them one by one, on the i-th step he remembers an operation he made pi-th. In other words, he remembers the operations in order of some permutation p1, p2, ..., pm. After each step Nikita wants to know what is the integer on the top of the stack after performing the operations he have already remembered, in the corresponding order. Help him!

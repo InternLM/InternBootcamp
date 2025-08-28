@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You have a simple undirected graph consisting of n vertices and m edges. The graph doesn't contain self-loops, there is at most one edge between a pair of vertices. The given graph can be disconnected.
 
 Let's make a definition.

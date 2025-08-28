@@ -242,9 +242,8 @@ Please provide the answer in the format [[A/B]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import random
-from bootcamp import Basebootcamp
 
 class KorLogicAnalogicalReasoningbootcamp(Basebootcamp):
     def __init__(self, attribute_pools=None, **params):
@@ -349,13 +348,23 @@ B. ⌘ Method (missing attributes lead to negative conclusion)
 Please answer with [[A]] or [[B]]."""
         
         else:
+            template = method_descriptions[case['method']]
+            premise = template['premise'].format(
+                objA=case['objects'][0],
+                attrs=', '.join(case['common_attrs'] + [case['derived_attr']]),
+                objB=case['objects'][1],
+                common_attrs=', '.join(case['common_attrs'])
+            )
             role_map = {
                 'Ψ': {'A': '#Ψ attribute (shared)', 'B': '+Ψ attribute (inferred)'},
                 '⌘': {'A': '-⌘ attribute (missing)', 'B': '+⌘ attribute (excluded)'}
             }
             roles = role_map[case['method']]
             
-            return f"""In the following {case['method']} Method example:
+            rule = "There are two types of analogical reasoning:\n\n1. Ψ Method:\n    Object A has attributes a, b, c, d;\n    Object B has attributes a, b, c;\n    Therefore, Object B also has attribute d.\n    Here, attributes a, b, c are referred to as #Ψ attributes, and d is referred to as the +Ψ attribute.\n    \n2. ⌘ Method: \n    Object A has attributes a, b, c, d;\n    Object B does not have attributes a, b, c;\n    Therefore, Object B also does not have attribute d.\n    Here, attributes a, b, c are referred to as -⌘ attributes, and d is referred to as the +⌘ attribute."
+            
+            
+            return random.choice([rule,'']) + f"""In the following example:{premise}
 "{case['target_attr']}" is which type of attribute?
 A. {roles['A']}
 B. {roles['B']}
@@ -371,3 +380,16 @@ Please answer with [[A]] or [[B]]."""
     @classmethod
     def _verify_correction(cls, solution, case):
         return solution == case['correct_answer']
+
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicAnalogicalReasoningbootcamp
+        bootcamp = KorLogicAnalogicalReasoningbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case))
+            input_answer = input('Enter your answer: ')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

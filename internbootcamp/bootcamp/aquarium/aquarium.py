@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 The Aquarium puzzle is solved by determining water levels for each aquarium region in a grid, adhering to the following rules:
 

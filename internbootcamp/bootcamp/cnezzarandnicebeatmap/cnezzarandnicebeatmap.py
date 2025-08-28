@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nezzar loves the game osu!.
 
 osu! is played on beatmaps, which can be seen as an array consisting of distinct points on a plane. A beatmap is called nice if for any three consecutive points A,B,C listed in order, the angle between these three points, centered at B, is strictly less than 90 degrees.

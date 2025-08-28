@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 20,
+        "k_ratio": [
+            0.3,
+            0.7
+        ],
+        "random_seed": 666,
+        "test_case_type": "invalid"
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "k_ratio": [
+            0.1,
+            0.9
+        ],
+        "random_seed": 42,
+        "test_case_type": "mixed"
+    }
+]

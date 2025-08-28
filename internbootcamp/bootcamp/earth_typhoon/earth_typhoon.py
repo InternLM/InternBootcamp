@@ -68,7 +68,7 @@ class Earthtyphoonbootcamp(Basebootcamp):
         v = identity["v"]
         return (
             f"下面给出最大风速（v）={v} (kt)\n\n"
-            "请计算海平面气压（单位是 Pa），计算公式为：\n"
+            "请计算平均海平面气压（单位是 百帕 hPa），计算公式为：\n"
             "mslp = 1021.36 - 0.36*v - (v/20.16)**2\n"
             "请将最终计算结果放入\\boxed{}中，例如：\\boxed{1234.56}"
         )
@@ -93,7 +93,7 @@ class Earthtyphoonbootcamp(Basebootcamp):
         # 验证 c ≈ k
         if abs(c - identity["mslp"]) < 1e-2:
             return 1
-        return max(1 - abs(c - identity["mslp"]),0)
+        return 0
 
 
 if __name__ == "__main__":

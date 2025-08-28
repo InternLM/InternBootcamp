@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In some country live wizards. They love playing with numbers. 
 
 The blackboard has two numbers written on it — a and b. The order of the numbers is not important. Let's consider a ≤ b for the sake of definiteness. The players can cast one of the two spells in turns:

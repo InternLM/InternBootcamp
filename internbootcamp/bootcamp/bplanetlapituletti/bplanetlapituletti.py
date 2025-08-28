@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The time on the planet Lapituletti goes the same way it goes on Earth but a day lasts h hours and each hour lasts m minutes. The inhabitants of that planet use digital clocks similar to earth ones. Clocks display time in a format HH:MM (the number of hours in decimal is displayed first, then (after the colon) follows the number of minutes in decimal; the number of minutes and hours is written with leading zeros if needed to form a two-digit number). Hours are numbered from 0 to h-1 and minutes are numbered from 0 to m-1. 
 
 <image>

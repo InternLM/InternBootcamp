@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given circular array a0, a1, ..., an - 1. There are two types of operations with it: 
 
   * inc(lf, rg, v) — this operation increases each element on the segment [lf, rg] (inclusively) by v; 

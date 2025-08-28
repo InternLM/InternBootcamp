@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The only difference between the easy and hard versions is that the given string s in the easy version is initially a palindrome, this condition is not always true for the hard version.
 
 A palindrome is a string that reads the same left to right and right to left. For example, \"101101\" is a palindrome, while \"0101\" is not.

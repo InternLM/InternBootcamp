@@ -47,7 +47,7 @@ class Basebootcamp:
     
 
     @classmethod
-    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=256, think_threshold=128, ans_threshold=128, format_penalty=False) -> float:
+    def verify_score(cls, model_output, identity: dict, format_score=0, short_penalty=False, short_threshold=512, think_threshold=256, ans_threshold=256, format_penalty=False) -> float:
         """
         Verify the output against the ground truth.
         
@@ -90,13 +90,14 @@ class Basebootcamp:
             return min(score * len(model_output) / short_threshold, score * len(ans_output) / ans_threshold, score * think_length / think_threshold)
         
         # This for training Debug
-        if random.randint(1,1024) == 1:
-            print("=============DEBUG=============")
-            print("model_output:\n", model_output)
-            print("identity:\n", identity)
-            print("extract_solution:\n", extract_solution)
-            print("score:", score)
-            print("===============================")
+        # if random.randint(1,1024) == 1:
+        #     print("=============DEBUG=============")
+        #     print("model_output:\n", model_output)
+        #     print("identity:\n", identity)
+        #     print("extract_solution:\n", extract_solution)
+        #     print("score:", score)
+        #     print("===============================")
+        
         return score
 
 

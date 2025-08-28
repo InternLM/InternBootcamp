@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Polycarpus likes studying at school a lot and he is always diligent about his homework. Polycarpus has never had any problems with natural sciences as his great-great-grandfather was the great physicist Seinstein. On the other hand though, Polycarpus has never had an easy time with history.
 
 Everybody knows that the World history encompasses exactly n events: the i-th event had continued from the year ai to the year bi inclusive (ai < bi). Polycarpus easily learned the dates when each of n events started and ended (Polycarpus inherited excellent memory from his great-great-granddad). But the teacher gave him a more complicated task: Polycaprus should know when all events began and ended and he should also find out for each event whether it includes another event. Polycarpus' teacher thinks that an event j includes an event i if aj < ai and bi < bj. Your task is simpler: find the number of events that are included in some other event.

@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 50,
+        "max_n": 500,
+        "vector_max_magnitude": 1000000
+    },
+    {
+        "min_n": 1,
+        "max_n": 200,
+        "vector_max_magnitude": 500000
+    },
+    {
+        "min_n": 1,
+        "max_n": 500,
+        "vector_max_magnitude": 1500000
+    },
+    {
+        "min_n": 10,
+        "max_n": 200,
+        "vector_max_magnitude": 750000
+    }
+]

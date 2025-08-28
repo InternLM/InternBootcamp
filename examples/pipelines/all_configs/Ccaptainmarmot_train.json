@@ -1,0 +1,26 @@
+[
+    {
+        "n_regiments": 3,
+        "same_origin": true,
+        "max_rotation": 3,
+        "solvable_ratio": 0.8
+    },
+    {
+        "n_regiments": 5,
+        "same_origin": true,
+        "max_rotation": 2,
+        "solvable_ratio": 0.7
+    },
+    {
+        "n_regiments": 1,
+        "same_origin": false,
+        "max_rotation": 3,
+        "solvable_ratio": 0.5
+    },
+    {
+        "n_regiments": 10,
+        "same_origin": false,
+        "max_rotation": 1,
+        "solvable_ratio": 0.6
+    }
+]

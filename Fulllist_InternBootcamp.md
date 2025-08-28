@@ -2,88 +2,97 @@
 
 These bootcamps have been verified by our manual checking and trained with bootcamp-RL.
 
-|bootcamp|
-|-------|
-|Aquariumbootcamp|
-|Arrowmazebootcamp|
-|BBEHBuggyTablesbootcamp |
-|BbehDyckLanguagesbootcamp|
-|BbehGeometricShapesbootcamp|
-|BbehMultistepArithmeticbootcamp|
-|BbehTemporalSequencesbootcamp|
-|BbehWebOfLiesbootcamp|
-|BbehWordSortingbootcamp|
-|Bbehboardgameqabootcamp|
-|Bbehbooleanexpressionsbootcamp|
-|Bbehobjectcountingbootcamp|
-|Bbehobjectpropertiesbootcamp|
-|Bbehshuffobjectbootcamp|
-|Binairobootcamp|
-|Calcudokubootcamp|
-|Campsitebootcamp|
-|Cipherbootcamp|
-|Cryptomathbootcamp|
-|Dominosabootcamp|
-|Futoshikibootcamp|
-|Galaxiesbootcamp|
-|Game24bootcamp|
-|Kakurasubootcamp|
-|KorLogicAnalogicalReasoningbootcamp|
-|KorLogicCanonicalPropositionsbootcamp|
-|KorLogicCooperativePrinciplebootcamp|
-|KorLogicDefinitionsbootcamp|
-|KorLogicDerivativeReasoningOfPropositionalLogicbootcamp|
-|KorLogicDisjunctiveNormalFormAndConjunctiveNormalFormbootcamp|
-|KorLogicDynamicLogicbootcamp|
-|KorLogicEnumerativeInductiveReasoningbootcamp|
-|KorLogicEpistemicLogicbootcamp|
-|KorLogicEquivalenceCalculusbootcamp|
-|KorLogicFigureOfTheSyllogismbootcamp|
-|KorLogicFormalFallaciesbootcamp|
-|KorLogicInductionParadoxbootcamp|
-|KorLogicLogicalMethodsForExploringCauseAndEffectRelationshipsbootcamp|
-|KorLogicPredicateLogicFormalizationbootcamp|
-|KorLogicPropositionalLogicConceptsbootcamp|
-|KorLogicResolutionbootcamp|
-|KorLogicSpeechActsbootcamp|
-|KorLogicStatisticalReasoningbootcamp|
-|KorLogicTruthValueModalPropositionsbootcamp|
-|KorOperationUnicode20acbootcamp|
-|KorOperationUnicode2295bootcamp|
-|KorOperationUnicode25a0bootcamp|
-|KorOperationUnicode25a1bootcamp|
-|KorOperationUnicode25b3bootcamp|
-|KorOperationUnicode25bdbootcamp|
-|KorOperationUnicode25c6bootcamp|
-|KorOperationUnicode25cbbootcamp|
-|KorOperationUnicode25cebootcamp|
-|KorOperationUnicode25cfbootcamp|
-|KorOperationUnicode2605bootcamp|
-|KorOperationUnicodeffe0bootcamp|
-|KorOperationUnicodeffe1bootcamp|
-|KorPuzzle24Pointsbootcamp|
-|KorPuzzleArrowMazebootcamp|
-|KorPuzzleCalcudokobootcamp|
-|KorPuzzleCampsitebootcamp|
-|KorPuzzleConnectWordsbootcamp|
-|KorPuzzleCryptoMathbootcamp|
-|KorPuzzleKukurasubootcamp|
-|KorPuzzleLogicPuzzlebootcamp|
-|KorPuzzleSkyscrapersbootcamp|
-|KorPuzzleWordBrainTeasersbootcamp|
-|KorPuzzleWordLadderbootcamp|
-|KorPuzzleWordRootsAndAffixesbootcamp|
-|KorPuzzleWordSearchbootcamp|
-|KorPuzzleWordscapesbootcamp|
-|LightUpbootcamp|
-|Mazebootcamp|
-|Nonogramsbootcamp|
-|Starbattlebootcamp|
-|Stitchesbootcamp|
-|Sudokubootcamp|
-|Tentsbootcamp|
-|Thermometersbootcamp|
-
+| Bootcamp                                                              | Tpye                 |
+|----------------------------------------------------------------------|-----------------------------|
+| Aquariumbootcamp                                                      | Graphical_Puzzles    |
+| Arcbootcamp                                                           | Graphical_Puzzles    |
+| Arrowmazebootcamp                                                     | Graphical_Puzzles    |
+| Bbehboardgameqabootcamp                                               | Logical_Reasoning    |
+| Bbehbooleanexpressionsbootcamp                                        | Algorithm            |
+| BBEHBuggyTablesbootcamp                                               | Logical_Reasoning    |
+| BbehDyckLanguagesbootcamp                                             | Algorithm            |
+| BbehGeometricShapesbootcamp                                           | Graphical_Puzzles    |
+| BBEHHyperbatonbootcamp                                                | Language_Analysis    |
+| BbehMultistepArithmeticbootcamp                                       | Algorithm            |
+| Bbehobjectcountingbootcamp                                            | Language_Analysis    |
+| Bbehobjectpropertiesbootcamp                                          | Logical_Reasoning    |
+| Bbehshuffobjectbootcamp                                               | Logical_Reasoning    |
+| BbehTemporalSequencesbootcamp                                         | Algorithm            |
+| BbehWebOfLiesbootcamp                                                 | Logical_Reasoning    |
+| BbehWordSortingbootcamp                                               | Logical_Reasoning    |
+| Binairobootcamp                                                       | Graphical_Puzzles    |
+| BloodTestJudgementbootcamp                                            | Natural_Science      |
+| Calcudokubootcamp                                                     | Graphical_Puzzles    |
+| Campsitebootcamp                                                      | Graphical_Puzzles    |
+| Cipherbootcamp                                                        | Cryptography         |
+| Circuitbootcamp                                                       | Natural_Science      |
+| Cryptomathbootcamp                                                    | Character_Puzzles    |
+| Dominosabootcamp                                                      | Graphical_Puzzles    |
+| Earthdew2humiditybootcamp                                             | Natural_Science      |
+| Earthtyphoonbootcamp                                                  | Natural_Science      |
+| Futoshikibootcamp                                                     | Graphical_Puzzles    |
+| Galaxiesbootcamp                                                      | Graphical_Puzzles    |
+| Game24bootcamp                                                        | Mathematical_Modeling|
+| Heyawakebootcamp                                                      | Graphical_Puzzles    |
+| Hitoribootcamp                                                        | Graphical_Puzzles    |
+| InChI2logPbootcamp                                                    | Natural_Science      |
+| Kakurasubootcamp                                                      | Graphical_Puzzles    |
+| Kakurobootcamp                                                        | Graphical_Puzzles    |
+| KorCipherCustomInverseShiftSubstitutionCipherbootcamp                 | Cryptography         |
+| KorLogicAnalogicalReasoningbootcamp                                   | Logical_Reasoning    |
+| KorLogicCanonicalPropositionsbootcamp                                 | Logical_Reasoning    |
+| KorLogicCooperativePrinciplebootcamp                                  | Logical_Reasoning    |
+| KorLogicEnumerativeInductiveReasoningbootcamp                         | Logical_Reasoning    |
+| KorLogicEpistemicLogicbootcamp                                        | Logical_Reasoning    |
+| KorLogicInductionParadoxbootcamp                                      | Logical_Reasoning    |
+| KorLogicLogicalMethodsForExploringCauseAndEffectRelationshipsbootcamp | Logical_Reasoning    |
+| KorLogicPredicateLogicFormalizationbootcamp                           | Logical_Reasoning    |
+| KorLogicPropositionalLogicFormalizationbootcamp                       | Logical_Reasoning    |
+| KorLogicResolutionbootcamp                                            | Logical_Reasoning    |
+| KorOperationUnicode0032bootcamp                                       | Algorithm            |
+| KorOperationUnicode0033bootcamp                                       | Algorithm            |
+| KorOperationUnicode203bbootcamp                                       | Algorithm            |
+| KorOperationUnicode20acbootcamp                                       | Algorithm            |
+| KorOperationUnicode221ebootcamp                                       | Algorithm            |
+| KorOperationUnicode2295bootcamp                                       | Algorithm            |
+| KorOperationUnicode25a0bootcamp                                       | Algorithm            |
+| KorOperationUnicode25a1bootcamp                                       | Algorithm            |
+| KorOperationUnicode25b3bootcamp                                       | Algorithm            |
+| KorOperationUnicode25bdbootcamp                                       | Algorithm            |
+| KorOperationUnicode25cbbootcamp                                       | Algorithm            |
+| KorOperationUnicode25cebootcamp                                       | Algorithm            |
+| KorOperationUnicode25cfbootcamp                                       | Algorithm            |
+| KorOperationUnicode2605bootcamp                                       | Algorithm            |
+| KorOperationUnicodeffe0bootcamp                                       | Algorithm            |
+| KorOperationUnicodeffe1bootcamp                                       | Algorithm            |
+| KorPuzzle24Pointsbootcamp                                             | Mathematical_Modeling|
+| KorPuzzleCampsitebootcamp                                             | Graphical_Puzzles    |
+| KorPuzzleConnectWordsbootcamp                                         | Character_Puzzles    |
+| KorPuzzleCryptoMathbootcamp                                           | Character_Puzzles    |
+| KorPuzzleKukurasubootcamp                                             | Graphical_Puzzles    |
+| KorPuzzleMathPathbootcamp                                             | Character_Puzzles    |
+| KorPuzzleMinesweeperbootcamp                                          | Graphical_Puzzles    |
+| KorPuzzleSkyscrapersbootcamp                                          | Graphical_Puzzles    |
+| KorPuzzleWordBrainTeasersbootcamp                                     | Language_Analysis    |
+| KorPuzzleWordRootsAndAffixesbootcamp                                  | Character_Puzzles    |
+| KorPuzzleWordscapesbootcamp                                           | Character_Puzzles    |
+| KorPuzzleWordSearchbootcamp                                           | Graphical_Puzzles    |
+| LightUpbootcamp                                                       | Graphical_Puzzles    |
+| LinearODEbootcamp                                                     | Mathematical_Modeling|
+| Mazebootcamp                                                          | Graphical_Puzzles    |
+| MedAnticoagulationbootcamp                                            | Natural_Science      |
+| Minesweeperbootcamp                                                   | Graphical_Puzzles    |
+| Nonogramsbootcamp                                                     | Graphical_Puzzles    |
+| Pipesbootcamp                                                         | Graphical_Puzzles    |
+| Skyscrapersbootcamp                                                   | Graphical_Puzzles    |
+| Slitherlinkbootcamp                                                   | Graphical_Puzzles    |
+| SMILES2logPbootcamp                                                   | Natural_Science      |
+| Starbattlebootcamp                                                    | Graphical_Puzzles    |
+| Stitchesbootcamp                                                      | Graphical_Puzzles    |
+| Sudokubootcamp                                                        | Graphical_Puzzles    |
+| SymbolicRegressionbootcamp                                            | Mathematical_Modeling|
+| Tentsbootcamp                                                         | Graphical_Puzzles    |
+| Thermometersbootcamp                                                  | Graphical_Puzzles            |
 
 </details>
 
@@ -91,124 +100,9 @@ These bootcamps have been verified by our manual checking and trained with bootc
 ## bootcamps under Develop
 |bootcamp|
 |  ---  |
-|Arcbootcamp|
 |InternGobootcamp|
 
-## bootcampe type list
 
-| bootcamp | Type |
-| --- | --- |
-| InternGobootcamp | Chess and Card Games |
-| BbehDyckLanguagesbootcamp | Numeric and Alphabetical Reasoning |
-| BbehWordSortingbootcamp | Numeric and Alphabetical Reasoning |
-| Bbehobjectcountingbootcamp | Numeric and Alphabetical Reasoning |
-| Bbehobjectpropertiesbootcamp | Numeric and Alphabetical Reasoning |
-| Calcudokubootcamp | Numeric and Alphabetical Reasoning |
-| Cipherbootcamp | Numeric and Alphabetical Reasoning |
-| Cryptomathbootcamp | Numeric and Alphabetical Reasoning |
-| Futoshikibootcamp | Numeric and Alphabetical Reasoning |
-| Game24bootcamp | Numeric and Alphabetical Reasoning |
-| KorCipherCustomInverseShiftSubstitutionCipherbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzle24Pointsbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleCalcudokobootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleConnectWordsbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleCryptoMathbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleWordBrainTeasersbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleWordLadderbootcamp | Numeric and Alphabetical Reasoning |a
-| KorPuzzleWordRootsAndAffixesbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleWordSearchbootcamp | Numeric and Alphabetical Reasoning |
-| KorPuzzleWordscapesbootcamp | Numeric and Alphabetical Reasoning |
-| LightUpbootcamp | Numeric and Alphabetical Reasoning |
-| Sudokubootcamp | Numeric and Alphabetical Reasoning |
-| BbehMultistepArithmeticbootcamp | Mathematics and Algorithm |
-| BbehTemporalSequencesbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode0032bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode0033bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode203bbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode20acbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode221ebootcamp | Mathematics and Algorithm |
-| KorOperationUnicode2295bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25a0bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25a1bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25b3bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25bdbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25c6bootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25cbbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25cebootcamp | Mathematics and Algorithm |
-| KorOperationUnicode25cfbootcamp | Mathematics and Algorithm |
-| KorOperationUnicode2605bootcamp | Mathematics and Algorithm |
-| KorOperationUnicodeffe0bootcamp | Mathematics and Algorithm |
-| KorOperationUnicodeffe1bootcamp | Mathematics and Algorithm |
-| KorPuzzleMathPathbootcamp | Mathematics and Algorithm |
-| BBEHBuggyTablesbootcamp | Logical Reasoning |
-| BbehWebOfLiesbootcamp | Logical Reasoning |
-| Bbehboardgameqabootcamp | Logical Reasoning |
-| Bbehbooleanexpressionsbootcamp | Logical Reasoning |
-| Bbehshuffobjectbootcamp | Logical Reasoning |
-| KorLogicAnalogicalReasoningbootcamp | Logical Reasoning |
-| KorLogicCanonicalPropositionsbootcamp | Logical Reasoning |
-| KorLogicCircuitDiagrambootcamp | Logical Reasoning |
-| KorLogicCooperativePrinciplebootcamp | Logical Reasoning |
-| KorLogicDefinitionsbootcamp | Logical Reasoning |
-| KorLogicDerivativeReasoningOfPropositionalLogicbootcamp | Logical Reasoning |
-| KorLogicDisjunctiveNormalFormAndConjunctiveNormalFormbootcamp | Logical Reasoning |
-| KorLogicDynamicLogicbootcamp | Logical Reasoning |
-| KorLogicEnumerativeInductiveReasoningbootcamp | Logical Reasoning |
-| KorLogicEpistemicLogicbootcamp | Logical Reasoning |
-| KorLogicEquivalenceCalculusbootcamp | Logical Reasoning |
-| KorLogicFigureOfTheSyllogismbootcamp | Logical Reasoning |
-| KorLogicFormalFallaciesbootcamp | Logical Reasoning |
-| KorLogicInductionParadoxbootcamp | Logical Reasoning |
-| KorLogicLogicalMethodsForExploringCauseAndEffectRelationshipsbootcamp | Logical Reasoning |
-| KorLogicPredicateLogicFormalizationbootcamp | Logical Reasoning |
-| KorLogicPropositionalLogicConceptsbootcamp | Logical Reasoning |
-| KorLogicPropositionalLogicFormalizationbootcamp | Logical Reasoning |
-| KorLogicResolutionbootcamp | Logical Reasoning |
-| KorLogicSpeechActsbootcamp | Logical Reasoning |
-| KorLogicStatisticalReasoningbootcamp | Logical Reasoning |
-| KorLogicTemporalPropositionsbootcamp | Logical Reasoning |
-| KorLogicTruthValueModalPropositionsbootcamp | Logical Reasoning |
-| KorPuzzleLogicPuzzlebootcamp | Logical Reasoning |
-| Aquariumbootcamp | Spatial Graphics Reasoning |
-| Arcbootcamp | Spatial Graphics Reasoning |
-| Arrowmazebootcamp | Spatial Graphics Reasoning |
-| BbehGeometricShapesbootcamp | Spatial Graphics Reasoning |
-| Binairobootcamp | Spatial Graphics Reasoning |
-| Bridgesbootcamp | Spatial Graphics Reasoning |
-| Campsitebootcamp | Spatial Graphics Reasoning |
-| Dominosabootcamp | Spatial Graphics Reasoning |
-| Galaxiesbootcamp | Spatial Graphics Reasoning |
-| Heyawakebootcamp | Spatial Graphics Reasoning |
-| Hitoribootcamp | Spatial Graphics Reasoning |
-| Kakurasubootcamp | Spatial Graphics Reasoning |
-| Kakurobootcamp | Spatial Graphics Reasoning |
-| KorPuzzleArrowMazebootcamp | Spatial Graphics Reasoning |
-| KorPuzzleCampsitebootcamp | Spatial Graphics Reasoning |
-| KorPuzzleKukurasubootcamp | Spatial Graphics Reasoning |
-| KorPuzzleMinesweeperbootcamp | Spatial Graphics Reasoning |
-| KorPuzzleSkyscrapersbootcamp | Spatial Graphics Reasoning |
-| Mazebootcamp | Spatial Graphics Reasoning |
-| Minesweeperbootcamp | Spatial Graphics Reasoning |
-| Nonogramsbootcamp | Spatial Graphics Reasoning |
-| Pipesbootcamp | Spatial Graphics Reasoning |
-| Skyscrapersbootcamp | Spatial Graphics Reasoning |
-| Slitherlinkbootcamp | Spatial Graphics Reasoning |
-| Starbattlebootcamp | Spatial Graphics Reasoning |
-| Stitchesbootcamp | Spatial Graphics Reasoning |
-| Tentsbootcamp | Spatial Graphics Reasoning |
-| Thermometersbootcamp | Spatial Graphics Reasoning |
-| AutoIFbootcamp | Instruction Following |
-| BigCodeBenchbootcamp | Coding |
-| CodeIObootcamp | Coding |
-| KodCodebootcamp | Coding |
-| Csonyaandrobotsbootcamp | Coding |
-| Dmarsroverbootcamp | Coding |
-| Bchemicaltablebootcamp | Coding |
-| Chillsbootcamp | Coding |
-......
-| Dchemicaltablebootcamp | Coding |
-| Ehillsbootcamp | Coding |
-| Ehelpgregthedwarfbootcamp | Coding |
 
 ## Unverified Existing-Dataset-Based bootcamps
 These bootcamps are based on some existing datasets, where cases are retrieved from source dataset instead of being generated automatically. 

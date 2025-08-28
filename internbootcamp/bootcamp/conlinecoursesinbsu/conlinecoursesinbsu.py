@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Now you can take online courses in the Berland State University! Polycarp needs to pass k main online courses of his specialty to get a diploma. In total n courses are availiable for the passage.
 
 The situation is complicated by the dependence of online courses, for each course there is a list of those that must be passed before starting this online course (the list can be empty, it means that there is no limitation).

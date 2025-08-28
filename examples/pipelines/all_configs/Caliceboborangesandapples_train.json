@@ -1,0 +1,37 @@
+[
+    {
+        "max_value": 200,
+        "probability_impossible": 0.4,
+        "seed": 123
+    },
+    {
+        "max_value": 500,
+        "probability_impossible": 0.3,
+        "seed": 200
+    },
+    {
+        "max_value": 200,
+        "probability_impossible": 0.25,
+        "seed": 300
+    },
+    {
+        "max_value": 2000,
+        "probability_impossible": 0.35,
+        "seed": 7
+    },
+    {
+        "max_value": 100,
+        "probability_impossible": 0.25,
+        "seed": null
+    },
+    {
+        "max_value": 10000,
+        "probability_impossible": 0.4,
+        "seed": 314
+    },
+    {
+        "max_value": 500,
+        "probability_impossible": 0.2,
+        "seed": 42
+    }
+]

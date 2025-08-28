@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You have k pieces of laundry, each of which you want to wash, dry and fold. You are at a laundromat that has n1 washing machines, n2 drying machines and n3 folding machines. Each machine can process only one piece of laundry at a time. You can't dry a piece of laundry before it is washed, and you can't fold it before it is dried. Moreover, after a piece of laundry is washed, it needs to be immediately moved into a drying machine, and after it is dried, it needs to be immediately moved into a folding machine.
 
 It takes t1 minutes to wash one piece of laundry in a washing machine, t2 minutes to dry it in a drying machine, and t3 minutes to fold it in a folding machine. Find the smallest number of minutes that is enough to wash, dry and fold all the laundry you have.

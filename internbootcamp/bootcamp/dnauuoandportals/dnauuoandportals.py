@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nauuo is a girl who loves playing games related to portals.
 
 One day she was playing a game as follows.

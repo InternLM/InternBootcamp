@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Sereja has a sequence that consists of n positive integers, a1, a2, ..., an. 
 
 First Sereja took a piece of squared paper and wrote all distinct non-empty non-decreasing subsequences of sequence a. Then for each sequence written on the squared paper, Sereja wrote on a piece of lines paper all sequences that do not exceed it.

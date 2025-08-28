@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mojtaba and Arpa are playing a game. They have a list of n numbers in the game.
 
 In a player's turn, he chooses a number pk (where p is a prime number and k is a positive integer) such that pk divides at least one number in the list. For each number in the list divisible by pk, call it x, the player will delete x and add <image> to the list. The player who can not make a valid choice of p and k loses.

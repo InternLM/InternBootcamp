@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 It is the middle of 2018 and Maria Stepanovna, who lives outside Krasnokamensk (a town in Zabaikalsky region), wants to rent three displays to highlight an important problem.
 
 There are n displays placed along a road, and the i-th of them can display a text with font size s_i only. Maria Stepanovna wants to rent such three displays with indices i < j < k that the font size increases if you move along the road in a particular direction. Namely, the condition s_i < s_j < s_k should be held.

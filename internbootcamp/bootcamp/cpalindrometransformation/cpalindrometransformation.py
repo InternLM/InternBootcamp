@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Nam is playing with a string on his computer. The string consists of n lowercase English letters. It is meaningless, so Nam decided to make the string more beautiful, that is to make it be a palindrome by using 4 arrow keys: left, right, up, down.
 
 There is a cursor pointing at some symbol of the string. Suppose that cursor is at position i (1 ≤ i ≤ n, the string uses 1-based indexing) now. Left and right arrow keys are used to move cursor around the string. The string is cyclic, that means that when Nam presses left arrow key, the cursor will move to position i - 1 if i > 1 or to the end of the string (i. e. position n) otherwise. The same holds when he presses the right arrow key (if i = n, the cursor appears at the beginning of the string).

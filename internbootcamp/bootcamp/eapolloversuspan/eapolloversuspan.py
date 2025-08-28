@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Only a few know that Pan and Apollo weren't only battling for the title of the GOAT musician. A few millenniums later, they also challenged each other in math (or rather in fast calculations). The task they got to solve is the following:
 
 Let x_1, x_2, …, x_n be the sequence of n non-negative integers. Find this value: $$$∑_{i=1}^n ∑_{j=1}^n ∑_{k=1}^n (x_i   \&   x_j) ⋅ (x_j   |   x_k)$$$

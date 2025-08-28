@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Fox Ciel is going to publish a paper on FOCS (Foxes Operated Computer Systems, pronounce: \"Fox\"). She heard a rumor: the authors list on the paper is always sorted in the lexicographical order. 
 
 After checking some examples, she found out that sometimes it wasn't true. On some papers authors' names weren't sorted in lexicographical order in normal sense. But it was always true that after some modification of the order of letters in alphabet, the order of authors becomes lexicographical!

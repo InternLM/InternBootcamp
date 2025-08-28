@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Petya loves football very much, especially when his parents aren't home. Each morning he comes to the yard, gathers his friends and they play all day. From time to time they have a break to have some food or do some chores (for example, water the flowers).
 
 The key in football is to divide into teams fairly before the game begins. There are n boys playing football in the yard (including Petya), each boy's football playing skill is expressed with a non-negative characteristic ai (the larger it is, the better the boy plays). 

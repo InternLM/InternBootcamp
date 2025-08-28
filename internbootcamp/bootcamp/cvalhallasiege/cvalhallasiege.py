@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ivar the Boneless is a great leader. He is trying to capture Kattegat from Lagertha. The war has begun and wave after wave Ivar's warriors are falling in battle.
 
 Ivar has n warriors, he places them on a straight line in front of the main gate, in a way that the i-th warrior stands right after (i-1)-th warrior. The first warrior leads the attack.

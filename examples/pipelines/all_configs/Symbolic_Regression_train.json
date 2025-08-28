@@ -1,0 +1,6 @@
+[
+    {
+        "data_path":"./internbootcamp/libs/symbolic_regression/train_data.pkl", 
+        "sample_num_range":[64,144]
+    }
+]

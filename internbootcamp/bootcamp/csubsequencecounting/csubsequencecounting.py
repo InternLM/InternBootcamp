@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Pikachu had an array with him. He wrote down all the non-empty subsequences of the array on paper. Note that an array of size n has 2n - 1 non-empty subsequences in it. 
 
 Pikachu being mischievous as he always is, removed all the subsequences in which Maximum_element_of_the_subsequence -  Minimum_element_of_subsequence ≥ d

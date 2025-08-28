@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Please note the non-standard memory limit.
 
 There are n problems numbered with integers from 1 to n. i-th problem has the complexity c_i = 2^i, tag tag_i and score s_i.

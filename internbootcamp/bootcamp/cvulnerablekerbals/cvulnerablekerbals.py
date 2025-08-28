@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given an integer m, and a list of n distinct integers between 0 and m - 1.
 
 You would like to construct a sequence satisfying the properties:

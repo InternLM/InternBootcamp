@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Cowboy Vlad has a birthday today! There are n children who came to the celebration. In order to greet Vlad, the children decided to form a circle around him. Among the children who came, there are both tall and low, so if they stand in a circle arbitrarily, it may turn out, that there is a tall and low child standing next to each other, and it will be difficult for them to hold hands. Therefore, children want to stand in a circle so that the maximum difference between the growth of two neighboring children would be minimal possible.
 
 Formally, let's number children from 1 to n in a circle order, that is, for every i child with number i will stand next to the child with number i+1, also the child with number 1 stands next to the child with number n. Then we will call the discomfort of the circle the maximum absolute difference of heights of the children, who stand next to each other.

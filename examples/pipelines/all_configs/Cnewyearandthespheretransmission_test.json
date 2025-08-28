@@ -1,0 +1,64 @@
+[
+    {
+        "min_n": 2,
+        "max_n": 1000000,
+        "case_types": [
+            "random"
+        ]
+    },
+    {
+        "min_n": 2,
+        "max_n": 1000000,
+        "case_types": [
+            "random"
+        ]
+    },
+    {
+        "min_n": 100,
+        "max_n": 10000,
+        "case_types": [
+            "prime",
+            "square"
+        ]
+    },
+    {
+        "min_n": 1000000,
+        "max_n": 1000000,
+        "case_types": [
+            "prime",
+            "square",
+            "random"
+        ]
+    },
+    {
+        "min_n": 2,
+        "max_n": 1000000,
+        "case_types": [
+            "prime"
+        ]
+    },
+    {
+        "min_n": 10000,
+        "max_n": 1000000,
+        "case_types": [
+            "square",
+            "random"
+        ]
+    },
+    {
+        "min_n": 2,
+        "max_n": 1000,
+        "case_types": [
+            "prime",
+            "square",
+            "random"
+        ]
+    },
+    {
+        "min_n": 1000,
+        "max_n": 10000,
+        "case_types": [
+            "prime"
+        ]
+    }
+]

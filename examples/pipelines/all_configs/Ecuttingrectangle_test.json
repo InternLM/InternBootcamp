@@ -1,0 +1,53 @@
+[
+    {
+        "n": 3,
+        "w_range": [
+            100,
+            1000
+        ],
+        "h_range": [
+            100,
+            1000
+        ],
+        "c_range": [
+            100,
+            1000
+        ],
+        "use_same_w": true,
+        "use_same_h": true
+    },
+    {
+        "n": 5,
+        "w_range": [
+            50,
+            200
+        ],
+        "h_range": [
+            50,
+            200
+        ],
+        "c_range": [
+            50,
+            200
+        ],
+        "use_same_w": false,
+        "use_same_h": true
+    },
+    {
+        "n": 1,
+        "w_range": [
+            1,
+            10
+        ],
+        "h_range": [
+            1,
+            10
+        ],
+        "c_range": [
+            1,
+            10
+        ],
+        "use_same_w": false,
+        "use_same_h": false
+    }
+]

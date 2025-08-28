@@ -1,0 +1,50 @@
+[
+    {
+        "min_points": 4,
+        "max_points": 10,
+        "x_range": [
+            -120,
+            120
+        ],
+        "y_range": [
+            -80,
+            80
+        ]
+    },
+    {
+        "min_points": 2,
+        "max_points": 12,
+        "x_range": [
+            -200,
+            200
+        ],
+        "y_range": [
+            -100,
+            100
+        ]
+    },
+    {
+        "min_points": 1,
+        "max_points": 5,
+        "x_range": [
+            -50,
+            50
+        ],
+        "y_range": [
+            -50,
+            50
+        ]
+    },
+    {
+        "min_points": 5,
+        "max_points": 15,
+        "x_range": [
+            -200,
+            200
+        ],
+        "y_range": [
+            -200,
+            200
+        ]
+    }
+]

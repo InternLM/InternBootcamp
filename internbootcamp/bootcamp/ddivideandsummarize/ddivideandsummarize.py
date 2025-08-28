@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mike received an array a of length n as a birthday present and decided to test how pretty it is.
 
 An array would pass the i-th prettiness test if there is a way to get an array with a sum of elements totaling s_i, using some number (possibly zero) of slicing operations.

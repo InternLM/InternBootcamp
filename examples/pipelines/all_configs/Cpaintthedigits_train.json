@@ -1,0 +1,22 @@
+[
+    {
+        "solvable_probability": 0.8,
+        "min_length": 2,
+        "max_length": 15
+    },
+    {
+        "solvable_probability": 0.7,
+        "min_length": 3,
+        "max_length": 8
+    },
+    {
+        "solvable_probability": 0.5,
+        "min_length": 1,
+        "max_length": 10
+    },
+    {
+        "solvable_probability": 1.0,
+        "min_length": 5,
+        "max_length": 20
+    }
+]

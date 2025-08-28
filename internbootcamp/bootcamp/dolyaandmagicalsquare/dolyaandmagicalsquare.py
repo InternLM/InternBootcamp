@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Recently, Olya received a magical square with the size of 2^n× 2^n.
 
 It seems to her sister that one square is boring. Therefore, she asked Olya to perform exactly k splitting operations.

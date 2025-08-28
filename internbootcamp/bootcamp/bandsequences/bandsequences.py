@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A sequence of n non-negative integers (n ≥ 2) a_1, a_2, ..., a_n is called good if for all i from 1 to n-1 the following condition holds true: $$$a_1 \: \& \: a_2 \: \& \: ... \: \& \: a_i = a_{i+1} \: \& \: a_{i+2} \: \& \: ... \: \& \: a_n, where \&$$$ denotes the [bitwise AND operation](https://en.wikipedia.org/wiki/Bitwise_operation#AND).
 
 You are given an array a of size n (n ≥ 2). Find the number of permutations p of numbers ranging from 1 to n, for which the sequence a_{p_1}, a_{p_2}, ... ,a_{p_n} is good. Since this number can be large, output it modulo 10^9+7.

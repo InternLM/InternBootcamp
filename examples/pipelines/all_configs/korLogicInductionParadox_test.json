@@ -1,0 +1,65 @@
+[
+    {
+        "example_pool": [
+            {
+                "phenomenon": "桥梁在特定天气结构变形",
+                "hypotheses": [
+                    "温度膨胀假说",
+                    "湿度膨胀假说"
+                ],
+                "contradiction": "温度与湿度变化无法同时发生",
+                "correct_answer": "A"
+            },
+            {
+                "phenomenon": "股票价格在特定经济指标发布时上涨",
+                "hypotheses": [
+                    "利率变化假说",
+                    "通货膨胀假说"
+                ],
+                "contradiction": "利率与通货膨胀无法同时变化",
+                "correct_answer": "A"
+            }
+        ],
+        "symbolic_templates": [
+            "{p} ∧ ({q1} ∨ {q2}) → ⊥",
+            "∀x(R(x) → B(x)) ∧ ∃x(¬B(x) ∧ ¬R(x))",
+            "{p} ⇒ ({h1} ∧ {h2}), 其中{h1}与{h2}矛盾"
+        ]
+    },
+    {
+        "example_pool": [
+            {
+                "phenomenon": "计算机程序在特定条件下崩溃",
+                "hypotheses": [
+                    "内存泄漏假说",
+                    "CPU过载假说"
+                ],
+                "contradiction": "内存泄漏与CPU过载无法同时发生",
+                "correct_answer": "A"
+            },
+            {
+                "phenomenon": "鸟类在特定季节迁徙",
+                "hypotheses": [
+                    "日照时间假说",
+                    "食物供应假说"
+                ],
+                "contradiction": "日照时间与食物供应变化无法同时满足",
+                "correct_answer": "A"
+            },
+            {
+                "phenomenon": "化学反应在特定温度下发生",
+                "hypotheses": [
+                    "催化剂假说",
+                    "压力变化假说"
+                ],
+                "contradiction": "催化剂与压力变化无法同时作用",
+                "correct_answer": "A"
+            }
+        ],
+        "symbolic_templates": [
+            "({q1} ∧ {q2}) → ⊥",
+            "∀x(R(x) → B(x)) ∧ ∀x(¬B(x)→¬R(x))",
+            "{p} ⇒ ({h1} ∨ {h2} ∨ {h3}), 其中{h1}、{h2}、{h3}两两矛盾"
+        ]
+    }
+]

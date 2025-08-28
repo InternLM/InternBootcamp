@@ -1,15 +1,12 @@
 import json
 import jsonlines
 import os
-
+import argparse
 import os
 import json
 import glob
 import re
 
-# 每个puzzle的gen数量
-train_sample_number = 10000
-test_sample_number = 100
 
 def checkpath(target_dir):
 # 检查目录是否存在
@@ -26,11 +23,12 @@ def checkpath(target_dir):
         except Exception as e:
             print(f"创建目录 {target_dir} 时出现错误: {e}")
 
-def process_data_config():
+def process_data_config(config_dir, train_sample_number, test_sample_number):
+    """
     # 遍历data_config目录下所有符合条件的json文件
-    data_dir = 'examples/pipelines/puzzle_configs'
+    """
 
-    json_files = os.listdir(data_dir)
+    json_files = os.listdir(config_dir)
     train_data = []
     test_data = []
     json_files.sort(key=lambda x: x.capitalize())
@@ -69,6 +67,11 @@ def process_data_config():
             test_data.append(entry_test)
     
     save_dir = 'examples/pipelines/data_configs'
+    
+    # 不区分大小写排序
+    train_data.sort(key=lambda x: x['bootcamp_cls_name'].lower())
+    test_data.sort(key=lambda x: x['bootcamp_cls_name'].lower())
+    
     # 检查dir
     checkpath(save_dir)
     output_file_train = f'{save_dir}/data_config_train.jsonl'
@@ -83,4 +86,9 @@ def process_data_config():
 
 
 if __name__ == '__main__':
-    process_data_config()
+    parser = argparse.ArgumentParser(description='Process data config files.')
+    parser.add_argument('--config_dir', type=str, default='examples/pipelines/puzzle_configs', help='Directory containing config files')
+    parser.add_argument('--train_sample_number', type=int, default=1000, help='Number of training samples per task')
+    parser.add_argument('--test_sample_number', type=int, default=0, help='Number of test samples per task')
+    args = parser.parse_args()
+    process_data_config(args.config_dir, args.train_sample_number, args.test_sample_number)

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 After a long day, Alice and Bob decided to play a little game. The game board consists of n cells in a straight line, numbered from 1 to n, where each cell contains a number a_i between 1 and n. Furthermore, no two cells contain the same number. 
 
 A token is placed in one of the cells. They take alternating turns of moving the token around the board, with Alice moving first. The current player can move from cell i to cell j only if the following two conditions are satisfied: 

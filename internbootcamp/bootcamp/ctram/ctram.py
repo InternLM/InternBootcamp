@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The tram in Berland goes along a straight line from the point 0 to the point s and back, passing 1 meter per t1 seconds in both directions. It means that the tram is always in the state of uniform rectilinear motion, instantly turning around at points x = 0 and x = s.
 
 Igor is at the point x1. He should reach the point x2. Igor passes 1 meter per t2 seconds. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 We'll call an array of n non-negative integers a[1], a[2], ..., a[n] interesting, if it meets m constraints. The i-th of the m constraints consists of three integers li, ri, qi (1 ≤ li ≤ ri ≤ n) meaning that value <image> should be equal to qi. 
 
 Your task is to find any interesting array of n elements or state that such array doesn't exist.

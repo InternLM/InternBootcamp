@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Polycarpus got an internship in one well-known social network. His test task is to count the number of unique users who have visited a social network during the day. Polycarpus was provided with information on all user requests for this time period. For each query, we know its time... and nothing else, because Polycarpus has already accidentally removed the user IDs corresponding to the requests from the database. Thus, it is now impossible to determine whether any two requests are made by the same person or by different people.
 
 But wait, something is still known, because that day a record was achieved — M simultaneous users online! In addition, Polycarpus believes that if a user made a request at second s, then he was online for T seconds after that, that is, at seconds s, s + 1, s + 2, ..., s + T - 1. So, the user's time online can be calculated as the union of time intervals of the form [s, s + T - 1] over all times s of requests from him.

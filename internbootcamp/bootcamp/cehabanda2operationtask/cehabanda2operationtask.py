@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You're given an array a of length n. You can perform the following operations on it:
 
   * choose an index i (1 ≤ i ≤ n), an integer x (0 ≤ x ≤ 10^6), and replace a_j with a_j+x for all (1 ≤ j ≤ i), which means add x to all the elements in the prefix ending at i. 

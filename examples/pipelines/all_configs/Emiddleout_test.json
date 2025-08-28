@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 100,
+        "solvable_probability": 0.5
+    },
+    {
+        "min_n": 1,
+        "max_n": 50,
+        "solvable_probability": 0.6
+    },
+    {
+        "min_n": 5,
+        "max_n": 50,
+        "solvable_probability": 0.7
+    },
+    {
+        "min_n": 20,
+        "max_n": 100,
+        "solvable_probability": 0.3
+    }
+]

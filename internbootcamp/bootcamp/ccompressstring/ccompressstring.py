@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Suppose you are given a string s of length n consisting of lowercase English letters. You need to compress it using the smallest possible number of coins.
 
 To compress the string, you have to represent s as a concatenation of several non-empty strings: s = t_{1} t_{2} … t_{k}. The i-th of these strings should be encoded with one of the two ways:

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Little Elephant has two permutations a and b of length n, consisting of numbers from 1 to n, inclusive. Let's denote the i-th (1 ≤ i ≤ n) element of the permutation a as ai, the j-th (1 ≤ j ≤ n) element of the permutation b — as bj.
 
 The distance between permutations a and b is the minimum absolute value of the difference between the positions of the occurrences of some number in a and in b. More formally, it's such minimum |i - j|, that ai = bj.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 k people want to split n candies between them. Each candy should be given to exactly one of them or be thrown away.
 
 The people are numbered from 1 to k, and Arkady is the first of them. To split the candies, Arkady will choose an integer x and then give the first x candies to himself, the next x candies to the second person, the next x candies to the third person and so on in a cycle. The leftover (the remainder that is not divisible by x) will be thrown away.

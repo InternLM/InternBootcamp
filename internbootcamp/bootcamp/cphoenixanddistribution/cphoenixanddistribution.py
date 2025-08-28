@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Phoenix has a string s consisting of lowercase Latin letters. He wants to distribute all the letters of his string into k non-empty strings a_1, a_2, ..., a_k such that every letter of s goes to exactly one of the strings a_i. The strings a_i do not need to be substrings of s. Phoenix can distribute letters of s and rearrange the letters within each string a_i however he wants.
 
 For example, if s =  baba and k=2, Phoenix may distribute the letters of his string in many ways, such as: 

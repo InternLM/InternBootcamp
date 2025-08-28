@@ -1,0 +1,17 @@
+[
+    {
+        "max_n_length": 50,
+        "seed": 789,
+        "difficulty_level": "hard"
+    },
+    {
+        "max_n_length": 20,
+        "seed": 123,
+        "difficulty_level": "medium"
+    },
+    {
+        "max_n_length": 10,
+        "seed": 42,
+        "difficulty_level": "easy"
+    }
+]

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A sequence a = [a_1, a_2, …, a_l] of length l has an ascent if there exists a pair of indices (i, j) such that 1 ≤ i < j ≤ l and a_i < a_j. For example, the sequence [0, 2, 0, 2, 0] has an ascent because of the pair (1, 4), but the sequence [4, 3, 3, 3, 1] doesn't have an ascent.
 
 Let's call a concatenation of sequences p and q the sequence that is obtained by writing down sequences p and q one right after another without changing the order. For example, the concatenation of the [0, 2, 0, 2, 0] and [4, 3, 3, 3, 1] is the sequence [0, 2, 0, 2, 0, 4, 3, 3, 3, 1]. The concatenation of sequences p and q is denoted as p+q.

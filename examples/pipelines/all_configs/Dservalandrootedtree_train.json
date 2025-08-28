@@ -1,0 +1,18 @@
+[
+    {
+        "min_nodes": 5,
+        "max_nodes": 15
+    },
+    {
+        "min_nodes": 2,
+        "max_nodes": 20
+    },
+    {
+        "min_nodes": 15,
+        "max_nodes": 30
+    },
+    {
+        "min_nodes": 10,
+        "max_nodes": 20
+    }
+]

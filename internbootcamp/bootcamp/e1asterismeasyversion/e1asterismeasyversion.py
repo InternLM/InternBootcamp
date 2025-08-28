@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is the easy version of the problem. The difference between versions is the constraints on n and a_i. You can make hacks only if all versions of the problem are solved.
 
 First, Aoi came up with the following idea for the competitive programming problem:

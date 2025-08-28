@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Uh oh! Applications to tech companies are due soon, and you've been procrastinating by doing contests instead! (Let's pretend for now that it is actually possible to get a job in these uncertain times.)
 
 You have completed many programming projects. In fact, there are exactly n types of programming projects, and you have completed a_i projects of type i. Your résumé has limited space, but you want to carefully choose them in such a way that maximizes your chances of getting hired.

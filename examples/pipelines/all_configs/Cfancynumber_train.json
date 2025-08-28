@@ -1,0 +1,26 @@
+[
+    {
+        "min_n": 5,
+        "max_n": 20,
+        "fixed_n": 10,
+        "fixed_k": null
+    },
+    {
+        "min_n": 3,
+        "max_n": 15,
+        "fixed_n": 10,
+        "fixed_k": 5
+    },
+    {
+        "min_n": 2,
+        "max_n": 10,
+        "fixed_n": null,
+        "fixed_k": null
+    },
+    {
+        "min_n": 5,
+        "max_n": 20,
+        "fixed_n": null,
+        "fixed_k": 5
+    }
+]

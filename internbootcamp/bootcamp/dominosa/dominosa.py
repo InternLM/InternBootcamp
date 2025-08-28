@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Dominosa is a logic puzzle where the goal is to partition a grid of numbers into non-overlapping dominoes (2x1 or 1x2 rectangles) following these rules:
 

@@ -1,0 +1,18 @@
+[
+    {
+        "x_value_prob": 0.7,
+        "numeric_precision": 2
+    },
+    {
+        "x_value_prob": 0.5,
+        "numeric_precision": 3
+    },
+    {
+        "x_value_prob": 0.4,
+        "numeric_precision": 2
+    },
+    {
+        "x_value_prob": 0.2,
+        "numeric_precision": 5
+    }
+]

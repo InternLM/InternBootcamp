@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little penguin Polo likes permutations. But most of all he likes permutations of integers from 0 to n, inclusive.
 
 For permutation p = p0, p1, ..., pn, Polo has defined its beauty — number <image>.

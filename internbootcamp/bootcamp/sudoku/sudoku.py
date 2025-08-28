@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Sudoku is a logic-based number placement puzzle played on a square grid divided into smaller subgrids (called \"regions\" or \"blocks\"). The rules are as follows:
 

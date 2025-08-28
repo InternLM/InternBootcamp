@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A tree of size n is an undirected connected graph consisting of n vertices without cycles.
 
 Consider some tree with n vertices. We call a tree invariant relative to permutation p = p1p2... pn, if for any two vertices of the tree u and v the condition holds: \"vertices u and v are connected by an edge if and only if vertices pu and pv are connected by an edge\".

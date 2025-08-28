@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 3,
+        "n_max": 400,
+        "a_sum_max": 800
+    },
+    {
+        "n_min": 5,
+        "n_max": 200,
+        "a_sum_max": 300
+    },
+    {
+        "n_min": 2,
+        "n_max": 100,
+        "a_sum_max": 1000
+    },
+    {
+        "n_min": 10,
+        "n_max": 300,
+        "a_sum_max": 700
+    }
+]

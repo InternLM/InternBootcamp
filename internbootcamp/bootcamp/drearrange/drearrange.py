@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Koa the Koala has a matrix A of n rows and m columns. Elements of this matrix are distinct integers from 1 to n ⋅ m (each number from 1 to n ⋅ m appears exactly once in the matrix).
 
 For any matrix M of n rows and m columns let's define the following:

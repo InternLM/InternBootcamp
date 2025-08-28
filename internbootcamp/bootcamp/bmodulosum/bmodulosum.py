@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a sequence of numbers a1, a2, ..., an, and a number m.
 
 Check if it is possible to choose a non-empty subsequence aij such that the sum of numbers in this subsequence is divisible by m.

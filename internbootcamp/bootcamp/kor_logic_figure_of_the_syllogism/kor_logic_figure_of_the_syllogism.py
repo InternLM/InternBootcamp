@@ -273,11 +273,9 @@ Provide the answer in the format of [[];[]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import random
 import re
-from itertools import zip_longest
 
 SYLLOGISM_CONFIG = {
     'I': {
@@ -330,9 +328,9 @@ MOOD_CONVERSION = {
 }
 
 class KorLogicFigureOfTheSyllogismbootcamp(Basebootcamp):
-    def __init__(self, *, enable_fill=True, **kwargs):
+    def __init__(self, *, enable_fill=False, **kwargs):
         super().__init__(**kwargs)
-        self.enable_fill = enable_fill
+        self.enable_fill = False
         self.figure_pool = list(SYLLOGISM_CONFIG.keys())
 
     def case_generator(self):
@@ -388,26 +386,7 @@ class KorLogicFigureOfTheSyllogismbootcamp(Basebootcamp):
 
     @staticmethod
     def prompt_func(case):
-        base_rule = """三段论规则：
-1. 图形结构：
-   I: M-P, S-M → S-P
-   II: P-M, S-M → S-P
-   III: M-P, M-S → S-P
-   IV: P-M, M-S → S-P
-
-2. 有效式：
-   I: AAA, EAE, AII, EIO
-   II: AEE, EAE, EIO, AOO  
-   III: AII, EIO, IAI, OAO
-   IV: AEE, EIO, IAI
-
-3. 式字母含义：
-   A: 全称肯定 ∀x⇒y
-   E: 全称否定 ∀x⇒¬y
-   I: 特称肯定 ∃x⇒y
-   O: 特称否定 ∃x⇒¬y
-
-请根据以下内容判断三段论的图形和式，答案格式：[[图形;式]]（如[[I;AAA]]）\n"""
+        base_rule = """Between propositions p1 and p2, the representation is defined as follows:\nA: ∀p1⇒p2\nE: ∀p1⇒¬p2\nI: ∃p1⇒p2\nO: ∃p1⇒¬p2\n\nThe figures and moods of the syllogism are as follows:\n1.Figure I\nForm:\nM()P\nS()M\n∴S()P\nThe parentheses can be filled in with the following Valid Moods.\nValid Moods:\n- AAA\n- EAE\n- AII\n- EIO\n\n2.Figure II\nForm: \nP()M\nS()M\n∴S()P\nThe parentheses can be filled in with the following Valid Moods.\nValid Moods:\n- AEE\n- EAE\n- EIO\n- AOO\n\n3.Figure III\nForm:\nM()P\nM()S\n∴S()P\nThe parentheses can be filled in with the following Valid Moods.\nValid Moods:\n- AII\n- EIO\n- IAI\n- OAO\n\n4.Figure IV\nForm: \nP()M\nM()S\n∴S()P\nThe parentheses can be filled in with the following Valid Moods.\nValid Moods:\n- AEE\n- EIO\n- IAI\n"""
 
         if case['type'] == 'standard':
             problem = "给定命题：\n"
@@ -456,3 +435,18 @@ class KorLogicFigureOfTheSyllogismbootcamp(Basebootcamp):
             return figure_part == case['figure'] and mood_part == case['mood']
         except:
             return False
+
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicFigureOfTheSyllogismbootcamp
+        bootcamp = KorLogicFigureOfTheSyllogismbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, 'case', '='*50 + '\n', case, '\n' ,'='*50, 'case', '='*50)
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case),'\n' +'='*50, bootcamp_cls.__name__, '='*50)
+            input_answer = input('Enter your answer: ')
+            print('提取到的答案：', bootcamp_cls.extract_output(input_answer), '\n')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

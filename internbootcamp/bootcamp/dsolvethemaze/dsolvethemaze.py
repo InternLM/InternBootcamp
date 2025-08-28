@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vivek has encountered a problem. He has a maze that can be represented as an n × m grid. Each of the grid cells may represent the following:
 
   * Empty — '.' 

@@ -9,7 +9,8 @@
         ],
         "max_clause_length": 4,
         "problem_types": [
-            "algorithm_output"
+            "can_resolve",
+            "compute_dispel"
         ]
     },
     {
@@ -33,8 +34,7 @@
         "max_clause_length": 3,
         "problem_types": [
             "can_resolve",
-            "algorithm_output"
-        ],
-        "seed": 42
+            "compute_dispel"
+        ]
     }
 ]

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 It can be shown that any positive integer x can be uniquely represented as x = 1 + 2 + 4 + ... + 2k - 1 + r, where k and r are integers, k ≥ 0, 0 < r ≤ 2k. Let's call that representation prairie partition of x.
 
 For example, the prairie partitions of 12, 17, 7 and 1 are: 

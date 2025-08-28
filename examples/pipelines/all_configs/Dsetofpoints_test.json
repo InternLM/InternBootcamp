@@ -1,0 +1,17 @@
+[
+    {
+        "m_min": 3,
+        "m_max": 100,
+        "max_coordinate": 100000000
+    },
+    {
+        "m_min": 5,
+        "m_max": 20,
+        "max_coordinate": 100000
+    },
+    {
+        "m_min": 3,
+        "m_max": 3,
+        "max_coordinate": 10000
+    }
+]

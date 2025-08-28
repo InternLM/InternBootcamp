@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You've got array A, consisting of n integers and a positive integer k. Array A is indexed by integers from 1 to n.
 
 You need to permute the array elements so that value 

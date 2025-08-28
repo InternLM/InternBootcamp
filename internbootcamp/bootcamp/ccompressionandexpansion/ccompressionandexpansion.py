@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 <image>
 
 William is a huge fan of planning ahead. That is why he starts his morning routine by creating a nested list of upcoming errands.

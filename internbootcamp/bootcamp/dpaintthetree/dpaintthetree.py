@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree consisting of n vertices. A tree is an undirected connected acyclic graph.
 
 <image> Example of a tree.

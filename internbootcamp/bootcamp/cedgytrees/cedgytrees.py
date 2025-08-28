@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree (a connected undirected graph without cycles) of n vertices. Each of the n - 1 edges of the tree is colored in either black or red.
 
 You are also given an integer k. Consider sequences of k vertices. Let's call a sequence [a_1, a_2, …, a_k] good if it satisfies the following criterion:

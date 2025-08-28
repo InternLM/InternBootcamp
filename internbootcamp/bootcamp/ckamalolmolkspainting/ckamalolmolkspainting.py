@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Rumors say that one of Kamal-ol-molk's paintings has been altered. A rectangular brush has been moved right and down on the painting.
 
 Consider the painting as a n × m rectangular grid. At the beginning an x × y rectangular brush is placed somewhere in the frame, with edges parallel to the frame, (1 ≤ x ≤ n, 1 ≤ y ≤ m). Then the brush is moved several times. Each time the brush is moved one unit right or down. The brush has been strictly inside the frame during the painting. The brush alters every cell it has covered at some moment.

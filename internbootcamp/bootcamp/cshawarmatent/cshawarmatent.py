@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The map of the capital of Berland can be viewed on the infinite coordinate plane. Each point with integer coordinates contains a building, and there are streets connecting every building to four neighbouring buildings. All streets are parallel to the coordinate axes.
 
 The main school of the capital is located in (s_x, s_y). There are n students attending this school, the i-th of them lives in the house located in (x_i, y_i). It is possible that some students live in the same house, but no student lives in (s_x, s_y).

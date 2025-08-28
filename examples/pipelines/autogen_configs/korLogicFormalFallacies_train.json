@@ -1,0 +1,40 @@
+[
+    {
+        "fallacy_groups": [
+            "advanced"
+        ],
+        "max_complexity": 5,
+        "template_variations": 5,
+        "include_analysis": true,
+        "shuffle_options": true
+    },
+    {
+        "fallacy_groups": [
+            "intermediate"
+        ],
+        "max_complexity": 2,
+        "template_variations": 3,
+        "include_analysis": false,
+        "shuffle_options": false
+    },
+    {
+        "fallacy_groups": [
+            "basic"
+        ],
+        "max_complexity": 1,
+        "template_variations": 1,
+        "include_analysis": false,
+        "shuffle_options": true
+    },
+    {
+        "fallacy_groups": [
+            "basic",
+            "intermediate",
+            "advanced"
+        ],
+        "max_complexity": 3,
+        "template_variations": 2,
+        "include_analysis": true,
+        "shuffle_options": false
+    }
+]

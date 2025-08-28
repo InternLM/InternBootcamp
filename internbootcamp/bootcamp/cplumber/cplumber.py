@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little John aspires to become a plumber! Today he has drawn a grid consisting of n rows and m columns, consisting of n × m square cells.
 
 In each cell he will draw a pipe segment. He can only draw four types of segments numbered from 1 to 4, illustrated as follows:

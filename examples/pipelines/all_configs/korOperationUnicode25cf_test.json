@@ -1,0 +1,143 @@
+[
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "◆"
+        ],
+        "compute_prob": 0.8,
+        "function_list": [
+            "m*x",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x"
+        ],
+        "a_range": [
+            -10,
+            10
+        ],
+        "b_range": [
+            -10,
+            10
+        ]
+    },
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "◆"
+        ],
+        "compute_prob": 0.7,
+        "function_list": [
+            "m*x",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x"
+        ],
+        "a_range": [
+            -5,
+            5
+        ],
+        "b_range": [
+            -10,
+            10
+        ]
+    },
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "◆"
+        ],
+        "compute_prob": 0.9,
+        "function_list": [
+            "m*x",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x",
+            "exp(x)"
+        ],
+        "a_range": [
+            -5,
+            5
+        ],
+        "b_range": [
+            -5,
+            5
+        ]
+    },
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "◆",
+            "◇",
+            "■"
+        ],
+        "compute_prob": 0.7,
+        "function_list": [
+            "m*x",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x"
+        ],
+        "a_range": [
+            -5,
+            5
+        ],
+        "b_range": [
+            -5,
+            5
+        ]
+    },
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "◆"
+        ],
+        "compute_prob": 0.7,
+        "function_list": [
+            "x**2",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x"
+        ],
+        "a_range": [
+            -5,
+            5
+        ],
+        "b_range": [
+            -5,
+            5
+        ]
+    },
+    {
+        "operator_symbols": [
+            "●",
+            "★",
+            "☆"
+        ],
+        "compute_prob": 0.6,
+        "function_list": [
+            "m*x",
+            "x**n",
+            "sin(x)",
+            "cos(x)",
+            "1/x"
+        ],
+        "a_range": [
+            -5,
+            5
+        ],
+        "b_range": [
+            -5,
+            5
+        ]
+    }
+]

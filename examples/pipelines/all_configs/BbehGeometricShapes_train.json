@@ -1,0 +1,24 @@
+[
+    {
+        "distract_density":0.85,
+        "max_distractors":1
+    },
+    {
+        "distract_density":0.8,
+        "max_distractors":2
+    },
+    {
+        "distract_density":0.5,
+        "max_distractors":3
+    },
+    {
+        "distract_density":0.5,
+        "max_distractors":4
+    },
+    {
+        "distract_density":0.5,
+        "max_distractors":5
+    }
+]
+
+

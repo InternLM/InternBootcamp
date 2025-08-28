@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Konrad is a Human Relations consultant working for VoltModder, a large electrical equipment producer. Today, he has been tasked with evaluating the level of happiness in the company.
 
 There are n people working for VoltModder, numbered from 1 to n. Each employee earns a different amount of money in the company — initially, the i-th person earns i rubles per day.

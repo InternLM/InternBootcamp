@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Phoenix has n blocks of height h_1, h_2, ..., h_n, and all h_i don't exceed some value x. He plans to stack all n blocks into m separate towers. The height of a tower is simply the sum of the heights of its blocks. For the towers to look beautiful, no two towers may have a height difference of strictly more than x. 
 
 Please help Phoenix build m towers that look beautiful. Each tower must have at least one block and all blocks must be used.

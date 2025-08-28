@@ -1,0 +1,10 @@
+[
+    {
+        "D_min": 40,
+        "D_max": 400,
+        "thickness_min": 5,
+        "thickness_max": 45,
+        "pressure_min": 1,
+        "pressure_max": 100
+    }
+]

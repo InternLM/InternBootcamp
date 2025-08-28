@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 Kakurasu is a logic puzzle played on a rectangular grid (typically N×N). Each cell in the grid can be either shaded or unshaded. The puzzle provides target values for each row and column, and the goal is to shade cells such that:
 

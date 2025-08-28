@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You've been in love with Coronavirus-chan for a long time, but you didn't know where she lived until now. And just now you found out that she lives in a faraway place called Naha. 
 
 You immediately decided to take a vacation and visit Coronavirus-chan. Your vacation lasts exactly x days and that's the exact number of days you will spend visiting your friend. You will spend exactly x consecutive (successive) days visiting Coronavirus-chan.

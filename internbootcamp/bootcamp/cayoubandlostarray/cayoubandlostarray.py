@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ayoub had an array a of integers of size n and this array had two interesting properties: 
 
   * All the integers in the array were between l and r (inclusive). 

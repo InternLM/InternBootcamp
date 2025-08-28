@@ -11,11 +11,13 @@ fi
 timestamp=$(date +"%Y-%m-%d-%H:%M:%S")
 # cipher输入集
 
-
-tokenizer="/cpfs01/shared/llm_ddd/lipeiji/hf_hub_1/models--Qwen--Qwen2.5-32B-Instruct/snapshots/afb2829595f63efa3548e9d6b13aa66e61aa0f38" # tokenizer is used to calculate the sequence length of the prompt
+train_config_file=examples/pipelines/data_configs/data_config_train_verified.jsonl
+test_config_file=None
+tokenizer="hf_model_path" # tokenizer is used to calculate the sequence length of the prompt, use one tokenizer of huggingface model, such as "Qwen2.5-7B-Instruct"
 max_prompt_len=4096
-max_jobs=64  # 设置最大并发进程数
+max_jobs=32  # 设置最大并发进程数
 jobs=()     # 用于存储后台进程的PID
+config_type=all_configs # 配置文件类型，puzzle_configs or autogen_configs
 
 
 
@@ -38,7 +40,7 @@ while IFS= read -r line || [ -n "$line" ]; do
 
     # 如果 config_file 为 "cipher"，保存 sample_number
     if [[ "$config_file" == "cipher" ]]; then
-        cipehr_train_nums_for_single_cipher=$sample_number
+        cipher_train_nums_for_single_cipher=$sample_number
         continue
     fi
 
@@ -58,7 +60,7 @@ while IFS= read -r line || [ -n "$line" ]; do
         --bootcamp_name "$bootcamp_name" \
         --n $sample_number \
         --save_file "examples/bootcamp_generator_outputs/$timestamp/train/${bootcamp_name}.jsonl" \
-        --config_file "examples/pipelines/puzzle_configs/${config_file}_train.json" \
+        --config_file "examples/pipelines/$config_type/${config_file}_train.json" \
         --bootcamp_cls_name "$bootcamp_cls_name" \
         --tokenizer "$tokenizer" \
         --max_prompt_len $max_prompt_len \
@@ -80,7 +82,7 @@ while IFS= read -r line || [ -n "$line" ]; do
         done
         jobs=("${new_jobs[@]}")
     done
-done < examples/pipelines/data_configs/data_config_train.jsonl
+done < $train_config_file
 
 wait
 
@@ -109,7 +111,7 @@ while IFS= read -r line || [ -n "$line" ]; do
         --bootcamp_name "$bootcamp_name" \
         --n $sample_number \
         --save_file "examples/bootcamp_generator_outputs/$timestamp/test/${bootcamp_name}.jsonl" \
-        --config_file "examples/pipelines/puzzle_configs/${config_file}_test.json" \
+        --config_file "examples/pipelines/$config_type/${config_file}_test.json" \
         --tokenizer "$tokenizer" \
         --bootcamp_cls_name "$bootcamp_cls_name" \
         --max_prompt_len $max_prompt_len \
@@ -129,7 +131,7 @@ while IFS= read -r line || [ -n "$line" ]; do
         done
         jobs=("${new_jobs[@]}")
     done
-done < examples/pipelines/data_configs/data_config_test.jsonl
+done < $test_config_file
 
 wait
 

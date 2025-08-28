@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Bob is an avid fan of the video game \"League of Leesins\", and today he celebrates as the League of Leesins World Championship comes to an end! 
 
 The tournament consisted of n (n ≥ 5) teams around the world. Before the tournament starts, Bob has made a prediction of the rankings of each team, from 1-st to n-th. After the final, he compared the prediction with the actual result and found out that the i-th team according to his prediction ended up at the p_i-th position (1 ≤ p_i ≤ n, all p_i are unique). In other words, p is a permutation of 1, 2, ..., n.

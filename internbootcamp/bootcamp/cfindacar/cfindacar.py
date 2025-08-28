@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 After a wonderful evening in the restaurant the time to go home came. Leha as a true gentlemen suggested Noora to give her a lift. Certainly the girl agreed with pleasure. Suddenly one problem appeared: Leha cannot find his car on a huge parking near the restaurant. So he decided to turn to the watchman for help.
 
 Formally the parking can be represented as a matrix 109 × 109. There is exactly one car in every cell of the matrix. All cars have their own machine numbers represented as a positive integer. Let's index the columns of the matrix by integers from 1 to 109 from left to right and the rows by integers from 1 to 109 from top to bottom. By coincidence it turned out, that for every cell (x, y) the number of the car, which stands in this cell, is equal to the minimum positive integer, which can't be found in the cells (i, y) and (x, j), 1 ≤ i < x, 1 ≤ j < y.

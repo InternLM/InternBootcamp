@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a permutation p_1, p_2, …, p_n.
 
 In one move you can swap two adjacent values.

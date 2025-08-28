@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are times you recall a good old friend and everything you've come through together. Luckily there are social networks — they store all your message history making it easy to know what you argued over 10 years ago.
 
 More formal, your message history is a sequence of messages ordered by time sent numbered from 1 to n where n is the total number of messages in the chat.

@@ -1,0 +1,22 @@
+[
+    {
+        "solution_prob": 0.6,
+        "max_x1": 200,
+        "max_retry": 120
+    },
+    {
+        "solution_prob": 0.7,
+        "max_x1": 250,
+        "max_retry": 150
+    },
+    {
+        "solution_prob": 0.5,
+        "max_x1": 100,
+        "max_retry": 100
+    },
+    {
+        "solution_prob": 0.3,
+        "max_x1": 180,
+        "max_retry": 70
+    }
+]

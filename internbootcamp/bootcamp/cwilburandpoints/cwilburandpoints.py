@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Wilbur is playing with a set of n points on the coordinate plane. All points have non-negative integer coordinates. Moreover, if some point (x, y) belongs to the set, then all points (x', y'), such that 0 ≤ x' ≤ x and 0 ≤ y' ≤ y also belong to this set.
 
 Now Wilbur wants to number the points in the set he has, that is assign them distinct integer numbers from 1 to n. In order to make the numbering aesthetically pleasing, Wilbur imposes the condition that if some point (x, y) gets number i, then all (x',y') from the set, such that x' ≥ x and y' ≥ y must be assigned a number not less than i. For example, for a set of four points (0, 0), (0, 1), (1, 0) and (1, 1), there are two aesthetically pleasing numberings. One is 1, 2, 3, 4 and another one is 1, 3, 2, 4.

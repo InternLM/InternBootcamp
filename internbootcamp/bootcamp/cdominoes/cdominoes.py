@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 During the break, we decided to relax and play dominoes. Our box with Domino was empty, so we decided to borrow the teacher's dominoes.
 
 The teacher responded instantly at our request. He put nm dominoes on the table as an n × 2m rectangle so that each of the n rows contained m dominoes arranged horizontally. Each half of each domino contained number (0 or 1).

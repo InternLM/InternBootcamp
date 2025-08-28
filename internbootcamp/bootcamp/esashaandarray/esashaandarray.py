@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Sasha has an array of integers a1, a2, ..., an. You have to perform m queries. There might be queries of two types:
 
   1. 1 l r x — increase all integers on the segment from l to r by values x; 

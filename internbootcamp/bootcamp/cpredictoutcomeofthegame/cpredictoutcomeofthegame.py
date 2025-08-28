@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n games in a football tournament. Three teams are participating in it. Currently k games had already been played. 
 
 You are an avid football fan, but recently you missed the whole k games. Fortunately, you remember a guess of your friend for these k games. Your friend did not tell exact number of wins of each team, instead he thought that absolute difference between number of wins of first and second team will be d1 and that of between second and third team will be d2.

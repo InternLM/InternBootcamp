@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 ZS the Coder has a large tree. It can be represented as an undirected connected graph of n vertices numbered from 0 to n - 1 and n - 1 edges between them. There is a single nonzero digit written on each edge.
 
 One day, ZS the Coder was bored and decided to investigate some properties of the tree. He chose a positive integer M, which is coprime to 10, i.e. <image>.

@@ -1,0 +1,40 @@
+[
+    {
+        "vars": [
+            "x",
+            "y",
+            "z",
+            "w",
+            "u"
+        ],
+        "max_clause_length": 4,
+        "problem_types": [
+            "algorithm_output"
+        ]
+    },
+    {
+        "vars": [
+            "a",
+            "b",
+            "c"
+        ],
+        "max_clause_length": 2,
+        "problem_types": [
+            "can_resolve",
+            "compute_dispel"
+        ]
+    },
+    {
+        "vars": [
+            "p",
+            "q",
+            "r"
+        ],
+        "max_clause_length": 3,
+        "problem_types": [
+            "can_resolve",
+            "algorithm_output"
+        ],
+        "seed": 42
+    }
+]

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Bear Limak prepares problems for a programming competition. Of course, it would be unprofessional to mention the sponsor name in the statement. Limak takes it seriously and he is going to change some words. To make it still possible to read, he will try to modify each word as little as possible.
 
 Limak has a string s that consists of uppercase English letters. In one move he can swap two adjacent letters of the string. For example, he can transform a string \"ABBC\" into \"BABC\" or \"ABCB\" in one move.

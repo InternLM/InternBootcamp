@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n seats in the train's car and there is exactly one passenger occupying every seat. The seats are numbered from 1 to n from left to right. The trip is long, so each passenger will become hungry at some moment of time and will go to take boiled water for his noodles. The person at seat i (1 ≤ i ≤ n) will decide to go for boiled water at minute t_i.
 
 Tank with a boiled water is located to the left of the 1-st seat. In case too many passengers will go for boiled water simultaneously, they will form a queue, since there can be only one passenger using the tank at each particular moment of time. Each passenger uses the tank for exactly p minutes. We assume that the time it takes passengers to go from their seat to the tank is negligibly small. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Alice got a new doll these days. It can even walk!
 
 Alice has built a maze for the doll and wants to test it. The maze is a grid with n rows and m columns. There are k obstacles, the i-th of them is on the cell (x_i, y_i), which means the cell in the intersection of the x_i-th row and the y_i-th column.

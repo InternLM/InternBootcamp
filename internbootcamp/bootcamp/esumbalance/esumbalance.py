@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ujan has a lot of numbers in his boxes. He likes order and balance, so he decided to reorder the numbers.
 
 There are k boxes numbered from 1 to k. The i-th box contains n_i integer numbers. The integers can be negative. All of the integers are distinct.

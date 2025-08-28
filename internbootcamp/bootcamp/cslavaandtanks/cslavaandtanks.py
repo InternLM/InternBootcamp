@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Slava plays his favorite game \"Peace Lightning\". Now he is flying a bomber on a very specific map.
 
 Formally, map is a checkered field of size 1 × n, the cells of which are numbered from 1 to n, in each cell there can be one or several tanks. Slava doesn't know the number of tanks and their positions, because he flies very high, but he can drop a bomb in any cell. All tanks in this cell will be damaged.

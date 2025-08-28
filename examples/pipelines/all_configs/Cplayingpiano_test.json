@@ -1,0 +1,44 @@
+[
+    {
+        "min_notes": 5,
+        "max_notes": 20,
+        "unsolvable_ratio": 0.4,
+        "max_retry": 50
+    },
+    {
+        "min_notes": 4,
+        "max_notes": 20,
+        "unsolvable_ratio": 0.5,
+        "max_retry": 60
+    },
+    {
+        "min_notes": 5,
+        "max_notes": 22,
+        "unsolvable_ratio": 0.4,
+        "max_retry": 40
+    },
+    {
+        "min_notes": 5,
+        "max_notes": 18,
+        "unsolvable_ratio": 0.2,
+        "max_retry": 35
+    },
+    {
+        "min_notes": 3,
+        "max_notes": 25,
+        "unsolvable_ratio": 0.3,
+        "max_retry": 50
+    },
+    {
+        "min_notes": 6,
+        "max_notes": 24,
+        "unsolvable_ratio": 0.4,
+        "max_retry": 50
+    },
+    {
+        "min_notes": 7,
+        "max_notes": 22,
+        "unsolvable_ratio": 0.35,
+        "max_retry": 60
+    }
+]

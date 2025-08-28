@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree (an undirected connected graph without cycles) and an integer s.
 
 Vanya wants to put weights on all edges of the tree so that all weights are non-negative real numbers and their sum is s. At the same time, he wants to make the diameter of the tree as small as possible.

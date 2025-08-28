@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a string s consisting of lowercase Latin letters. Let the length of s be |s|. You may perform several operations on this string.
 
 In one operation, you can choose some index i and remove the i-th character of s (s_i) if at least one of its adjacent characters is the previous letter in the Latin alphabet for s_i. For example, the previous letter for b is a, the previous letter for s is r, the letter a has no previous letters. Note that after each removal the length of the string decreases by one. So, the index i should satisfy the condition 1 ≤ i ≤ |s| during each operation.

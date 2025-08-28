@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The Robot is in a rectangular maze of size n × m. Each cell of the maze is either empty or occupied by an obstacle. The Robot can move between neighboring cells on the side left (the symbol \"L\"), right (the symbol \"R\"), up (the symbol \"U\") or down (the symbol \"D\"). The Robot can move to the cell only if it is empty. Initially, the Robot is in the empty cell.
 
 Your task is to find lexicographically minimal Robot's cycle with length exactly k, which begins and ends in the cell where the Robot was initially. It is allowed to the Robot to visit any cell many times (including starting).

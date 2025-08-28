@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little Elephant loves Furik and Rubik, who he met in a small city Kremenchug.
 
 The Little Elephant has two strings of equal length a and b, consisting only of uppercase English letters. The Little Elephant selects a pair of substrings of equal length — the first one from string a, the second one from string b. The choice is equiprobable among all possible pairs. Let's denote the substring of a as x, and the substring of b — as y. The Little Elephant gives string x to Furik and string y — to Rubik.

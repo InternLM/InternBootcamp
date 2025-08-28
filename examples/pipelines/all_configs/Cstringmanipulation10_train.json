@@ -1,0 +1,23 @@
+[
+    {
+        "k_min": 1,
+        "k_max": 200,
+        "s_min_len": 3,
+        "s_max_len": 30,
+        "n_max": 500
+    },
+    {
+        "k_min": 2,
+        "k_max": 150,
+        "s_min_len": 4,
+        "s_max_len": 25,
+        "n_max": 750
+    },
+    {
+        "k_min": 1,
+        "k_max": 300,
+        "s_min_len": 3,
+        "s_max_len": 40,
+        "n_max": 900
+    }
+]

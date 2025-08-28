@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Yaroslav likes algorithms. We'll describe one of his favorite algorithms.
 
   1. The algorithm receives a string as the input. We denote this input string as a. 

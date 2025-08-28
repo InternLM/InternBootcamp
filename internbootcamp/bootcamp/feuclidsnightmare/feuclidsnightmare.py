@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You may know that Euclid was a mathematician. Well, as it turns out, Morpheus knew it too. So when he wanted to play a mean trick on Euclid, he sent him an appropriate nightmare. 
 
 In his bad dream Euclid has a set S of n m-dimensional vectors over the Z_2 field and can perform vector addition on them. In other words he has vectors with m coordinates, each one equal either 0 or 1. Vector addition is defined as follows: let u+v = w, then w_i = (u_i + v_i) mod 2. 

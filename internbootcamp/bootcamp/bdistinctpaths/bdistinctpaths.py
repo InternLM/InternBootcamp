@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You have a rectangular n × m-cell board. Some cells are already painted some of k colors. You need to paint each uncolored cell one of the k colors so that any path from the upper left square to the lower right one doesn't contain any two cells of the same color. The path can go only along side-adjacent cells and can only go down or right.
 
 Print the number of possible paintings modulo 1000000007 (109 + 7).

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Shichikuji is the new resident deity of the South Black Snail Temple. Her first job is as follows:
 
 There are n new cities located in Prefecture X. Cities are numbered from 1 to n. City i is located x_i km North of the shrine and y_i km East of the shrine. It is possible that (x_i, y_i) = (x_j, y_j) even when i ≠ j.

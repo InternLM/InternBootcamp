@@ -22,7 +22,8 @@ python examples/unittests/run_eval.py \
     --timeout 6000 \
     --api_mode completion \
     --max_retries 16 \
-    --max_retrying_delay 60
+    --max_retrying_delay 60 \
+    --resume
 ```
 
 ---
@@ -46,6 +47,8 @@ python examples/unittests/run_eval.py \
 | `--sys_prompt`          | str        | `"You are an expert reasoner..."`        | 系统提示内容，仅在 `api_mode` 为 `chat_completion` 时生效。          |
 | `--max_retries`         | int        | `16`                                     | 单个请求失败重试次数。                                              |
 | `--max_retrying_delay`  | int        | `60`                                     | 最大重试延迟时间（秒）。                           |
+| `--resume`              | bool        | `true`                                     | 是否从上次中断的位置继续执行。                                     |
+| `--check_model_url`     | bool        | `true`                                     | 在开始评测前检查模型服务的 URL 是否可用。                             |
 
 ##### 参数关系
 - `--api_mode`为`chat_completion`时，`--sys_prompt`参数才有效。

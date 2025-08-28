@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given n points on the plane. The polygon formed from all the n points is strictly convex, that is, the polygon is convex, and there are no three collinear points (i.e. lying in the same straight line). The points are numbered from 1 to n, in clockwise order.
 
 We define the distance between two points p_1 = (x_1, y_1) and p_2 = (x_2, y_2) as their Manhattan distance: $$$d(p_1, p_2) = |x_1 - x_2| + |y_1 - y_2|.$$$

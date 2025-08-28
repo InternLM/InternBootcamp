@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya has got three integers n, m and k. He'd like to find three integer points (x_1, y_1), (x_2, y_2), (x_3, y_3), such that 0 ≤ x_1, x_2, x_3 ≤ n, 0 ≤ y_1, y_2, y_3 ≤ m and the area of the triangle formed by these points is equal to nm/k.
 
 Help Vasya! Find such points (if it's possible). If there are multiple solutions, print any of them.

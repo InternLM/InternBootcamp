@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 There are n water tanks in a row, i-th of them contains a_i liters of water. The tanks are numbered from 1 to n from left to right.
 
 You can perform the following operation: choose some subsegment [l, r] (1≤ l ≤ r ≤ n), and redistribute water in tanks l, l+1, ..., r evenly. In other words, replace each of a_l, a_{l+1}, ..., a_r by \frac{a_l + a_{l+1} + ... + a_r}{r-l+1}. For example, if for volumes [1, 3, 6, 7] you choose l = 2, r = 3, new volumes of water will be [1, 4.5, 4.5, 7]. You can perform this operation any number of times.

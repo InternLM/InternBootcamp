@@ -1,0 +1,26 @@
+[
+    {
+        "R_max": 5000,
+        "coord_max": 5000
+    },
+    {
+        "R_max": 100,
+        "coord_max": 100
+    },
+    {
+        "R_max": 5000,
+        "coord_max": 1000
+    },
+    {
+        "R_max": 1000,
+        "coord_max": 1000
+    },
+    {
+        "R_max": 1000,
+        "coord_max": 5000
+    },
+    {
+        "R_max": 10000,
+        "coord_max": 10000
+    }
+]

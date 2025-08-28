@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A festival will be held in a town's main street. There are n sections in the main street. The sections are numbered 1 through n from left to right. The distance between each adjacent sections is 1.
 
 In the festival m fireworks will be launched. The i-th (1 ≤ i ≤ m) launching is on time ti at section ai. If you are at section x (1 ≤ x ≤ n) at the time of i-th launching, you'll gain happiness value bi - |ai - x| (note that the happiness value might be a negative value).

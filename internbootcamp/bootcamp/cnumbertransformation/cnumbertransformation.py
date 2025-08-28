@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Little Petya likes positive integers a lot. Recently his mom has presented him a positive integer a. There's only one thing Petya likes more than numbers: playing with little Masha. It turned out that Masha already has a positive integer b. Petya decided to turn his number a into the number b consecutively performing the operations of the following two types:
 
   1. Subtract 1 from his number. 

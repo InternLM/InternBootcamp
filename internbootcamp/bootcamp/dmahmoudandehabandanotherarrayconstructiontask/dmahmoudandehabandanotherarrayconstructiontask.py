@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Mahmoud has an array a consisting of n integers. He asked Ehab to find another array b of the same length such that:
 
   * b is lexicographically greater than or equal to a. 

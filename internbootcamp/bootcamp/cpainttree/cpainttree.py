@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree with n vertexes and n points on a plane, no three points lie on one straight line.
 
 Your task is to paint the given tree on a plane, using the given points as vertexes. 

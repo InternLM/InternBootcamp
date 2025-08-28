@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Santa Claus has Robot which lives on the infinite grid and can move along its lines. He can also, having a sequence of m points p1, p2, ..., pm with integer coordinates, do the following: denote its initial location by p0. First, the robot will move from p0 to p1 along one of the shortest paths between them (please notice that since the robot moves only along the grid lines, there can be several shortest paths). Then, after it reaches p1, it'll move to p2, again, choosing one of the shortest ways, then to p3, and so on, until he has visited all points in the given order. Some of the points in the sequence may coincide, in that case Robot will visit that point several times according to the sequence order.
 
 While Santa was away, someone gave a sequence of points to Robot. This sequence is now lost, but Robot saved the protocol of its unit movements. Please, find the minimum possible length of the sequence.

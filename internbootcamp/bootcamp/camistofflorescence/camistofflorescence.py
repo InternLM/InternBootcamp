@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 As the boat drifts down the river, a wood full of blossoms shows up on the riverfront.
 
 \"I've been here once,\" Mino exclaims with delight, \"it's breathtakingly amazing.\"

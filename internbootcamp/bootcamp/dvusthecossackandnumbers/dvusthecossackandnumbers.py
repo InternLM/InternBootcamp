@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vus the Cossack has n real numbers a_i. It is known that the sum of all numbers is equal to 0. He wants to choose a sequence b the size of which is n such that the sum of all numbers is 0 and each b_i is either ⌊ a_i ⌋ or ⌈ a_i ⌉. In other words, b_i equals a_i rounded up or down. It is not necessary to round to the nearest integer.
 
 For example, if a = [4.58413, 1.22491, -2.10517, -3.70387], then b can be equal, for example, to [4, 2, -2, -4]. 

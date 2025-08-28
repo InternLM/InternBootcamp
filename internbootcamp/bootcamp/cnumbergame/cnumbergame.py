@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Ashishgup and FastestFinger play a game. 
 
 They start with a number n and play in turns. In each turn, a player can make any one of the following moves:

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The little girl loves the problems on array queries very much.
 
 One day she came across a rather well-known problem: you've got an array of n elements (the elements of the array are indexed starting from 1); also, there are q queries, each one is defined by a pair of integers l_i, r_i (1 ≤ l_i ≤ r_i ≤ n). You need to find for each query the sum of elements of the array with indexes from l_i to r_i, inclusive.

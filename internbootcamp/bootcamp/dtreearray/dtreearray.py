@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree consisting of n nodes. You generate an array from the tree by marking nodes one by one.
 
 Initially, when no nodes are marked, a node is equiprobably chosen and marked from the entire tree. 

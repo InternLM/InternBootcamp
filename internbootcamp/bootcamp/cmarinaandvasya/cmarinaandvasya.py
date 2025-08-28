@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Marina loves strings of the same length and Vasya loves when there is a third string, different from them in exactly t characters. Help Vasya find at least one such string.
 
 More formally, you are given two strings s1, s2 of length n and number t. Let's denote as f(a, b) the number of characters in which strings a and b are different. Then your task will be to find any string s3 of length n, such that f(s1, s3) = f(s2, s3) = t. If there is no such string, print  - 1.

@@ -1,0 +1,30 @@
+[
+    {
+        "min_reverse_steps": 7,
+        "max_reverse_steps": 10
+    },
+    {
+        "min_reverse_steps": 9,
+        "max_reverse_steps": 15
+    },
+    {
+        "min_reverse_steps": 3,
+        "max_reverse_steps": 10
+    },
+    {
+        "min_reverse_steps": 8,
+        "max_reverse_steps": 12
+    },
+    {
+        "min_reverse_steps": 4,
+        "max_reverse_steps": 12
+    },
+    {
+        "min_reverse_steps": 3,
+        "max_reverse_steps": 5
+    },
+    {
+        "min_reverse_steps": 6,
+        "max_reverse_steps": 9
+    }
+]

@@ -20,7 +20,10 @@ setuptools.setup(
         "langdetect",
         "pympler",
         "shortuuid",
-        "rdkit==2024.3.2"
+        "rdkit==2024.3.2",
+        "scipy",
+        "scikit-learn==1.7.0",
+        "pandas==2.3.0"
     ],
 
     package_data={

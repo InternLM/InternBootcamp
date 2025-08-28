@@ -1,0 +1,12 @@
+[
+    {
+        "random_seed": 123,
+        "minimum_index": 50,
+        "maximum_index": 200
+    },
+    {
+        "random_seed": 42,
+        "minimum_index": 0,
+        "maximum_index": 1000
+    }
+]

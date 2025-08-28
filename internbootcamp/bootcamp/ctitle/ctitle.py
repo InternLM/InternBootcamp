@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya has recently finished writing a book. Now he faces the problem of giving it the title. Vasya wants the title to be vague and mysterious for his book to be noticeable among others. That's why the title should be represented by a single word containing at least once each of the first k Latin letters and not containing any other ones. Also, the title should be a palindrome, that is it should be read similarly from the left to the right and from the right to the left.
 
 Vasya has already composed the approximate variant of the title. You are given the title template s consisting of lowercase Latin letters and question marks. Your task is to replace all the question marks by lowercase Latin letters so that the resulting word satisfies the requirements, described above. Each question mark should be replaced by exactly one letter, it is not allowed to delete characters or add new ones to the template. If there are several suitable titles, choose the first in the alphabetical order, for Vasya's book to appear as early as possible in all the catalogues.

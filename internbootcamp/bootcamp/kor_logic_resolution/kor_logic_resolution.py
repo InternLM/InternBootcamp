@@ -237,17 +237,16 @@ Please provide the answer in the format [[output];[number]].
 请完成上述谜题的训练场环境类实现，包括所有必要的方法。
 """
 
-from bootcamp import Basebootcamp
+from internbootcamp.bootcamp import Basebootcamp
 import re
 import random
 from itertools import combinations
-from bootcamp import Basebootcamp
 
 class KorLogicResolutionbootcamp(Basebootcamp):
     def __init__(self, **params):
         self.vars = params.get('vars', ['p', 'q', 'r', 's'])
         self.max_clause_length = params.get('max_clause_length', 3)
-        self.problem_types = params.get('problem_types', ['can_resolve', 'compute_dispel', 'algorithm_output'])
+        self.problem_types = params.get('problem_types', ['can_resolve', 'compute_dispel'])
         random.seed(params.get('seed', None))
 
     def case_generator(self):
@@ -256,8 +255,6 @@ class KorLogicResolutionbootcamp(Basebootcamp):
             return self._generate_can_resolve_case()
         elif problem_type == 'compute_dispel':
             return self._generate_compute_dispel_case()
-        elif problem_type == 'algorithm_output':
-            return self._generate_algorithm_output_case()
         else:
             raise ValueError(f"Unknown problem type: {problem_type}")
 
@@ -389,3 +386,18 @@ class KorLogicResolutionbootcamp(Basebootcamp):
                 new_clause = (C1_set - {l}) | (C2_set - {comp})
                 resolved.append(frozenset(new_clause))
         return resolved
+    
+if __name__ == '__main__':
+    while True:
+        bootcamp_cls = KorLogicResolutionbootcamp
+        bootcamp = KorLogicResolutionbootcamp()
+        case = bootcamp.case_generator()
+        while True:
+            print('='*50, 'case', '='*50 + '\n', case, '\n' ,'='*50, 'case', '='*50)
+            print('='*50, bootcamp_cls.__name__, '='*50 + '\n', bootcamp_cls.prompt_func(case),'\n' +'='*50, bootcamp_cls.__name__, '='*50)
+            input_answer = input('Enter your answer: ')
+            print('提取到的答案：', bootcamp_cls.extract_output(input_answer), '\n')
+            print('你的答案得分：', bootcamp_cls.verify_score(input_answer, case,short_penalty=False, format_penalty=False))
+            exit_or_not = input('是否退出？(y/n)')
+            if exit_or_not == 'y':
+                break

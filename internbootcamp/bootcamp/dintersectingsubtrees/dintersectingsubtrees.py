@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are playing a strange game with Li Chen. You have a tree with n nodes drawn on a piece of paper. All nodes are unlabeled and distinguishable. Each of you independently labeled the vertices from 1 to n. Neither of you know the other's labelling of the tree.
 
 You and Li Chen each chose a subtree (i.e., a connected subgraph) in that tree. Your subtree consists of the vertices labeled x_1, x_2, …, x_{k_1} in your labeling, Li Chen's subtree consists of the vertices labeled y_1, y_2, …, y_{k_2} in his labeling. The values of x_1, x_2, …, x_{k_1} and y_1, y_2, …, y_{k_2} are known to both of you.

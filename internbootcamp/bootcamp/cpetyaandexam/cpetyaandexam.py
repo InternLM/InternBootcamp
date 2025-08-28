@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Petya has come to the math exam and wants to solve as many problems as possible. He prepared and carefully studied the rules by which the exam passes.
 
 The exam consists of n problems that can be solved in T minutes. Thus, the exam begins at time 0 and ends at time T. Petya can leave the exam at any integer time from 0 to T, inclusive.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Note that the difference between easy and hard versions is that in hard version unavailable cells can become available again and in easy version can't. You can make hacks only if all versions are solved.
 
 Ildar and Ivan are tired of chess, but they really like the chessboard, so they invented a new game. The field is a chessboard 2n × 2m: it has 2n rows, 2m columns, and the cell in row i and column j is colored white if i+j is even, and is colored black otherwise.

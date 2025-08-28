@@ -1,0 +1,34 @@
+[
+    {
+        "max_n": 15,
+        "max_len": 7,
+        "value_range": [
+            0,
+            100
+        ]
+    },
+    {
+        "max_n": 5,
+        "max_len": 5,
+        "value_range": [
+            0,
+            50
+        ]
+    },
+    {
+        "max_n": 10,
+        "max_len": 7,
+        "value_range": [
+            0,
+            100
+        ]
+    },
+    {
+        "max_n": 15,
+        "max_len": 10,
+        "value_range": [
+            10,
+            200
+        ]
+    }
+]

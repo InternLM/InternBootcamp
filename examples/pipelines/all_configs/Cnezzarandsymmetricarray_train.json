@@ -1,0 +1,38 @@
+[
+    {
+        "case_type": "valid",
+        "min_n": 1,
+        "max_n": 5,
+        "value_range": [
+            1,
+            1000000
+        ]
+    },
+    {
+        "case_type": "valid",
+        "min_n": 4,
+        "max_n": 7,
+        "value_range": [
+            1000,
+            100000
+        ]
+    },
+    {
+        "case_type": "mixed",
+        "min_n": 2,
+        "max_n": 4,
+        "value_range": [
+            100,
+            1000
+        ]
+    },
+    {
+        "case_type": "invalid",
+        "min_n": 2,
+        "max_n": 6,
+        "value_range": [
+            1,
+            500
+        ]
+    }
+]

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Consider a sequence [a1, a2, ... , an]. Define its prefix product sequence <image>.
 
 Now given n, find a permutation of [1, 2, ..., n], such that its prefix product sequence is a permutation of [0, 1, ..., n - 1].

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasily the bear has got a sequence of positive integers a1, a2, ..., an. Vasily the Bear wants to write out several numbers on a piece of paper so that the beauty of the numbers he wrote out was maximum. 
 
 The beauty of the written out numbers b1, b2, ..., bk is such maximum non-negative integer v, that number b1 and b2 and ... and bk is divisible by number 2v without a remainder. If such number v doesn't exist (that is, for any non-negative integer v, number b1 and b2 and ... and bk is divisible by 2v without a remainder), the beauty of the written out numbers equals -1. 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Some time ago Homer lived in a beautiful city. There were n blocks numbered from 1 to n and m directed roads between them. Each road had a positive length, and each road went from the block with the smaller index to the block with the larger index. For every two (different) blocks, there was at most one road between them. 
 
 Homer discovered that for some two numbers L and R the city was (L, R)-continuous. 

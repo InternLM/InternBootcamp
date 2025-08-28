@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A mad scientist Dr.Jubal has made a competitive programming task. Try to solve it!
 
 You are given integers n,k. Construct a grid A with size n × n consisting of integers 0 and 1. The very important condition should be satisfied: the sum of all elements in the grid is exactly k. In other words, the number of 1 in the grid is equal to k.

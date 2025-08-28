@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Polycarpus has a chessboard of size n × m, where k rooks are placed. Polycarpus hasn't yet invented the rules of the game he will play. However, he has already allocated q rectangular areas of special strategic importance on the board, they must be protected well. According to Polycarpus, a rectangular area of ​​the board is well protected if all its vacant squares can be beaten by the rooks that stand on this area. The rooks on the rest of the board do not affect the area's defense. The position of the rooks is fixed and cannot be changed. We remind you that the the rook beats the squares located on the same vertical or horizontal line with it, if there are no other pieces between the square and the rook. Help Polycarpus determine whether all strategically important areas are protected.
 
 Input

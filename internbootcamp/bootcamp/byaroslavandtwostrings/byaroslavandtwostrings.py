@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Yaroslav thinks that two strings s and w, consisting of digits and having length n are non-comparable if there are two numbers, i and j (1 ≤ i, j ≤ n), such that si > wi and sj < wj. Here sign si represents the i-th digit of string s, similarly, wj represents the j-th digit of string w.
 
 A string's template is a string that consists of digits and question marks (\"?\").

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Finally, a basketball court has been opened in SIS, so Demid has decided to hold a basketball exercise session. 2 ⋅ n students have come to Demid's exercise session, and he lined up them into two rows of the same size (there are exactly n people in each row). Students are numbered from 1 to n in each row in order from left to right.
 
 <image>

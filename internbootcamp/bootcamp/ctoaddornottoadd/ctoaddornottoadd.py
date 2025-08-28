@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A piece of paper contains an array of n integers a1, a2, ..., an. Your task is to find a number that occurs the maximum number of times in this array.
 
 However, before looking for such number, you are allowed to perform not more than k following operations — choose an arbitrary element from the array and add 1 to it. In other words, you are allowed to increase some array element by 1 no more than k times (you are allowed to increase the same element of the array multiple times).

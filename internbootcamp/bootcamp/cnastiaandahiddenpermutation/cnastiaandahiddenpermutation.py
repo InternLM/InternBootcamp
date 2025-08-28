@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is an interactive problem!
 
 Nastia has a hidden permutation p of length n consisting of integers from 1 to n. You, for some reason, want to figure out the permutation. To do that, you can give her an integer t (1 ≤ t ≤ 2), two different indices i and j (1 ≤ i, j ≤ n, i ≠ j), and an integer x (1 ≤ x ≤ n - 1). 

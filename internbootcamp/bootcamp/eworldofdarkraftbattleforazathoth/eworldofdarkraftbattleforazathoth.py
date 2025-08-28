@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Roma is playing a new expansion for his favorite game World of Darkraft. He made a new character and is going for his first grind.
 
 Roma has a choice to buy exactly one of n different weapons and exactly one of m different armor sets. Weapon i has attack modifier a_i and is worth ca_i coins, and armor set j has defense modifier b_j and is worth cb_j coins.

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Appleman has a very big sheet of paper. This sheet has a form of rectangle with dimensions 1 × n. Your task is help Appleman with folding of such a sheet. Actually, you need to perform q queries. Each query will have one of the following types:
 
   1. Fold the sheet of paper at position pi. After this query the leftmost part of the paper with dimensions 1 × pi must be above the rightmost part of the paper with dimensions 1 × ([current width of sheet] - pi). 

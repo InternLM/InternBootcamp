@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Today, Osama gave Fadi an integer X, and Fadi was wondering about the minimum possible value of max(a, b) such that LCM(a, b) equals X. Both a and b should be positive integers.
 
 LCM(a, b) is the smallest positive integer that is divisible by both a and b. For example, LCM(6, 8) = 24, LCM(4, 12) = 12, LCM(2, 3) = 6.

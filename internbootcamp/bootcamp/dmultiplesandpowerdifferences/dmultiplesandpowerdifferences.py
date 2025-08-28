@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a matrix a consisting of positive integers. It has n rows and m columns.
 
 Construct a matrix b consisting of positive integers. It should have the same size as a, and the following conditions should be met: 

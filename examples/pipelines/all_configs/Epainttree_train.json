@@ -1,0 +1,22 @@
+[
+    {
+        "n": 500,
+        "min_coord": -100000,
+        "max_coord": 100000
+    },
+    {
+        "n": 10,
+        "min_coord": -1000,
+        "max_coord": 1000
+    },
+    {
+        "n": 5,
+        "min_coord": -1000,
+        "max_coord": 1000
+    },
+    {
+        "n": 3,
+        "min_coord": -1000,
+        "max_coord": 1000
+    }
+]

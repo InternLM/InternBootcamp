@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The problem was inspired by Pied Piper story. After a challenge from Hooli's compression competitor Nucleus, Richard pulled an all-nighter to invent a new approach to compression: middle-out.
 
 You are given two strings s and t of the same length n. Their characters are numbered from 1 to n from left to right (i.e. from the beginning to the end).

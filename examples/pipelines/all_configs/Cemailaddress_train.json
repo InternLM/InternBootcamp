@@ -1,0 +1,38 @@
+[
+    {
+        "min_local_length": 3,
+        "max_local_length": 5,
+        "min_domain_length": 3,
+        "max_domain_length": 5
+    },
+    {
+        "min_local_length": 5,
+        "max_local_length": 10,
+        "min_domain_length": 5,
+        "max_domain_length": 10
+    },
+    {
+        "min_local_length": 4,
+        "max_local_length": 8,
+        "min_domain_length": 4,
+        "max_domain_length": 8
+    },
+    {
+        "min_local_length": 3,
+        "max_local_length": 8,
+        "min_domain_length": 3,
+        "max_domain_length": 8
+    },
+    {
+        "min_local_length": 2,
+        "max_local_length": 10,
+        "min_domain_length": 2,
+        "max_domain_length": 10
+    },
+    {
+        "min_local_length": 3,
+        "max_local_length": 9,
+        "min_domain_length": 3,
+        "max_domain_length": 9
+    }
+]

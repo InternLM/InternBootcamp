@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Vasya likes taking part in Codeforces contests. When a round is over, Vasya follows all submissions in the system testing tab.
 
 There are n solutions, the i-th of them should be tested on a_i tests, testing one solution on one test takes 1 second. The solutions are judged in the order from 1 to n. There are k testing processes which test solutions simultaneously. Each of them can test at most one solution at a time.

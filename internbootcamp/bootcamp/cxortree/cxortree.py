@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 For a given sequence of distinct non-negative integers (b_1, b_2, ..., b_k) we determine if it is good in the following way:
 
   * Consider a graph on k nodes, with numbers from b_1 to b_k written on them.

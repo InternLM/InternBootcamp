@@ -1,0 +1,55 @@
+[
+    {
+        "min_words": 3,
+        "max_words": 5,
+        "word_pool": [
+            "Hello",
+            "World",
+            "Python",
+            "Code",
+            "Spy",
+            "Cipher",
+            "Hacker",
+            "Secret",
+            "Message",
+            "Encode"
+        ],
+        "extra_words": 2,
+        "max_word_length": 8
+    },
+    {
+        "min_words": 3,
+        "max_words": 4,
+        "word_pool": [
+            "Hi",
+            "Bye",
+            "Yes",
+            "No",
+            "Hello",
+            "World",
+            "Python",
+            "Code",
+            "Spy"
+        ],
+        "extra_words": 2,
+        "max_word_length": 7
+    },
+    {
+        "min_words": 4,
+        "max_words": 6,
+        "word_pool": [
+            "Apple",
+            "Banana",
+            "Cherry",
+            "Hello",
+            "World",
+            "Test",
+            "Example",
+            "Python",
+            "Code",
+            "Spy"
+        ],
+        "extra_words": 3,
+        "max_word_length": 9
+    }
+]

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This is the hard version of the problem. The only difference between easy and hard versions is the constraint of m. You can make hacks only if both versions are solved.
 
 Chiori loves dolls and now she is going to decorate her bedroom!

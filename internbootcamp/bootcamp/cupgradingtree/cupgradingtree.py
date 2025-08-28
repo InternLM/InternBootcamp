@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree with n vertices and you are allowed to perform no more than 2n transformations on it. Transformation is defined by three vertices x, y, y' and consists of deleting edge (x, y) and adding edge (x, y'). Transformation x, y, y' could be performed if all the following conditions are satisfied:
 
   1. There is an edge (x, y) in the current tree. 

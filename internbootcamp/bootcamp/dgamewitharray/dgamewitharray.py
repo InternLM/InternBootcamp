@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Petya and Vasya are competing with each other in a new interesting game as they always do.
 
 At the beginning of the game Petya has to come up with an array of N positive integers. Sum of all elements in his array should be equal to S. Then Petya has to select an integer K such that 0 ≤ K ≤ S.

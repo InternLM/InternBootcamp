@@ -1,0 +1,38 @@
+[
+    {
+        "min_s_length": 5,
+        "max_s_length": 20,
+        "max_t_ratio": 0.5,
+        "pair_prob": 0.3
+    },
+    {
+        "min_s_length": 5,
+        "max_s_length": 20,
+        "max_t_ratio": 0.7,
+        "pair_prob": 0.5
+    },
+    {
+        "min_s_length": 5,
+        "max_s_length": 15,
+        "max_t_ratio": 0.4,
+        "pair_prob": 0.2
+    },
+    {
+        "min_s_length": 5,
+        "max_s_length": 20,
+        "max_t_ratio": 0.4,
+        "pair_prob": 0.25
+    },
+    {
+        "min_s_length": 5,
+        "max_s_length": 20,
+        "max_t_ratio": 0.3,
+        "pair_prob": 0.2
+    },
+    {
+        "min_s_length": 5,
+        "max_s_length": 25,
+        "max_t_ratio": 0.6,
+        "pair_prob": 0.5
+    }
+]

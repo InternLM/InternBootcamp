@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a set of points on a straight line. Each point has a color assigned to it. For point a, its neighbors are the points which don't have any other points between them and a. Each point has at most two neighbors - one from the left and one from the right.
 
 You perform a sequence of operations on this set of points. In one operation, you delete all points which have a neighbor point of a different color than the point itself. Points are deleted simultaneously, i.e. first you decide which points have to be deleted and then delete them. After that you can perform the next operation etc. If an operation would not delete any points, you can't perform it.

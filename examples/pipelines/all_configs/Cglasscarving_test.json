@@ -1,0 +1,22 @@
+[
+    {
+        "default_w": 3,
+        "default_h": 2,
+        "max_cuts": 2
+    },
+    {
+        "default_w": 5,
+        "default_h": 5,
+        "max_cuts": 5
+    },
+    {
+        "default_w": 4,
+        "default_h": 3,
+        "max_cuts": 4
+    },
+    {
+        "default_w": 6,
+        "default_h": 4,
+        "max_cuts": 3
+    }
+]

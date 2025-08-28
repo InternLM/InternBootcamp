@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Firecrackers scare Nian the monster, but they're wayyyyy too noisy! Maybe fireworks make a nice complement.
 
 Little Tommy is watching a firework show. As circular shapes spread across the sky, a splendid view unfolds on the night of Lunar New Year's eve.

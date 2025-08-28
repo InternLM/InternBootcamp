@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 In this problem, your task is to use ASCII graphics to paint a cardiogram. 
 
 A cardiogram is a polyline with the following corners:

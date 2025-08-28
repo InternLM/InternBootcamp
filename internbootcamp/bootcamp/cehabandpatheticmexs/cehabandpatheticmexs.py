@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given a tree consisting of n nodes. You want to write some labels on the tree's edges such that the following conditions hold:
 
   * Every label is an integer between 0 and n-2 inclusive. 

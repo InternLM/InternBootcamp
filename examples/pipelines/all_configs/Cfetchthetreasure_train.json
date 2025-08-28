@@ -1,0 +1,23 @@
+[
+    {
+        "max_n": 5,
+        "max_m": 10,
+        "max_h": 1000,
+        "max_k": 100,
+        "max_ops_type1": 10
+    },
+    {
+        "max_n": 20,
+        "max_m": 50,
+        "max_h": 100000,
+        "max_k": 10000,
+        "max_ops_type1": 20
+    },
+    {
+        "max_n": 10,
+        "max_m": 20,
+        "max_h": 10000,
+        "max_k": 1000,
+        "max_ops_type1": 15
+    }
+]

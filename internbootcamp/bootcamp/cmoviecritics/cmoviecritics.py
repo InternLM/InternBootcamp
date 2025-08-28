@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A film festival is coming up in the city N. The festival will last for exactly n days and each day will have a premiere of exactly one film. Each film has a genre — an integer from 1 to k.
 
 On the i-th day the festival will show a movie of genre ai. We know that a movie of each of k genres occurs in the festival programme at least once. In other words, each integer from 1 to k occurs in the sequence a1, a2, ..., an at least once.

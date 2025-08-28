@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Word s of length n is called k-complete if 
 
   * s is a palindrome, i.e. s_i=s_{n+1-i} for all 1 ≤ i ≤ n; 

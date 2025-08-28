@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Given an array a of length n, find another array, b, of length n such that:
 
   * for each i (1 ≤ i ≤ n) MEX(\\{b_1, b_2, …, b_i\})=a_i. 

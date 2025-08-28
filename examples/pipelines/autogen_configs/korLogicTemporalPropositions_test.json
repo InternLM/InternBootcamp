@@ -1,0 +1,70 @@
+[
+    {
+        "symbolize_prob": 0.35,
+        "relationship_prob": 0.35,
+        "formula_inference_prob": 0.3,
+        "action_words": [
+            "study computer science",
+            "write novels",
+            "play piano",
+            "keep on painting"
+        ],
+        "subjects": [
+            "Xiao Jin",
+            "Xiao Qian",
+            "Wang Qiang",
+            "Lin Min"
+        ]
+    },
+    {
+        "symbolize_prob": 0.4,
+        "relationship_prob": 0.4,
+        "formula_inference_prob": 0.2,
+        "action_words": [
+            "work in Beijing",
+            "study abroad",
+            "settle permanently",
+            "win the championship"
+        ],
+        "subjects": [
+            "Wang Qiang",
+            "Xiao Lin",
+            "Dr Lee",
+            "Old Zhao"
+        ]
+    },
+    {
+        "symbolize_prob": 0.25,
+        "relationship_prob": 0.45,
+        "formula_inference_prob": 0.3,
+        "action_words": [
+            "work on farms",
+            "teach mathematics",
+            "travel abroad",
+            "keep on painting"
+        ],
+        "subjects": [
+            "Old Zhao",
+            "Dr Lee",
+            "Xiao Bai",
+            "I"
+        ]
+    },
+    {
+        "symbolize_prob": 0.45,
+        "relationship_prob": 0.25,
+        "formula_inference_prob": 0.3,
+        "action_words": [
+            "work diligently",
+            "settle in the US",
+            "invest in stocks",
+            "win the championship"
+        ],
+        "subjects": [
+            "Mr Chen",
+            "Dr Lee",
+            "Xiao Lin",
+            "Old Zhao"
+        ]
+    }
+]

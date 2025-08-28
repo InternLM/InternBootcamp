@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Emuskald is addicted to Codeforces, and keeps refreshing the main page not to miss any changes in the \"recent actions\" list. He likes to read thread conversations where each thread consists of multiple messages.
 
 Recent actions shows a list of n different threads ordered by the time of the latest message in the thread. When a new message is posted in a thread that thread jumps on the top of the list. No two messages of different threads are ever posted at the same time.

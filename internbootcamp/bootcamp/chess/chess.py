@@ -1,6 +1,4 @@
-
-
-### 谜题描述
+"""### 谜题描述
 
 The chess puzzle involves strategically placing a specified number of pieces (e.g., queens, knights) on an N×N grid, adhering to movement constraints inherent to each piece type. The goal is to arrange all pieces such that no two pieces violate predefined interaction rules (e.g., mutual non-attacking positions for queens, restricted adjacency for knights). The solution must satisfy these conditions across the entire grid, regardless of its size or the number of pieces. Each piece's movement capabilities (e.g., queens attacking along rows, columns, and diagonals; knights moving in L-shaped patterns) define the constraints. The puzzle is considered solved when a valid configuration is found for the generalized parameters (any grid size and piece count).
 

@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Now Serval is a junior high school student in Japari Middle School, and he is still thrilled on math as before. 
 
 As a talented boy in mathematics, he likes to play with numbers. This time, he wants to play with numbers on a rooted tree.

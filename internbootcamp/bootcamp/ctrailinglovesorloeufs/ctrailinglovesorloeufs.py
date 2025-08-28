@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The number \"zero\" is called \"love\" (or \"l'oeuf\" to be precise, literally means \"egg\" in French), for example when denoting the zero score in a game of tennis. 
 
 Aki is fond of numbers, especially those with trailing zeros. For example, the number 9200 has two trailing zeros. Aki thinks the more trailing zero digits a number has, the prettier it is.

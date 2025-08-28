@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You are given an integer array a_1, a_2, …, a_n.
 
 The array b is called to be a subsequence of a if it is possible to remove some elements from a to get b.

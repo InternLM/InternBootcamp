@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 You play the game with your friend. The description of this game is listed below. 
 
 Your friend creates n distinct strings of the same length m and tells you all the strings. Then he randomly chooses one of them. He chooses strings equiprobably, i.e. the probability of choosing each of the n strings equals <image>. You want to guess which string was chosen by your friend. 

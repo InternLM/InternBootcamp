@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 This time the Berland Team Olympiad in Informatics is held in a remote city that can only be reached by one small bus. Bus has n passenger seats, seat i can be occupied only by a participant from the city ai.
 
 Today the bus has completed m trips, each time bringing n participants. The participants were then aligned in one line in the order they arrived, with people from the same bus standing in the order of their seats (i. e. if we write down the cities where the participants came from, we get the sequence a1, a2, ..., an repeated m times).

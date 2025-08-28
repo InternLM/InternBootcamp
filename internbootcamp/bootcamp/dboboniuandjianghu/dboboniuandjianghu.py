@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Since Boboniu finished building his Jianghu, he has been doing Kungfu on these mountains every day. 
 
 Boboniu designs a map for his n mountains. He uses n-1 roads to connect all n mountains. Every pair of mountains is connected via roads.

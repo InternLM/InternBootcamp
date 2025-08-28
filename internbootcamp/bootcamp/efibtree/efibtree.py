@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Let F_k denote the k-th term of Fibonacci sequence, defined as below:
 
   * F_0 = F_1 = 1

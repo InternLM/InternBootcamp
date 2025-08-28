@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 The weight of a sequence is defined as the number of unordered pairs of indexes (i,j) (here i < j) with same value (a_{i} = a_{j}). For example, the weight of sequence a = [1, 1, 2, 2, 1] is 4. The set of unordered pairs of indexes with same value are (1, 2), (1, 5), (2, 5), and (3, 4).
 
 You are given a sequence a of n integers. Print the sum of the weight of all subsegments of a. 

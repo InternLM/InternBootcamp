@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 Allen and Bessie are playing a simple number game. They both know a function f: \{0, 1\}^n → R, i. e. the function takes n binary arguments and returns a real value. At the start of the game, the variables x_1, x_2, ..., x_n are all set to -1. Each round, with equal probability, one of Allen or Bessie gets to make a move. A move consists of picking an i such that x_i = -1 and either setting x_i → 0 or x_i → 1.
 
 After n rounds all variables are set, and the game value resolves to f(x_1, x_2, ..., x_n). Allen wants to maximize the game value, and Bessie wants to minimize it.

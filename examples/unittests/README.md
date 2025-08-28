@@ -22,7 +22,8 @@ python examples/unittests/run_eval.py \
     --timeout 6000 \
     --api_mode completion \
     --max_retries 16 \
-    --max_retrying_delay 60
+    --max_retrying_delay 60 \
+    --resume
 ```
 
 ---
@@ -46,7 +47,8 @@ Here are the main parameters supported by the script and their meanings:
 | `--sys_prompt`             | str    | `"You are an expert reasoner..."` | System prompt content; only effective when `api_mode` is `chat_completion`. |
 | `--max_retries`            | int    | `16`                            | Number of retries per failed request.                                      |
 | `--max_retrying_delay`     | int    | `60`                            | Maximum delay between retries in seconds.                                  |
-
+| `--resume`                 | bool   | `true`                          | Resume from previous run.                                                  |
+| `--check_model_url`     | bool        | `true`                                     | Check if the model service URL is available before starting the evaluation. |
 ##### Parameter Relationships
 - `--sys_prompt` is only effective if `--api_mode` is set to `chat_completion`.
 - `--template` is only effective if `--api_mode` is set to `completion`.

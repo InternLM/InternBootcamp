@@ -1,6 +1,4 @@
-"""# 
-
-### 谜题描述
+"""### 谜题描述
 A tournament is a directed graph without self-loops in which every pair of vertexes is connected by exactly one directed edge. That is, for any two vertexes u and v (u ≠ v) exists either an edge going from u to v, or an edge from v to u.
 
 You are given a tournament consisting of n vertexes. Your task is to find there a cycle of length three.
