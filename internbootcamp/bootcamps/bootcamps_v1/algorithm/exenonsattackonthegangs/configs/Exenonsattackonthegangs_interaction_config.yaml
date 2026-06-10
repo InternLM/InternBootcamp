@@ -1,0 +1,4 @@
+interaction:
+  - name: "Exenonsattackonthegangs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.exenonsattackonthegangs.Exenonsattackonthegangs_interaction.ExenonsattackonthegangsInteraction"
+    config: {}

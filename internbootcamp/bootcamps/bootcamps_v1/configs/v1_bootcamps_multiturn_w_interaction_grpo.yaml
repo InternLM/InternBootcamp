@@ -1,0 +1,21 @@
+hydra:  # hydra配置，用于管理配置文件的搜索路径
+  searchpath:
+    - file://verl/trainer/config  # 指定配置文件的搜索路径
+
+defaults:  # 默认包含的配置
+  - ppo_trainer  # 使用ppo_trainer的默认配置
+  - _self_       # 包含当前配置文件自身
+
+data:  # 数据相关配置
+  max_prompt_length: 4096      # 输入prompt的最大长度
+  max_response_length: 16384    # 输出response的最大长度
+  train_batch_size: 128        # 训练时的batch size
+  return_raw_chat: True        # 是否返回原始对话数据
+
+actor_rollout_ref:  # actor和rollout相关配置
+  hybrid_engine: True          # 是否启用hybrid engine
+  rollout:                     # rollout相关配置
+    name: sglang               # rollout名称，使用sglang
+    multi_turn:                # 多轮对话相关配置
+      enable: True             # 是否启用多轮对话
+      max_user_turns: 5        # 最大交互轮数

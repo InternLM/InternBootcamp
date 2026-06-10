@@ -1,0 +1,78 @@
+# Example Instruction Manager 配置
+# 支持多组配置和不同的生成比例
+
+instruction_generators:
+  level_1:
+    config:
+      min_operand: 100
+      max_operand: 10000
+      operations: ["add", "minus", "multiply", "divide"]
+      num_operands_range: [2,8]
+      tolerance: 1e-8
+    tool_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_interaction_config.yaml"
+    generation_ratio: 0.5  
+    
+  level_2:
+    config:
+      min_operand: 1000
+      max_operand: 100000
+      operations: ["add", "minus", "multiply", "divide"]
+      num_operands_range: [8,16]
+      tolerance: 1e-8
+    tool_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_interaction_config.yaml"
+    generation_ratio: 0.5
+
+  level_3:
+    config:
+      min_operand: 10000
+      max_operand: 1000000
+      operations: ["add", "minus", "multiply", "divide"]
+      num_operands_range: [16,32]
+      tolerance: 1e-8
+    tool_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_interaction_config.yaml"
+    generation_ratio: 1  
+
+  level_4:
+    config:
+      min_operand: 10000
+      max_operand: 1000000
+      operations: ["add", "minus", "multiply", "divide"]
+      num_operands_range: [32,64]
+      tolerance: 1e-8
+    tool_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_interaction_config.yaml"
+    generation_ratio: 2  
+  level_5:
+    config:
+      min_operand: 10000
+      max_operand: 1000000
+      operations: ["add", "minus", "multiply", "divide"]
+      num_operands_range: [64,128]
+      tolerance: 1e-8
+    tool_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/example_bootcamp/configs/example_interaction_config.yaml"
+    generation_ratio: 6  
+# 全局配置
+global_config:
+# 指令管理器类的完整相对路径
+  class_name: "internbootcamp.bootcamps.example_bootcamp.example_instruction_generator.ExampleInstructionGenerator"
+  
+  # 是否启用随机种子
+  enable_random_seed: true
+  
+  # 默认种子值
+  default_seed: 999
+  
+  # 默认数据集划分和样本数
+  default_split_samples:
+    train: 10000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  # gen_parquet: true

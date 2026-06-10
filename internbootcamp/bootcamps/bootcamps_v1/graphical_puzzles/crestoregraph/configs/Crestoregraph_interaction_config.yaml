@@ -1,0 +1,4 @@
+interaction:
+  - name: "Crestoregraph_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.crestoregraph.Crestoregraph_interaction.CrestoregraphInteraction"
+    config: {}

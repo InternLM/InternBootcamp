@@ -1,0 +1,4 @@
+interaction:
+  - name: "F1chessstrikesbackeasyversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.f1chessstrikesbackeasyversion.F1chessstrikesbackeasyversion_interaction.F1chessstrikesbackeasyversionInteraction"
+    config: {}

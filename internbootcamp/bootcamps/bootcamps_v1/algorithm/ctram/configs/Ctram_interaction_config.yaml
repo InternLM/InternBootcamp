@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ctram_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctram.Ctram_interaction.CtramInteraction"
+    config: {}

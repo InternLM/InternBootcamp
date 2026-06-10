@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnamingcompany_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cnamingcompany.Cnamingcompany_interaction.CnamingcompanyInteraction"
+    config: {}

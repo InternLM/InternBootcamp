@@ -1,0 +1,4 @@
+interaction:
+  - name: "korLogicInductionParadox_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicinductionparadox.korLogicInductionParadox_interaction.KorlogicinductionparadoxInteraction"
+    config: {}

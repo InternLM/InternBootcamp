@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dkuroniandthecelebration_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dkuroniandthecelebration.Dkuroniandthecelebration_interaction.DkuroniandthecelebrationInteraction"
+    config: {}

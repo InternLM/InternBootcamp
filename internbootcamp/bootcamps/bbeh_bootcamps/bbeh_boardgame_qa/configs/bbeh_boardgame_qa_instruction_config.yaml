@@ -1,0 +1,55 @@
+# BBEH Boardgame QA Instruction Generator 配置
+
+instruction_generators:
+  low:
+    config:
+      min_depth: 1
+      max_depth: 2
+      prob_conflict: 0.3
+      prob_conflict_type: 0.4
+      prob_negate: 0.4
+      answer_distribution:
+        proved: 0.6
+        disproved: 0.3
+        unknown: 0.1
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_boardgame_qa/configs/bbeh_boardgame_qa_interaction_config.yaml"
+    generation_ratio: 1.0
+
+  medium:
+    config:
+      min_depth: 2
+      max_depth: 4
+      prob_conflict: 0.7
+      prob_conflict_type: 0.6
+      prob_negate: 0.6
+      answer_distribution:
+        proved: 0.4
+        disproved: 0.4
+        unknown: 0.2
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_boardgame_qa/configs/bbeh_boardgame_qa_interaction_config.yaml"
+    generation_ratio: 1.5
+
+  high:
+    config:
+      min_depth: 3
+      max_depth: 5
+      prob_conflict: 0.85
+      prob_conflict_type: 0.5
+      prob_negate: 0.75
+      answer_distribution:
+        proved: 0.2
+        disproved: 0.3
+        unknown: 0.5
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_boardgame_qa/configs/bbeh_boardgame_qa_interaction_config.yaml"
+    generation_ratio: 1.0
+
+global_config:
+  class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_boardgame_qa.instruction_generator.BbehBoardgameQAInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 2025
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: false
+

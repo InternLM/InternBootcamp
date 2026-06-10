@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccycliccoloring_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ccycliccoloring.Ccycliccoloring_interaction.CcycliccoloringInteraction"
+    config: {}

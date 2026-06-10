@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eicecreamcoloring_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eicecreamcoloring.Eicecreamcoloring_interaction.EicecreamcoloringInteraction"
+    config: {}

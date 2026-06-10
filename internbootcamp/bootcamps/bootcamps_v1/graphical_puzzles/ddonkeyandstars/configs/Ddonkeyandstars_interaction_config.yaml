@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ddonkeyandstars_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ddonkeyandstars.Ddonkeyandstars_interaction.DdonkeyandstarsInteraction"
+    config: {}

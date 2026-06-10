@@ -1,0 +1,18 @@
+# FastAPI 后端依赖
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+
+# Streamlit 前端依赖
+streamlit
+plotly
+requests
+pandas
+
+# 后端服务依赖
+openai  # 用于模型评测服务
+
+# 其他工具
+python-dotenv
+

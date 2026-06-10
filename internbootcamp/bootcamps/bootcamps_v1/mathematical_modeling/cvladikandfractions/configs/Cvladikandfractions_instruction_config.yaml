@@ -1,0 +1,63 @@
+instruction_generators:
+  config_1:
+    config:
+      max_n: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_2:
+    config:
+      max_n: 20
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_3:
+    config:
+      max_n: 500
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_4:
+    config:
+      max_n: 5000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_5:
+    config:
+      max_n: 2000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_6:
+    config:
+      max_n: 10000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+  config_7:
+    config:
+      max_n: 1000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/cvladikandfractions/configs/Cvladikandfractions_interaction_config.yaml
+    generation_ratio: 0.14
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cvladikandfractions.Cvladikandfractions_instruction_generator.CvladikandfractionsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

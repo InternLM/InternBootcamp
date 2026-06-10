@@ -1,0 +1,4 @@
+interaction:
+  - name: "tents_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.tents.tents_interaction.TentsInteraction"
+    config: {}

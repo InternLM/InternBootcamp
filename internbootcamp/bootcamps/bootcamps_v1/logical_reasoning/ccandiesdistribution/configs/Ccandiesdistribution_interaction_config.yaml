@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccandiesdistribution_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.ccandiesdistribution.Ccandiesdistribution_interaction.CcandiesdistributionInteraction"
+    config: {}

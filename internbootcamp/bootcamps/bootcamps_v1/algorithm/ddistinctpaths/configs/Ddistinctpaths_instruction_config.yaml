@@ -1,0 +1,53 @@
+instruction_generators:
+  config_1:
+    config:
+      max_n: 2
+      max_m: 4
+      max_k: 6
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      max_n: 1
+      max_m: 1
+      max_k: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      max_n: 3
+      max_m: 3
+      max_k: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      max_n: 5
+      max_m: 5
+      max_k: 10
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ddistinctpaths/configs/Ddistinctpaths_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ddistinctpaths.Ddistinctpaths_instruction_generator.DdistinctpathsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccircularrmq_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccircularrmq.Ccircularrmq_interaction.CcircularrmqInteraction"
+    config: {}

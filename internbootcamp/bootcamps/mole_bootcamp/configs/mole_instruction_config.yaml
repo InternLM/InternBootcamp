@@ -1,0 +1,53 @@
+# ============================================================
+# Molecular Landscape Optimization Instruction Generator Configuration
+# ============================================================
+
+instruction_generators:
+  basic:
+    config:
+      # --- 1. 高斯势阱配置 (Gaussian Wells) ---
+      n_gaussians_range: [12, 20]       # 高斯数量范围
+      
+      # 全局最优配置（深而窄的"宝藏"）
+      global_min_depth_range: [-90.0, -70.0]  # 全局最优深度范围 (kJ/mol)
+      sigma_narrow_range: [0.15, 0.3]         # 窄势阱宽度范围 (nm)
+      
+      # 局部最优配置（宽而浅的"诱饵"）
+      n_decoys: 3                             # 诱饵数量
+      decoy_depth_range: [-50.0, -40.0]      # 诱饵深度范围 (kJ/mol)
+      sigma_wide_range: [1.5, 3.0]           # 宽势阱宽度范围 (nm)
+      
+      # 背景噪声配置
+      noise_depth_range: [-30, -10]          # 背景噪声深度范围 (kJ/mol)
+      sigma_mid_range: [0.5, 1.5]            # 中等势阱宽度范围 (nm)
+      
+      # --- 2. 地形粗糙度配置 (Terrain Ruggedness) ---
+      noise_amp_range: [3.0, 6.0]            # 正弦噪声幅度范围 (kJ/mol)
+      noise_freq_range: [8.0, 12.0]          # 正弦噪声频率范围
+      
+      # --- 3. 优化算法配置 (Optimization) ---
+      de_maxiter: 50                         # 差分进化最大迭代次数
+      de_popsize: 15                         # 差分进化种群大小
+      de_tol: 0.01                           # 差分进化容差
+      
+      # --- 4. 任务约束 (Constraints) ---
+      tolerance: 1.5                         # 能量容差 (kJ/mol)
+      
+      # --- 5. 可视化配置 (Visualization) ---
+      # plot_dir: "records"                  # 可视化输出目录（可选，默认不生成）
+
+    # 外部工具配置文件路径
+    tool_config_path: "internbootcamp/bootcamps/mole_bootcamp/configs/mole_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/mole_bootcamp/configs/mole_interaction_config.yaml"
+    generation_ratio: 1.0
+
+# --- 全局系统配置 ---
+global_config:
+  class_name: "internbootcamp.bootcamps.mole_bootcamp.mole_instruction_generator.MoleInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 42
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: true

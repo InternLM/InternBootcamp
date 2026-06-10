@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cswapletters_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cswapletters.Cswapletters_interaction.CswaplettersInteraction"
+    config: {}

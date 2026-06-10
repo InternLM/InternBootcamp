@@ -1,0 +1,4 @@
+interaction:
+  - name: "earthdew2humidity_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.earthdew2humidity.earthdew2humidity_interaction.Earthdew2humidityInteraction"
+    config: {}

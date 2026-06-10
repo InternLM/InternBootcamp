@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eanniversary_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eanniversary.Eanniversary_interaction.EanniversaryInteraction"
+    config: {}

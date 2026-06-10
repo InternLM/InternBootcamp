@@ -1,0 +1,4 @@
+interaction:
+  - name: "Adnaalignment_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.adnaalignment.Adnaalignment_interaction.AdnaalignmentInteraction"
+    config: {}

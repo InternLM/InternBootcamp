@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cxortree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cxortree.Cxortree_interaction.CxortreeInteraction"
+    config: {}

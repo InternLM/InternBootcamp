@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eregionseparation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.eregionseparation.Eregionseparation_interaction.EregionseparationInteraction"
+    config: {}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>分布式Master服务器 - 监控仪表板</title>
+    <link rel="stylesheet" href="/static/css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🚀 分布式Master服务器监控仪表板</h1>
+            <p>实时监控Worker节点状态和工具可用性 | <span id="auto-refresh-status">自动刷新: <span id="refresh-interval">3</span>秒</span></p>
+        </div>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h2>Worker节点</h2>
+                <div class="value" id="workers-stat">{{ alive_workers }}/{{ total_workers }}</div>
+            </div>
+            <div class="stat-card">
+                <h2>可用工具</h2>
+                <div class="value" id="tools-stat">{{ total_tools }}</div>
+            </div>
+            <div class="stat-card highlight">
+                <h2>⚡ 活跃实例</h2>
+                <div class="value" id="instances-stat">{{ total_instances }}</div>
+            </div>
+            <div class="stat-card">
+                <h2>服务状态</h2>
+                <div class="value" style="color: #28a745;" id="status-stat">✓ 运行中</div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🖥️ Worker节点列表</h2>
+            <div class="workers-grid" id="workers-container">
+                {% if workers %}
+                    {% for worker in workers %}
+                    <div class="worker-card {{ 'status-alive' if worker.is_healthy else 'status-dead' }}" data-worker-id="{{ worker.worker_id }}">
+                        <div class="worker-header">
+                            <h3>{{ worker.worker_id }}</h3>
+                            <span class="status-badge">{{ '🟢 在线' if worker.is_healthy else '🔴 离线' }}</span>
+                        </div>
+                        <div class="worker-info">
+                            <p><strong>🌐 URL:</strong> <code>{{ worker.worker_url }}</code></p>
+                            <p><strong>🔧 工具:</strong> <span class="tools-list">{{ worker.tools_list }}</span></p>
+                            <p><strong>📦 活跃实例:</strong> <span class="instance-count">{{ worker.instance_count }}</span></p>
+                            <p><strong>💓 最后心跳:</strong> <span class="heartbeat-time">{{ worker.heartbeat_text }}</span></p>
+                            <p><strong>🖥️  主机:</strong> {{ worker.host_info.hostname|default('N/A') }} ({{ worker.host_info.ip|default('N/A') }})</p>
+                            <p><strong>📅 注册时间:</strong> {{ worker.registered_at }}</p>
+                        </div>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="no-workers">暂无已注册的Worker节点</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔧 可用工具</h2>
+            <div class="tools-grid" id="tools-container">
+                {% if tools %}
+                    {% for tool in tools %}
+                    <div class="tool-item {{ 'tool-available' if tool.worker_count > 0 else 'tool-unavailable' }}" data-tool-name="{{ tool.name }}">
+                        <span class="tool-name">{{ tool.name }}</span>
+                        <span class="tool-workers">{{ tool.worker_count }} 个Worker可用</span>
+                    </div>
+                    {% endfor %}
+                {% else %}
+                    <div class="no-tools">暂无可用工具</div>
+                {% endif %}
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>© 2025 分布式Master服务器 | 主机: {{ master_host }}:{{ master_port }}</p>
+            <p>最后更新: <span id="update-time">{{ update_time }}</span></p>
+        </div>
+    </div>
+    
+    <script src="/static/js/dashboard.js"></script>
+</body>
+</html>
+

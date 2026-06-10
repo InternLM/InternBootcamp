@@ -1,0 +1,16 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpetyaandspiders.Cpetyaandspiders_tools.CpetyaandspidersVerificationTool"
+    config: 
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "verify_Cpetyaandspiders_solution"
+        description: "验证Cpetyaandspiders解决方案的正确性"
+        parameters:
+          type: "object"
+          properties:
+            solution:
+              type: "object"
+              description: "解决方案，请根据具体任务调整格式"
+          required: ["solution"]

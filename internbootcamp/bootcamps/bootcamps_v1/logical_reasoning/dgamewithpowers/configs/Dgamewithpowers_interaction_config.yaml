@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dgamewithpowers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.dgamewithpowers.Dgamewithpowers_interaction.DgamewithpowersInteraction"
+    config: {}

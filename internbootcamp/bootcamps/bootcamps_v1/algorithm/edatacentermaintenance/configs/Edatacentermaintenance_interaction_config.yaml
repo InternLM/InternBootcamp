@@ -1,0 +1,4 @@
+interaction:
+  - name: "Edatacentermaintenance_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.edatacentermaintenance.Edatacentermaintenance_interaction.EdatacentermaintenanceInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cservalandparenthesissequence_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cservalandparenthesissequence.Cservalandparenthesissequence_interaction.CservalandparenthesissequenceInteraction"
+    config: {}

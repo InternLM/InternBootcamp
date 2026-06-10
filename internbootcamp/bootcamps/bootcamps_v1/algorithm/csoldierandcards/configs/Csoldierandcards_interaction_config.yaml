@@ -1,0 +1,4 @@
+interaction:
+  - name: "Csoldierandcards_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csoldierandcards.Csoldierandcards_interaction.CsoldierandcardsInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dsolvethemaze_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dsolvethemaze.Dsolvethemaze_interaction.DsolvethemazeInteraction"
+    config: {}

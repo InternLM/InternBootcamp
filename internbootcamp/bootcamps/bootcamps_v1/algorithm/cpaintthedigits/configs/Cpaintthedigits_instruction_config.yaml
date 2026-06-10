@@ -1,0 +1,53 @@
+instruction_generators:
+  config_1:
+    config:
+      solvable_probability: 0.8
+      min_length: 2
+      max_length: 15
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      solvable_probability: 0.7
+      min_length: 3
+      max_length: 8
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      solvable_probability: 0.5
+      min_length: 1
+      max_length: 10
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      solvable_probability: 1.0
+      min_length: 5
+      max_length: 20
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpaintthedigits/configs/Cpaintthedigits_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpaintthedigits.Cpaintthedigits_instruction_generator.CpaintthedigitsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

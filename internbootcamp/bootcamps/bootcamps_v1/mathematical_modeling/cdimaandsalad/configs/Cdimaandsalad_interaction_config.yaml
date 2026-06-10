@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdimaandsalad_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cdimaandsalad.Cdimaandsalad_interaction.CdimaandsaladInteraction"
+    config: {}

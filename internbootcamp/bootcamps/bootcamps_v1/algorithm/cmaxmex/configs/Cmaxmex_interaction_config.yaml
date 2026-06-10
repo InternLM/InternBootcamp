@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmaxmex_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmaxmex.Cmaxmex_interaction.CmaxmexInteraction"
+    config: {}

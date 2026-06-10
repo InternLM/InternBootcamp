@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cflea_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cflea.Cflea_interaction.CfleaInteraction"
+    config: {}

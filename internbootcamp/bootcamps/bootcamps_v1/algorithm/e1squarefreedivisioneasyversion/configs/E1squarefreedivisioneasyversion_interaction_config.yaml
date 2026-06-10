@@ -1,0 +1,4 @@
+interaction:
+  - name: "E1squarefreedivisioneasyversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.e1squarefreedivisioneasyversion.E1squarefreedivisioneasyversion_interaction.E1squarefreedivisioneasyversionInteraction"
+    config: {}

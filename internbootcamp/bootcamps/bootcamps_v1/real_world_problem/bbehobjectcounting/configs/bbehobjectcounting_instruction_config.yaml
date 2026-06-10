@@ -1,0 +1,69 @@
+instruction_generators:
+  config_1:
+    config:
+      difficulty: easy
+      min_items: 3
+      max_items: 5
+      min_count: 5
+      max_count: 50
+      max_other_items: 3
+      max_other_people: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      difficulty: medium
+      min_items: 6
+      max_items: 8
+      min_count: 50
+      max_count: 200
+      max_other_items: 6
+      max_other_people: 10
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      difficulty: hard
+      min_items: 9
+      max_items: 12
+      min_count: 200
+      max_count: 500
+      max_other_items: 10
+      max_other_people: 15
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      difficulty: expert
+      min_items: 12
+      max_items: 15
+      min_count: 500
+      max_count: 1000
+      max_other_items: 15
+      max_other_people: 20
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/real_world_problem/bbehobjectcounting/configs/bbehobjectcounting_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.real_world_problem.bbehobjectcounting.bbehobjectcounting_instruction_generator.BbehobjectcountingInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

@@ -1,0 +1,83 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.escape_bootcamp.escape_tools.createGameSession"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "createGameSession"
+        description: "创建并初始化一个新的密室逃脱游戏会话。"
+        parameters:
+          type: "object"
+          properties:
+            game_id:
+              type: "string"
+              description: "新游戏会话的唯一标识符。"
+          required: ["game_id"]
+
+  - class_name: "internbootcamp.bootcamps.escape_bootcamp.escape_tools.applyAction"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "applyAction"
+        description: >
+          在密室逃脱游戏中执行特定动作。
+          必须提供 game_id 和 pin。
+          根据 action 的选择，在 args 字典中填入对应的参数：
+
+          1. look (观察):
+             - 描述: 观察当前房间的环境，查看出口、物品和设施。
+             - args: {} (空字典)
+
+          2. move (移动):
+             - 描述: 向指定方向移动到另一个房间。
+             - args: {"direction": "方向"} (方向可选: 北, 南, 东, 西, 上, 下)
+
+          3. take (拾取):
+             - 描述: 拾取房间地上的物品放入背包。
+             - args: {"item_name": "物品名称"}
+
+          4. inspect (检查):
+             - 描述: 仔细观察背包里的物品或房间里的设施，通常用于获取线索或详情。
+             - args: {"item_name": "物品或设施名称"}
+
+          5. use (使用):
+             - 描述: 使用背包里的物品与房间里的设施互动（例如：用钥匙开箱子）。
+             - args: {"item_name": "背包物品名称", "target_name": "房间设施名称"}
+
+          6. input_code (输入密码):
+             - 描述: 在需要密码的设施（如电子门、保险箱）上输入密码。
+             - args: {"target_name": "设施名称", "code": "密码内容"}
+        parameters:
+          type: "object"
+          properties:
+            game_id:
+              type: "string"
+              description: "当前游戏会话的 ID。"
+            pin:
+              type: "string"
+              description: "当前会话的 PIN 码。"
+            action:
+              type: "string"
+              description: "要执行的指令名称。"
+              enum: ["look", "move", "take", "inspect", "use", "input_code"]
+            args:
+              type: "object"
+              description: "动作所需的参数字典，包含具体的执行参数。"
+              properties:
+                direction:
+                  type: "string"
+                  enum: ["北", "南", "东", "西", "上", "下"]
+                  description: "移动的方向 (仅 action=move 时有效)。"
+                item_name:
+                  type: "string"
+                  description: "物品或设施名称 (用于 take, inspect, use)。"
+                target_name:
+                  type: "string"
+                  description: "目标设施名称 (用于 use, input_code)。"
+                code:
+                  type: "string"
+                  description: "要输入的数字或代码 (仅 action=input_code 时有效)。"
+          required: ["game_id", "pin", "action", "args"]

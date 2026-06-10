@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfadiandlcm_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cfadiandlcm.Cfadiandlcm_interaction.CfadiandlcmInteraction"
+    config: {}

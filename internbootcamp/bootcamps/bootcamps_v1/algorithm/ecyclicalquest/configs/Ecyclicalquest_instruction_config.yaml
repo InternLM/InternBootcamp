@@ -1,0 +1,75 @@
+instruction_generators:
+  config_1:
+    config:
+      max_s_length: 8
+      min_s_length: 4
+      max_queries: 3
+      min_queries: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+  config_2:
+    config:
+      max_s_length: 7
+      min_s_length: 3
+      max_queries: 3
+      min_queries: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+  config_3:
+    config:
+      max_s_length: 10
+      min_s_length: 5
+      max_queries: 5
+      min_queries: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+  config_4:
+    config:
+      max_s_length: 6
+      min_s_length: 3
+      max_queries: 5
+      min_queries: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+  config_5:
+    config:
+      max_s_length: 15
+      min_s_length: 8
+      max_queries: 7
+      min_queries: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+  config_6:
+    config:
+      max_s_length: 20
+      min_s_length: 12
+      max_queries: 8
+      min_queries: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecyclicalquest/configs/Ecyclicalquest_interaction_config.yaml
+    generation_ratio: 0.17
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecyclicalquest.Ecyclicalquest_instruction_generator.EcyclicalquestInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

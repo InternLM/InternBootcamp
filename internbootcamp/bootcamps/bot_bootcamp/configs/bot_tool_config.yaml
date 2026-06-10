@@ -1,0 +1,40 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bot_bootcamp.bot_tools.createSession"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "create_session"
+        description: "创建并初始化一个新的场景。"
+        parameters:
+          type: "object"
+          properties:
+            case_id:
+              type: "string"
+              description: "新场景的唯一标识符。"
+          required: ["case_id"]
+
+  - class_name: "internbootcamp.bootcamps.bot_bootcamp.bot_tools.CheckCollision"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "check_collision"
+        description: "在物理引擎中模拟执行，检查给定的关节角度是否会导致机器人与障碍物发生碰撞，并获取机械臂末端的实际坐标"
+        parameters:
+          type: "object"
+          properties:
+            case_id:
+              type: "string"
+              description: "当前会话的 ID。"
+            pin:
+              type: "string"
+              description: "当前会话的 PIN 码。"
+            joint_angles:
+              type: "array"
+              items: 
+                type: "number"
+              description: "7个关节角度"
+          required: ["case_id", "pin", "joint_angles"]

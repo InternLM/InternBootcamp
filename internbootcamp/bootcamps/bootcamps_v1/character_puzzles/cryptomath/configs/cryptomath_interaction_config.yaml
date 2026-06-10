@@ -1,0 +1,4 @@
+interaction:
+  - name: "cryptomath_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cryptomath.cryptomath_interaction.CryptomathInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Fhighcry_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fhighcry.Fhighcry_interaction.FhighcryInteraction"
+    config: {}

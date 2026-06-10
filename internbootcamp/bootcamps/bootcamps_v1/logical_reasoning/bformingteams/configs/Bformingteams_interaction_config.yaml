@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bformingteams_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.bformingteams.Bformingteams_interaction.BformingteamsInteraction"
+    config: {}

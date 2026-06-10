@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cpythagoreantriples_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cpythagoreantriples.Cpythagoreantriples_interaction.CpythagoreantriplesInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cserejaandtwosequences_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cserejaandtwosequences.Cserejaandtwosequences_interaction.CserejaandtwosequencesInteraction"
+    config: {}

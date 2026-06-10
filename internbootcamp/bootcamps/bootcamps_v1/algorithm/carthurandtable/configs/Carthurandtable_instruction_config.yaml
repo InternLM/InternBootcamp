@@ -1,0 +1,53 @@
+instruction_generators:
+  config_1:
+    config:
+      max_legs: 15
+      max_length: 150
+      max_energy: 250
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      max_legs: 30
+      max_length: 200
+      max_energy: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      max_legs: 25
+      max_length: 120
+      max_energy: 200
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      max_legs: 10
+      max_length: 50
+      max_energy: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/carthurandtable/configs/Carthurandtable_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.carthurandtable.Carthurandtable_instruction_generator.CarthurandtableInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

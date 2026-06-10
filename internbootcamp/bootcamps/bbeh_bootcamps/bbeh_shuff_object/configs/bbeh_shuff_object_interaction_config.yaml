@@ -1,0 +1,8 @@
+interaction:
+  - name: "bbeh_shuff_object_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_shuff_object.interaction.BbehShuffObjectInteraction"
+    config:
+      score_threshold: 0.95
+      success_feedback: "交换追踪正确，感谢你的细致推理，可以总结要点后结束本轮。"
+      retry_feedback: "回答未通过验证，请重新梳理交换顺序，答案需使用<answer></answer>并填写最终物品。"
+

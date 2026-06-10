@@ -1,0 +1,70 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 8
+      modification_prob: 0.4
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_2:
+    config:
+      n: 3
+      modification_prob: 0.5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_3:
+    config:
+      n: 2
+      modification_prob: 0.2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_4:
+    config:
+      n: 7
+      modification_prob: 0.3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_5:
+    config:
+      n: 9
+      modification_prob: 0.4
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_6:
+    config:
+      n: 12
+      modification_prob: 0.2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+  config_7:
+    config:
+      n: 5
+      modification_prob: 0.25
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cpalindrometransformation/configs/Cpalindrometransformation_interaction_config.yaml
+    generation_ratio: 0.14
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpalindrometransformation.Cpalindrometransformation_instruction_generator.CpalindrometransformationInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

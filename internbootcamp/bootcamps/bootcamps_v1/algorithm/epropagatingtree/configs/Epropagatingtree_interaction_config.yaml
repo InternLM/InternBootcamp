@@ -1,0 +1,4 @@
+interaction:
+  - name: "Epropagatingtree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.epropagatingtree.Epropagatingtree_interaction.EpropagatingtreeInteraction"
+    config: {}

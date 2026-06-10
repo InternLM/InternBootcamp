@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnastyaandawardrobe_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cnastyaandawardrobe.Cnastyaandawardrobe_interaction.CnastyaandawardrobeInteraction"
+    config: {}

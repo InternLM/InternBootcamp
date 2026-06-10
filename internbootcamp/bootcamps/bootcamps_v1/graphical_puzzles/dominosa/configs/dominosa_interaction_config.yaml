@@ -1,0 +1,4 @@
+interaction:
+  - name: "dominosa_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dominosa.dominosa_interaction.DominosaInteraction"
+    config: {}

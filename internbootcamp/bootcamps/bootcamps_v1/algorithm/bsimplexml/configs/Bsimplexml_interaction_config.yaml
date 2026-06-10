@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bsimplexml_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bsimplexml.Bsimplexml_interaction.BsimplexmlInteraction"
+    config: {}

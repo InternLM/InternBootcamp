@@ -1,0 +1,4 @@
+interaction:
+  - name: "Earpaandagamewithmojtaba_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.earpaandagamewithmojtaba.Earpaandagamewithmojtaba_interaction.EarpaandagamewithmojtabaInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfindpair_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cfindpair.Cfindpair_interaction.CfindpairInteraction"
+    config: {}

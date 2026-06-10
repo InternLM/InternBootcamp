@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dalarmclock_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dalarmclock.Dalarmclock_interaction.DalarmclockInteraction"
+    config: {}

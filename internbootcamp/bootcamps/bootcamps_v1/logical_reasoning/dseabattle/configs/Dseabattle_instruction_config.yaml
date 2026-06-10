@@ -1,0 +1,48 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 9
+      a: 4
+      b: 2
+      k: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_interaction_config.yaml
+    generation_ratio: 0.33
+  config_2:
+    config:
+      n: 7
+      a: 3
+      b: 2
+      k: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_interaction_config.yaml
+    generation_ratio: 0.33
+  config_3:
+    config:
+      n: 5
+      a: 1
+      b: 2
+      k: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/dseabattle/configs/Dseabattle_interaction_config.yaml
+    generation_ratio: 0.33
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.dseabattle.Dseabattle_instruction_generator.DseabattleInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

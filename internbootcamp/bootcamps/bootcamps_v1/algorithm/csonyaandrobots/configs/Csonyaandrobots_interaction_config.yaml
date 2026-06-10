@@ -1,0 +1,4 @@
+interaction:
+  - name: "Csonyaandrobots_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csonyaandrobots.Csonyaandrobots_interaction.CsonyaandrobotsInteraction"
+    config: {}

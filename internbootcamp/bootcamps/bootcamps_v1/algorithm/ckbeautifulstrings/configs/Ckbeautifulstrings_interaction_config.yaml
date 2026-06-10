@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ckbeautifulstrings_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ckbeautifulstrings.Ckbeautifulstrings_interaction.CkbeautifulstringsInteraction"
+    config: {}

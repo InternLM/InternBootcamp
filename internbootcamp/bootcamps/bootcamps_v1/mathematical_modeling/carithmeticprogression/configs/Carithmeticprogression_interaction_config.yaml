@@ -1,0 +1,4 @@
+interaction:
+  - name: "Carithmeticprogression_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.carithmeticprogression.Carithmeticprogression_interaction.CarithmeticprogressionInteraction"
+    config: {}

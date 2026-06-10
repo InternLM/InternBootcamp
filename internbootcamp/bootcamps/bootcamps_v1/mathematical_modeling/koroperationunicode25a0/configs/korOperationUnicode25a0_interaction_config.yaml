@@ -1,0 +1,4 @@
+interaction:
+  - name: "korOperationUnicode25a0_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.koroperationunicode25a0.korOperationUnicode25a0_interaction.Koroperationunicode25a0Interaction"
+    config: {}

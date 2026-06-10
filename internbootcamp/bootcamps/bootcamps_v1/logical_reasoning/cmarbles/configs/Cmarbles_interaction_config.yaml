@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmarbles_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cmarbles.Cmarbles_interaction.CmarblesInteraction"
+    config: {}

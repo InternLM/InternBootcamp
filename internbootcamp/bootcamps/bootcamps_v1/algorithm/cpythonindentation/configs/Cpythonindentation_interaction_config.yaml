@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cpythonindentation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpythonindentation.Cpythonindentation_interaction.CpythonindentationInteraction"
+    config: {}

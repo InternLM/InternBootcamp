@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cstablegroups_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cstablegroups.Cstablegroups_interaction.CstablegroupsInteraction"
+    config: {}

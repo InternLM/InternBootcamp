@@ -1,0 +1,16 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cehabanda2operationtask.Cehabanda2operationtask_tools.Cehabanda2operationtaskVerificationTool"
+    config: 
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "verify_Cehabanda2operationtask_solution"
+        description: "验证Cehabanda2operationtask解决方案的正确性"
+        parameters:
+          type: "object"
+          properties:
+            solution:
+              type: "object"
+              description: "解决方案，请根据具体任务调整格式"
+          required: ["solution"]

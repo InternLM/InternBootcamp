@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ctreesoftranquillity_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctreesoftranquillity.Ctreesoftranquillity_interaction.CtreesoftranquillityInteraction"
+    config: {}

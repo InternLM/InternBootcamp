@@ -1,0 +1,48 @@
+instruction_generators:
+  config_1:
+    config:
+      s_min_len: 1
+      s_max_len: 3
+      t_min_len: 5
+      t_max_len: 20
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_interaction_config.yaml
+    generation_ratio: 0.33
+  config_2:
+    config:
+      s_min_len: 2
+      s_max_len: 5
+      t_min_len: 10
+      t_max_len: 50
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_interaction_config.yaml
+    generation_ratio: 0.33
+  config_3:
+    config:
+      s_min_len: 4
+      s_max_len: 6
+      t_min_len: 20
+      t_max_len: 80
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cnamequest/configs/Cnamequest_interaction_config.yaml
+    generation_ratio: 0.33
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnamequest.Cnamequest_instruction_generator.CnamequestInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

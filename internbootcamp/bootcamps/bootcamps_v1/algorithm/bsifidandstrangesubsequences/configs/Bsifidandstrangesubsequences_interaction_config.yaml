@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bsifidandstrangesubsequences_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bsifidandstrangesubsequences.Bsifidandstrangesubsequences_interaction.BsifidandstrangesubsequencesInteraction"
+    config: {}

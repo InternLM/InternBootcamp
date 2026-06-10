@@ -1,0 +1,4 @@
+interaction:
+  - name: "Carraydestruction_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.carraydestruction.Carraydestruction_interaction.CarraydestructionInteraction"
+    config: {}

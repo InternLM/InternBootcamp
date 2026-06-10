@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cphoenixanddistribution_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cphoenixanddistribution.Cphoenixanddistribution_interaction.CphoenixanddistributionInteraction"
+    config: {}

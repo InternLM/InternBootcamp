@@ -1,0 +1,4 @@
+interaction:
+  - name: "holdem_interaction"
+    class_name: "internbootcamp.bootcamps.holdem_bootcamp.holdem_interaction.HoldemInteraction"
+    config: {}

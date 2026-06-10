@@ -1,0 +1,32 @@
+tools:
+  - class_name: "verl.tools.gsm8k_tool.Gsm8kTool"
+    config: 
+      type: native
+    tool_schema:
+      type: "function"
+      function:
+        name: "calc_gsm8k_reward"
+        description: "A tool for calculating the reward of gsm8k. (1.0 if parsed answer is correct, 0.0 if parsed answer is incorrect or not correctly parsed)"
+        parameters:
+          type: "object"
+          properties:
+            answer:
+              type: "string"
+              description: "The model's answer to the GSM8K math problem, must be a digits"
+          required: ["answer"]
+
+
+# 以上会在prompt中转变为:
+# Tools
+
+# You may call one or more functions to assist with the user query.
+
+# You are provided with function signatures within <tools></tools> XML tags:
+# <tools>
+# {"type": "function", "function": {"name": "calc_gsm8k_reward", "description": "A tool for calculating the reward of gsm8k. (1.0 if parsed answer is correct, 0.0 if parsed answer is incorrect or not correctly parsed)", "parameters": {"type": "object", "properties": {"answer": {"type": "string", "description": "The model's answer to the GSM8K math problem, must be a digits", "enum": null}}, "required": ["answer"]}, "strict": false}}
+# </tools>
+
+# For each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:
+# <tool_call>
+# {"name": <function-name>, "arguments": <args-json-object>}
+# </tool_call>

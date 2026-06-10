@@ -1,0 +1,52 @@
+tools:
+- class_name: internbootcamp.src.base_mcp_tool.BaseMCPTool
+  config:
+    type: native
+    mcp_server_url: http://100.104.59.227:50084/createGameSession
+    timeout_per_query: 600
+  tool_schema:
+    type: function
+    function:
+      name: createGameSession
+      description: 创建并初始化一个新的德州扑克游戏会话。
+      parameters:
+        type: object
+        properties:
+          game_id:
+            type: string
+            description: 新游戏会话的唯一标识符。
+        required:
+        - game_id
+- class_name: internbootcamp.src.base_mcp_tool.BaseMCPTool
+  config:
+    type: native
+    mcp_server_url: http://100.104.59.227:50084/applyAction
+    timeout_per_query: 600
+  tool_schema:
+    type: function
+    function:
+      name: applyAction
+      description: 执行德扑动作。调用后会自动返回最新的牌局状态、对手刚才的动作和下一步允许的动作列表等信息。
+      parameters:
+        type: object
+        properties:
+          game_id:
+            type: string
+            description: 当前游戏会话的 ID。
+          pin:
+            type: string
+            description: 当前会话的 PIN 码。
+          action:
+            type: string
+            description: 要执行的指令名称。
+            enum:
+            - Fold
+            - Call
+            - Bet
+            - Raise
+            - Check
+            - AllIn
+        required:
+        - game_id
+        - pin
+        - action

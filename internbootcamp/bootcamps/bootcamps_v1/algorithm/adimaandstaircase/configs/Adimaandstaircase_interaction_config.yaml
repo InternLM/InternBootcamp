@@ -1,0 +1,4 @@
+interaction:
+  - name: "Adimaandstaircase_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.adimaandstaircase.Adimaandstaircase_interaction.AdimaandstaircaseInteraction"
+    config: {}

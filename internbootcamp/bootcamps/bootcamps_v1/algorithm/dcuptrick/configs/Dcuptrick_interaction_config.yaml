@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dcuptrick_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dcuptrick.Dcuptrick_interaction.DcuptrickInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "sudoku_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.sudoku.sudoku_interaction.SudokuInteraction"
+    config: {}

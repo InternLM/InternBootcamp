@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      n_min: 50
+      n_max: 200
+      p_min: 20
+      p_max: 180
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      n_min: 10
+      n_max: 100
+      p_min: 0
+      p_max: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      n_min: 3
+      n_max: 5
+      p_min: 0
+      p_max: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      n_min: 3
+      n_max: 300
+      p_min: 0
+      p_max: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cbugincode/configs/Cbugincode_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbugincode.Cbugincode_instruction_generator.CbugincodeInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

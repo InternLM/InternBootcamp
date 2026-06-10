@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dinterestingarray_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dinterestingarray.Dinterestingarray_interaction.DinterestingarrayInteraction"
+    config: {}

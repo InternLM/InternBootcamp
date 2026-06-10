@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfencepainting_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cfencepainting.Cfencepainting_interaction.CfencepaintingInteraction"
+    config: {}

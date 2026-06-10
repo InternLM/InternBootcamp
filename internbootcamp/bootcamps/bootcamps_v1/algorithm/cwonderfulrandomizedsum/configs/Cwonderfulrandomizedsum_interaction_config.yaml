@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cwonderfulrandomizedsum_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cwonderfulrandomizedsum.Cwonderfulrandomizedsum_interaction.CwonderfulrandomizedsumInteraction"
+    config: {}

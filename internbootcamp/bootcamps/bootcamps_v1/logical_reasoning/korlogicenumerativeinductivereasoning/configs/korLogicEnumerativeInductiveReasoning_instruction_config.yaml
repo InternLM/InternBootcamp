@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      class_names: ['编程语言', '操作系统', '软件工具', '开发框架', '数据库', '网络协议', '安全工具', '版本控制']
+      properties: ['开源', '跨平台', '高效', '易学', '安全性高', '支持分布式', '自动化', '社区活跃']
+      type_prob: 0.3
+      question_types: {'choice': 0.8, 'symbolic': 0.2}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      class_names: ['植物', '树木', '花卉', '蔬菜', '水果', '草本', '灌木', '藤本']
+      properties: ['绿色', '开花', '结果', '需要阳光', '需要水', '多年生', '叶绿体', '木质茎']
+      type_prob: 0.7
+      question_types: {'choice': 0.4, 'symbolic': 0.6}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      class_names: ['汽车', '飞机', '船只', '自行车', '摩托车', '火车', '卡车', '卫星']
+      properties: ['速度快', '有轮子', '载人', '金属材质', '需要燃料', '空气动力学设计', '可行驶', '需要驾驶证']
+      type_prob: 0.4
+      question_types: {'choice': 0.7, 'symbolic': 0.3}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      class_names: ['音乐类型', '电影类型', '书籍类型', '游戏类型', '运动类型', '艺术类型', '舞蹈类型', '戏剧类型']
+      properties: ['节奏感强', '叙事性强', '互动性高', '团队合作', '视觉艺术', '表演艺术', '情感表达', '竞争性']
+      type_prob: 0.5
+      question_types: {'choice': 0.6, 'symbolic': 0.4}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicenumerativeinductivereasoning/configs/korLogicEnumerativeInductiveReasoning_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicenumerativeinductivereasoning.korLogicEnumerativeInductiveReasoning_instruction_generator.KorlogicenumerativeinductivereasoningInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

@@ -1,0 +1,68 @@
+# Meeting Schedule Instruction Manager 配置
+# 支持多组配置和不同的生成比例
+
+instruction_generators:
+  easy:
+    config:
+      difficulty: "easy"
+      time_window: [540, 1020]
+      lunch_time: [720, 780]
+      durations: [30, 60, 90]
+      capacity_range: [3, 10]
+      num_meetings: [4, 5]
+      num_attendees: [3, 5]
+      num_rooms: [3, 4]
+      max_attendees_per_meeting: 3
+      fragmented_availability_chance: 0.2
+  medium:
+    config:
+      difficulty: "medium"
+      time_window: [540, 1020]
+      lunch_time: [720, 780]
+      durations: [30, 60, 90]
+      capacity_range: [3, 10]
+      num_meetings: [5, 6]
+      num_attendees: [4, 6]
+      num_rooms: [2, 3]
+      max_attendees_per_meeting: 4
+      fragmented_availability_chance: 0.5
+  hard:
+    config:
+      difficulty: "hard"
+      time_window: [540, 1020]
+      lunch_time: [720, 780]
+      durations: [30, 60, 90]
+      capacity_range: [3, 10]
+      num_meetings: [6, 7]
+      num_attendees: [5, 7]
+      num_rooms: [2, 2]
+      max_attendees_per_meeting: 4
+      fragmented_availability_chance: 0.8
+  bench:
+    config:
+      difficulty: "bench"
+      time_window: [540, 1020]
+      lunch_time: [720, 780]
+      durations: [30, 60, 90]
+      capacity_range: [3, 10]
+      num_meetings: [8, 10]
+      num_attendees: [7, 9]
+      num_rooms: [2, 3]
+      max_attendees_per_meeting: 5
+      fragmented_availability_chance: 0.9
+
+# 全局配置
+global_config:
+# 指令管理器类的完整相对路径
+  class_name: "internbootcamp.bootcamps.NP.meeting_schedule.instruction_generator.NpMeetingScheduleInstructionGenerator"
+  
+  # 默认数据集划分和样本数
+  default_split_samples:
+    train: 10
+    test: 10
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: true

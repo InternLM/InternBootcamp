@@ -1,0 +1,4 @@
+interaction:
+  - name: "Carpaandagamewithmojtaba_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.carpaandagamewithmojtaba.Carpaandagamewithmojtaba_interaction.CarpaandagamewithmojtabaInteraction"
+    config: {}

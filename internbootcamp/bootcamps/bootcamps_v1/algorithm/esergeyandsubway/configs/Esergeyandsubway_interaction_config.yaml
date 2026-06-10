@@ -1,0 +1,4 @@
+interaction:
+  - name: "Esergeyandsubway_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esergeyandsubway.Esergeyandsubway_interaction.EsergeyandsubwayInteraction"
+    config: {}

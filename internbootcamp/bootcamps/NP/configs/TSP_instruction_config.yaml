@@ -1,0 +1,40 @@
+# TSP Instruction Manager 配置
+# 支持多组配置和不同的生成比例
+
+instruction_generators:
+  easy:
+    config:
+      difficulty: "easy"
+      num_cities: [8, 12]
+      distance_range: [10, 100]
+  medium:
+    config:
+      difficulty: "medium"
+      num_cities: [12, 18]
+      distance_range: [10, 100]
+  hard:
+    config:
+      difficulty: "hard"
+      num_cities: [18, 25]
+      distance_range: [10, 100]
+  bench:
+    config:
+      difficulty: "bench"
+      num_cities: [25, 35]
+      distance_range: [10, 100]
+
+# 全局配置
+global_config:
+# 指令管理器类的完整相对路径
+  class_name: "internbootcamp.bootcamps.NP.TSP.instruction_generator.NpTspInstructionGenerator"
+  
+  # 默认数据集划分和样本数
+  default_split_samples:
+    train: 10
+    test: 10
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: true

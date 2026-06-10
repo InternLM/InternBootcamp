@@ -1,0 +1,4 @@
+interaction:
+  - name: "Erememberingstrings_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.erememberingstrings.Erememberingstrings_interaction.ErememberingstringsInteraction"
+    config: {}

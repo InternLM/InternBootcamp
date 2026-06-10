@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      min_n: 10
+      max_n: 30
+      max_val: 50
+      ensure_solvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      min_n: 5
+      max_n: 20
+      max_val: 50
+      ensure_solvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      min_n: 5
+      max_n: 20
+      max_val: 20
+      ensure_solvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      min_n: 5
+      max_n: 25
+      max_val: 30
+      ensure_solvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/dmaxmedian/configs/Dmaxmedian_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dmaxmedian.Dmaxmedian_instruction_generator.DmaxmedianInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

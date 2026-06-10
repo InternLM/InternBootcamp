@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnezzarandnicebeatmap_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnezzarandnicebeatmap.Cnezzarandnicebeatmap_interaction.CnezzarandnicebeatmapInteraction"
+    config: {}

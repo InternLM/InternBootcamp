@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cproblemfornazar_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cproblemfornazar.Cproblemfornazar_interaction.CproblemfornazarInteraction"
+    config: {}

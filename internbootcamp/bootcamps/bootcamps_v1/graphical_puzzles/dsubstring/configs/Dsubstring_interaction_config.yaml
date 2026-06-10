@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dsubstring_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dsubstring.Dsubstring_interaction.DsubstringInteraction"
+    config: {}

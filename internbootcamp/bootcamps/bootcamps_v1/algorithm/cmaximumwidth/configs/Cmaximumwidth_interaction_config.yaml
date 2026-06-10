@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmaximumwidth_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmaximumwidth.Cmaximumwidth_interaction.CmaximumwidthInteraction"
+    config: {}

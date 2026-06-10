@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cquiz_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cquiz.Cquiz_interaction.CquizInteraction"
+    config: {}

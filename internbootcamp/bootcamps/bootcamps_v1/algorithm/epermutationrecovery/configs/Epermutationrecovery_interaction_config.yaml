@@ -1,0 +1,4 @@
+interaction:
+  - name: "Epermutationrecovery_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.epermutationrecovery.Epermutationrecovery_interaction.EpermutationrecoveryInteraction"
+    config: {}

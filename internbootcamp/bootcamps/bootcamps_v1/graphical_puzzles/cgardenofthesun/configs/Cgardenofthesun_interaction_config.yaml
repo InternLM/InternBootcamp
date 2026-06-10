@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cgardenofthesun_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cgardenofthesun.Cgardenofthesun_interaction.CgardenofthesunInteraction"
+    config: {}

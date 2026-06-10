@@ -1,0 +1,4 @@
+interaction:
+  - name: "skyscrapers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.skyscrapers.skyscrapers_interaction.SkyscrapersInteraction"
+    config: {}

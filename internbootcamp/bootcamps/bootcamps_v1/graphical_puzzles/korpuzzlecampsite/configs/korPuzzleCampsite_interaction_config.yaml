@@ -1,0 +1,4 @@
+interaction:
+  - name: "korPuzzleCampsite_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.korpuzzlecampsite.korPuzzleCampsite_interaction.KorpuzzlecampsiteInteraction"
+    config: {}

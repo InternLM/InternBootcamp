@@ -1,0 +1,4 @@
+interaction:
+  - name: "Drestorecube_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.drestorecube.Drestorecube_interaction.DrestorecubeInteraction"
+    config: {}

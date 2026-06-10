@@ -1,0 +1,49 @@
+instruction_generators:
+  config_1:
+    config:
+      n_range: [5, 20]
+      s_range: [5, 50]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      n_range: [3, 20]
+      s_range: [3, 40]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      n_range: [2, 15]
+      s_range: [2, 30]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      n_range: [4, 10]
+      s_range: [4, 20]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cswaps/configs/Cswaps_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cswaps.Cswaps_instruction_generator.CswapsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

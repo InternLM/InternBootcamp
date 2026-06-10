@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdiversesubstrings_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdiversesubstrings.Cdiversesubstrings_interaction.CdiversesubstringsInteraction"
+    config: {}

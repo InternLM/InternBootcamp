@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cpartialsums_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpartialsums.Cpartialsums_interaction.CpartialsumsInteraction"
+    config: {}

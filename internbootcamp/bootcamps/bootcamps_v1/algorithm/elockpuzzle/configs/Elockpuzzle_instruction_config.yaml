@@ -1,0 +1,63 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 6
+      allow_unsolvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+  config_2:
+    config:
+      n: 10
+      allow_unsolvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+  config_3:
+    config:
+      n: 15
+      allow_unsolvable: False
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+  config_4:
+    config:
+      n: 5
+      allow_unsolvable: False
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+  config_5:
+    config:
+      n: 20
+      allow_unsolvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+  config_6:
+    config:
+      n: 15
+      allow_unsolvable: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/elockpuzzle/configs/Elockpuzzle_interaction_config.yaml
+    generation_ratio: 0.17
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.elockpuzzle.Elockpuzzle_instruction_generator.ElockpuzzleInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

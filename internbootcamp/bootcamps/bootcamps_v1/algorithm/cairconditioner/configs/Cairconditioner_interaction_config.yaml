@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cairconditioner_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cairconditioner.Cairconditioner_interaction.CairconditionerInteraction"
+    config: {}

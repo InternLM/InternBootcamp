@@ -1,0 +1,4 @@
+interaction:
+  - name: "Crestoringpermutation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crestoringpermutation.Crestoringpermutation_interaction.CrestoringpermutationInteraction"
+    config: {}

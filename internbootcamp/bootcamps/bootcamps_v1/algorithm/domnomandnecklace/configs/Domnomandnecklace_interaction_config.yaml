@@ -1,0 +1,4 @@
+interaction:
+  - name: "Domnomandnecklace_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.domnomandnecklace.Domnomandnecklace_interaction.DomnomandnecklaceInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dsocialnetwork_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dsocialnetwork.Dsocialnetwork_interaction.DsocialnetworkInteraction"
+    config: {}

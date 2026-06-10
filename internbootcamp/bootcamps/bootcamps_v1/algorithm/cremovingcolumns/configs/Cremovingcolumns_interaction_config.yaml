@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cremovingcolumns_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cremovingcolumns.Cremovingcolumns_interaction.CremovingcolumnsInteraction"
+    config: {}

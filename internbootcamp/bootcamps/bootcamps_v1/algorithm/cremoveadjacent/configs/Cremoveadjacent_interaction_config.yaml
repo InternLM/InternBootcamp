@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cremoveadjacent_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cremoveadjacent.Cremoveadjacent_interaction.CremoveadjacentInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cprimenumber_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cprimenumber.Cprimenumber_interaction.CprimenumberInteraction"
+    config: {}

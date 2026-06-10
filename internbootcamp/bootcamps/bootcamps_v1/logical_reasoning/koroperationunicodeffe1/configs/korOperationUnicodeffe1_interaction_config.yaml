@@ -1,0 +1,4 @@
+interaction:
+  - name: "korOperationUnicodeffe1_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.koroperationunicodeffe1.korOperationUnicodeffe1_interaction.Koroperationunicodeffe1Interaction"
+    config: {}

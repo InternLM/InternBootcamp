@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100%" height="100%">
+  <!-- 圆形背景 -->
+  <circle cx="50" cy="50" r="45" fill="#3b82f6" stroke="#f8fafc" stroke-width="3" />
+  
+  <!-- 淡定机器人主体 (经过缩放和居中调整) -->
+  <g transform="translate(-10, -10) scale(0.75)">
+    <!-- 天线 -->
+    <line x1="80" y1="25" x2="80" y2="45" stroke="#1d4ed8" stroke-width="3" />
+    <circle cx="80" cy="25" r="4" fill="#f97316" />
+    
+    <!-- 头部 -->
+    <rect x="55" y="45" width="50" height="35" rx="6" fill="white" stroke="#1d4ed8" stroke-width="3" />
+    
+    <!-- 平静的眼睛 -->
+    <rect x="63" y="55" width="12" height="8" rx="2" fill="#1d4ed8" />
+    <rect x="85" y="55" width="12" height="8" rx="2" fill="#1d4ed8" />
+    
+    <!-- 平静的嘴巴 -->
+    <line x1="65" y1="70" x2="95" y2="70" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round" />
+    
+    <!-- 身体 -->
+    <path d="M 60 85 L 100 85 L 110 115 L 50 115 Z" fill="white" stroke="#1d4ed8" stroke-width="3" stroke-linejoin="round" />
+  </g>
+</svg>

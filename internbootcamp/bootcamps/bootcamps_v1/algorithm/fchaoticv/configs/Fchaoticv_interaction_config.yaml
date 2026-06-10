@@ -1,0 +1,4 @@
+interaction:
+  - name: "Fchaoticv_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fchaoticv.Fchaoticv_interaction.FchaoticvInteraction"
+    config: {}

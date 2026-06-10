@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccycle_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ccycle.Ccycle_interaction.CcycleInteraction"
+    config: {}

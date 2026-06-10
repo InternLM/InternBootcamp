@@ -1,0 +1,16 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.koroperationunicode25b3.korOperationUnicode25b3_tools.Koroperationunicode25b3VerificationTool"
+    config: 
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "verify_korOperationUnicode25b3_solution"
+        description: "验证korOperationUnicode25b3解决方案的正确性"
+        parameters:
+          type: "object"
+          properties:
+            solution:
+              type: "object"
+              description: "解决方案，请根据具体任务调整格式"
+          required: ["solution"]

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Elittleelephantandlcm_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.elittleelephantandlcm.Elittleelephantandlcm_interaction.ElittleelephantandlcmInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cchessboardbilliard_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cchessboardbilliard.Cchessboardbilliard_interaction.CchessboardbilliardInteraction"
+    config: {}

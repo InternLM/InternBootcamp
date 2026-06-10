@@ -1,0 +1,48 @@
+instruction_generators:
+  config_1:
+    config:
+      n_range: [1, 5]
+      fi_range: [1, 50]
+      pi_range: [80, 95]
+      max_r: 3000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_interaction_config.yaml
+    generation_ratio: 0.33
+  config_2:
+    config:
+      n_range: [1, 20]
+      fi_range: [1, 99]
+      pi_range: [80, 99]
+      max_r: 5000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_interaction_config.yaml
+    generation_ratio: 0.33
+  config_3:
+    config:
+      n_range: [1, 10]
+      fi_range: [1, 20]
+      pi_range: [85, 99]
+      max_r: 4000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cgottagofast/configs/Cgottagofast_interaction_config.yaml
+    generation_ratio: 0.33
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgottagofast.Cgottagofast_instruction_generator.CgottagofastInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

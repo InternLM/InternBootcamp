@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cvusthecossackandstrings_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvusthecossackandstrings.Cvusthecossackandstrings_interaction.CvusthecossackandstringsInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cperunult_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cperunult.Cperunult_interaction.CperunultInteraction"
+    config: {}

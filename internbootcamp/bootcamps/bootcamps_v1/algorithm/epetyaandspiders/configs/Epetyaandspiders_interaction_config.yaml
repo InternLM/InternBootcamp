@@ -1,0 +1,4 @@
+interaction:
+  - name: "Epetyaandspiders_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.epetyaandspiders.Epetyaandspiders_interaction.EpetyaandspidersInteraction"
+    config: {}

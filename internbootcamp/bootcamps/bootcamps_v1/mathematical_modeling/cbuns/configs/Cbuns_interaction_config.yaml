@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cbuns_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cbuns.Cbuns_interaction.CbunsInteraction"
+    config: {}

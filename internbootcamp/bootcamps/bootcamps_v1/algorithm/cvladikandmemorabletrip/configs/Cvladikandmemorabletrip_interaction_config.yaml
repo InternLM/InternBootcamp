@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cvladikandmemorabletrip_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvladikandmemorabletrip.Cvladikandmemorabletrip_interaction.CvladikandmemorabletripInteraction"
+    config: {}

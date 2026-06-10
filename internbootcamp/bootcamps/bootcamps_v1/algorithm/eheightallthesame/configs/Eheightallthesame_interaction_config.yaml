@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eheightallthesame_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eheightallthesame.Eheightallthesame_interaction.EheightallthesameInteraction"
+    config: {}

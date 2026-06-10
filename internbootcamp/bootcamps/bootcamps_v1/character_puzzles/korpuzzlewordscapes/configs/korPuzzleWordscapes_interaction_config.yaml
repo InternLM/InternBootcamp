@@ -1,0 +1,4 @@
+interaction:
+  - name: "korPuzzleWordscapes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzlewordscapes.korPuzzleWordscapes_interaction.KorpuzzlewordscapesInteraction"
+    config: {}

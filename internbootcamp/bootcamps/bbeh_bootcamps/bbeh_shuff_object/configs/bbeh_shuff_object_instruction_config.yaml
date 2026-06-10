@@ -1,0 +1,37 @@
+# BBEH Shuffle Object Instruction Generator 配置
+
+instruction_generators:
+  low:
+    config:
+      min_people: 3
+      max_people: 32
+      object_pool_size: 64
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_shuff_object/configs/bbeh_shuff_object_interaction_config.yaml"
+    generation_ratio: 1.0
+
+  medium:
+    config:
+      min_people: 32
+      max_people: 64
+      object_pool_size: 128
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_shuff_object/configs/bbeh_shuff_object_interaction_config.yaml"
+    generation_ratio: 1.5
+
+  high:
+    config:
+      min_people: 64
+      max_people: 128
+      object_pool_size: 256
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_shuff_object/configs/bbeh_shuff_object_interaction_config.yaml"
+    generation_ratio: 1.0
+
+global_config:
+  class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_shuff_object.instruction_generator.BbehShuffObjectInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 2025
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: false
+

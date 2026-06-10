@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cjeremybearimy_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cjeremybearimy.Cjeremybearimy_interaction.CjeremybearimyInteraction"
+    config: {}

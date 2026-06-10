@@ -1,0 +1,4 @@
+interaction:
+  - name: "korPuzzleKukurasu_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.korpuzzlekukurasu.korPuzzleKukurasu_interaction.KorpuzzlekukurasuInteraction"
+    config: {}

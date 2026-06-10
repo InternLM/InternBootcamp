@@ -1,0 +1,4 @@
+interaction:
+  - name: "Fsashaandinterestingfactfromgraphtheory_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fsashaandinterestingfactfromgraphtheory.Fsashaandinterestingfactfromgraphtheory_interaction.FsashaandinterestingfactfromgraphtheoryInteraction"
+    config: {}

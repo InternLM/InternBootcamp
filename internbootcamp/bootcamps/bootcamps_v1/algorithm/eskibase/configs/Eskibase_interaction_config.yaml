@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eskibase_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eskibase.Eskibase_interaction.EskibaseInteraction"
+    config: {}

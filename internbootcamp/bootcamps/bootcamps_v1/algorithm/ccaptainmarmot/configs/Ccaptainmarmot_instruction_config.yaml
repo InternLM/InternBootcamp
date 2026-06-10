@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      n_regiments: 3
+      same_origin: True
+      max_rotation: 3
+      solvable_ratio: 0.8
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      n_regiments: 5
+      same_origin: True
+      max_rotation: 2
+      solvable_ratio: 0.7
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      n_regiments: 1
+      same_origin: False
+      max_rotation: 3
+      solvable_ratio: 0.5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      n_regiments: 10
+      same_origin: False
+      max_rotation: 1
+      solvable_ratio: 0.6
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccaptainmarmot/configs/Ccaptainmarmot_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccaptainmarmot.Ccaptainmarmot_instruction_generator.CcaptainmarmotInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

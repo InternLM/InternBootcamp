@@ -1,0 +1,16 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.d2theworldisjustaprogrammingtaskhardversion.D2theworldisjustaprogrammingtaskhardversion_tools.D2theworldisjustaprogrammingtaskhardversionVerificationTool"
+    config: 
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "verify_D2theworldisjustaprogrammingtaskhardversion_solution"
+        description: "验证D2theworldisjustaprogrammingtaskhardversion解决方案的正确性"
+        parameters:
+          type: "object"
+          properties:
+            solution:
+              type: "object"
+              description: "解决方案，请根据具体任务调整格式"
+          required: ["solution"]

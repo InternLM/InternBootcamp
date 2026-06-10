@@ -1,0 +1,4 @@
+interaction:
+  - name: "Elockpuzzle_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.elockpuzzle.Elockpuzzle_interaction.ElockpuzzleInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ealiceboborangesandapples_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ealiceboborangesandapples.Ealiceboborangesandapples_interaction.EaliceboborangesandapplesInteraction"
+    config: {}

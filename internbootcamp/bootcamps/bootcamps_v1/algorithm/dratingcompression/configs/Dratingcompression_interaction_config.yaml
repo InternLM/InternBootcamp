@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dratingcompression_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dratingcompression.Dratingcompression_interaction.DratingcompressionInteraction"
+    config: {}

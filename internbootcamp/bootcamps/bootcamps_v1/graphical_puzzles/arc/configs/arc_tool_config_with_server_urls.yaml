@@ -1,0 +1,19 @@
+tools:
+- class_name: internbootcamp.src.base_mcp_tool.BaseMCPTool
+  config:
+    type: native
+    mcp_server_url: http://10.130.131.233:16384/ArcVerificationTool
+    timeout_per_query: 600
+  tool_schema:
+    type: function
+    function:
+      name: verify_arc_solution
+      description: 验证arc解决方案的正确性
+      parameters:
+        type: object
+        properties:
+          solution:
+            type: object
+            description: 解决方案，请根据具体任务调整格式
+        required:
+        - solution

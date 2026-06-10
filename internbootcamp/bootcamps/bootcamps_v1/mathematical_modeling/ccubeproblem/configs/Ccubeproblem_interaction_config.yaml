@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccubeproblem_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ccubeproblem.Ccubeproblem_interaction.CcubeproblemInteraction"
+    config: {}

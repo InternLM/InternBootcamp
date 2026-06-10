@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dfibonacciish_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dfibonacciish.Dfibonacciish_interaction.DfibonacciishInteraction"
+    config: {}

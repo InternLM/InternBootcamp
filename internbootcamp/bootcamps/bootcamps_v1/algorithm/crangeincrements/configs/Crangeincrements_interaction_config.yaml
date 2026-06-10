@@ -1,0 +1,4 @@
+interaction:
+  - name: "Crangeincrements_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crangeincrements.Crangeincrements_interaction.CrangeincrementsInteraction"
+    config: {}

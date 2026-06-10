@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dcowandsnacks_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dcowandsnacks.Dcowandsnacks_interaction.DcowandsnacksInteraction"
+    config: {}

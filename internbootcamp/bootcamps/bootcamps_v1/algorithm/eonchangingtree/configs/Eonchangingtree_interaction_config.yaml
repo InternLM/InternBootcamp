@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eonchangingtree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eonchangingtree.Eonchangingtree_interaction.EonchangingtreeInteraction"
+    config: {}

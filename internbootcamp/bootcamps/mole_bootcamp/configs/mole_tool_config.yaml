@@ -1,0 +1,74 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.mole_bootcamp.mole_tools.CreateSession"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "create_session"
+        description: "创建并初始化一个新的环境场景，返回会话 PIN 码。"
+        parameters:
+          type: "object"
+          properties:
+            env_id:
+              type: "string"
+              description: "环境的唯一标识符"
+          required: ["env_id"]
+
+  - class_name: "internbootcamp.bootcamps.mole_bootcamp.mole_tools.MeasurePoint"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "measure_point"
+        description: "在指定环境的坐标 (x, y) 处进行测量，返回该点的势能和受力向量(Fx, Fy)。"
+        parameters:
+          type: "object"
+          properties:
+            env_id:
+              type: "string"
+              description: "当前任务的环境ID"
+            pin:
+              type: "string"
+              description: "当前会话的 PIN 码"
+            x:
+              type: "number"
+              description: "X坐标 (0-10 nm)"
+            y:
+              type: "number"
+              description: "Y坐标 (0-10 nm)"
+          required:
+            - "env_id"
+            - "pin"
+            - "x"
+            - "y"
+  
+  - class_name: "internbootcamp.bootcamps.mole_bootcamp.mole_tools.RunLocalMinimization"
+    config:
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "run_local_minimization"
+        description: "在指定环境执行局部能量最小化。从 (start_x, start_y) 开始，模拟粒子下滑直到停止在最近的坑底。"
+        parameters:
+          type: "object"
+          properties:
+            env_id:
+              type: "string"
+              description: "当前任务的环境ID"
+            pin:
+              type: "string"
+              description: "当前会话的 PIN 码"
+            start_x:
+              type: "number"
+              description: "起始X坐标 (0-10 nm)"
+            start_y:
+              type: "number"
+              description: "起始Y坐标 (0-10 nm)"
+          required:
+            - "env_id"
+            - "pin"
+            - "start_x"
+            - "start_y"

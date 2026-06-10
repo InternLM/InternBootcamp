@@ -1,0 +1,4 @@
+interaction:
+  - name: "korPuzzleMinesweeper_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.korpuzzleminesweeper.korPuzzleMinesweeper_interaction.KorpuzzleminesweeperInteraction"
+    config: {}

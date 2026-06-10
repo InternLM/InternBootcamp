@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eteambuilding_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eteambuilding.Eteambuilding_interaction.EteambuildingInteraction"
+    config: {}

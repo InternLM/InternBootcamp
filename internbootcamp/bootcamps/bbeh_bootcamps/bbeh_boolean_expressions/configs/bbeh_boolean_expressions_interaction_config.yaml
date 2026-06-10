@@ -1,0 +1,7 @@
+interaction:
+  - name: "bbeh_boolean_expressions_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_boolean_expressions.interaction.BbehBooleanExpressionsInteraction"
+    config:
+      score_threshold: 0.9
+      success_feedback: "推理正确，感谢你的严谨判断，可以总结关键步骤后结束本轮。"
+      retry_feedback: "当前回答未通过验证，请再次检视所有表达式的真值，并使用[answer]X[/answer]格式返回答案。"

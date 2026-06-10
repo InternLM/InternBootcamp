@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dbeautifulpairsofnumbers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dbeautifulpairsofnumbers.Dbeautifulpairsofnumbers_interaction.DbeautifulpairsofnumbersInteraction"
+    config: {}

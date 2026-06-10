@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdominoes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdominoes.Cdominoes_interaction.CdominoesInteraction"
+    config: {}

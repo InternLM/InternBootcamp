@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cjohnnyandanotherratingdrop_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cjohnnyandanotherratingdrop.Cjohnnyandanotherratingdrop_interaction.CjohnnyandanotherratingdropInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccivilization_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ccivilization.Ccivilization_interaction.CcivilizationInteraction"
+    config: {}

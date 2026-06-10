@@ -1,0 +1,4 @@
+interaction:
+  - name: "D2theworldisjustaprogrammingtaskhardversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.d2theworldisjustaprogrammingtaskhardversion.D2theworldisjustaprogrammingtaskhardversion_interaction.D2theworldisjustaprogrammingtaskhardversionInteraction"
+    config: {}

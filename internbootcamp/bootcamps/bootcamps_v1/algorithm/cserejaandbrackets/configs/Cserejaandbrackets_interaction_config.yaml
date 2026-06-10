@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cserejaandbrackets_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cserejaandbrackets.Cserejaandbrackets_interaction.CserejaandbracketsInteraction"
+    config: {}

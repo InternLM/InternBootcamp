@@ -1,0 +1,111 @@
+instruction_generators:
+  config_1:
+    config:
+      k_range: [0.1, 1.0]
+      x0_range: [0.5, 2.0]
+      t_span: [0, 5]
+      n_points: 50
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_2:
+    config:
+      k_range: [0.2, 1.5]
+      x0_range: [0.3, 2.5]
+      t_span: [0, 10]
+      n_points: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_3:
+    config:
+      k_range: [0.05, 0.5]
+      x0_range: [0.4, 1.5]
+      t_span: [0, 7]
+      n_points: 75
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_4:
+    config:
+      k_range: [0.1, 0.8]
+      x0_range: [0.6, 2.0]
+      t_span: [0, 3]
+      n_points: 40
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_5:
+    config:
+      k_range: [0.3, 1.2]
+      x0_range: [0.5, 3.0]
+      t_span: [0, 15]
+      n_points: 120
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_6:
+    config:
+      k_range: [0.2, 0.8]
+      x0_range: [0.7, 2.5]
+      t_span: [0, 6]
+      n_points: 55
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_7:
+    config:
+      k_range: [0.5, 1.8]
+      x0_range: [0.4, 3.0]
+      t_span: [0, 8]
+      n_points: 90
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_8:
+    config:
+      k_range: [0.1, 0.6]
+      x0_range: [0.3, 1.8]
+      t_span: [0, 4]
+      n_points: 60
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_9:
+    config:
+      k_range: [0.15, 1.0]
+      x0_range: [0.5, 2.3]
+      t_span: [0, 5]
+      n_points: 70
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+  config_10:
+    config:
+      k_range: [0.3, 1.5]
+      x0_range: [0.6, 2.8]
+      t_span: [0, 10]
+      n_points: 120
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/linearode/configs/linearODE_interaction_config.yaml
+    generation_ratio: 0.10
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.linearode.linearODE_instruction_generator.LinearodeInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

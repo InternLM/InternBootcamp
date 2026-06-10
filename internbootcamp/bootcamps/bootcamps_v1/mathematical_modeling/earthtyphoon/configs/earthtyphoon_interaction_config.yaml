@@ -1,0 +1,4 @@
+interaction:
+  - name: "earthtyphoon_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.earthtyphoon.earthtyphoon_interaction.EarthtyphoonInteraction"
+    config: {}

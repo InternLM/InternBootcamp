@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cpackagedelivery_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpackagedelivery.Cpackagedelivery_interaction.CpackagedeliveryInteraction"
+    config: {}

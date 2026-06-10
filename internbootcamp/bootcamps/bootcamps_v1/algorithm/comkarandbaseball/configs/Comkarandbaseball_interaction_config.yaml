@@ -1,0 +1,4 @@
+interaction:
+  - name: "Comkarandbaseball_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.comkarandbaseball.Comkarandbaseball_interaction.ComkarandbaseballInteraction"
+    config: {}

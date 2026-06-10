@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cbugincode_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbugincode.Cbugincode_interaction.CbugincodeInteraction"
+    config: {}

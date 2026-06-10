@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dzookeeperandtheinfinitezoo_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dzookeeperandtheinfinitezoo.Dzookeeperandtheinfinitezoo_interaction.DzookeeperandtheinfinitezooInteraction"
+    config: {}

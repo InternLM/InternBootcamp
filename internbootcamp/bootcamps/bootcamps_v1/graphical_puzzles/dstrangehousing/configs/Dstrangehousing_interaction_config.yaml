@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dstrangehousing_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dstrangehousing.Dstrangehousing_interaction.DstrangehousingInteraction"
+    config: {}

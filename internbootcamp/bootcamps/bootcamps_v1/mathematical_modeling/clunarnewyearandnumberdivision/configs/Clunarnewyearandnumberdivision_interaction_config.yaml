@@ -1,0 +1,4 @@
+interaction:
+  - name: "Clunarnewyearandnumberdivision_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.clunarnewyearandnumberdivision.Clunarnewyearandnumberdivision_interaction.ClunarnewyearandnumberdivisionInteraction"
+    config: {}

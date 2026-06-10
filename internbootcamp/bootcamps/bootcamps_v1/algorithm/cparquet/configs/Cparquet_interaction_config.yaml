@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cparquet_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cparquet.Cparquet_interaction.CparquetInteraction"
+    config: {}

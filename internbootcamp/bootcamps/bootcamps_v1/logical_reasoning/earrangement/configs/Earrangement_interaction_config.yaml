@@ -1,0 +1,4 @@
+interaction:
+  - name: "Earrangement_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.earrangement.Earrangement_interaction.EarrangementInteraction"
+    config: {}

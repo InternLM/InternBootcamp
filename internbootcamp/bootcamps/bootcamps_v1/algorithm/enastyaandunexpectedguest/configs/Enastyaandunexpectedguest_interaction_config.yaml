@@ -1,0 +1,4 @@
+interaction:
+  - name: "Enastyaandunexpectedguest_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.enastyaandunexpectedguest.Enastyaandunexpectedguest_interaction.EnastyaandunexpectedguestInteraction"
+    config: {}

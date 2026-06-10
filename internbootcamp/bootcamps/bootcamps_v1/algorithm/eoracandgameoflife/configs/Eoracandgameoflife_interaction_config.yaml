@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eoracandgameoflife_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eoracandgameoflife.Eoracandgameoflife_interaction.EoracandgameoflifeInteraction"
+    config: {}

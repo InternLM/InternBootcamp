@@ -1,0 +1,30 @@
+instruction_generators:
+  basic:
+    config:
+      min_num: 4
+      max_num: 6
+    tool_config_path: "internbootcamp/bootcamps/escape_bootcamp/configs/escape_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/escape_bootcamp/configs/escape_interaction_config.yaml"
+    generation_ratio: 1  
+
+# 全局配置
+global_config:
+# 指令管理器类的完整相对路径
+  class_name: "internbootcamp.bootcamps.escape_bootcamp.escape_instruction_generator.EscapeInstructionGenerator"
+  
+  # 是否启用随机种子
+  enable_random_seed: true
+  
+  # 默认种子值
+  default_seed: 999
+  
+  # 默认数据集划分和样本数
+  default_split_samples:
+    train: 10000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  # gen_parquet: true

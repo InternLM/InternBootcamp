@@ -1,0 +1,4 @@
+interaction:
+  - name: "Canagramsearch_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.canagramsearch.Canagramsearch_interaction.CanagramsearchInteraction"
+    config: {}

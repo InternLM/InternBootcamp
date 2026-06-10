@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmuseumstour_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmuseumstour.Cmuseumstour_interaction.CmuseumstourInteraction"
+    config: {}

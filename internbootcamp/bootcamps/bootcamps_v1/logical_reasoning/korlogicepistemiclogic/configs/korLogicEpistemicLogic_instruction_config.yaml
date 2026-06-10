@@ -1,0 +1,53 @@
+instruction_generators:
+  config_1:
+    config:
+      names: ['Alice', 'Bob', 'Charlie', 'Eve', 'Dave']
+      propositions: ['太阳从东方升起', '2+2=4', '图书馆今天开放', '氧气是无色的', '水在0℃结冰']
+      groups: ['Friends', 'Colleagues', 'Students']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      names: ['Alice', 'Bob', 'Charlie']
+      propositions: ['太阳从东方升起', '2+2=4', '图书馆今天开放']
+      groups: ['G', 'GroupA', 'GroupB']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      names: ['Alice', 'Bob', 'Charlie']
+      propositions: ['水在100℃沸腾', '地球围绕太阳转', '图书馆今天关闭']
+      groups: ['GroupX', 'GroupY', 'GroupZ']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      names: ['Alice', 'Bob', 'Charlie', 'Eve']
+      propositions: ['太阳从东方升起', '2+2=4', '图书馆今天开放', '氧气是无色的']
+      groups: ['Team1', 'Team2', 'Team3']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/korlogicepistemiclogic/configs/korLogicEpistemicLogic_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicepistemiclogic.korLogicEpistemicLogic_instruction_generator.KorlogicepistemiclogicInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

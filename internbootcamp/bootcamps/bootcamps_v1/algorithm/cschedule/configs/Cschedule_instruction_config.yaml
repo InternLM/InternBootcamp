@@ -1,0 +1,53 @@
+instruction_generators:
+  config_1:
+    config:
+      min_groups: 4
+      max_groups: 12
+      time_max: 800000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      min_groups: 5
+      max_groups: 20
+      time_max: 500000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      min_groups: 2
+      max_groups: 10
+      time_max: 500000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      min_groups: 1
+      max_groups: 5
+      time_max: 1000000
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cschedule/configs/Cschedule_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cschedule.Cschedule_instruction_generator.CscheduleInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

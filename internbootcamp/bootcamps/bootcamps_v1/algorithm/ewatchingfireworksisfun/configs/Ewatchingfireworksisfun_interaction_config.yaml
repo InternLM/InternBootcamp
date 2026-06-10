@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ewatchingfireworksisfun_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ewatchingfireworksisfun.Ewatchingfireworksisfun_interaction.EwatchingfireworksisfunInteraction"
+    config: {}

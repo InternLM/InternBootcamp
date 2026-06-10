@@ -1,0 +1,49 @@
+instruction_generators:
+  config_1:
+    config:
+      size: [6, 6]
+      difficulty: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      size: [10, 10]
+      difficulty: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      size: [15, 15]
+      difficulty: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      size: [20, 20]
+      difficulty: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/maze/configs/maze_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.maze.maze_instruction_generator.MazeInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

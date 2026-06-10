@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dtshirtsdistribution_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.real_world_problem.dtshirtsdistribution.Dtshirtsdistribution_interaction.DtshirtsdistributionInteraction"
+    config: {}

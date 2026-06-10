@@ -1,0 +1,4 @@
+interaction:
+  - name: "Emiddleout_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.emiddleout.Emiddleout_interaction.EmiddleoutInteraction"
+    config: {}

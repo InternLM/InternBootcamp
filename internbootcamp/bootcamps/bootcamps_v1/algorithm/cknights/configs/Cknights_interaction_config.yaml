@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cknights_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cknights.Cknights_interaction.CknightsInteraction"
+    config: {}
