@@ -158,7 +158,6 @@ tensorboard_log/
 internbootcamp/bootcamps/AnalogCircuitSizing/data/
 extract/
 
-**.png
 internbootcamp/bootcamps/LLM4DeviceOpt/scripts
 outputs_repaired/
 internbootcamp/bootcamps/LLM4DeviceOpt/data_repaired/
