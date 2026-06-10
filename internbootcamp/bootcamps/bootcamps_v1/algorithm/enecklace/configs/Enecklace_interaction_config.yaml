@@ -1,0 +1,4 @@
+interaction:
+  - name: "Enecklace_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.enecklace.Enecklace_interaction.EnecklaceInteraction"
+    config: {}

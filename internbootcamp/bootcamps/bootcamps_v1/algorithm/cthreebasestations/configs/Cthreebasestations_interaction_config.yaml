@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cthreebasestations_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cthreebasestations.Cthreebasestations_interaction.CthreebasestationsInteraction"
+    config: {}

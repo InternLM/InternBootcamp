@@ -1,0 +1,4 @@
+interaction:
+  - name: "Esuperiorperiodicsubarrays_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esuperiorperiodicsubarrays.Esuperiorperiodicsubarrays_interaction.EsuperiorperiodicsubarraysInteraction"
+    config: {}

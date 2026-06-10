@@ -1,0 +1,16 @@
+tools:
+  - class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccycleinmaze.Ccycleinmaze_tools.CcycleinmazeVerificationTool"
+    config: 
+      type: "native"
+    tool_schema:
+      type: "function"
+      function:
+        name: "verify_Ccycleinmaze_solution"
+        description: "验证Ccycleinmaze解决方案的正确性"
+        parameters:
+          type: "object"
+          properties:
+            solution:
+              type: "object"
+              description: "解决方案，请根据具体任务调整格式"
+          required: ["solution"]

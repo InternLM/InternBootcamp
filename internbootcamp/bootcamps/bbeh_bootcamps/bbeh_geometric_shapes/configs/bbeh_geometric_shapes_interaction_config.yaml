@@ -1,0 +1,9 @@
+interaction:
+  - name: "bbeh_geometric_shapes_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_geometric_shapes.interaction.BbehGeometricShapesInteraction"
+    config:
+      score_threshold: 0.9
+      success_feedback: "判断正确，请简要说明辨识线索后结束本轮。"
+      retry_feedback: "回答未通过验证，请重新分析 SVG 线段并以“Final Answer: \\boxed{X}”形式作答。"
+
+

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmaximandmatrix_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmaximandmatrix.Cmaximandmatrix_interaction.CmaximandmatrixInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "campsite_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.campsite.campsite_interaction.CampsiteInteraction"
+    config: {}

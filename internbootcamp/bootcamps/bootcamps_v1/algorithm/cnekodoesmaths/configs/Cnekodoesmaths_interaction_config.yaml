@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnekodoesmaths_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnekodoesmaths.Cnekodoesmaths_interaction.CnekodoesmathsInteraction"
+    config: {}

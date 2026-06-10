@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cengineerartem_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cengineerartem.Cengineerartem_interaction.CengineerartemInteraction"
+    config: {}

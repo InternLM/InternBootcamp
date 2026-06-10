@@ -1,0 +1,4 @@
+interaction:
+  - name: "Fgame_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fgame.Fgame_interaction.FgameInteraction"
+    config: {}

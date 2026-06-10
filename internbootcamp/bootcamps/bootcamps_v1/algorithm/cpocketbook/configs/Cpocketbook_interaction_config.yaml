@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cpocketbook_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpocketbook.Cpocketbook_interaction.CpocketbookInteraction"
+    config: {}

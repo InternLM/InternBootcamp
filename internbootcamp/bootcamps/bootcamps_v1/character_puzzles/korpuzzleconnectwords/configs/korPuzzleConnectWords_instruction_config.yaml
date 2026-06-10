@@ -1,0 +1,56 @@
+instruction_generators:
+  config_1:
+    config:
+      2: ['IT', 'IS', 'HE', 'SHE', 'WHO']
+      3: ['THE', 'AND', 'FOR', 'NOT', 'YES', 'WHO']
+      4: ['WHAT', 'WHERE', 'WHEN', 'WHY', 'HOW']
+      5: ['WHENEVER', 'WHEREVER', 'WHYSOEVER']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      2: ['BE', 'NO', 'IN', 'TO', 'UP']
+      3: ['CAT', 'DOG', 'BED', 'PEN', 'CAR', 'BAT', 'RAT', 'MAT', 'PAN']
+      4: ['DESK', 'BALL', 'FISH', 'CAKE', 'ROAD', 'BEAN', 'UNIT', 'CRAB', 'TENT', 'SHIP']
+      5: ['APPLE', 'TABLE', 'CHAIR', 'STOVE', 'LAPTOP']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      2: ['BE', 'NO', 'IN', 'TO']
+      3: ['CAT', 'DOG', 'BED', 'PEN', 'CAR', 'BAT']
+      4: ['DESK', 'BALL', 'FISH', 'CAKE']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      2: ['BE', 'NO', 'IN', 'TO', 'UP']
+      3: ['CAT', 'DOG', 'BED', 'PEN', 'CAR', 'BAT', 'RAT', 'MAT', 'PAN']
+      4: ['DESK', 'BALL', 'FISH', 'CAKE', 'ROAD', 'BEAN', 'UNIT']
+      5: ['APPLE', 'TABLE', 'CHAIR']
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzleconnectwords/configs/korPuzzleConnectWords_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzleconnectwords.korPuzzleConnectWords_instruction_generator.KorpuzzleconnectwordsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

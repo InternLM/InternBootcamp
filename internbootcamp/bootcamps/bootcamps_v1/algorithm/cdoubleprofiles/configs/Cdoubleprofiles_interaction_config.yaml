@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdoubleprofiles_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdoubleprofiles.Cdoubleprofiles_interaction.CdoubleprofilesInteraction"
+    config: {}

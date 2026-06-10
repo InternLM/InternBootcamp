@@ -1,0 +1,45 @@
+instruction_generators:
+  config_1:
+    config:
+      params: {'prob_evaluate': 0.5, 'x_candidates': [0, 1, 2, 3, 0.7854, 1.5708]}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      params: {'prob_evaluate': 0.6, 'x_candidates': [0, 1, 2, 0.7854, 1.5708, 3.1416, 4.7124, 6.2832]}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      params: {'prob_evaluate': 0.3, 'x_candidates': [0, 1, 2, 0.7854, 1.5708, 3.1416]}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      params: {'prob_evaluate': 0.7, 'x_candidates': [0, 1, 2, 0.7854, 1.5708, 3.1416, 4.7124]}
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a1/configs/korOperationUnicode25a1_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.koroperationunicode25a1.korOperationUnicode25a1_instruction_generator.Koroperationunicode25a1InstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

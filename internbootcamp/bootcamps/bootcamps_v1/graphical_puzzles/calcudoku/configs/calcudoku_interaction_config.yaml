@@ -1,0 +1,4 @@
+interaction:
+  - name: "calcudoku_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.calcudoku.calcudoku_interaction.CalcudokuInteraction"
+    config: {}

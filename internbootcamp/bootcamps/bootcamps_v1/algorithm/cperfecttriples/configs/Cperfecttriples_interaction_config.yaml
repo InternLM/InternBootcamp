@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cperfecttriples_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cperfecttriples.Cperfecttriples_interaction.CperfecttriplesInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dirrigation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dirrigation.Dirrigation_interaction.DirrigationInteraction"
+    config: {}

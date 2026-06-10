@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnewyearratingschange_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnewyearratingschange.Cnewyearratingschange_interaction.CnewyearratingschangeInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "maze_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.maze.maze_interaction.MazeInteraction"
+    config: {}

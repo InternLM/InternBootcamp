@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dnudistbeach_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dnudistbeach.Dnudistbeach_interaction.DnudistbeachInteraction"
+    config: {}

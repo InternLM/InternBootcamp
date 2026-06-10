@@ -1,0 +1,8 @@
+interaction:
+  - name: "bbeh_object_counting_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_object_counting.interaction.BbehObjectCountingInteraction"
+    config:
+      score_threshold: 0.95
+      success_feedback: "计数正确，请概述你的思路后结束对话。"
+      retry_feedback: "答案不正确，请重新统计两个目标类别的数量，并使用[answer]数字[/answer]格式返回。"
+

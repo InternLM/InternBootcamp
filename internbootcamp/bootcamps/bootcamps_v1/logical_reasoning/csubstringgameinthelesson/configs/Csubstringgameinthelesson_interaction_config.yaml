@@ -1,0 +1,4 @@
+interaction:
+  - name: "Csubstringgameinthelesson_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.csubstringgameinthelesson.Csubstringgameinthelesson_interaction.CsubstringgameinthelessonInteraction"
+    config: {}

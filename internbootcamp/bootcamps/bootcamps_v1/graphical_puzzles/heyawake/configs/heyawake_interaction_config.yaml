@@ -1,0 +1,4 @@
+interaction:
+  - name: "heyawake_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.heyawake.heyawake_interaction.HeyawakeInteraction"
+    config: {}

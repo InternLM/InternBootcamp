@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cokabeandboxes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cokabeandboxes.Cokabeandboxes_interaction.CokabeandboxesInteraction"
+    config: {}

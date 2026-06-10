@@ -1,0 +1,61 @@
+instruction_generators:
+  config_1:
+    config:
+      min_n: 10
+      max_n: 20
+      min_k: 3
+      min_a: 0
+      max_a: 500
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      min_n: 5
+      max_n: 15
+      min_k: 2
+      min_a: 0
+      max_a: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      min_n: 5
+      max_n: 10
+      min_k: 3
+      min_a: 0
+      max_a: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      min_n: 5
+      max_n: 20
+      min_k: 3
+      min_a: 0
+      max_a: 500
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/farraybeauty/configs/Farraybeauty_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.farraybeauty.Farraybeauty_instruction_generator.FarraybeautyInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

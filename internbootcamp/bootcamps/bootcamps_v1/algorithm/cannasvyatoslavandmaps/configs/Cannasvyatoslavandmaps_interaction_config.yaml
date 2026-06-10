@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cannasvyatoslavandmaps_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cannasvyatoslavandmaps.Cannasvyatoslavandmaps_interaction.CannasvyatoslavandmapsInteraction"
+    config: {}

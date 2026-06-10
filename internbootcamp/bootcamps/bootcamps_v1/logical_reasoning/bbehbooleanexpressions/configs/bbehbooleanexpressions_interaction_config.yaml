@@ -1,0 +1,4 @@
+interaction:
+  - name: "bbehbooleanexpressions_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.bbehbooleanexpressions.bbehbooleanexpressions_interaction.BbehbooleanexpressionsInteraction"
+    config: {}

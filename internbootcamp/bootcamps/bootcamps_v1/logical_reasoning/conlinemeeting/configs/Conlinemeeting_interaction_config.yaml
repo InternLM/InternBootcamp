@@ -1,0 +1,4 @@
+interaction:
+  - name: "Conlinemeeting_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.conlinemeeting.Conlinemeeting_interaction.ConlinemeetingInteraction"
+    config: {}

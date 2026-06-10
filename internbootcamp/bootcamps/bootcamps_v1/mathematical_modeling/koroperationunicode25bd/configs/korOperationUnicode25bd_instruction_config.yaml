@@ -1,0 +1,49 @@
+instruction_generators:
+  config_1:
+    config:
+      x_value_prob: 0.7
+      numeric_precision: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      x_value_prob: 0.5
+      numeric_precision: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      x_value_prob: 0.4
+      numeric_precision: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      x_value_prob: 0.2
+      numeric_precision: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25bd/configs/korOperationUnicode25bd_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.koroperationunicode25bd.korOperationUnicode25bd_instruction_generator.Koroperationunicode25bdInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

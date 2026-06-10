@@ -1,0 +1,11 @@
+interaction:
+  - name: "bbeh_dyck_languages_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_dyck_languages.interaction.BbehDyckLanguagesInteraction"
+    config:
+      score_threshold: 0.95
+      success_feedback: "判断正确，定位到了首个错误步骤，请汇总理由后结束。"
+      retry_feedback: "当前答案未通过验证，请重新检视堆栈变化，输出第一个错误步骤编号或\"No\"，并使用[answer][/answer]格式。"
+      verify_kwargs:
+        format_penalty: false
+
+

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdesigntutorialmakeitnondeterministic_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cdesigntutorialmakeitnondeterministic.Cdesigntutorialmakeitnondeterministic_interaction.CdesigntutorialmakeitnondeterministicInteraction"
+    config: {}

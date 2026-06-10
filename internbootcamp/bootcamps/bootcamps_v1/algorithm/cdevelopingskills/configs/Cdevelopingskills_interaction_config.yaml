@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdevelopingskills_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdevelopingskills.Cdevelopingskills_interaction.CdevelopingskillsInteraction"
+    config: {}

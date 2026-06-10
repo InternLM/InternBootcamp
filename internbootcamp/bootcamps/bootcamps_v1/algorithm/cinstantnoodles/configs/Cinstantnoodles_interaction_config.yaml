@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cinstantnoodles_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cinstantnoodles.Cinstantnoodles_interaction.CinstantnoodlesInteraction"
+    config: {}

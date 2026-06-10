@@ -1,0 +1,4 @@
+interaction:
+  - name: "Drearrange_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.drearrange.Drearrange_interaction.DrearrangeInteraction"
+    config: {}

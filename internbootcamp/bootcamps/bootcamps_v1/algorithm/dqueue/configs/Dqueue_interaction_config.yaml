@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dqueue_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dqueue.Dqueue_interaction.DqueueInteraction"
+    config: {}

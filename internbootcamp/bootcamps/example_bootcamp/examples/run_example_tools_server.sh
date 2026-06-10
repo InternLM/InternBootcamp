@@ -1,0 +1,11 @@
+python -m internbootcamp.utils.tool_server.cli \
+  --log_dir internbootcamp/bootcamps/example_bootcamp/data/tool_server_logs \
+  --tools_yaml_path internbootcamp/bootcamps/example_bootcamp/configs/example_tool_config.yaml \
+  --port 20048 \
+  --mode master \
+  --timeout_per_query 90 \
+  --zombie_instance_timeout 60 \
+  --heartbeat_timeout 60 \
+  --health_check_interval 10 \
+  --recovery_wait_timeout 60 \
+  --recovery_wait_interval 1.0 

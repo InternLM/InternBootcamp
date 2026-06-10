@@ -1,0 +1,41 @@
+# BBEH Hyperbaton Instruction Generator 配置
+
+instruction_generators:
+  low:
+    config:
+      min_example_sentences: 90
+      max_example_sentences: 130
+      min_correct_options: 3
+      max_correct_options: 5
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_hyperbaton/configs/bbeh_hyperbaton_interaction_config.yaml"
+    generation_ratio: 1.0
+
+  medium:
+    config:
+      min_example_sentences: 100
+      max_example_sentences: 150
+      min_correct_options: 3
+      max_correct_options: 6
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_hyperbaton/configs/bbeh_hyperbaton_interaction_config.yaml"
+    generation_ratio: 1.5
+
+  high:
+    config:
+      min_example_sentences: 120
+      max_example_sentences: 180
+      min_correct_options: 4
+      max_correct_options: 6
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_hyperbaton/configs/bbeh_hyperbaton_interaction_config.yaml"
+    generation_ratio: 1.0
+
+global_config:
+  class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_hyperbaton.instruction_generator.BbehHyperbatonInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 2025
+  default_split_samples:
+    train: 1000
+    test: 128
+  shuffle: true
+  gen_parquet: false
+
+

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ehelpingpeople_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ehelpingpeople.Ehelpingpeople_interaction.EhelpingpeopleInteraction"
+    config: {}

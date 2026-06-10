@@ -1,0 +1,4 @@
+interaction:
+  - name: "Czeroone_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.czeroone.Czeroone_interaction.CzerooneInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Chistory_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.chistory.Chistory_interaction.ChistoryInteraction"
+    config: {}

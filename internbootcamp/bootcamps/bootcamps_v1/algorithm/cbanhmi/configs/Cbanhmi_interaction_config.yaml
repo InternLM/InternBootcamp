@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cbanhmi_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbanhmi.Cbanhmi_interaction.CbanhmiInteraction"
+    config: {}

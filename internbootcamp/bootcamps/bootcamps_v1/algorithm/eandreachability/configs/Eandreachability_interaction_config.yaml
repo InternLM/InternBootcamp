@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eandreachability_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eandreachability.Eandreachability_interaction.EandreachabilityInteraction"
+    config: {}

@@ -1,0 +1,91 @@
+instruction_generators:
+  config_1:
+    config:
+      n_range: [5, 7]
+      A_range: [15, 25]
+      cf_range: [20, 30]
+      cm_range: [10, 20]
+      m_range: [30, 200]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_2:
+    config:
+      n_range: [4, 5]
+      A_range: [8, 12]
+      cf_range: [12, 22]
+      cm_range: [6, 16]
+      m_range: [35, 100]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_3:
+    config:
+      n_range: [4, 6]
+      A_range: [10, 20]
+      cf_range: [10, 25]
+      cm_range: [5, 15]
+      m_range: [20, 150]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_4:
+    config:
+      n_range: [2, 3]
+      A_range: [3, 8]
+      cf_range: [2, 10]
+      cm_range: [2, 8]
+      m_range: [15, 80]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_5:
+    config:
+      n_range: [3, 5]
+      A_range: [5, 15]
+      cf_range: [5, 20]
+      cm_range: [1, 10]
+      m_range: [10, 100]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_6:
+    config:
+      n_range: [3, 6]
+      A_range: [10, 15]
+      cf_range: [10, 20]
+      cm_range: [5, 15]
+      m_range: [50, 150]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+  config_7:
+    config:
+      n_range: [3, 4]
+      A_range: [5, 10]
+      cf_range: [5, 15]
+      cm_range: [1, 5]
+      m_range: [5, 50]
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bskills/configs/Bskills_interaction_config.yaml
+    generation_ratio: 0.14
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bskills.Bskills_instruction_generator.BskillsInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

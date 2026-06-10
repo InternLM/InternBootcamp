@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dcompletetripartite_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dcompletetripartite.Dcompletetripartite_interaction.DcompletetripartiteInteraction"
+    config: {}

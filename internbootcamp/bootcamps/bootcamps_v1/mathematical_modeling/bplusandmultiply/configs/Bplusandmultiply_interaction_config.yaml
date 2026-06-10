@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bplusandmultiply_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.bplusandmultiply.Bplusandmultiply_interaction.BplusandmultiplyInteraction"
+    config: {}

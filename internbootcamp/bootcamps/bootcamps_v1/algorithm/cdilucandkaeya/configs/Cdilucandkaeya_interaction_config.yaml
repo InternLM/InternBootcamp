@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdilucandkaeya_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdilucandkaeya.Cdilucandkaeya_interaction.CdilucandkaeyaInteraction"
+    config: {}

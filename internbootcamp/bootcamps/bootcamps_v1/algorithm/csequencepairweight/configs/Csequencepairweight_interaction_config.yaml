@@ -1,0 +1,4 @@
+interaction:
+  - name: "Csequencepairweight_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csequencepairweight.Csequencepairweight_interaction.CsequencepairweightInteraction"
+    config: {}

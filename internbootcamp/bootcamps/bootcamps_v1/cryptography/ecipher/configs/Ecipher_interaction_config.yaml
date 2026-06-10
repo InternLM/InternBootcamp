@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ecipher_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.ecipher.Ecipher_interaction.EcipherInteraction"
+    config: {}

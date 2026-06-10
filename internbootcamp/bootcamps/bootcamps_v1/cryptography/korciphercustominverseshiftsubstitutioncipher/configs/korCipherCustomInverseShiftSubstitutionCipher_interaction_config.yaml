@@ -1,0 +1,4 @@
+interaction:
+  - name: "korCipherCustomInverseShiftSubstitutionCipher_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.korciphercustominverseshiftsubstitutioncipher.korCipherCustomInverseShiftSubstitutionCipher_interaction.KorciphercustominverseshiftsubstitutioncipherInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cgambling_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgambling.Cgambling_interaction.CgamblingInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Einterestinggame_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.einterestinggame.Einterestinggame_interaction.EinterestinggameInteraction"
+    config: {}

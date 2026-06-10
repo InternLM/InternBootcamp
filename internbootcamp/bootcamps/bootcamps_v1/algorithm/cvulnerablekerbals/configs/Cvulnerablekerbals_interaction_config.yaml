@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cvulnerablekerbals_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvulnerablekerbals.Cvulnerablekerbals_interaction.CvulnerablekerbalsInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cgreedyshopping_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgreedyshopping.Cgreedyshopping_interaction.CgreedyshoppingInteraction"
+    config: {}

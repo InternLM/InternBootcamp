@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnezzarandsymmetricarray_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnezzarandsymmetricarray.Cnezzarandsymmetricarray_interaction.CnezzarandsymmetricarrayInteraction"
+    config: {}

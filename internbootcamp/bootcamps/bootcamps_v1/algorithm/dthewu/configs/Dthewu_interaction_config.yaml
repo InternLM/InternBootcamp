@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dthewu_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dthewu.Dthewu_interaction.DthewuInteraction"
+    config: {}

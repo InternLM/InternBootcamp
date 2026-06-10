@@ -1,0 +1,4 @@
+interaction:
+  - name: "Enumbertransformation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.enumbertransformation.Enumbertransformation_interaction.EnumbertransformationInteraction"
+    config: {}

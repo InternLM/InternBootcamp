@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eworldofdarkraftbattleforazathoth_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eworldofdarkraftbattleforazathoth.Eworldofdarkraftbattleforazathoth_interaction.EworldofdarkraftbattleforazathothInteraction"
+    config: {}

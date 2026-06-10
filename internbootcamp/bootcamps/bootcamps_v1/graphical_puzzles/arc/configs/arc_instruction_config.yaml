@@ -1,0 +1,52 @@
+instruction_generators:
+  hint_examples_num_3:
+    config:
+      task_key_file: bootcamps_v1/graphical_puzzles/arc/lib/data/arc_key.jsonl
+      hint_examples_num: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_interaction_config.yaml
+    generation_ratio: 1.00
+
+  hint_examples_num_2:
+    config:
+      task_key_file: bootcamps_v1/graphical_puzzles/arc/lib/data/arc_key.jsonl
+      hint_examples_num: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_interaction_config.yaml
+    generation_ratio: 1.00
+
+  hint_examples_num_4:
+    config:
+      task_key_file: bootcamps_v1/graphical_puzzles/arc/lib/data/arc_key.jsonl
+      hint_examples_num: 4
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_interaction_config.yaml
+    generation_ratio: 1.00
+
+  hint_examples_num_5:
+    config:
+      task_key_file: bootcamps_v1/graphical_puzzles/arc/lib/data/arc_key.jsonl
+      hint_examples_num: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/arc/configs/arc_interaction_config.yaml
+    generation_ratio: 1.00
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.arc.arc_instruction_generator.ArcInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: true

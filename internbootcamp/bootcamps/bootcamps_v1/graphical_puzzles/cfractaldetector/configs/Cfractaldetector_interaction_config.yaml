@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfractaldetector_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cfractaldetector.Cfractaldetector_interaction.CfractaldetectorInteraction"
+    config: {}

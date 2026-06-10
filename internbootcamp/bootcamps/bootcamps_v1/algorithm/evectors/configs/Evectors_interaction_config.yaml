@@ -1,0 +1,4 @@
+interaction:
+  - name: "Evectors_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.evectors.Evectors_interaction.EvectorsInteraction"
+    config: {}

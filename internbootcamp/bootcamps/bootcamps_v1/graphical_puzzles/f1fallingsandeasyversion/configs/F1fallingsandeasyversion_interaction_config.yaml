@@ -1,0 +1,4 @@
+interaction:
+  - name: "F1fallingsandeasyversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.f1fallingsandeasyversion.F1fallingsandeasyversion_interaction.F1fallingsandeasyversionInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cleavingthebar_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cleavingthebar.Cleavingthebar_interaction.CleavingthebarInteraction"
+    config: {}

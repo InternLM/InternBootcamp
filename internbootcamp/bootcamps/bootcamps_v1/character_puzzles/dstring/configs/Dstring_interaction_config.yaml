@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dstring_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.dstring.Dstring_interaction.DstringInteraction"
+    config: {}

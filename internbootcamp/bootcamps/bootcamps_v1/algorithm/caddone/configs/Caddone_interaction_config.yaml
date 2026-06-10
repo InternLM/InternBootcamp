@@ -1,0 +1,4 @@
+interaction:
+  - name: "Caddone_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.caddone.Caddone_interaction.CaddoneInteraction"
+    config: {}

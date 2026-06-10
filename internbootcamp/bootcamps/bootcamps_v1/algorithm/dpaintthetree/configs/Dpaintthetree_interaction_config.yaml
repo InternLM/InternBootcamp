@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dpaintthetree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dpaintthetree.Dpaintthetree_interaction.DpaintthetreeInteraction"
+    config: {}

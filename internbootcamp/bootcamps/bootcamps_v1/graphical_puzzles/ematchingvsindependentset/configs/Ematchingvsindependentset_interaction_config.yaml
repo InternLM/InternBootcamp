@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ematchingvsindependentset_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ematchingvsindependentset.Ematchingvsindependentset_interaction.EmatchingvsindependentsetInteraction"
+    config: {}

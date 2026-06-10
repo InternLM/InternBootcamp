@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ctavasandkarafs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctavasandkarafs.Ctavasandkarafs_interaction.CtavasandkarafsInteraction"
+    config: {}

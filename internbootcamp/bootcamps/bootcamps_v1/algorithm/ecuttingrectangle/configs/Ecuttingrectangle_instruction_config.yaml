@@ -1,0 +1,54 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 3
+      w_range: [100, 1000]
+      h_range: [100, 1000]
+      c_range: [100, 1000]
+      use_same_w: True
+      use_same_h: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_interaction_config.yaml
+    generation_ratio: 0.33
+  config_2:
+    config:
+      n: 5
+      w_range: [50, 200]
+      h_range: [50, 200]
+      c_range: [50, 200]
+      use_same_w: False
+      use_same_h: True
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_interaction_config.yaml
+    generation_ratio: 0.33
+  config_3:
+    config:
+      n: 1
+      w_range: [1, 10]
+      h_range: [1, 10]
+      c_range: [1, 10]
+      use_same_w: False
+      use_same_h: False
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ecuttingrectangle/configs/Ecuttingrectangle_interaction_config.yaml
+    generation_ratio: 0.33
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecuttingrectangle.Ecuttingrectangle_instruction_generator.EcuttingrectangleInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

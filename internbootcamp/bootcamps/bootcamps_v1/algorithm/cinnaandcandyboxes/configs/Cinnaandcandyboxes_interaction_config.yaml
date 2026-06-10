@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cinnaandcandyboxes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cinnaandcandyboxes.Cinnaandcandyboxes_interaction.CinnaandcandyboxesInteraction"
+    config: {}

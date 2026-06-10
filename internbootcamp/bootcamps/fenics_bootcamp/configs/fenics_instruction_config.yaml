@@ -1,0 +1,41 @@
+# ============================================================
+# FEniCS Thermal Control Instruction Generator Configuration
+# ============================================================
+
+instruction_generators:
+  basic:
+    config:
+      # --- 1. 几何参数空间 (Geometry Domain) ---
+      length_range: [1.0, 4.0]      # 长度范围 (m)
+      width_range: [1.0, 4.0]       # 宽度范围 (m)
+      
+      # --- 2. 材料属性空间 (Material Properties) ---
+      kappa_base_range: [20.0, 50.0]   # 基础热导率范围 (W/(m·K))
+      alpha_range: [0.1, 0.25]         # 非线性系数范围
+      source_amp_range: [100.0, 300.0] # 内部热源强度范围
+      
+      # --- 3. 控制输入空间 (Control Input Space) ---
+      flux_range: [50.0, 800.0]        # 热通量范围 (W/m²)
+      
+      # --- 4. 难度与目标控制 (Difficulty Control) ---
+      tolerance: 0.5                   # 温度容差 (K)
+      max_temp_margin: 50.0            # 最大温度裕度 (K)
+      
+      # --- 5. Agent 约束 (Constraints) ---
+      max_tool_calls: 5                # 允许调用仿真工具的最大次数
+
+    # 外部工具配置文件路径（相对于项目根目录）
+    tool_config_path: "internbootcamp/bootcamps/fenics_bootcamp/configs/fenics_tool_config.yaml"
+    interaction_config_path: "internbootcamp/bootcamps/fenics_bootcamp/configs/fenics_interaction_config.yaml"
+    generation_ratio: 1.0
+
+# --- 全局系统配置 ---
+global_config:
+  class_name: "internbootcamp.bootcamps.fenics_bootcamp.fenics_instruction_generator.ThermalControlInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 42
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: true

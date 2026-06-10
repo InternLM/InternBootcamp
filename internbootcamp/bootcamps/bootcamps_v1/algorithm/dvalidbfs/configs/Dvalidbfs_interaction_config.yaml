@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dvalidbfs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dvalidbfs.Dvalidbfs_interaction.DvalidbfsInteraction"
+    config: {}

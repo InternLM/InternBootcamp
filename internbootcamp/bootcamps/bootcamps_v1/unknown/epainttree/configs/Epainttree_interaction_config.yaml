@@ -1,0 +1,4 @@
+interaction:
+  - name: "Epainttree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.unknown.epainttree.Epainttree_interaction.EpainttreeInteraction"
+    config: {}

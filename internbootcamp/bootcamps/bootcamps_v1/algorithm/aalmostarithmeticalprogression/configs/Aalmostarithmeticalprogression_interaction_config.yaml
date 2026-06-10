@@ -1,0 +1,4 @@
+interaction:
+  - name: "Aalmostarithmeticalprogression_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.aalmostarithmeticalprogression.Aalmostarithmeticalprogression_interaction.AalmostarithmeticalprogressionInteraction"
+    config: {}

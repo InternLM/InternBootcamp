@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cehabandaspecialcoloringproblem_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cehabandaspecialcoloringproblem.Cehabandaspecialcoloringproblem_interaction.CehabandaspecialcoloringproblemInteraction"
+    config: {}

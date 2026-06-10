@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ethegreatmixing_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ethegreatmixing.Ethegreatmixing_interaction.EthegreatmixingInteraction"
+    config: {}

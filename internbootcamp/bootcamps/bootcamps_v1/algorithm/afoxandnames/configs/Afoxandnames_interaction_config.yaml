@@ -1,0 +1,4 @@
+interaction:
+  - name: "Afoxandnames_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.afoxandnames.Afoxandnames_interaction.AfoxandnamesInteraction"
+    config: {}

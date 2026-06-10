@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccandies_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccandies.Ccandies_interaction.CcandiesInteraction"
+    config: {}

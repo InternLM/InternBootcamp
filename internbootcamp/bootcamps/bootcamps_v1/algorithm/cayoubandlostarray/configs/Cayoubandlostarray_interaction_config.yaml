@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cayoubandlostarray_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cayoubandlostarray.Cayoubandlostarray_interaction.CayoubandlostarrayInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bandreyandproblem_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bandreyandproblem.Bandreyandproblem_interaction.BandreyandproblemInteraction"
+    config: {}

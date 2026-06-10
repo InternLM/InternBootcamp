@@ -1,0 +1,69 @@
+instruction_generators:
+  config_1:
+    config:
+      n_min: 2
+      n_max: 15
+      m_max: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+  config_2:
+    config:
+      n_min: 3
+      n_max: 10
+      m_max: 150
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+  config_3:
+    config:
+      n_min: 4
+      n_max: 12
+      m_max: 250
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+  config_4:
+    config:
+      n_min: 2
+      n_max: 9
+      m_max: 120
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+  config_5:
+    config:
+      n_min: 5
+      n_max: 11
+      m_max: 200
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+  config_6:
+    config:
+      n_min: 2
+      n_max: 12
+      m_max: 200
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/edigittree/configs/Edigittree_interaction_config.yaml
+    generation_ratio: 0.17
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.edigittree.Edigittree_instruction_generator.EdigittreeInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

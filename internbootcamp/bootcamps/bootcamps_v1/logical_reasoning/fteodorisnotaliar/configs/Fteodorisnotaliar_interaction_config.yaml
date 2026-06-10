@@ -1,0 +1,4 @@
+interaction:
+  - name: "Fteodorisnotaliar_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.fteodorisnotaliar.Fteodorisnotaliar_interaction.FteodorisnotaliarInteraction"
+    config: {}

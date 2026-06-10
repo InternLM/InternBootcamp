@@ -1,0 +1,4 @@
+interaction:
+  - name: "Edoegraphs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.edoegraphs.Edoegraphs_interaction.EdoegraphsInteraction"
+    config: {}

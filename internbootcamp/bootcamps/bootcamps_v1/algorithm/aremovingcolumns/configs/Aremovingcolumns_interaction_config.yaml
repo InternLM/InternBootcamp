@@ -1,0 +1,4 @@
+interaction:
+  - name: "Aremovingcolumns_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.aremovingcolumns.Aremovingcolumns_interaction.AremovingcolumnsInteraction"
+    config: {}

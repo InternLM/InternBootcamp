@@ -1,0 +1,48 @@
+instruction_generators:
+  config_1:
+    config:
+      max_n: 5
+      max_q: 3
+      max_a: 10
+      max_t: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_interaction_config.yaml
+    generation_ratio: 0.33
+  config_2:
+    config:
+      max_n: 15
+      max_q: 7
+      max_a: 30
+      max_t: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_interaction_config.yaml
+    generation_ratio: 0.33
+  config_3:
+    config:
+      max_n: 20
+      max_q: 10
+      max_a: 40
+      max_t: 400
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/ccointroubles/configs/Ccointroubles_interaction_config.yaml
+    generation_ratio: 0.33
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccointroubles.Ccointroubles_instruction_generator.CcointroublesInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Esashaandapatientfriend_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esashaandapatientfriend.Esashaandapatientfriend_interaction.EsashaandapatientfriendInteraction"
+    config: {}

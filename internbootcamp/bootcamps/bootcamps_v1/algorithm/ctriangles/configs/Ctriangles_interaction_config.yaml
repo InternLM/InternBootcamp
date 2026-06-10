@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ctriangles_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctriangles.Ctriangles_interaction.CtrianglesInteraction"
+    config: {}

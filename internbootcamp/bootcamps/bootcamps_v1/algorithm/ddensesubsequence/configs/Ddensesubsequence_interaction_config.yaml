@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ddensesubsequence_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ddensesubsequence.Ddensesubsequence_interaction.DdensesubsequenceInteraction"
+    config: {}

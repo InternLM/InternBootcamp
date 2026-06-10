@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cgameontree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cgameontree.Cgameontree_interaction.CgameontreeInteraction"
+    config: {}

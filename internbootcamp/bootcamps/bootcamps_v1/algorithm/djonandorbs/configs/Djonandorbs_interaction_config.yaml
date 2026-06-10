@@ -1,0 +1,4 @@
+interaction:
+  - name: "Djonandorbs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.djonandorbs.Djonandorbs_interaction.DjonandorbsInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Emorrowindows_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.emorrowindows.Emorrowindows_interaction.EmorrowindowsInteraction"
+    config: {}

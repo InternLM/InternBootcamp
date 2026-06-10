@@ -1,0 +1,4 @@
+interaction:
+  - name: "F1frequencyproblemeasyversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.f1frequencyproblemeasyversion.F1frequencyproblemeasyversion_interaction.F1frequencyproblemeasyversionInteraction"
+    config: {}

@@ -1,0 +1,46 @@
+# BBEH Object Counting Instruction Generator 配置
+
+instruction_generators:
+  low:
+    config:
+      min_items: 8
+      max_items: 16
+      min_count: 3
+      max_count: 120
+      max_other_items: 4
+      max_other_people: 8
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_counting/configs/bbeh_object_counting_interaction_config.yaml"
+    generation_ratio: 1.0
+
+  medium:
+    config:
+      min_items: 16
+      max_items: 32
+      min_count: 5
+      max_count: 140
+      max_other_items: 6
+      max_other_people: 12
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_counting/configs/bbeh_object_counting_interaction_config.yaml"
+    generation_ratio: 1.5
+
+  high:
+    config:
+      min_items: 32
+      max_items: 64
+      min_count: 7
+      max_count: 180
+      max_other_items: 8
+      max_other_people: 18
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_counting/configs/bbeh_object_counting_interaction_config.yaml"
+    generation_ratio: 1.2
+
+global_config:
+  class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_object_counting.instruction_generator.BbehObjectCountingInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 2025
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: false
+

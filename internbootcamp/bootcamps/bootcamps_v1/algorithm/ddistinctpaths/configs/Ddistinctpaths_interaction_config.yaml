@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ddistinctpaths_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ddistinctpaths.Ddistinctpaths_interaction.DdistinctpathsInteraction"
+    config: {}

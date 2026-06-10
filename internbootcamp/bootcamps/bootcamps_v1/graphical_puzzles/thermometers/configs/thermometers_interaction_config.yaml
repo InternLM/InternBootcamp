@@ -1,0 +1,4 @@
+interaction:
+  - name: "thermometers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.thermometers.thermometers_interaction.ThermometersInteraction"
+    config: {}

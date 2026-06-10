@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cplumber_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cplumber.Cplumber_interaction.CplumberInteraction"
+    config: {}

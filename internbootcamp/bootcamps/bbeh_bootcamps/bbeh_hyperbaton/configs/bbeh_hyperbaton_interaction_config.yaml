@@ -1,0 +1,11 @@
+interaction:
+  - name: "bbeh_hyperbaton_interaction"
+    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_hyperbaton.interaction.BbehHyperbatonInteraction"
+    config:
+      score_threshold: 0.95
+      success_feedback: "推理正确，感谢你的细致分析，请总结规律后结束本轮。"
+      retry_feedback: "回答尚未通过验证，请重新审视示例与选项，确保以“最终答案: ”后接字母组合作答。"
+      verify_kwargs:
+        format_penalty: false
+
+

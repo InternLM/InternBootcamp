@@ -1,0 +1,121 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 2
+      m: 6
+      a: 2
+      b: 2
+      c: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_2:
+    config:
+      n: 5
+      m: 5
+      a: 10
+      b: 10
+      c: 10
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_3:
+    config:
+      n: 5
+      m: 5
+      a: 0
+      b: 0
+      c: 5
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_4:
+    config:
+      n: 6
+      m: 6
+      a: 6
+      b: 6
+      c: 6
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_5:
+    config:
+      n: 4
+      m: 4
+      a: 0
+      b: 0
+      c: 4
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_6:
+    config:
+      n: 3
+      m: 4
+      a: 4
+      b: 4
+      c: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_7:
+    config:
+      n: 5
+      m: 3
+      a: 4
+      b: 4
+      c: 4
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_8:
+    config:
+      n: 2
+      m: 4
+      a: 0
+      b: 4
+      c: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_9:
+    config:
+      n: 4
+      m: 4
+      a: 10
+      b: 10
+      c: 10
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+  config_10:
+    config:
+      n: 2
+      m: 2
+      a: 0
+      b: 0
+      c: 1
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/cparquet/configs/Cparquet_interaction_config.yaml
+    generation_ratio: 0.10
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cparquet.Cparquet_instruction_generator.CparquetInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

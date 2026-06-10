@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cchocolatebunny_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cchocolatebunny.Cchocolatebunny_interaction.CchocolatebunnyInteraction"
+    config: {}

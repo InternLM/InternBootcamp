@@ -1,0 +1,4 @@
+interaction:
+  - name: "Erooksandrectangles_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.erooksandrectangles.Erooksandrectangles_interaction.ErooksandrectanglesInteraction"
+    config: {}

@@ -1,0 +1,10 @@
+/data/
+/ckpts/
+/.github/
+/.gemini/
+/docker/
+/outputs/
+/wandb/
+/verl.egg-info/
+/.git/
+__pycache__/

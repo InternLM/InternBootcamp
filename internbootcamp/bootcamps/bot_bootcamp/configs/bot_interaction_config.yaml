@@ -1,0 +1,4 @@
+interaction:
+  - name: "bot_interaction"
+    class_name: "internbootcamp.bootcamps.bot_bootcamp.bot_interaction.BotInteraction"
+    config: {}

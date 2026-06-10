@@ -1,0 +1,4 @@
+interaction:
+  - name: "korPuzzleWordBrainTeasers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.language_analysis.korpuzzlewordbrainteasers.korPuzzleWordBrainTeasers_interaction.KorpuzzlewordbrainteasersInteraction"
+    config: {}

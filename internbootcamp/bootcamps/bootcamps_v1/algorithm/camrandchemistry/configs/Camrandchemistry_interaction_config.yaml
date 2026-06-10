@@ -1,0 +1,4 @@
+interaction:
+  - name: "Camrandchemistry_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.camrandchemistry.Camrandchemistry_interaction.CamrandchemistryInteraction"
+    config: {}

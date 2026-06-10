@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      n: 7
+      m: 4
+      k: 5
+      s: xyzxyz
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      n: 5
+      m: 3
+      k: 3
+      s: abcde
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      n: 6
+      m: 2
+      k: 4
+      s: aabbcc
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      n: 8
+      m: 3
+      k: 2
+      s: abcdefgh
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/faupontrouge/configs/Faupontrouge_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.faupontrouge.Faupontrouge_instruction_generator.FaupontrougeInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

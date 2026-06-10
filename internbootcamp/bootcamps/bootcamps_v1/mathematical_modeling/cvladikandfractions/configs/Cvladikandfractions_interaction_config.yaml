@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cvladikandfractions_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cvladikandfractions.Cvladikandfractions_interaction.CvladikandfractionsInteraction"
+    config: {}

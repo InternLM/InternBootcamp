@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdijkstra_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdijkstra.Cdijkstra_interaction.CdijkstraInteraction"
+    config: {}

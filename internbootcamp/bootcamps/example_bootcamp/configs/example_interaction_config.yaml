@@ -1,0 +1,4 @@
+interaction:
+  - name: "example_interaction"
+    class_name: "internbootcamp.bootcamps.example_bootcamp.example_interaction.ExampleInteraction"
+    config: {}

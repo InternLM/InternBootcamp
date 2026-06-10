@@ -1,0 +1,4 @@
+interaction:
+  - name: "Coptimalpolygonperimeter_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.coptimalpolygonperimeter.Coptimalpolygonperimeter_interaction.CoptimalpolygonperimeterInteraction"
+    config: {}

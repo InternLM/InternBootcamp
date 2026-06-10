@@ -1,0 +1,4 @@
+interaction:
+  - name: "Efragilebridges_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.efragilebridges.Efragilebridges_interaction.EfragilebridgesInteraction"
+    config: {}

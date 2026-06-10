@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfirstdigitlaw_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cfirstdigitlaw.Cfirstdigitlaw_interaction.CfirstdigitlawInteraction"
+    config: {}

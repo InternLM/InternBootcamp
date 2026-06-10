@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cfixingtypos_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cfixingtypos.Cfixingtypos_interaction.CfixingtyposInteraction"
+    config: {}

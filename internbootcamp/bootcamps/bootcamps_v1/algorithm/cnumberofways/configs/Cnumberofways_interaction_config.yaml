@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cnumberofways_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnumberofways.Cnumberofways_interaction.CnumberofwaysInteraction"
+    config: {}

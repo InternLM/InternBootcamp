@@ -1,0 +1,4 @@
+interaction:
+  - name: "Echoosingballs_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.echoosingballs.Echoosingballs_interaction.EchoosingballsInteraction"
+    config: {}

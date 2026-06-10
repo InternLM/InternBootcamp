@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cilyaandthetree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cilyaandthetree.Cilyaandthetree_interaction.CilyaandthetreeInteraction"
+    config: {}

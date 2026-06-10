@@ -1,0 +1,105 @@
+instruction_generators:
+  config_1:
+    config:
+      size: [5, 5]
+      difficulty: easy
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_2:
+    config:
+      size: [5, 5]
+      difficulty: medium
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_3:
+    config:
+      size: [5, 5]
+      difficulty: hard
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_4:
+    config:
+      size: [7, 7]
+      difficulty: easy
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_5:
+    config:
+      size: [7, 7]
+      difficulty: medium
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_6:
+    config:
+      size: [7, 7]
+      difficulty: hard
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_7:
+    config:
+      size: [3, 3]
+      difficulty: easy
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_8:
+    config:
+      size: [3, 3]
+      difficulty: medium
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_9:
+    config:
+      size: [3, 3]
+      difficulty: hard
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_10:
+    config:
+      size: [8, 6]
+      difficulty: easy
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_11:
+    config:
+      size: [8, 6]
+      difficulty: medium
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+  config_12:
+    config:
+      size: [8, 6]
+      difficulty: hard
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/graphical_puzzles/slitherlink/configs/slitherlink_interaction_config.yaml
+    generation_ratio: 0.08
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.slitherlink.slitherlink_instruction_generator.SlitherlinkInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

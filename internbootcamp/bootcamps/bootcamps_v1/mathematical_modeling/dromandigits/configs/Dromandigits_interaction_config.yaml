@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dromandigits_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.dromandigits.Dromandigits_interaction.DromandigitsInteraction"
+    config: {}

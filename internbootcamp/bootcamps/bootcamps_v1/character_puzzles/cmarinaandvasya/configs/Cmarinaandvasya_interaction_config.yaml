@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmarinaandvasya_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cmarinaandvasya.Cmarinaandvasya_interaction.CmarinaandvasyaInteraction"
+    config: {}

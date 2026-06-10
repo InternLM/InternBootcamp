@@ -1,0 +1,35 @@
+instruction_generators:
+  config_1:
+    config:
+      max_terms: 2
+      max_degree: 3
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a0/configs/korOperationUnicode25a0_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a0/configs/korOperationUnicode25a0_interaction_config.yaml
+    generation_ratio: 0.50
+  config_2:
+    config:
+      max_terms: 1
+      max_degree: 2
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a0/configs/korOperationUnicode25a0_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/mathematical_modeling/koroperationunicode25a0/configs/korOperationUnicode25a0_interaction_config.yaml
+    generation_ratio: 0.50
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.koroperationunicode25a0.korOperationUnicode25a0_instruction_generator.Koroperationunicode25a0InstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

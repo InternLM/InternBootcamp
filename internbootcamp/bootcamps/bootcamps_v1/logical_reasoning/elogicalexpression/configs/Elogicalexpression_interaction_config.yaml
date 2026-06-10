@@ -1,0 +1,4 @@
+interaction:
+  - name: "Elogicalexpression_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.elogicalexpression.Elogicalexpression_interaction.ElogicalexpressionInteraction"
+    config: {}

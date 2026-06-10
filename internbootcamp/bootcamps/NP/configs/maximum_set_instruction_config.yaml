@@ -1,0 +1,48 @@
+# Maximum Set Instruction Manager 配置
+# 支持多组配置和不同的生成比例
+
+instruction_generators:
+  easy:
+    config:
+      difficulty: "easy"
+      num_vertices: [12, 20]
+      solution_size: [4, 8]
+      edge_density_O: 0.4
+      edge_density_IO: 0.4
+  medium:
+    config:
+      difficulty: "medium"
+      num_vertices: [20, 30]
+      solution_size: [8, 12]
+      edge_density_O: 0.4
+      edge_density_IO: 0.4
+  hard:
+    config:
+      difficulty: "hard"
+      num_vertices: [30, 40]
+      solution_size: [12, 16]
+      edge_density_O: 0.4
+      edge_density_IO: 0.4
+  bench:
+    config:
+      difficulty: "bench"
+      num_vertices: [40, 50]
+      solution_size: [16, 20]
+      edge_density_O: 0.4
+      edge_density_IO: 0.4
+
+# 全局配置
+global_config:
+# 指令管理器类的完整相对路径
+  class_name: "internbootcamp.bootcamps.NP.maximum_set.instruction_generator.NpMaximumSetInstructionGenerator"
+  
+  # 默认数据集划分和样本数
+  default_split_samples:
+    train: 10
+    test: 10
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: true

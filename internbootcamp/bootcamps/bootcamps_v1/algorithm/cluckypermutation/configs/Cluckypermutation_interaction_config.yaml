@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cluckypermutation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cluckypermutation.Cluckypermutation_interaction.CluckypermutationInteraction"
+    config: {}

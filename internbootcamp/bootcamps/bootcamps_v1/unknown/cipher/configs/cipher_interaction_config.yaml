@@ -1,0 +1,4 @@
+interaction:
+  - name: "cipher_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.unknown.cipher.cipher_interaction.CipherInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Canyaandsmartphone_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.canyaandsmartphone.Canyaandsmartphone_interaction.CanyaandsmartphoneInteraction"
+    config: {}

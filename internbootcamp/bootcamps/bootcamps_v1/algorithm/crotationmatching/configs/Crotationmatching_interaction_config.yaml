@@ -1,0 +1,4 @@
+interaction:
+  - name: "Crotationmatching_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crotationmatching.Crotationmatching_interaction.CrotationmatchingInteraction"
+    config: {}

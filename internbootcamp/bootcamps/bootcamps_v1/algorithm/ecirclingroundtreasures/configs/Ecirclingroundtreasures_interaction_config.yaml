@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ecirclingroundtreasures_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecirclingroundtreasures.Ecirclingroundtreasures_interaction.EcirclingroundtreasuresInteraction"
+    config: {}

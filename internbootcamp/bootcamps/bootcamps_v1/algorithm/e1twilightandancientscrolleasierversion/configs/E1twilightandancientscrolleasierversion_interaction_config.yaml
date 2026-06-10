@@ -1,0 +1,4 @@
+interaction:
+  - name: "E1twilightandancientscrolleasierversion_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.e1twilightandancientscrolleasierversion.E1twilightandancientscrolleasierversion_interaction.E1twilightandancientscrolleasierversionInteraction"
+    config: {}

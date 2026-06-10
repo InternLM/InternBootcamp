@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ddecreasingdebts_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ddecreasingdebts.Ddecreasingdebts_interaction.DdecreasingdebtsInteraction"
+    config: {}

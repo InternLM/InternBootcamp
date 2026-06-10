@@ -1,0 +1,4 @@
+interaction:
+  - name: "Bmultithreading_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bmultithreading.Bmultithreading_interaction.BmultithreadingInteraction"
+    config: {}

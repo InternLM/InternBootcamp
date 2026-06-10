@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccompressstring_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccompressstring.Ccompressstring_interaction.CcompressstringInteraction"
+    config: {}

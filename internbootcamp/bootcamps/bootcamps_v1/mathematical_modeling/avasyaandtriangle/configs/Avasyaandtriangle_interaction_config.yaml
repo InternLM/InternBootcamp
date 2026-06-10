@@ -1,0 +1,4 @@
+interaction:
+  - name: "Avasyaandtriangle_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.avasyaandtriangle.Avasyaandtriangle_interaction.AvasyaandtriangleInteraction"
+    config: {}

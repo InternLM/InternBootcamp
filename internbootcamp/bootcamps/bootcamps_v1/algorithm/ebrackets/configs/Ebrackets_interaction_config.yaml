@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ebrackets_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ebrackets.Ebrackets_interaction.EbracketsInteraction"
+    config: {}

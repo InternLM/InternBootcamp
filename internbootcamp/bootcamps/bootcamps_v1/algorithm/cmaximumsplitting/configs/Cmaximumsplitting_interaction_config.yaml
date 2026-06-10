@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmaximumsplitting_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmaximumsplitting.Cmaximumsplitting_interaction.CmaximumsplittingInteraction"
+    config: {}

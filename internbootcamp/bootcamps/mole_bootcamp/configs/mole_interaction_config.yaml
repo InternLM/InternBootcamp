@@ -1,0 +1,8 @@
+interaction:
+  - name: "mole_interaction"
+    class_name: "internbootcamp.bootcamps.mole_bootcamp.mole_interaction.MoleInteraction"
+    config:
+      max_turns: 15
+      timeout_per_turn: 120
+      enable_tool_call_limit: true
+      max_tool_calls: 20

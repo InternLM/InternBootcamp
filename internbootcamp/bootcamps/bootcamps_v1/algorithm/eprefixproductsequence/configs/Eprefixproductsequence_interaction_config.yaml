@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eprefixproductsequence_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eprefixproductsequence.Eprefixproductsequence_interaction.EprefixproductsequenceInteraction"
+    config: {}

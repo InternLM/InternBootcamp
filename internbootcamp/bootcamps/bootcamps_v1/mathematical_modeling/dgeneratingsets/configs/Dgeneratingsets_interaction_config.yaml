@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dgeneratingsets_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.dgeneratingsets.Dgeneratingsets_interaction.DgeneratingsetsInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dandreyandproblem_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dandreyandproblem.Dandreyandproblem_interaction.DandreyandproblemInteraction"
+    config: {}

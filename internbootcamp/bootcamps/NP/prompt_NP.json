@@ -1,0 +1,14 @@
+[
+    {
+        "type": "cons_NP",
+        "prompt": {
+          "Introduction": "You are a great expert solving {task_type} question. You should propose a solution to this question.",
+          "Task description": "{description}",
+          "Question": "The {task_type} question is: {question}",
+          "Example Input and Output": "Here is the example input and output: Input: {example_input} Output: {example_output}",
+          "Submission Format": "{submission_format}",
+          "Instructions": "Please think it step by step and output the chain of thought. Ensure your response stays within the maximum token limit. Avoid repeating or padding the output.",
+          "Response format": "Ensure that your final answer strictly follows the required Submission Format. Your response should end with: Answer: YOUR ANSWER (do not include angle brackets)."
+        }
+      }
+]

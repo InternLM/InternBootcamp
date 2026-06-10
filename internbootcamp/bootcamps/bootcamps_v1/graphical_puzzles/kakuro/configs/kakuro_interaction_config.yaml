@@ -1,0 +1,4 @@
+interaction:
+  - name: "kakuro_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.kakuro.kakuro_interaction.KakuroInteraction"
+    config: {}

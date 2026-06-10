@@ -1,0 +1,4 @@
+interaction:
+  - name: "slitherlink_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.slitherlink.slitherlink_interaction.SlitherlinkInteraction"
+    config: {}

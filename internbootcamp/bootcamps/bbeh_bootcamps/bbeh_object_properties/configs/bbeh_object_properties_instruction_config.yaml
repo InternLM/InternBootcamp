@@ -1,0 +1,39 @@
+# BBEH Object Properties Instruction Generator 配置
+
+instruction_generators:
+  low:
+    config:
+      min_items: 20
+      max_items: 32
+      min_steps: 3
+      max_steps: 4
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_properties/configs/bbeh_object_properties_interaction_config.yaml"
+    generation_ratio: 1.0
+
+  medium:
+    config:
+      min_items: 24
+      max_items: 38
+      min_steps: 4
+      max_steps: 5
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_properties/configs/bbeh_object_properties_interaction_config.yaml"
+    generation_ratio: 1.5
+
+  high:
+    config:
+      min_items: 28
+      max_items: 45
+      min_steps: 5
+      max_steps: 6
+    interaction_config_path: "internbootcamp/bootcamps/bbeh_bootcamps/bbeh_object_properties/configs/bbeh_object_properties_interaction_config.yaml"
+    generation_ratio: 1.0
+
+global_config:
+  class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_object_properties.instruction_generator.BbehObjectPropertiesInstructionGenerator"
+  enable_random_seed: true
+  default_seed: 2025
+  default_split_samples:
+    train: 1000
+    test: 100
+  shuffle: true
+  gen_parquet: false

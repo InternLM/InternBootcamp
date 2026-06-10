@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cprefixproductsequence_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cprefixproductsequence.Cprefixproductsequence_interaction.CprefixproductsequenceInteraction"
+    config: {}

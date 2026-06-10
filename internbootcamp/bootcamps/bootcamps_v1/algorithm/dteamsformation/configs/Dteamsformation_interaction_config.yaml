@@ -1,0 +1,4 @@
+interaction:
+  - name: "Dteamsformation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dteamsformation.Dteamsformation_interaction.DteamsformationInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cthanosnim_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cthanosnim.Cthanosnim_interaction.CthanosnimInteraction"
+    config: {}

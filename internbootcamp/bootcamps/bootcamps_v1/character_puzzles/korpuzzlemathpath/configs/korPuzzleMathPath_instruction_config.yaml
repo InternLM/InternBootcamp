@@ -1,0 +1,57 @@
+instruction_generators:
+  config_1:
+    config:
+      max_ops: 3
+      allow_division: True
+      min_target: 10
+      max_target: 30
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      max_ops: 2
+      allow_division: True
+      min_target: 0
+      max_target: 20
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      max_ops: 4
+      allow_division: False
+      min_target: -20
+      max_target: 50
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      max_ops: 4
+      allow_division: True
+      min_target: -30
+      max_target: 80
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/character_puzzles/korpuzzlemathpath/configs/korPuzzleMathPath_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzlemathpath.korPuzzleMathPath_instruction_generator.KorpuzzlemathpathInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

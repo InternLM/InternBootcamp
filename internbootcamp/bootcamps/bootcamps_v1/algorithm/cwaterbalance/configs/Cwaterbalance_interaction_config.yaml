@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cwaterbalance_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cwaterbalance.Cwaterbalance_interaction.CwaterbalanceInteraction"
+    config: {}

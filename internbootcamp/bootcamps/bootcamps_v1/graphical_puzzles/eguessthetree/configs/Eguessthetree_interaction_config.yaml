@@ -1,0 +1,4 @@
+interaction:
+  - name: "Eguessthetree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.eguessthetree.Eguessthetree_interaction.EguessthetreeInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmashmokhandreverseoperation_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmashmokhandreverseoperation.Cmashmokhandreverseoperation_interaction.CmashmokhandreverseoperationInteraction"
+    config: {}

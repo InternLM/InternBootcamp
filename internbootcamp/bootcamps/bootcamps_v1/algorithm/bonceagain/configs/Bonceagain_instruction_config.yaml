@@ -1,0 +1,65 @@
+instruction_generators:
+  config_1:
+    config:
+      n_min: 1
+      n_max: 20
+      T_min: 1
+      T_max: 10000000
+      a_min: 1
+      a_max: 100
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      n_min: 1
+      n_max: 50
+      T_min: 1
+      T_max: 10000
+      a_min: 1
+      a_max: 200
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      n_min: 1
+      n_max: 100
+      T_min: 1
+      T_max: 10000000
+      a_min: 1
+      a_max: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      n_min: 50
+      n_max: 100
+      T_min: 1000
+      T_max: 1000000
+      a_min: 100
+      a_max: 300
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/algorithm/bonceagain/configs/Bonceagain_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bonceagain.Bonceagain_instruction_generator.BonceagainInstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

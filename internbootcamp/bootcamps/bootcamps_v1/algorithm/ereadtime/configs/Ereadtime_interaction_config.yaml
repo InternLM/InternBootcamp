@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ereadtime_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ereadtime.Ereadtime_interaction.EreadtimeInteraction"
+    config: {}

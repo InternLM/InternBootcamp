@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cshootinggallery_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cshootinggallery.Cshootinggallery_interaction.CshootinggalleryInteraction"
+    config: {}

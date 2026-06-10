@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cwizardsandnumbers_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cwizardsandnumbers.Cwizardsandnumbers_interaction.CwizardsandnumbersInteraction"
+    config: {}

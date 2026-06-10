@@ -1,0 +1,4 @@
+interaction:
+  - name: "BBEHBuggyTables_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bbehbuggytables.BBEHBuggyTables_interaction.BbehbuggytablesInteraction"
+    config: {}

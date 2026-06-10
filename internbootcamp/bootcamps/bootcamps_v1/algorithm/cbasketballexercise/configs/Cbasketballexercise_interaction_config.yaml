@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cbasketballexercise_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbasketballexercise.Cbasketballexercise_interaction.CbasketballexerciseInteraction"
+    config: {}

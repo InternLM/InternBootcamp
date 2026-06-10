@@ -1,0 +1,61 @@
+instruction_generators:
+  config_1:
+    config:
+      finite_prob: 0.8
+      interval_prob: 0.1
+      special_prob: 0.1
+      max_size: 6
+      element_type: letter
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_2:
+    config:
+      finite_prob: 0.6
+      interval_prob: 0.3
+      special_prob: 0.1
+      max_size: 4
+      element_type: number
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_3:
+    config:
+      finite_prob: 0.9
+      interval_prob: 0.05
+      special_prob: 0.05
+      max_size: 3
+      element_type: number
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_interaction_config.yaml
+    generation_ratio: 0.25
+  config_4:
+    config:
+      finite_prob: 0.7
+      interval_prob: 0.2
+      special_prob: 0.1
+      max_size: 5
+      element_type: mixed
+    tool_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_tool_config.yaml
+    interaction_config_path: internbootcamp/bootcamps/bootcamps_v1/logical_reasoning/koroperationunicodeffe1/configs/korOperationUnicodeffe1_interaction_config.yaml
+    generation_ratio: 0.25
+
+# 全局配置
+global_config:
+  # 指令生成器类的完整路径
+  class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.koroperationunicodeffe1.korOperationUnicodeffe1_instruction_generator.Koroperationunicodeffe1InstructionGenerator"
+  
+  # 随机种子配置
+  enable_random_seed: true
+  default_seed: 999
+  
+  # 数据集划分配置
+  default_split_samples:
+    train: 1000
+    test: 100
+  
+  # 是否启用数据打乱
+  shuffle: true
+
+  # 是否生成parquet文件
+  gen_parquet: false

@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cconstructatree_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cconstructatree.Cconstructatree_interaction.CconstructatreeInteraction"
+    config: {}

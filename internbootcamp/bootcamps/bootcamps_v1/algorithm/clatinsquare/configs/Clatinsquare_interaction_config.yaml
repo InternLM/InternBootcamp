@@ -1,0 +1,4 @@
+interaction:
+  - name: "Clatinsquare_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clatinsquare.Clatinsquare_interaction.ClatinsquareInteraction"
+    config: {}

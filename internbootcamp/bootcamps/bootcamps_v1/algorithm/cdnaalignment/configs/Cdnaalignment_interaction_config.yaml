@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cdnaalignment_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdnaalignment.Cdnaalignment_interaction.CdnaalignmentInteraction"
+    config: {}

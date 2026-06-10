@@ -1,0 +1,4 @@
+interaction:
+  - name: "Btwoheaps_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.btwoheaps.Btwoheaps_interaction.BtwoheapsInteraction"
+    config: {}

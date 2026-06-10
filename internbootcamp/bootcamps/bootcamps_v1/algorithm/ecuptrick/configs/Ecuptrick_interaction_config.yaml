@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ecuptrick_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecuptrick.Ecuptrick_interaction.EcuptrickInteraction"
+    config: {}

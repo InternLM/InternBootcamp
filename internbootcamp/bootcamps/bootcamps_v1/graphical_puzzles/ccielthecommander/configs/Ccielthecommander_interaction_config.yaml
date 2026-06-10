@@ -1,0 +1,4 @@
+interaction:
+  - name: "Ccielthecommander_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ccielthecommander.Ccielthecommander_interaction.CcielthecommanderInteraction"
+    config: {}

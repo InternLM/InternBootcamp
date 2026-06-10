@@ -1,0 +1,4 @@
+interaction:
+  - name: "bbehobjectproperties_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.bbehobjectproperties.bbehobjectproperties_interaction.BbehobjectpropertiesInteraction"
+    config: {}

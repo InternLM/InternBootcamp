@@ -1,0 +1,4 @@
+interaction:
+  - name: "Cmushroomstrife_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cmushroomstrife.Cmushroomstrife_interaction.CmushroomstrifeInteraction"
+    config: {}

@@ -1,0 +1,4 @@
+interaction:
+  - name: "pipes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.pipes.pipes_interaction.PipesInteraction"
+    config: {}

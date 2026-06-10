@@ -1,0 +1,4 @@
+interaction:
+  - name: "BbehGeometricShapes_interaction"
+    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.bbehgeometricshapes.BbehGeometricShapes_interaction.BbehgeometricshapesInteraction"
+    config: {}
