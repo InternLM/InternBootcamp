@@ -1161,3 +1161,19 @@ python internbootcamp/utils/data_postprocess.py \
 本手册提供了创建自定义Bootcamp的完整指导。通过遵循这些步骤和最佳实践，您将能够成功构建一个高质量的专业领域Bootcamp系统。
 
 如有任何问题或建议，请参考项目文档或联系开发团队。
+
+## 🖊️ Citation
+
+If you find this work helpful, please consider to **star🌟** this repo and cite this paper. Thanks for your support!
+
+```bib
+@misc{li2026internbootcamptechnicalreportboosting,
+      title={InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling}, 
+      author={Peiji Li and Jiasheng Ye and Yongkang Chen and Yichuan Ma and Zijie Yu and Kedi Chen and Xiaozhe Li and Ganqu Cui and Haozhan Li and Jiacheng Chen and Chengqi Lyu and Wenwei Zhang and Linyang Li and Qipeng Guo and Dahua Lin and Bowen Zhou and Kai Chen},
+      year={2026},
+      eprint={2508.08636},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.08636}, 
+}
+```
