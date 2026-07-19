@@ -1,5 +1,11 @@
 # InternAgentHarness
 
+🎉 基于 **InternBootcamp v1** 的技术报告已被 [**WAICA 2026**](https://waica2026.worldaic.com.cn/program/program-glance/) 接收！
+
+📄 技术报告：[InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling](https://arxiv.org/abs/2508.08636)
+
+📦 报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
+
 <div align="center">
   <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
 </div>
