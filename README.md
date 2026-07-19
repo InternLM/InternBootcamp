@@ -1,9 +1,70 @@
-# InternBootcampv2 指南
+# InternAgentHarness
 
-## 目录
+<div align="center">
+  <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
+</div>
+
+## 总体概要
+
+**InternAgentHarness** 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
+
+它并不只关注一次性的 benchmark 分数，而是为智能体构建可执行、可交互、可验证的任务环境。模型可以在真实的工具调用、状态反馈、多轮交互和奖励信号中持续学习与改进。
+
+在 InternAgentHarness 中，不同类型的智能体任务会被统一封装为可训练的环境实例。每个任务由四个核心部分组成：
+
+- **任务提示生成**：构造任务目标、初始状态和输入上下文
+- **工具执行**：为智能体提供可调用、可验证的外部工具
+- **交互控制**：管理模型与环境之间的多轮通信流程
+- **奖励计算**：根据任务结果和中间过程提供可训练的反馈信号
+
+通过这套统一接口，科研工具调用、路径规划、金融推理、游戏决策、视觉任务等不同场景都可以在同一流程下完成运行、记录、训练和评测。
+
+## BootCampCLI
+
+InternAgentHarness 同时提供 **BootCampCLI**，用于将任务配置自动转换为可运行的智能体交互流程。
+
+用户可以先在本地调试单个任务，再将相同配置扩展到：
+
+- 批量轨迹采集
+- 监督微调数据过滤
+- 强化学习 rollout
+- 测试集评测
+- 失败样例分析
+
+每次运行都会记录完整的交互轨迹，包括模型回复、工具调用、环境反馈、奖励结果和最终答案。这些记录便于后续复现、训练、调试和环境迭代。
+
+## 适用场景
+
+*InternAgentHarness* 适用于希望进行以下工作的研究者和开发者：
+
+- 构建智能体训练环境
+- 评测模型的工具使用能力
+- 收集多轮交互轨迹并改进任务设计
+
+它将“评测、数据生成、训练、再评测”连接成一个闭环，帮助用户更高效地提升大语言模型在复杂任务中的规划、工具使用、反馈修正和决策能力。
+
+## 任务示例
+
+<div align="center">
+  <img src="./figs/task.png" width="800" alt="Task Examples"/>
+</div>
+
+*InternAgentHarness* 提供了一组覆盖不同能力维度的智能体任务环境，用于评测和训练大语言模型在复杂场景中的规划、工具调用、反馈修正和决策能力。这些任务并不是简单的问答数据，而是可执行、可交互、可验证的智能体环境。模型需要根据任务目标调用相应工具，观察环境反馈，并在多轮交互中持续调整策略。
+例如：
+
+- 在 **Battery Design** 中，智能体需要根据温度、能量和设计目标优化电池参数。
+- 在 **Bot Trajectory Planning** 中，模型需要规划机械臂运动并避免碰撞。
+- 在 **Financial Prediction** 中，模型需要结合财务数据和约束指标完成预测。
+- 在 **Texas Hold'em Game** 中，模型需要基于牌局状态和对手信息进行决策。
+
+通过这些多样化任务，*InternAgentHarness* 能够系统评估模型是否真正具备面向智能体应用的核心能力，包括理解任务约束、正确使用工具、处理中间反馈、完成长程决策以及输出可验证结果。
+
+用户也可以基于相同接口扩展新的任务环境，将自定义场景接入统一的训练、评测和轨迹采集流程。
+
+## 使用指南
 
 - [1. 架构概述](#1-架构概述)
-  - [1.1 InternBootcampv2核心改进](#11-internbootcampv2核心改进)
+  - [1.1 InternAgentHarness核心改进](#11-internAgentHarness核心改进)
   - [1.2 Multi-round Toolcall的实现原理](#12-multi-round-toolcall的实现原理)
     - [1.2.1 与Bootcampv1的差异](#121-与bootcampv1的差异)
     - [1.2.2 复杂Bootcamp的代码逻辑](#122-复杂bootcamp的代码逻辑)
@@ -60,13 +121,13 @@
 - [5. 总结](#5-总结)
 
 
-这里是基于InternBootcampv1开发的InternBootcampv2，主要包含了针对具体专业性Bootcamp场景的multi-round toolcall的agentic RL 流程。
+这里是基于InternBootcampv1开发的InternAgentHarness，主要包含了针对具体专业性Bootcamp场景的multi-round toolcall的agentic RL 流程。
 
 ## 1. 架构概述
 
-### 1.1 InternBootcampv2核心改进
+### 1.1 InternAgentHarness核心改进
 
-InternBootcampv2 深入绑定了verl的multi-round toolcall的流程，通过SGLANG-rollout的state control，实现对专业场景的toolcall调用、reward计算、模型训练及推理
+InternAgentHarness 深入绑定了verl的multi-round toolcall的流程，通过SGLANG-rollout的state control，实现对专业场景的toolcall调用、reward计算、模型训练及推理
 
 ### 1.2 Multi-round Toolcall的实现原理
 
@@ -1100,3 +1161,19 @@ python internbootcamp/utils/data_postprocess.py \
 本手册提供了创建自定义Bootcamp的完整指导。通过遵循这些步骤和最佳实践，您将能够成功构建一个高质量的专业领域Bootcamp系统。
 
 如有任何问题或建议，请参考项目文档或联系开发团队。
+
+## 🖊️ Citation
+
+If you find this work helpful, please consider to **star🌟** this repo and cite this paper. Thanks for your support!
+
+```bib
+@misc{li2026internbootcamptechnicalreportboosting,
+      title={InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling}, 
+      author={Peiji Li and Jiasheng Ye and Yongkang Chen and Yichuan Ma and Zijie Yu and Kedi Chen and Xiaozhe Li and Ganqu Cui and Haozhan Li and Jiacheng Chen and Chengqi Lyu and Wenwei Zhang and Linyang Li and Qipeng Guo and Dahua Lin and Bowen Zhou and Kai Chen},
+      year={2026},
+      eprint={2508.08636},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2508.08636}, 
+}
+```
