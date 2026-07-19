@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cbuildingpermutation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbuildingpermutation.Cbuildingpermutation_interaction.CbuildingpermutationInteraction"
-    config: {}

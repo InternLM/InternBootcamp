@@ -1,4 +1,0 @@
-interaction:
-  - name: "korOperationUnicode2295_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.koroperationunicode2295.korOperationUnicode2295_interaction.Koroperationunicode2295Interaction"
-    config: {}

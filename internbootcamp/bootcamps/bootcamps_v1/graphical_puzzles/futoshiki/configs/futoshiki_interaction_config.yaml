@@ -1,4 +1,0 @@
-interaction:
-  - name: "futoshiki_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.futoshiki.futoshiki_interaction.FutoshikiInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dportals_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dportals.Dportals_interaction.DportalsInteraction"
-    config: {}

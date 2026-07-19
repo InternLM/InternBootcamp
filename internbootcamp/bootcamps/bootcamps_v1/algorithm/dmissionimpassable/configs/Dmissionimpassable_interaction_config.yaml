@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dmissionimpassable_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dmissionimpassable.Dmissionimpassable_interaction.DmissionimpassableInteraction"
-    config: {}

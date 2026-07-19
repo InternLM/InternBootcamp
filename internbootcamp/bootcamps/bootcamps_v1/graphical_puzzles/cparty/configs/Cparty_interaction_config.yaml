@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cparty_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cparty.Cparty_interaction.CpartyInteraction"
-    config: {}

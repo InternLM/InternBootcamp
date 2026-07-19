@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cunorderedsubsequence_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cunorderedsubsequence.Cunorderedsubsequence_interaction.CunorderedsubsequenceInteraction"
-    config: {}

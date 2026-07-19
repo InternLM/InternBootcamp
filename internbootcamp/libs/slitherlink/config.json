@@ -1,0 +1,32 @@
+{
+    "difficulty_levels": {
+        "easy": {
+            "grid_size": 5,
+            "num_clues": 12
+        },
+        "medium": {
+            "grid_size": 7,
+            "num_clues": 18
+        },
+        "hard": {
+            "grid_size": 10,
+            "num_clues": 25
+        }
+    },
+    "ui_settings": {
+        "cell_size": 60,
+        "line_width": 3,
+        "colors": {
+            "background": "#FFFFFF",
+            "grid": "#000000",
+            "clues": "#0000FF",
+            "lines": "#FF0000",
+            "completed": "#00FF00"
+        }
+    },
+    "game_settings": {
+        "default_difficulty": "medium",
+        "show_timer": true,
+        "highlight_errors": true
+    }
+}

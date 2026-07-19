@@ -1,4 +1,0 @@
-"""
-InternBootcamp Backend API
-"""
-

@@ -1,0 +1,32 @@
+[
+    {
+        "intensional_ratio": 0.3,
+        "extensional_ratio": 0.5,
+        "lexical_ratio": 0.2
+    },
+    {
+        "intensional_ratio": 0.45,
+        "extensional_ratio": 0.35,
+        "lexical_ratio": 0.2
+    },
+    {
+        "intensional_ratio": 0.3,
+        "extensional_ratio": 0.4,
+        "lexical_ratio": 0.3
+    },
+    {
+        "intensional_ratio": 0.5,
+        "extensional_ratio": 0.3,
+        "lexical_ratio": 0.2
+    },
+    {
+        "intensional_ratio": 0.25,
+        "extensional_ratio": 0.5,
+        "lexical_ratio": 0.25
+    },
+    {
+        "intensional_ratio": 0.35,
+        "extensional_ratio": 0.35,
+        "lexical_ratio": 0.3
+    }
+]

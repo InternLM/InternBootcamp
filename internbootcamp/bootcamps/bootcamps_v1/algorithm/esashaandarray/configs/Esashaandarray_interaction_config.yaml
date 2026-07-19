@@ -1,4 +1,0 @@
-interaction:
-  - name: "Esashaandarray_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esashaandarray.Esashaandarray_interaction.EsashaandarrayInteraction"
-    config: {}

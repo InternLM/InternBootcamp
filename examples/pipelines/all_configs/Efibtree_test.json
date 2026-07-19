@@ -1,0 +1,22 @@
+[
+    {
+        "yes_prob": 0.7,
+        "case_type": "YES",
+        "max_n": 100000
+    },
+    {
+        "yes_prob": 0.8,
+        "case_type": "NO",
+        "max_n": 200000
+    },
+    {
+        "yes_prob": 0.2,
+        "case_type": "None",
+        "max_n": 150000
+    },
+    {
+        "yes_prob": 0.3,
+        "case_type": "None",
+        "max_n": 200000
+    }
+]

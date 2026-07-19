@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clinkcutcentroids_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clinkcutcentroids.Clinkcutcentroids_interaction.ClinkcutcentroidsInteraction"
-    config: {}

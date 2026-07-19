@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clevkoandstrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clevkoandstrings.Clevkoandstrings_interaction.ClevkoandstringsInteraction"
-    config: {}

@@ -1,0 +1,31 @@
+[
+    {
+        "gate_types": [
+            "NOT",
+            "AND"
+        ],
+        "max_variables": 2
+    },
+    {
+        "gate_types": [
+            "OR",
+            "NOR"
+        ],
+        "max_variables": 4
+    },
+    {
+        "gate_types": [
+            "NOT",
+            "AND",
+            "OR"
+        ],
+        "max_variables": 3
+    },
+    {
+        "gate_types": [
+            "AND",
+            "OR"
+        ],
+        "max_variables": 3
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ehills_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ehills.Ehills_interaction.EhillsInteraction"
-    config: {}

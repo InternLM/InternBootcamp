@@ -1,0 +1,18 @@
+[
+    {
+        "max_variables": 5,
+        "max_clauses": 10
+    },
+    {
+        "max_variables": 8,
+        "max_clauses": 15
+    },
+    {
+        "max_variables": 15,
+        "max_clauses": 30
+    },
+    {
+        "max_variables": 10,
+        "max_clauses": 20
+    }
+]

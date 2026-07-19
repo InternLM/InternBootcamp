@@ -1,0 +1,26 @@
+[
+    {
+        "max_n": 20,
+        "max_q": 10,
+        "max_value": 5000,
+        "type1_ratio": 0.6
+    },
+    {
+        "max_n": 8,
+        "max_q": 4,
+        "max_value": 500,
+        "type1_ratio": 0.2
+    },
+    {
+        "max_n": 15,
+        "max_q": 8,
+        "max_value": 2000,
+        "type1_ratio": 0.4
+    },
+    {
+        "max_n": 5,
+        "max_q": 3,
+        "max_value": 100,
+        "type1_ratio": 0.3
+    }
+]

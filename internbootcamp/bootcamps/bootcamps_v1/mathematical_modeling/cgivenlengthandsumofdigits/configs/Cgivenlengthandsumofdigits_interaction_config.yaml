@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgivenlengthandsumofdigits_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cgivenlengthandsumofdigits.Cgivenlengthandsumofdigits_interaction.CgivenlengthandsumofdigitsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgamewithstrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgamewithstrings.Cgamewithstrings_interaction.CgamewithstringsInteraction"
-    config: {}

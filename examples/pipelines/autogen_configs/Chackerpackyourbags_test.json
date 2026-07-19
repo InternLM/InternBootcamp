@@ -1,0 +1,20 @@
+[
+    {
+        "max_n": 10,
+        "max_x": 20,
+        "max_duration": 20000,
+        "max_cost": 1000000000
+    },
+    {
+        "max_n": 5,
+        "max_x": 5,
+        "max_duration": 100000,
+        "max_cost": 1000000000
+    },
+    {
+        "max_n": 20,
+        "max_x": 10,
+        "max_duration": 100000,
+        "max_cost": 1000000000
+    }
+]

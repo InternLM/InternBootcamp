@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdoegraphs_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdoegraphs.Cdoegraphs_interaction.CdoegraphsInteraction"
-    config: {}

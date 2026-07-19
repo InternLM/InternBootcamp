@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dpowerfulksenia_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dpowerfulksenia.Dpowerfulksenia_interaction.DpowerfulkseniaInteraction"
-    config: {}

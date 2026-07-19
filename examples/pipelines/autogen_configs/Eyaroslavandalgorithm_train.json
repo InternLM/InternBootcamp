@@ -1,0 +1,22 @@
+[
+    {
+        "n": 5,
+        "max_iterations": 250,
+        "max_commands": 60
+    },
+    {
+        "n": 20,
+        "max_iterations": 150,
+        "max_commands": 40
+    },
+    {
+        "n": 2,
+        "max_iterations": 200,
+        "max_commands": 50
+    },
+    {
+        "n": 1,
+        "max_iterations": 100,
+        "max_commands": 30
+    }
+]

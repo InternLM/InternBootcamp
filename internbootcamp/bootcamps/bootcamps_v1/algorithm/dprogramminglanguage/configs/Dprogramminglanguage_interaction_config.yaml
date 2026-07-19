@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dprogramminglanguage_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dprogramminglanguage.Dprogramminglanguage_interaction.DprogramminglanguageInteraction"
-    config: {}

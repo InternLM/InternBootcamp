@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cfoxandnames_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cfoxandnames.Cfoxandnames_interaction.CfoxandnamesInteraction"
-    config: {}

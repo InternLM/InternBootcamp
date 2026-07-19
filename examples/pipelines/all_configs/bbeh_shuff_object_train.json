@@ -1,0 +1,22 @@
+[
+    {
+        "n":3,
+        "context_type": "game of catch"
+    },
+    {
+        "n":5,
+        "context_type" :"soccer match"
+    },
+    {
+        "n":7,
+        "context_type":"gift exchange"
+    },
+    {
+        "n":5,
+        "context_type": "square dance"
+    },
+    {
+        "n": 3,
+        "context_type": "book exchange"
+    }
+]

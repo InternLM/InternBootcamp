@@ -1,0 +1,32 @@
+[
+    {
+        "n": 1,
+        "max_q": 1,
+        "random_seed": 4444
+    },
+    {
+        "n": 10,
+        "max_q": 3,
+        "random_seed": 123
+    },
+    {
+        "n": 20,
+        "max_q": 5,
+        "random_seed": 456
+    },
+    {
+        "n": 500,
+        "max_q": 100,
+        "random_seed": 789
+    },
+    {
+        "n": 1500,
+        "max_q": 200000,
+        "random_seed": 5555
+    },
+    {
+        "n": 1000,
+        "max_q": 200,
+        "random_seed": 1111
+    }
+]

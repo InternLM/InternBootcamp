@@ -1,0 +1,17 @@
+[
+    {
+        "num_numbers": 4,
+        "range_max": 10,
+        "target_max": 30
+    },
+    {
+        "num_numbers": 5,
+        "range_max": 10,
+        "target_max": 35
+    },
+    {
+        "num_numbers": 6,
+        "range_max": 10,
+        "target_max": 40
+    }
+]

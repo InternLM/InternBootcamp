@@ -1,4 +1,0 @@
-interaction:
-  - name: "korLogicEpistemicLogic_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicepistemiclogic.korLogicEpistemicLogic_interaction.KorlogicepistemiclogicInteraction"
-    config: {}

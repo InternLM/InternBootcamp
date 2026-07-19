@@ -1,4 +1,0 @@
-interaction:
-  - name: "korLogicAnalogicalReasoning_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicanalogicalreasoning.korLogicAnalogicalReasoning_interaction.KorlogicanalogicalreasoningInteraction"
-    config: {}

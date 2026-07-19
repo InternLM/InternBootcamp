@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvaleraandtubes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cvaleraandtubes.Cvaleraandtubes_interaction.CvaleraandtubesInteraction"
-    config: {}

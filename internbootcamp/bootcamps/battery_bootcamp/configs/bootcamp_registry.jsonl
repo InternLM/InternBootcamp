@@ -1,1 +1,0 @@
-{"instruction_config_path": "configs/battery_instruction_config.yaml", "data_source": "bootcamp/BatteryDesignBootcamp", "yaml_tool_path": "configs/battery_tool_config.yaml", "yaml_interaction_path": "configs/battery_interaction_config.yaml", "reward_calculator_class": "internbootcamp.bootcamps.battery_bootcamp.battery_reward_calculator.BatteryDesignRewardCalculator"}

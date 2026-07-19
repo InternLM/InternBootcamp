@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cunclebogdanandcountryhappiness_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cunclebogdanandcountryhappiness.Cunclebogdanandcountryhappiness_interaction.CunclebogdanandcountryhappinessInteraction"
-    config: {}

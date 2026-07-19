@@ -1,4 +1,0 @@
-interaction:
-  - name: "Daliceandthedoll_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.daliceandthedoll.Daliceandthedoll_interaction.DaliceandthedollInteraction"
-    config: {}

@@ -1,0 +1,22 @@
+[
+    {
+        "all_ones_prob": 0.5,
+        "min_k": 3,
+        "max_k": 15
+    },
+    {
+        "all_ones_prob": 0.7,
+        "min_k": 2,
+        "max_k": 25
+    },
+    {
+        "all_ones_prob": 0.6,
+        "min_k": 5,
+        "max_k": 20
+    },
+    {
+        "all_ones_prob": 0.3,
+        "min_k": 2,
+        "max_k": 10
+    }
+]

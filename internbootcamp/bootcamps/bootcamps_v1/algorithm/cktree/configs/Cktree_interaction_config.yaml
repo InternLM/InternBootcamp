@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cktree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cktree.Cktree_interaction.CktreeInteraction"
-    config: {}

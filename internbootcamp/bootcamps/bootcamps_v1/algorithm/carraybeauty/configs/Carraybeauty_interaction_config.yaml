@@ -1,4 +1,0 @@
-interaction:
-  - name: "Carraybeauty_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.carraybeauty.Carraybeauty_interaction.CarraybeautyInteraction"
-    config: {}

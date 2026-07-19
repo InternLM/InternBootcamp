@@ -1,4 +1,0 @@
-interaction:
-  - name: "F1shortcolorfulstrip_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.f1shortcolorfulstrip.F1shortcolorfulstrip_interaction.F1shortcolorfulstripInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Crussianroulette_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.crussianroulette.Crussianroulette_interaction.CrussianrouletteInteraction"
-    config: {}

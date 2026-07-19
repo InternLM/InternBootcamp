@@ -1,4 +1,0 @@
-interaction:
-  - name: "medcalculator_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.natural_science.medcalculator.medcalculator_interaction.MedcalculatorInteraction"
-    config: {}

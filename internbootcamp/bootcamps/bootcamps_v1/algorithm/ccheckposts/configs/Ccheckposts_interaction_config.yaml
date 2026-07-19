@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccheckposts_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccheckposts.Ccheckposts_interaction.CcheckpostsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmagicfive_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmagicfive.Cmagicfive_interaction.CmagicfiveInteraction"
-    config: {}

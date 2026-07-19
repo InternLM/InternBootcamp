@@ -1,0 +1,92 @@
+[
+    {
+        "attribute_pools": {
+            "zoology": {
+                "attributes": [
+                    "stripes",
+                    "hooves",
+                    "herbivorous"
+                ],
+                "derived_positive": "live in herds",
+                "derived_negative": "solitary",
+                "objects": [
+                    "zebras",
+                    "lions"
+                ]
+            },
+            "physics": {
+                "attributes": [
+                    "mass",
+                    "velocity",
+                    "acceleration"
+                ],
+                "derived_positive": "force",
+                "derived_negative": "no force",
+                "objects": [
+                    "moving cars",
+                    "stationary objects"
+                ]
+            },
+            "computer_science": {
+                "attributes": [
+                    "RAM",
+                    "CPU",
+                    "storage"
+                ],
+                "derived_positive": "processing power",
+                "derived_negative": "low performance",
+                "objects": [
+                    "desktops",
+                    "smartphones"
+                ]
+            }
+        },
+        "num_questions": 15,
+        "difficulty_level": "hard"
+    },
+    {
+        "attribute_pools": {
+            "geology": {
+                "attributes": [
+                    "igneous",
+                    "metamorphic",
+                    "sedimentary"
+                ],
+                "derived_positive": "rock formation",
+                "derived_negative": "non-rock",
+                "objects": [
+                    "mountains",
+                    "soil"
+                ]
+            },
+            "astronomy": {
+                "attributes": [
+                    "orbit",
+                    "gravity",
+                    "atmosphere"
+                ],
+                "derived_positive": "supports life",
+                "derived_negative": "no life",
+                "objects": [
+                    "Earth",
+                    "Mars"
+                ]
+            },
+            "ecology": {
+                "attributes": [
+                    "food chain",
+                    "habitat",
+                    "predators"
+                ],
+                "derived_positive": "species survival",
+                "derived_negative": "extinction risk",
+                "objects": [
+                    "wolves",
+                    "rabbits"
+                ]
+            }
+        },
+        "num_questions": 5,
+        "difficulty_level": "easy"
+    }
+]

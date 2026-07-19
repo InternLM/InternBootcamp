@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cnewyearanddomino_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnewyearanddomino.Cnewyearanddomino_interaction.CnewyearanddominoInteraction"
-    config: {}

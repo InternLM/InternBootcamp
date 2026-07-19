@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cquantifierquestion_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cquantifierquestion.Cquantifierquestion_interaction.CquantifierquestionInteraction"
-    config: {}

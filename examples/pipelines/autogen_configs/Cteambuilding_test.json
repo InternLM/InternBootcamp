@@ -1,0 +1,22 @@
+[
+    {
+        "max_students": 200,
+        "max_groups": 20,
+        "max_edges": 500
+    },
+    {
+        "max_students": 20,
+        "max_groups": 10,
+        "max_edges": 50
+    },
+    {
+        "max_students": 50,
+        "max_groups": 10,
+        "max_edges": 100
+    },
+    {
+        "max_students": 10,
+        "max_groups": 5,
+        "max_edges": 20
+    }
+]

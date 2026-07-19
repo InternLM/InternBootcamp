@@ -1,0 +1,20 @@
+[
+    {
+        "enable_fill": true,
+        "seed": 42,
+        "difficulty": "easy",
+        "max_cases": 10
+    },
+    {
+        "enable_fill": false,
+        "seed": 888,
+        "difficulty": "easy",
+        "max_cases": 20
+    },
+    {
+        "enable_fill": true,
+        "seed": 777,
+        "difficulty": "hard",
+        "max_cases": 15
+    }
+]

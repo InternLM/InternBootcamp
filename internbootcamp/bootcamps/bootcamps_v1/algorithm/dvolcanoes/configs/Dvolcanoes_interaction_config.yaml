@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dvolcanoes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dvolcanoes.Dvolcanoes_interaction.DvolcanoesInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "nonograms_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.nonograms.nonograms_interaction.NonogramsInteraction"
-    config: {}

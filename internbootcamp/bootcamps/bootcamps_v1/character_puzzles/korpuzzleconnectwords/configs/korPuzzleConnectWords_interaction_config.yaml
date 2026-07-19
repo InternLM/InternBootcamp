@@ -1,4 +1,0 @@
-interaction:
-  - name: "korPuzzleConnectWords_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzleconnectwords.korPuzzleConnectWords_interaction.KorpuzzleconnectwordsInteraction"
-    config: {}

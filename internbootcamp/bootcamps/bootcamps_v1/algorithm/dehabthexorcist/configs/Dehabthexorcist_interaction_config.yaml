@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dehabthexorcist_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dehabthexorcist.Dehabthexorcist_interaction.DehabthexorcistInteraction"
-    config: {}

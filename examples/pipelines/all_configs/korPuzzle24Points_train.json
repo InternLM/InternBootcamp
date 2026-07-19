@@ -1,0 +1,32 @@
+[
+    {
+        "min_num": 1,
+        "max_num": 13,
+        "allow_repeats": true
+    },
+    {
+        "min_num": 4,
+        "max_num": 12,
+        "allow_repeats": false
+    },
+    {
+        "min_num": 5,
+        "max_num": 15,
+        "allow_repeats": true
+    },
+    {
+        "min_num": 2,
+        "max_num": 5,
+        "allow_repeats": false
+    },
+    {
+        "min_num": 1,
+        "max_num": 10,
+        "allow_repeats": false
+    },
+    {
+        "min_num": 5,
+        "max_num": 15,
+        "allow_repeats": false
+    }
+]

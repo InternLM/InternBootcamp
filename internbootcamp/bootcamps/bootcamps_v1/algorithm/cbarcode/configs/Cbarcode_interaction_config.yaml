@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cbarcode_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbarcode.Cbarcode_interaction.CbarcodeInteraction"
-    config: {}

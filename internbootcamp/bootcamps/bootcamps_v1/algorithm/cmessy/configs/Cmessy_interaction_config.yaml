@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmessy_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmessy.Cmessy_interaction.CmessyInteraction"
-    config: {}

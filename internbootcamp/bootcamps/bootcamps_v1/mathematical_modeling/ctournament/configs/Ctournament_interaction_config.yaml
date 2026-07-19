@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctournament_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ctournament.Ctournament_interaction.CtournamentInteraction"
-    config: {}

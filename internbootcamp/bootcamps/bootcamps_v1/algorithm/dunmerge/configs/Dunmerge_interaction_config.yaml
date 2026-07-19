@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dunmerge_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dunmerge.Dunmerge_interaction.DunmergeInteraction"
-    config: {}

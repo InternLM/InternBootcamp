@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cqueueinthetrain_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cqueueinthetrain.Cqueueinthetrain_interaction.CqueueinthetrainInteraction"
-    config: {}

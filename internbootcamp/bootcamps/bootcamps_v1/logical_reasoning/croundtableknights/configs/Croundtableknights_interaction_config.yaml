@@ -1,4 +1,0 @@
-interaction:
-  - name: "Croundtableknights_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.croundtableknights.Croundtableknights_interaction.CroundtableknightsInteraction"
-    config: {}

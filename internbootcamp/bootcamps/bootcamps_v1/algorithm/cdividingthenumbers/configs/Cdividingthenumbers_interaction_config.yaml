@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdividingthenumbers_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdividingthenumbers.Cdividingthenumbers_interaction.CdividingthenumbersInteraction"
-    config: {}

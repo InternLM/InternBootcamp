@@ -1,0 +1,22 @@
+[
+    {
+        "min_groups": 4,
+        "max_groups": 12,
+        "time_max": 800000
+    },
+    {
+        "min_groups": 5,
+        "max_groups": 20,
+        "time_max": 500000
+    },
+    {
+        "min_groups": 2,
+        "max_groups": 10,
+        "time_max": 500000
+    },
+    {
+        "min_groups": 1,
+        "max_groups": 5,
+        "time_max": 1000000
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dvusthecossackandnumbers_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dvusthecossackandnumbers.Dvusthecossackandnumbers_interaction.DvusthecossackandnumbersInteraction"
-    config: {}

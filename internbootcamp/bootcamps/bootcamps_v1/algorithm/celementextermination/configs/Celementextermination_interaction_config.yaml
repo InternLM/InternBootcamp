@@ -1,4 +1,0 @@
-interaction:
-  - name: "Celementextermination_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.celementextermination.Celementextermination_interaction.CelementexterminationInteraction"
-    config: {}

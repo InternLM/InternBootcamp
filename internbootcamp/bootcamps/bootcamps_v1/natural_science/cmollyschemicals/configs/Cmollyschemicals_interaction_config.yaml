@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmollyschemicals_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.natural_science.cmollyschemicals.Cmollyschemicals_interaction.CmollyschemicalsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ecuttingrectangle_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecuttingrectangle.Ecuttingrectangle_interaction.EcuttingrectangleInteraction"
-    config: {}

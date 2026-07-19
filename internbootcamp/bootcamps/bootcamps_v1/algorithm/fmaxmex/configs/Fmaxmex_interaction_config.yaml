@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fmaxmex_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fmaxmex.Fmaxmex_interaction.FmaxmexInteraction"
-    config: {}

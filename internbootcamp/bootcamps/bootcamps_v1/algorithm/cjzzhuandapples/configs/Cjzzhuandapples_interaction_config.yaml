@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cjzzhuandapples_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cjzzhuandapples.Cjzzhuandapples_interaction.CjzzhuandapplesInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cconnect_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cconnect.Cconnect_interaction.CconnectInteraction"
-    config: {}

@@ -1,0 +1,26 @@
+[
+    {
+        "min_length": 20,
+        "max_length": 100,
+        "prob_wm": 0.4,
+        "prob_error": 0.25
+    },
+    {
+        "min_length": 3,
+        "max_length": 30,
+        "prob_wm": 0.2,
+        "prob_error": 0.15
+    },
+    {
+        "min_length": 10,
+        "max_length": 100,
+        "prob_wm": 0.5,
+        "prob_error": 0.2
+    },
+    {
+        "min_length": 5,
+        "max_length": 50,
+        "prob_wm": 0.3,
+        "prob_error": 0.1
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dolyaandmagicalsquare_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dolyaandmagicalsquare.Dolyaandmagicalsquare_interaction.DolyaandmagicalsquareInteraction"
-    config: {}

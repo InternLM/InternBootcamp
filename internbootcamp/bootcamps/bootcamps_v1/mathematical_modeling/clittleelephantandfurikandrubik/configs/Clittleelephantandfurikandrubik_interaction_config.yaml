@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clittleelephantandfurikandrubik_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.clittleelephantandfurikandrubik.Clittleelephantandfurikandrubik_interaction.ClittleelephantandfurikandrubikInteraction"
-    config: {}

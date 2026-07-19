@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bintersectingsubtrees_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bintersectingsubtrees.Bintersectingsubtrees_interaction.BintersectingsubtreesInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ebearandcompany_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ebearandcompany.Ebearandcompany_interaction.EbearandcompanyInteraction"
-    config: {}

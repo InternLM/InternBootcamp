@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpetyaandexam_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpetyaandexam.Cpetyaandexam_interaction.CpetyaandexamInteraction"
-    config: {}

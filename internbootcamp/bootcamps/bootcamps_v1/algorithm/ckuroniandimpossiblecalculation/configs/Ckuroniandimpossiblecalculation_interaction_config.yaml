@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckuroniandimpossiblecalculation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ckuroniandimpossiblecalculation.Ckuroniandimpossiblecalculation_interaction.CkuroniandimpossiblecalculationInteraction"
-    config: {}

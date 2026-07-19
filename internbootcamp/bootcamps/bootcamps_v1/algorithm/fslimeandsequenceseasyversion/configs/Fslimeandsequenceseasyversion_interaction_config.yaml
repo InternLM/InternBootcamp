@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fslimeandsequenceseasyversion_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fslimeandsequenceseasyversion.Fslimeandsequenceseasyversion_interaction.FslimeandsequenceseasyversionInteraction"
-    config: {}

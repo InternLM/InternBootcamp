@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dabilitytoconvert_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dabilitytoconvert.Dabilitytoconvert_interaction.DabilitytoconvertInteraction"
-    config: {}

@@ -1,0 +1,26 @@
+[
+    {
+        "min_n": 6,
+        "max_n": 10,
+        "edge_density": 0.3,
+        "test_mode": true
+    },
+    {
+        "min_n": 5,
+        "max_n": 15,
+        "edge_density": 0.25,
+        "test_mode": false
+    },
+    {
+        "min_n": 4,
+        "max_n": 12,
+        "edge_density": 0.1,
+        "test_mode": false
+    },
+    {
+        "min_n": 6,
+        "max_n": 10,
+        "edge_density": 0.3,
+        "test_mode": false
+    }
+]

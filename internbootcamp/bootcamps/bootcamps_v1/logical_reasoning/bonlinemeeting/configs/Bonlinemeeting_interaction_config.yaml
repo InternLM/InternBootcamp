@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bonlinemeeting_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.bonlinemeeting.Bonlinemeeting_interaction.BonlinemeetingInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cicecreamcoloring_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cicecreamcoloring.Cicecreamcoloring_interaction.CicecreamcoloringInteraction"
-    config: {}

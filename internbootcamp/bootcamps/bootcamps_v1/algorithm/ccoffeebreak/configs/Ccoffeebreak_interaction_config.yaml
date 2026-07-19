@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccoffeebreak_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccoffeebreak.Ccoffeebreak_interaction.CcoffeebreakInteraction"
-    config: {}

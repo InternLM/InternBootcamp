@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cehabanda2operationtask_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cehabanda2operationtask.Cehabanda2operationtask_interaction.Cehabanda2operationtaskInteraction"
-    config: {}

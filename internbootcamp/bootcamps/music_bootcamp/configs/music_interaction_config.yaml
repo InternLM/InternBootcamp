@@ -1,8 +1,0 @@
-interaction:
-  - name: "music_interaction"
-    class_name: "internbootcamp.bootcamps.music_bootcamp.music_interaction.MusicInteraction"
-    config:
-      max_turns: 15
-      timeout_per_turn: 120
-      enable_tool_call_limit: true
-      max_tool_calls: 10

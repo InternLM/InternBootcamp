@@ -1,4 +1,0 @@
-interaction:
-  - name: "Conlinecoursesinbsu_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.conlinecoursesinbsu.Conlinecoursesinbsu_interaction.ConlinecoursesinbsuInteraction"
-    config: {}

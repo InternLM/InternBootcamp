@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chongcowbuysadeckofcards_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.chongcowbuysadeckofcards.Chongcowbuysadeckofcards_interaction.ChongcowbuysadeckofcardsInteraction"
-    config: {}

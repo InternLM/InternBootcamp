@@ -1,4 +1,0 @@
-interaction:
-  - name: "linearODE_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.linearode.linearODE_interaction.LinearodeInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bstring_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.bstring.Bstring_interaction.BstringInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eparty_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eparty.Eparty_interaction.EpartyInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvanyaandexams_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvanyaandexams.Cvanyaandexams_interaction.CvanyaandexamsInteraction"
-    config: {}

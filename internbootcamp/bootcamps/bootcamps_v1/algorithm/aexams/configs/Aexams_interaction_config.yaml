@@ -1,4 +1,0 @@
-interaction:
-  - name: "Aexams_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.aexams.Aexams_interaction.AexamsInteraction"
-    config: {}

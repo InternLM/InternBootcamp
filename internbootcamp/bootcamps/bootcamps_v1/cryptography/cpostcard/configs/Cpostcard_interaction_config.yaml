@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpostcard_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.cpostcard.Cpostcard_interaction.CpostcardInteraction"
-    config: {}

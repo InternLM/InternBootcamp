@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cleagueofleesins_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cleagueofleesins.Cleagueofleesins_interaction.CleagueofleesinsInteraction"
-    config: {}

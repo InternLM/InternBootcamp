@@ -1,4 +1,0 @@
-interaction:
-  - name: "LightUp_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.lightup.LightUp_interaction.LightupInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cswaps_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cswaps.Cswaps_interaction.CswapsInteraction"
-    config: {}

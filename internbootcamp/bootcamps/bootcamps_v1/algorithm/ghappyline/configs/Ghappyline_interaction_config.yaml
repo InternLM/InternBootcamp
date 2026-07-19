@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ghappyline_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ghappyline.Ghappyline_interaction.GhappylineInteraction"
-    config: {}

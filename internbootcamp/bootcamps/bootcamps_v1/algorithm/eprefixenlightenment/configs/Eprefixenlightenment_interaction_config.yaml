@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eprefixenlightenment_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eprefixenlightenment.Eprefixenlightenment_interaction.EprefixenlightenmentInteraction"
-    config: {}

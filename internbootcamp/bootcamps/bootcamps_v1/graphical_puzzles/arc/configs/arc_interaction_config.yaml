@@ -1,4 +1,0 @@
-interaction:
-  - name: "arc_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.arc.arc_interaction.ArcInteraction"
-    config: {}

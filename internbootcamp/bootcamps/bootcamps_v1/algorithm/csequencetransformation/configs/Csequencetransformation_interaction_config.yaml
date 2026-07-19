@@ -1,4 +1,0 @@
-interaction:
-  - name: "Csequencetransformation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csequencetransformation.Csequencetransformation_interaction.CsequencetransformationInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Byaroslavandtwostrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.byaroslavandtwostrings.Byaroslavandtwostrings_interaction.ByaroslavandtwostringsInteraction"
-    config: {}

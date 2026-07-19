@@ -1,4 +1,0 @@
-interaction:
-  - name: "Drecoveringbst_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.drecoveringbst.Drecoveringbst_interaction.DrecoveringbstInteraction"
-    config: {}

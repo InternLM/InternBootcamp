@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dhamiltonianspanningtree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dhamiltonianspanningtree.Dhamiltonianspanningtree_interaction.DhamiltonianspanningtreeInteraction"
-    config: {}

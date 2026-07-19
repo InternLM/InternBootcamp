@@ -1,4 +1,0 @@
-interaction:
-  - name: "Blcm_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.blcm.Blcm_interaction.BlcmInteraction"
-    config: {}

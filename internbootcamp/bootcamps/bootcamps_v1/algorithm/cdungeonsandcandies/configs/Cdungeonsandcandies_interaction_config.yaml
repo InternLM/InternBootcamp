@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdungeonsandcandies_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdungeonsandcandies.Cdungeonsandcandies_interaction.CdungeonsandcandiesInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dmaxmedian_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dmaxmedian.Dmaxmedian_interaction.DmaxmedianInteraction"
-    config: {}

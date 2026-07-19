@@ -1,4 +1,0 @@
-interaction:
-  - name: "Asavethenature_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.asavethenature.Asavethenature_interaction.AsavethenatureInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eacolourfulprospect_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.eacolourfulprospect.Eacolourfulprospect_interaction.EacolourfulprospectInteraction"
-    config: {}

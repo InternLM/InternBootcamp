@@ -1,4 +1,0 @@
-interaction:
-  - name: "SymbolicRegression_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.symbolicregression.SymbolicRegression_interaction.SymbolicregressionInteraction"
-    config: {}

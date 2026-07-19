@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dandorandsquaresum_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dandorandsquaresum.Dandorandsquaresum_interaction.DandorandsquaresumInteraction"
-    config: {}

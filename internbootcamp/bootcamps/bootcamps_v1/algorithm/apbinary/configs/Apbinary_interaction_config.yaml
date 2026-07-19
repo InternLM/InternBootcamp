@@ -1,4 +1,0 @@
-interaction:
-  - name: "Apbinary_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.apbinary.Apbinary_interaction.ApbinaryInteraction"
-    config: {}

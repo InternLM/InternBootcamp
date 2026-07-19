@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckilljoy_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ckilljoy.Ckilljoy_interaction.CkilljoyInteraction"
-    config: {}

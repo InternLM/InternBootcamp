@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cposterized_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cposterized.Cposterized_interaction.CposterizedInteraction"
-    config: {}

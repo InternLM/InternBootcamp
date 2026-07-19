@@ -1,4 +1,0 @@
-interaction:
-  - name: "Caliceboborangesandapples_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.caliceboborangesandapples.Caliceboborangesandapples_interaction.CaliceboborangesandapplesInteraction"
-    config: {}

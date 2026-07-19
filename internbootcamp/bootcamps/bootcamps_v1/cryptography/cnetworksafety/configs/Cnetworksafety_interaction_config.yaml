@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cnetworksafety_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.cnetworksafety.Cnetworksafety_interaction.CnetworksafetyInteraction"
-    config: {}

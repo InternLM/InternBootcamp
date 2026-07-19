@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccointroubles_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccointroubles.Ccointroubles_interaction.CcointroublesInteraction"
-    config: {}

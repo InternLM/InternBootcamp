@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bsashaandonemorename_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bsashaandonemorename.Bsashaandonemorename_interaction.BsashaandonemorenameInteraction"
-    config: {}

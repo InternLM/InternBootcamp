@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cserejaandsubsequences_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cserejaandsubsequences.Cserejaandsubsequences_interaction.CserejaandsubsequencesInteraction"
-    config: {}

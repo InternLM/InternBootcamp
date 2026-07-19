@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dthreereligions_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dthreereligions.Dthreereligions_interaction.DthreereligionsInteraction"
-    config: {}

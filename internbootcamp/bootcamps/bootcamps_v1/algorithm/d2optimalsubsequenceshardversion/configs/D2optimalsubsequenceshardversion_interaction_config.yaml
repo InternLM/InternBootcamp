@@ -1,4 +1,0 @@
-interaction:
-  - name: "D2optimalsubsequenceshardversion_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.d2optimalsubsequenceshardversion.D2optimalsubsequenceshardversion_interaction.D2optimalsubsequenceshardversionInteraction"
-    config: {}

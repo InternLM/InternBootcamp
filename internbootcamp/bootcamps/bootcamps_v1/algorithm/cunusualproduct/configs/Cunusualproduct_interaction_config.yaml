@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cunusualproduct_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cunusualproduct.Cunusualproduct_interaction.CunusualproductInteraction"
-    config: {}

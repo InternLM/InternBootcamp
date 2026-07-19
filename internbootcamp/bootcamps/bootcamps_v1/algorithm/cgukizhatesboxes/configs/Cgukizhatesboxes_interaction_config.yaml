@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgukizhatesboxes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgukizhatesboxes.Cgukizhatesboxes_interaction.CgukizhatesboxesInteraction"
-    config: {}

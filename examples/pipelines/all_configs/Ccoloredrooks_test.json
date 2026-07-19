@@ -1,0 +1,22 @@
+[
+    {
+        "n_min": 5,
+        "n_max": 10,
+        "m_ratio": 0.5
+    },
+    {
+        "n_min": 1,
+        "n_max": 3,
+        "m_ratio": 0
+    },
+    {
+        "n_min": 4,
+        "n_max": 6,
+        "m_ratio": 0.7
+    },
+    {
+        "n_min": 3,
+        "n_max": 5,
+        "m_ratio": 0.5
+    }
+]

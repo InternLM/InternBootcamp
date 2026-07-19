@@ -1,0 +1,26 @@
+[
+    {
+        "min_size": 2,
+        "max_size": 4
+    },
+    {
+        "min_size": 5,
+        "max_size": 7
+    },
+    {
+        "min_size": 3,
+        "max_size": 5
+    },
+    {
+        "min_size": 5,
+        "max_size": 8
+    },
+    {
+        "min_size": 4,
+        "max_size": 5
+    },
+    {
+        "min_size": 4,
+        "max_size": 6
+    }
+]

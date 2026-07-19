@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cbadsequence_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cbadsequence.Cbadsequence_interaction.CbadsequenceInteraction"
-    config: {}

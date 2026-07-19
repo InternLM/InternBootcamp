@@ -1,4 +1,0 @@
-interaction:
-  - name: "Etournament_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.etournament.Etournament_interaction.EtournamentInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "F2longcolorfulstrip_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.f2longcolorfulstrip.F2longcolorfulstrip_interaction.F2longcolorfulstripInteraction"
-    config: {}

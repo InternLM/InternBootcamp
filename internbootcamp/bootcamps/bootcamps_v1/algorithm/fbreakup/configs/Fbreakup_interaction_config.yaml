@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fbreakup_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fbreakup.Fbreakup_interaction.FbreakupInteraction"
-    config: {}

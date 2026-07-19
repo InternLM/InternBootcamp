@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cinterestinggame_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cinterestinggame.Cinterestinggame_interaction.CinterestinggameInteraction"
-    config: {}

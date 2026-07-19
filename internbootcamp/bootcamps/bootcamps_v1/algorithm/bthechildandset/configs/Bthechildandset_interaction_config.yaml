@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bthechildandset_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bthechildandset.Bthechildandset_interaction.BthechildandsetInteraction"
-    config: {}

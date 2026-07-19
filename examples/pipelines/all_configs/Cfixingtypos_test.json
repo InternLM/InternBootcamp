@@ -1,0 +1,18 @@
+[
+    {
+        "min_length": 5,
+        "max_length": 10
+    },
+    {
+        "min_length": 6,
+        "max_length": 200
+    },
+    {
+        "min_length": 1,
+        "max_length": 5
+    },
+    {
+        "min_length": 20,
+        "max_length": 100
+    }
+]

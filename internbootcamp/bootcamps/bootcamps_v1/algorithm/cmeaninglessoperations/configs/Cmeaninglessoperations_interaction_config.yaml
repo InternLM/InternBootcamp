@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmeaninglessoperations_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmeaninglessoperations.Cmeaninglessoperations_interaction.CmeaninglessoperationsInteraction"
-    config: {}

@@ -1,0 +1,26 @@
+[
+    {
+        "max_entries": 15,
+        "min_entries": 1,
+        "max_phones_per_entry": 8,
+        "min_phones_per_entry": 1
+    },
+    {
+        "max_entries": 15,
+        "min_entries": 1,
+        "max_phones_per_entry": 10,
+        "min_phones_per_entry": 1
+    },
+    {
+        "max_entries": 20,
+        "min_entries": 1,
+        "max_phones_per_entry": 7,
+        "min_phones_per_entry": 1
+    },
+    {
+        "max_entries": 10,
+        "min_entries": 1,
+        "max_phones_per_entry": 5,
+        "min_phones_per_entry": 1
+    }
+]

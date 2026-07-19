@@ -1,4 +1,0 @@
-interaction:
-  - name: "Edigittree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.edigittree.Edigittree_interaction.EdigittreeInteraction"
-    config: {}

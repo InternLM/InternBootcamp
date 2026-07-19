@@ -1,4 +1,0 @@
-interaction:
-  - name: "Byetanotherarraypartitioningtask_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.byetanotherarraypartitioningtask.Byetanotherarraypartitioningtask_interaction.ByetanotherarraypartitioningtaskInteraction"
-    config: {}

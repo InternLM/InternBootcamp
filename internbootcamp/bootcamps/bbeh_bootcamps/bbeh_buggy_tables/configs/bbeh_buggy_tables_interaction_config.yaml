@@ -1,9 +1,0 @@
-interaction:
-  - name: "bbeh_buggy_tables_interaction"
-    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_buggy_tables.interaction.BbehBuggyTablesInteraction"
-    config:
-      score_threshold: 0.95
-      success_feedback: "答案正确，感谢你的严谨分析，可以总结关键修复步骤后结束本轮。"
-      retry_feedback: "当前结果未通过验证，请再次核查修复表格与查询计算，并以“最终答案: 数值”给出结论。"
-      verify_kwargs:
-        tolerance: 0.05

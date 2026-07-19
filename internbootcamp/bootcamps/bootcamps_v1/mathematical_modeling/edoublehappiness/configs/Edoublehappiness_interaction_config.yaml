@@ -1,4 +1,0 @@
-interaction:
-  - name: "Edoublehappiness_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.edoublehappiness.Edoublehappiness_interaction.EdoublehappinessInteraction"
-    config: {}

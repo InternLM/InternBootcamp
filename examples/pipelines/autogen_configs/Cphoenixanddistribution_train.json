@@ -1,0 +1,22 @@
+[
+    {
+        "min_length": 1,
+        "max_length": 20,
+        "force_diverse_cases": false
+    },
+    {
+        "min_length": 1,
+        "max_length": 30,
+        "force_diverse_cases": true
+    },
+    {
+        "min_length": 1,
+        "max_length": 20,
+        "force_diverse_cases": true
+    },
+    {
+        "min_length": 5,
+        "max_length": 25,
+        "force_diverse_cases": false
+    }
+]

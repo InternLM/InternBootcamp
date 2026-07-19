@@ -1,0 +1,30 @@
+[
+    {
+        "n_min": 3,
+        "n_max": 2000,
+        "m_min": 1,
+        "max_edges_factor": 0.5,
+        "harmonious_ratio": 0.5
+    },
+    {
+        "n_min": 3,
+        "n_max": 2000,
+        "m_min": 1,
+        "max_edges_factor": 0.3,
+        "harmonious_ratio": 0.3
+    },
+    {
+        "n_min": 3,
+        "n_max": 2000,
+        "m_min": 1,
+        "max_edges_factor": 0.3,
+        "harmonious_ratio": 0.5
+    },
+    {
+        "n_min": 3,
+        "n_max": 500,
+        "m_min": 1,
+        "max_edges_factor": 0.2,
+        "harmonious_ratio": 0.5
+    }
+]

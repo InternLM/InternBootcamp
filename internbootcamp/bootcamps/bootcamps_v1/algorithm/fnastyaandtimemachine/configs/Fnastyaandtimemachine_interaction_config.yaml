@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fnastyaandtimemachine_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fnastyaandtimemachine.Fnastyaandtimemachine_interaction.FnastyaandtimemachineInteraction"
-    config: {}

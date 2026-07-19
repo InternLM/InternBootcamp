@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dkonradandcompanyevaluation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dkonradandcompanyevaluation.Dkonradandcompanyevaluation_interaction.DkonradandcompanyevaluationInteraction"
-    config: {}

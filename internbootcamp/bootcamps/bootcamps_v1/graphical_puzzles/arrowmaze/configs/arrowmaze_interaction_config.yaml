@@ -1,4 +1,0 @@
-interaction:
-  - name: "arrowmaze_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.arrowmaze.arrowmaze_interaction.ArrowmazeInteraction"
-    config: {}

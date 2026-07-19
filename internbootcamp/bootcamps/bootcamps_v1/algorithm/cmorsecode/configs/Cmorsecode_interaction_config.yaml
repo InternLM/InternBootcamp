@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmorsecode_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmorsecode.Cmorsecode_interaction.CmorsecodeInteraction"
-    config: {}

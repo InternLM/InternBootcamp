@@ -1,0 +1,27 @@
+[
+    {
+        "rows": 4,
+        "cols": 4,
+        "num_colors": 2
+    },
+    {
+        "rows": 7,
+        "cols": 7,
+        "num_colors": 4
+    },
+    {
+        "rows": 8,
+        "cols": 8,
+        "num_colors": 4
+    },
+    {
+        "rows": 10,
+        "cols": 10,
+        "num_colors": 5
+    },
+    {
+        "rows": 5,
+        "cols": 5,
+        "num_colors": 3
+    }
+]

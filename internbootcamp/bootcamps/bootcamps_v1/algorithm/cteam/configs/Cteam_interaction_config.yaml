@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cteam_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cteam.Cteam_interaction.CteamInteraction"
-    config: {}

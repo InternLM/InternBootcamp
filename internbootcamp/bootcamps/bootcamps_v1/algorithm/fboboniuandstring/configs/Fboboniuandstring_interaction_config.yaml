@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fboboniuandstring_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.fboboniuandstring.Fboboniuandstring_interaction.FboboniuandstringInteraction"
-    config: {}

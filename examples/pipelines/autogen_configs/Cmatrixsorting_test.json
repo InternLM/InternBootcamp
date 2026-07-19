@@ -1,0 +1,22 @@
+[
+    {
+        "n": 5,
+        "m": 3,
+        "has_solution_prob": 0.7
+    },
+    {
+        "n": 3,
+        "m": 4,
+        "has_solution_prob": 0.8
+    },
+    {
+        "n": 3,
+        "m": 3,
+        "has_solution_prob": 0.5
+    },
+    {
+        "n": 2,
+        "m": 2,
+        "has_solution_prob": 1.0
+    }
+]

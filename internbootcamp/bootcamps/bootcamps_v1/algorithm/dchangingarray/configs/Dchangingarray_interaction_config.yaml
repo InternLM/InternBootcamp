@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dchangingarray_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dchangingarray.Dchangingarray_interaction.DchangingarrayInteraction"
-    config: {}

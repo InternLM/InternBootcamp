@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckingspath_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ckingspath.Ckingspath_interaction.CkingspathInteraction"
-    config: {}

@@ -1,0 +1,38 @@
+[
+    {
+        "difficulty": "easy",
+        "min_items": 3,
+        "max_items": 5,
+        "min_count": 5,
+        "max_count": 50,
+        "max_other_items": 3,
+        "max_other_people": 5
+    },
+    {
+        "difficulty": "medium",
+        "min_items": 6,
+        "max_items": 8,
+        "min_count": 50,
+        "max_count": 200,
+        "max_other_items": 6,
+        "max_other_people": 10
+    },
+    {
+        "difficulty": "hard",
+        "min_items": 9,
+        "max_items": 12,
+        "min_count": 200,
+        "max_count": 500,
+        "max_other_items": 10,
+        "max_other_people": 15
+    },
+    {
+        "difficulty": "expert",
+        "min_items": 12,
+        "max_items": 15,
+        "min_count": 500,
+        "max_count": 1000,
+        "max_other_items": 15,
+        "max_other_people": 20
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "E1chiorianddollpickingeasyversion_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.e1chiorianddollpickingeasyversion.E1chiorianddollpickingeasyversion_interaction.E1chiorianddollpickingeasyversionInteraction"
-    config: {}

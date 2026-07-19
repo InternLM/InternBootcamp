@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgeometricprogression_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgeometricprogression.Cgeometricprogression_interaction.CgeometricprogressionInteraction"
-    config: {}

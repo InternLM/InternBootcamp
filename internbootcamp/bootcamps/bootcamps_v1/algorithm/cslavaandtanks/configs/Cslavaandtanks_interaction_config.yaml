@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cslavaandtanks_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cslavaandtanks.Cslavaandtanks_interaction.CslavaandtanksInteraction"
-    config: {}

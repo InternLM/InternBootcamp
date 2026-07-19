@@ -1,0 +1,37 @@
+[
+    {
+        "max_voters": 30,
+        "max_bribe": 500,
+        "max_candidates": 3
+    },
+    {
+        "max_voters": 40,
+        "max_bribe": 700,
+        "max_candidates": 4
+    },
+    {
+        "max_voters": 25,
+        "max_bribe": 150,
+        "max_candidates": 3
+    },
+    {
+        "max_voters": 35,
+        "max_bribe": 800,
+        "max_candidates": 5
+    },
+    {
+        "max_voters": 30,
+        "max_bribe": 600,
+        "max_candidates": 2
+    },
+    {
+        "max_voters": 10,
+        "max_bribe": 50,
+        "max_candidates": 2
+    },
+    {
+        "max_voters": 45,
+        "max_bribe": 900,
+        "max_candidates": 4
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dlunarnewyearandawander_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dlunarnewyearandawander.Dlunarnewyearandawander_interaction.DlunarnewyearandawanderInteraction"
-    config: {}

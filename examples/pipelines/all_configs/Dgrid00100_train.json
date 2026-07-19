@@ -1,0 +1,28 @@
+[
+    {
+        "fixed_n": 5,
+        "fixed_k": 13
+    },
+    {
+        "n_min": 100,
+        "n_max": 200,
+        "fixed_n": null,
+        "fixed_k": null
+    },
+    {
+        "fixed_n": 3,
+        "fixed_k": 8
+    },
+    {
+        "fixed_n": 1,
+        "fixed_k": 0
+    },
+    {
+        "fixed_n": 4,
+        "fixed_k": 16
+    },
+    {
+        "fixed_n": 2,
+        "fixed_k": 2
+    }
+]

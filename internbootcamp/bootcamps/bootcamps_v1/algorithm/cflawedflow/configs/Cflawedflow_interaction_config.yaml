@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cflawedflow_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cflawedflow.Cflawedflow_interaction.CflawedflowInteraction"
-    config: {}

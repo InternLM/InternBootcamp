@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cphoenixandtowers_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cphoenixandtowers.Cphoenixandtowers_interaction.CphoenixandtowersInteraction"
-    config: {}

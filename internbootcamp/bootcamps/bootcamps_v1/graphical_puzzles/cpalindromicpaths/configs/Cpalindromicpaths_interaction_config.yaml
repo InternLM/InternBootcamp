@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpalindromicpaths_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cpalindromicpaths.Cpalindromicpaths_interaction.CpalindromicpathsInteraction"
-    config: {}

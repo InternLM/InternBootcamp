@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvoting_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cvoting.Cvoting_interaction.CvotingInteraction"
-    config: {}

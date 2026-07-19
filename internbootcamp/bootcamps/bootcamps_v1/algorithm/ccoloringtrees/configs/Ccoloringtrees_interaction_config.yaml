@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccoloringtrees_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccoloringtrees.Ccoloringtrees_interaction.CcoloringtreesInteraction"
-    config: {}

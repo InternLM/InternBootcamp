@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmishaandforest_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cmishaandforest.Cmishaandforest_interaction.CmishaandforestInteraction"
-    config: {}

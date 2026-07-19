@@ -1,4 +1,0 @@
-interaction:
-  - name: "Canniversary_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.canniversary.Canniversary_interaction.CanniversaryInteraction"
-    config: {}

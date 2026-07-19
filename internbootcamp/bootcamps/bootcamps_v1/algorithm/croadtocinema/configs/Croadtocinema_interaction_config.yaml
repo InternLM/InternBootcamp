@@ -1,4 +1,0 @@
-interaction:
-  - name: "Croadtocinema_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.croadtocinema.Croadtocinema_interaction.CroadtocinemaInteraction"
-    config: {}

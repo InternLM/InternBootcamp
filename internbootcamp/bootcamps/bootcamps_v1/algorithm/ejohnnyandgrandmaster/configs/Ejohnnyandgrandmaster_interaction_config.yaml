@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ejohnnyandgrandmaster_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ejohnnyandgrandmaster.Ejohnnyandgrandmaster_interaction.EjohnnyandgrandmasterInteraction"
-    config: {}

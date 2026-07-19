@@ -1,4 +1,0 @@
-interaction:
-  - name: "Carthurandtable_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.carthurandtable.Carthurandtable_interaction.CarthurandtableInteraction"
-    config: {}

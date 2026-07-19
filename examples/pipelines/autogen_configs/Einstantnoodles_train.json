@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 2,
+        "max_left": 4
+    },
+    {
+        "max_n": 10,
+        "max_left": 1
+    },
+    {
+        "max_n": 5,
+        "max_left": 5
+    },
+    {
+        "max_n": 4,
+        "max_left": 2
+    },
+    {
+        "max_n": 1,
+        "max_left": 10
+    }
+]

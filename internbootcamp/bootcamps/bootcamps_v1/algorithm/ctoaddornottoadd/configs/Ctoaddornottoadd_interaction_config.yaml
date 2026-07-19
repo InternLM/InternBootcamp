@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctoaddornottoadd_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctoaddornottoadd.Ctoaddornottoadd_interaction.CtoaddornottoaddInteraction"
-    config: {}

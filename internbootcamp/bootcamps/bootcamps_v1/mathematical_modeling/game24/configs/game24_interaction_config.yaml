@@ -1,4 +1,0 @@
-interaction:
-  - name: "game24_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.game24.game24_interaction.Game24Interaction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clru_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clru.Clru_interaction.ClruInteraction"
-    config: {}

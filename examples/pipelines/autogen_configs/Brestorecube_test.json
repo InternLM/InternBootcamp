@@ -1,0 +1,30 @@
+[
+    {
+        "origin_range": [
+            -2,
+            2
+        ],
+        "max_unsolvable_attempts": 5
+    },
+    {
+        "origin_range": [
+            -3,
+            3
+        ],
+        "max_unsolvable_attempts": 3
+    },
+    {
+        "origin_range": [
+            -10,
+            10
+        ],
+        "max_unsolvable_attempts": 10
+    },
+    {
+        "origin_range": [
+            -10,
+            10
+        ],
+        "max_unsolvable_attempts": 5
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clittleelephantandshifts_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clittleelephantandshifts.Clittleelephantandshifts_interaction.ClittleelephantandshiftsInteraction"
-    config: {}

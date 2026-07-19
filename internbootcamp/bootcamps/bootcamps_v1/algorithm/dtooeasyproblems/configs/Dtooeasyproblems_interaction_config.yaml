@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dtooeasyproblems_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dtooeasyproblems.Dtooeasyproblems_interaction.DtooeasyproblemsInteraction"
-    config: {}

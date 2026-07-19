@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctexteditor_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctexteditor.Ctexteditor_interaction.CtexteditorInteraction"
-    config: {}

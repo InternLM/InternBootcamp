@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctwopermutations_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctwopermutations.Ctwopermutations_interaction.CtwopermutationsInteraction"
-    config: {}

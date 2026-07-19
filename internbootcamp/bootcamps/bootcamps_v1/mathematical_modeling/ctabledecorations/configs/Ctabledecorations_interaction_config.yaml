@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctabledecorations_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ctabledecorations.Ctabledecorations_interaction.CtabledecorationsInteraction"
-    config: {}

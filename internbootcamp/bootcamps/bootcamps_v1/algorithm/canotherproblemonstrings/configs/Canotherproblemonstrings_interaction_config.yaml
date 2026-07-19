@@ -1,4 +1,0 @@
-interaction:
-  - name: "Canotherproblemonstrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.canotherproblemonstrings.Canotherproblemonstrings_interaction.CanotherproblemonstringsInteraction"
-    config: {}

@@ -1,0 +1,22 @@
+[
+    {
+        "max_guests": 5000,
+        "min_lr": 100,
+        "max_lr": 500000
+    },
+    {
+        "max_guests": 1000,
+        "min_lr": 0,
+        "max_lr": 100000
+    },
+    {
+        "max_guests": 2000,
+        "min_lr": 500,
+        "max_lr": 200000
+    },
+    {
+        "max_guests": 4000,
+        "min_lr": 10,
+        "max_lr": 400000
+    }
+]

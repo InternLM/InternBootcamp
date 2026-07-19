@@ -1,4 +1,0 @@
-interaction:
-  - name: "minesweeper_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.minesweeper.minesweeper_interaction.MinesweeperInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpromocodeswithmistakes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.cryptography.cpromocodeswithmistakes.Cpromocodeswithmistakes_interaction.CpromocodeswithmistakesInteraction"
-    config: {}

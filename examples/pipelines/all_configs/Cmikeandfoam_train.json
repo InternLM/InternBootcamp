@@ -1,0 +1,17 @@
+[
+    {
+        "max_beer": 2,
+        "max_queries": 3,
+        "max_foam": 10
+    },
+    {
+        "max_beer": 10,
+        "max_queries": 15,
+        "max_foam": 50
+    },
+    {
+        "max_beer": 20,
+        "max_queries": 20,
+        "max_foam": 200
+    }
+]

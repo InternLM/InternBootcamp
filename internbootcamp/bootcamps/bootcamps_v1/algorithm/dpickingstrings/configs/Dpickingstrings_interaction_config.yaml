@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dpickingstrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dpickingstrings.Dpickingstrings_interaction.DpickingstringsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmikeandgcdproblem_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmikeandgcdproblem.Cmikeandgcdproblem_interaction.CmikeandgcdproblemInteraction"
-    config: {}

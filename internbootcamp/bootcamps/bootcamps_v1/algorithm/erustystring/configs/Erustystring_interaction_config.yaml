@@ -1,4 +1,0 @@
-interaction:
-  - name: "Erustystring_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.erustystring.Erustystring_interaction.ErustystringInteraction"
-    config: {}

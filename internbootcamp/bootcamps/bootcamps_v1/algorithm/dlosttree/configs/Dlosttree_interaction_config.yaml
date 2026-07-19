@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dlosttree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dlosttree.Dlosttree_interaction.DlosttreeInteraction"
-    config: {}

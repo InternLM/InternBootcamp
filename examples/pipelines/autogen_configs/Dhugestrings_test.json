@@ -1,0 +1,22 @@
+[
+    {
+        "n_max": 2,
+        "m_max": 1,
+        "max_total_length": 30
+    },
+    {
+        "n_max": 3,
+        "m_max": 2,
+        "max_total_length": 50
+    },
+    {
+        "n_max": 6,
+        "m_max": 5,
+        "max_total_length": 90
+    },
+    {
+        "n_max": 4,
+        "m_max": 4,
+        "max_total_length": 80
+    }
+]

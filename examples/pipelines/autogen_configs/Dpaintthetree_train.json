@@ -1,0 +1,44 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "chain_prob": 0.5,
+        "cost_min": 1,
+        "cost_max": 10
+    },
+    {
+        "min_n": 3,
+        "max_n": 20,
+        "chain_prob": 0.4,
+        "cost_min": 1,
+        "cost_max": 10
+    },
+    {
+        "min_n": 3,
+        "max_n": 15,
+        "chain_prob": 0.5,
+        "cost_min": 1,
+        "cost_max": 20
+    },
+    {
+        "min_n": 3,
+        "max_n": 5,
+        "chain_prob": 0.5,
+        "cost_min": 1,
+        "cost_max": 10
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "chain_prob": 0.8,
+        "cost_min": 1,
+        "cost_max": 10
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "chain_prob": 0.7,
+        "cost_min": 1,
+        "cost_max": 20
+    }
+]

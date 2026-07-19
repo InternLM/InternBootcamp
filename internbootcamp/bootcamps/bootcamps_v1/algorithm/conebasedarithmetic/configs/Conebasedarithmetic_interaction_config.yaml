@@ -1,4 +1,0 @@
-interaction:
-  - name: "Conebasedarithmetic_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.conebasedarithmetic.Conebasedarithmetic_interaction.ConebasedarithmeticInteraction"
-    config: {}

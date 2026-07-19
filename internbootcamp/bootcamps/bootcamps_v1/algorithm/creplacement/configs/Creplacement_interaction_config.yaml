@@ -1,4 +1,0 @@
-interaction:
-  - name: "Creplacement_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.creplacement.Creplacement_interaction.CreplacementInteraction"
-    config: {}

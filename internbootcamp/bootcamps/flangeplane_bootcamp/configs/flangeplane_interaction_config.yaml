@@ -1,4 +1,0 @@
-interaction:
-  - name: "flangeplane_interaction"
-    class_name: "internbootcamp.bootcamps.flangeplane_bootcamp.flangeplane_interaction.FlangeplaneInteraction"
-    config: {}

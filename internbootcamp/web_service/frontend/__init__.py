@@ -1,4 +1,0 @@
-"""
-InternBootcamp Frontend - Streamlit Application
-"""
-

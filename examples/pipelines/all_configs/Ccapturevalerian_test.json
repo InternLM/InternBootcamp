@@ -1,0 +1,30 @@
+[
+    {
+        "roman_prob": 0.4,
+        "min_a": 2,
+        "max_a": 10,
+        "min_b": 2,
+        "max_b": 15
+    },
+    {
+        "roman_prob": 0.7,
+        "min_a": 2,
+        "max_a": 25,
+        "min_b": 2,
+        "max_b": 15
+    },
+    {
+        "roman_prob": 0.6,
+        "min_a": 5,
+        "max_a": 20,
+        "min_b": 5,
+        "max_b": 25
+    },
+    {
+        "roman_prob": 0.3,
+        "min_a": 2,
+        "max_a": 20,
+        "min_b": 2,
+        "max_b": 20
+    }
+]

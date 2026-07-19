@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 6,
+        "max_n": 70,
+        "has_solution": null
+    },
+    {
+        "min_n": 4,
+        "max_n": 105,
+        "has_solution": false
+    },
+    {
+        "min_n": 3,
+        "max_n": 100,
+        "has_solution": null
+    },
+    {
+        "min_n": 5,
+        "max_n": 50,
+        "has_solution": true
+    }
+]

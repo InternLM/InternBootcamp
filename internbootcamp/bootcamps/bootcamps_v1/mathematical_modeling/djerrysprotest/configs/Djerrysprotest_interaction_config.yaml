@@ -1,4 +1,0 @@
-interaction:
-  - name: "Djerrysprotest_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.djerrysprotest.Djerrysprotest_interaction.DjerrysprotestInteraction"
-    config: {}

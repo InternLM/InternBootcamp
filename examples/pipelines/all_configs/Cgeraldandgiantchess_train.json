@@ -1,0 +1,30 @@
+[
+    {
+        "h_min": 1,
+        "h_max": 10,
+        "w_min": 1,
+        "w_max": 10,
+        "max_black": 5
+    },
+    {
+        "h_min": 3,
+        "h_max": 15,
+        "w_min": 3,
+        "w_max": 15,
+        "max_black": 8
+    },
+    {
+        "h_min": 1,
+        "h_max": 20,
+        "w_min": 1,
+        "w_max": 20,
+        "max_black": 10
+    },
+    {
+        "h_min": 5,
+        "h_max": 15,
+        "w_min": 5,
+        "w_max": 15,
+        "max_black": 7
+    }
+]

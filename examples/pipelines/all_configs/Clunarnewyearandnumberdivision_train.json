@@ -1,0 +1,32 @@
+[
+    {
+        "min_n": 4,
+        "max_n": 6,
+        "max_num": 5000
+    },
+    {
+        "min_n": 2,
+        "max_n": 8,
+        "max_num": 10000
+    },
+    {
+        "min_n": 2,
+        "max_n": 4,
+        "max_num": 1000
+    },
+    {
+        "min_n": 2,
+        "max_n": 8,
+        "max_num": 5000
+    },
+    {
+        "min_n": 8,
+        "max_n": 8,
+        "max_num": 10000
+    },
+    {
+        "min_n": 2,
+        "max_n": 10,
+        "max_num": 5000
+    }
+]

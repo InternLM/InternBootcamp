@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 1,
+        "n_max": 5,
+        "string_length_min": 1,
+        "string_length_max": 10
+    },
+    {
+        "n_min": 1,
+        "n_max": 3,
+        "string_length_min": 2,
+        "string_length_max": 5
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "string_length_min": 5,
+        "string_length_max": 15
+    },
+    {
+        "n_min": 2,
+        "n_max": 5,
+        "string_length_min": 3,
+        "string_length_max": 8
+    }
+]

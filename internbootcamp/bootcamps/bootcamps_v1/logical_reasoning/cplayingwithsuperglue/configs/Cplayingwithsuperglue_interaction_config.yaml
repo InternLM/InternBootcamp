@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cplayingwithsuperglue_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cplayingwithsuperglue.Cplayingwithsuperglue_interaction.CplayingwithsuperglueInteraction"
-    config: {}

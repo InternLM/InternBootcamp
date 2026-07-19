@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cwoodcutters_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cwoodcutters.Cwoodcutters_interaction.CwoodcuttersInteraction"
-    config: {}

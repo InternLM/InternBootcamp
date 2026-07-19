@@ -1,0 +1,22 @@
+[
+    {
+        "max_row_types": 5,
+        "max_col_types": 2,
+        "invalid_case_ratio": 0.4
+    },
+    {
+        "max_row_types": 5,
+        "max_col_types": 5,
+        "invalid_case_ratio": 0.3
+    },
+    {
+        "max_row_types": 4,
+        "max_col_types": 4,
+        "invalid_case_ratio": 0.5
+    },
+    {
+        "max_row_types": 3,
+        "max_col_types": 3,
+        "invalid_case_ratio": 0.3
+    }
+]

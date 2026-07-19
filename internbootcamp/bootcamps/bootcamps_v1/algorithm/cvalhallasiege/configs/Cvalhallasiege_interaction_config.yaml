@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvalhallasiege_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvalhallasiege.Cvalhallasiege_interaction.CvalhallasiegeInteraction"
-    config: {}

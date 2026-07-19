@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cremoveextraone_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cremoveextraone.Cremoveextraone_interaction.CremoveextraoneInteraction"
-    config: {}

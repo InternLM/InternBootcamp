@@ -1,0 +1,26 @@
+[
+    {
+        "grid_rows": 5,
+        "grid_cols": 5
+    },
+    {
+        "grid_rows": 6,
+        "grid_cols": 4
+    },
+    {
+        "grid_rows": 3,
+        "grid_cols": 5
+    },
+    {
+        "grid_rows": 4,
+        "grid_cols": 6
+    },
+    {
+        "grid_rows": 7,
+        "grid_cols": 7
+    },
+    {
+        "grid_rows": 5,
+        "grid_cols": 3
+    }
+]

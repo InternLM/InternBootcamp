@@ -1,0 +1,82 @@
+[
+    {
+        "num_words": 5,
+        "nouns": [
+            "sun",
+            "flower",
+            "pine",
+            "apple",
+            "butter",
+            "fly",
+            "news",
+            "paper",
+            "cat",
+            "fish",
+            "history",
+            "building",
+            "ball",
+            "room",
+            "fire",
+            "place",
+            "water",
+            "fall",
+            "door",
+            "knob",
+            "light",
+            "house",
+            "tooth",
+            "paste",
+            "book",
+            "case",
+            "cup",
+            "board",
+            "air",
+            "port",
+            "rail",
+            "road",
+            "sea",
+            "shell",
+            "snow",
+            "ball"
+        ]
+    },
+    {
+        "num_words": 4,
+        "nouns": [
+            "tree",
+            "leaf",
+            "bud",
+            "branch",
+            "bark",
+            "root",
+            "seeds",
+            "fruit",
+            "bloom",
+            "sapling",
+            "forest",
+            "grove",
+            "orchard",
+            "jungle"
+        ]
+    },
+    {
+        "num_words": 5,
+        "nouns": [
+            "rain",
+            "storm",
+            "wind",
+            "cloud",
+            "lightning",
+            "thunder",
+            "fog",
+            "hail",
+            "sleet",
+            "snow",
+            "sunshine",
+            "dawn",
+            "dusk",
+            "twilight",
+            "moonlight"
+        ]
+    }
+]

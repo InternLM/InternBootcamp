@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdoublehappiness_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cdoublehappiness.Cdoublehappiness_interaction.CdoublehappinessInteraction"
-    config: {}

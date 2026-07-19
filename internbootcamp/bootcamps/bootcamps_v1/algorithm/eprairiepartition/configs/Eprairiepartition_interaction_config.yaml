@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eprairiepartition_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eprairiepartition.Eprairiepartition_interaction.EprairiepartitionInteraction"
-    config: {}

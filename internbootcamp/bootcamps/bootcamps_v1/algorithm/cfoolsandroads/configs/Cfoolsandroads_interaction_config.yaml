@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cfoolsandroads_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cfoolsandroads.Cfoolsandroads_interaction.CfoolsandroadsInteraction"
-    config: {}

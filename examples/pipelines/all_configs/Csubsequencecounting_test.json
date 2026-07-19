@@ -1,0 +1,38 @@
+[
+    {
+        "min_X": 1,
+        "max_X": 100000,
+        "min_d": 1,
+        "max_d": 10000,
+        "max_array_length": 5000,
+        "max_element_value": 10000000,
+        "allow_no_solution": true
+    },
+    {
+        "min_X": 1,
+        "max_X": 10000,
+        "min_d": 1,
+        "max_d": 1000,
+        "max_array_length": 1000,
+        "max_element_value": 1000000,
+        "allow_no_solution": false
+    },
+    {
+        "min_X": 1,
+        "max_X": 1000000,
+        "min_d": 1,
+        "max_d": 1000000,
+        "max_array_length": 10000,
+        "max_element_value": 1000000000,
+        "allow_no_solution": true
+    },
+    {
+        "min_X": 1,
+        "max_X": 1000,
+        "min_d": 1,
+        "max_d": 100,
+        "max_array_length": 10000,
+        "max_element_value": 1000000,
+        "allow_no_solution": true
+    }
+]

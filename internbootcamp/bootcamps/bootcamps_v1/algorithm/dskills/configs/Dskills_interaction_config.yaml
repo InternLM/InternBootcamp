@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dskills_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dskills.Dskills_interaction.DskillsInteraction"
-    config: {}

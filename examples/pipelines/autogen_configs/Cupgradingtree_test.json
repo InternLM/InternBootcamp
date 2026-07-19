@@ -1,0 +1,18 @@
+[
+    {
+        "max_n": 50,
+        "default_n": 50
+    },
+    {
+        "max_n": 30,
+        "default_n": 15
+    },
+    {
+        "max_n": 100,
+        "default_n": 50
+    },
+    {
+        "max_n": 20,
+        "default_n": 1
+    }
+]

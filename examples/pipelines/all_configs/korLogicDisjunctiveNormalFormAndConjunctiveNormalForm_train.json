@@ -1,0 +1,26 @@
+[
+    {
+        "max_variables": 3,
+        "seed": 42,
+        "problem_type": "classify",
+        "difficulty_level": "easy"
+    },
+    {
+        "max_variables": 2,
+        "seed": 202,
+        "problem_type": "classify",
+        "difficulty_level": "easy"
+    },
+    {
+        "max_variables": 3,
+        "seed": 101,
+        "problem_type": "denote",
+        "difficulty_level": "medium"
+    },
+    {
+        "max_variables": 4,
+        "seed": 789,
+        "problem_type": "classify",
+        "difficulty_level": "hard"
+    }
+]

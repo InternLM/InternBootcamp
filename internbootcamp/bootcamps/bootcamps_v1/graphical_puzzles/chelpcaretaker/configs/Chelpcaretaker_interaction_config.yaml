@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chelpcaretaker_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.chelpcaretaker.Chelpcaretaker_interaction.ChelpcaretakerInteraction"
-    config: {}

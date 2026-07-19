@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bminimumdiametertree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.bminimumdiametertree.Bminimumdiametertree_interaction.BminimumdiametertreeInteraction"
-    config: {}

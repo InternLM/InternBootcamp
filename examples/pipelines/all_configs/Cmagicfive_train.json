@@ -1,0 +1,30 @@
+[
+    {
+        "a_min_length": 4,
+        "a_max_length": 20,
+        "k_min": 10,
+        "k_max": 1000,
+        "prob_05": 0.3
+    },
+    {
+        "a_min_length": 2,
+        "a_max_length": 10,
+        "k_min": 5,
+        "k_max": 500,
+        "prob_05": 0.4
+    },
+    {
+        "a_min_length": 2,
+        "a_max_length": 15,
+        "k_min": 5,
+        "k_max": 1000,
+        "prob_05": 0.4
+    },
+    {
+        "a_min_length": 1,
+        "a_max_length": 5,
+        "k_min": 1,
+        "k_max": 100,
+        "prob_05": 0.3
+    }
+]

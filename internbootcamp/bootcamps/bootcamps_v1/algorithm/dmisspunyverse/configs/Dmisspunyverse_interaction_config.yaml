@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dmisspunyverse_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dmisspunyverse.Dmisspunyverse_interaction.DmisspunyverseInteraction"
-    config: {}

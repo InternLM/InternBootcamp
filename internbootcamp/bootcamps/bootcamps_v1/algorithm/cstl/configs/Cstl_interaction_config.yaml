@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cstl_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cstl.Cstl_interaction.CstlInteraction"
-    config: {}

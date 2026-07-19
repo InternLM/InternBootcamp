@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cnamequest_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnamequest.Cnamequest_interaction.CnamequestInteraction"
-    config: {}

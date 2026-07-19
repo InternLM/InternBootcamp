@@ -1,0 +1,14 @@
+[
+    {
+        "max_blocks": 16
+    },
+    {
+        "max_blocks": 8
+    },
+    {
+        "max_blocks": 12
+    },
+    {
+        "max_blocks": 32
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Frectanglepainting1_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.frectanglepainting1.Frectanglepainting1_interaction.Frectanglepainting1Interaction"
-    config: {}

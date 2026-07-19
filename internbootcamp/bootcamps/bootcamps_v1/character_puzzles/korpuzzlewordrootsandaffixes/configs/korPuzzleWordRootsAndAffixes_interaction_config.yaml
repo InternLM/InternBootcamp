@@ -1,4 +1,0 @@
-interaction:
-  - name: "korPuzzleWordRootsAndAffixes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzlewordrootsandaffixes.korPuzzleWordRootsAndAffixes_interaction.KorpuzzlewordrootsandaffixesInteraction"
-    config: {}

@@ -1,0 +1,26 @@
+[
+    {
+        "n_min": 4,
+        "n_max": 12,
+        "yes_ratio": 0.7,
+        "max_attempts": 75
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "yes_ratio": 0.5,
+        "max_attempts": 200
+    },
+    {
+        "n_min": 2,
+        "n_max": 20,
+        "yes_ratio": 0.3,
+        "max_attempts": 50
+    },
+    {
+        "n_min": 2,
+        "n_max": 10,
+        "yes_ratio": 0.6,
+        "max_attempts": 100
+    }
+]

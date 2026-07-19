@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctrees_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ctrees.Ctrees_interaction.CtreesInteraction"
-    config: {}

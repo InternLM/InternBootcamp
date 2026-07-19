@@ -1,5 +1,0 @@
-interaction:
-  - name: "escape_interaction"
-    class_name: "internbootcamp.bootcamps.escape_bootcamp.escape_interaction.EscapeInteraction"
-    config: {}
-    

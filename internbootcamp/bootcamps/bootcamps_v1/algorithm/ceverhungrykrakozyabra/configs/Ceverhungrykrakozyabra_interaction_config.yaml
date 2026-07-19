@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ceverhungrykrakozyabra_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ceverhungrykrakozyabra.Ceverhungrykrakozyabra_interaction.CeverhungrykrakozyabraInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccapturevalerian_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccapturevalerian.Ccapturevalerian_interaction.CcapturevalerianInteraction"
-    config: {}

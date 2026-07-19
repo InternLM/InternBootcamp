@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpalindrometransformation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpalindrometransformation.Cpalindrometransformation_interaction.CpalindrometransformationInteraction"
-    config: {}

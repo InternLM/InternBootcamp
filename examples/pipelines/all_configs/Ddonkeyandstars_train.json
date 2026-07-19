@@ -1,0 +1,17 @@
+[
+    {
+        "max_stars": 12,
+        "min_param": 1,
+        "max_param": 4
+    },
+    {
+        "max_stars": 20,
+        "min_param": 2,
+        "max_param": 10
+    },
+    {
+        "max_stars": 15,
+        "min_param": 1,
+        "max_param": 5
+    }
+]

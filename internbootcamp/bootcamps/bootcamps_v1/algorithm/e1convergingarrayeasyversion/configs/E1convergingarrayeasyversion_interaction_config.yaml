@@ -1,4 +1,0 @@
-interaction:
-  - name: "E1convergingarrayeasyversion_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.e1convergingarrayeasyversion.E1convergingarrayeasyversion_interaction.E1convergingarrayeasyversionInteraction"
-    config: {}

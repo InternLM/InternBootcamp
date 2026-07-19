@@ -1,8 +1,0 @@
-interaction:
-  - name: "bbeh_boardgame_qa_interaction"
-    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_boardgame_qa.interaction.BbehBoardgameQAInteraction"
-    config:
-      score_threshold: 0.9
-      success_feedback: "很好，你的回答已经满足要求，可以结束此次对局。"
-      retry_feedback: "当前回答得分不足0.9，请重新审查事实与规则，再次给出最终判断，并务必用[answer][/answer]包裹答案。"
-

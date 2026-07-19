@@ -1,7 +1,0 @@
-interaction:
-  - name: "bbeh_object_properties_interaction"
-    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_object_properties.interaction.BbehObjectPropertiesInteraction"
-    config:
-      score_threshold: 0.95
-      success_feedback: "属性核对正确，感谢你的严谨推理，可以简要总结后结束本轮。"
-      retry_feedback: "当前回答未通过验证，请重新统计满足条件的物品数量，答案需使用[answer]X[/answer]格式并填入整数或 unknown。"

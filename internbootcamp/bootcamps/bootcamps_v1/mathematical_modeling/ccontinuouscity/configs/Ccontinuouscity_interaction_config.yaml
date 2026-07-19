@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccontinuouscity_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ccontinuouscity.Ccontinuouscity_interaction.CcontinuouscityInteraction"
-    config: {}

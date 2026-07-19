@@ -1,0 +1,10 @@
+[
+    {
+        "max_terms": 2,
+        "max_degree": 3
+    },
+    {
+        "max_terms": 1,
+        "max_degree": 2
+    }
+]

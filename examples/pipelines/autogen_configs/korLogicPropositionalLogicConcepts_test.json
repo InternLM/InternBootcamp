@@ -1,0 +1,74 @@
+[
+    {
+        "s_list": [
+            "metals",
+            "products",
+            "students",
+            "mammals",
+            "pencils",
+            "stars",
+            "individual businesses"
+        ],
+        "p_list": [
+            "conductive",
+            "qualified",
+            "like mathematics",
+            "warm-blooded animals",
+            "pens",
+            "planets",
+            "paid taxes"
+        ],
+        "problem_types": [
+            "components",
+            "proposition_type",
+            "relationship_exists",
+            "relationship_type",
+            "truth_value"
+        ]
+    },
+    {
+        "s_list": [
+            "students",
+            "animals",
+            "fruits",
+            "countries",
+            "books",
+            "cities"
+        ],
+        "p_list": [
+            "happy",
+            "furry",
+            "sweet",
+            "large",
+            "interesting",
+            "populated"
+        ],
+        "problem_types": [
+            "components",
+            "proposition_type",
+            "relationship_exists",
+            "truth_value"
+        ]
+    },
+    {
+        "s_list": [
+            "plants",
+            "rocks",
+            "mountains",
+            "oceans",
+            "stars"
+        ],
+        "p_list": [
+            "green",
+            "hard",
+            "tall",
+            "deep",
+            "bright"
+        ],
+        "problem_types": [
+            "proposition_type",
+            "relationship_exists",
+            "truth_value"
+        ]
+    }
+]

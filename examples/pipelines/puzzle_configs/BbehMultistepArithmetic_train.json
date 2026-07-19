@@ -1,0 +1,32 @@
+[
+    {
+        "num_operators":3,
+        "max_depth":3,
+        "reuse_prob": 0.3
+    },
+    {
+        "num_operators":4,
+        "max_depth":4,
+        "reuse_prob": 0.3
+    },
+    {   
+        "num_operators":4,
+        "max_depth":5,
+        "reuse_prob": 0.3
+    },
+    {   
+        "num_operators":5,
+        "max_depth":6,
+        "reuse_prob": 0.3
+    },
+    {   
+        "num_operators":5,
+        "max_depth":7,
+        "reuse_prob": 0.3
+    },
+    {   
+        "num_operators":5,
+        "max_depth":8,
+        "reuse_prob": 0.3
+    }
+]

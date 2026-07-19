@@ -1,4 +1,0 @@
-interaction:
-  - name: "Enewyearandentityenumeration_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.enewyearandentityenumeration.Enewyearandentityenumeration_interaction.EnewyearandentityenumerationInteraction"
-    config: {}

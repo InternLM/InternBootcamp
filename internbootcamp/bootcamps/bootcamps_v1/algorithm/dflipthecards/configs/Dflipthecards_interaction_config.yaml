@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dflipthecards_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dflipthecards.Dflipthecards_interaction.DflipthecardsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Clittlefrog_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.clittlefrog.Clittlefrog_interaction.ClittlefrogInteraction"
-    config: {}

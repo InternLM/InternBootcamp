@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bpiet_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.bpiet.Bpiet_interaction.BpietInteraction"
-    config: {}

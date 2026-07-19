@@ -1,4 +1,0 @@
-interaction:
-  - name: "korLogicCooperativePrinciple_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogiccooperativeprinciple.korLogicCooperativePrinciple_interaction.KorlogiccooperativeprincipleInteraction"
-    config: {}

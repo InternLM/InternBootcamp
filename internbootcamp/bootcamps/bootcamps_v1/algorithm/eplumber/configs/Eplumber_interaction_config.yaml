@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eplumber_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eplumber.Eplumber_interaction.EplumberInteraction"
-    config: {}

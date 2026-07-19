@@ -1,0 +1,54 @@
+[
+    {
+        "question_types": [
+            "expression_conversion",
+            "equivalence_validation",
+            "expression_simplification"
+        ],
+        "variables": [
+            "a",
+            "b",
+            "c"
+        ],
+        "cities": [
+            "Beijing",
+            "Guangzhou",
+            "Shenzhen"
+        ]
+    },
+    {
+        "question_types": [
+            "expression_conversion",
+            "equivalence_validation",
+            "puzzle_solution"
+        ],
+        "variables": [
+            "p",
+            "q",
+            "r"
+        ],
+        "cities": [
+            "Suzhou",
+            "Shanghai",
+            "Hangzhou"
+        ]
+    },
+    {
+        "question_types": [
+            "expression_conversion",
+            "truth_table_completion",
+            "puzzle_solution"
+        ],
+        "variables": [
+            "p",
+            "q",
+            "r",
+            "s"
+        ],
+        "cities": [
+            "Shanghai",
+            "Beijing",
+            "Guangzhou"
+        ]
+    }
+]

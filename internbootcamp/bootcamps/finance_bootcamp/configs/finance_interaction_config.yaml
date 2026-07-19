@@ -1,4 +1,0 @@
-interaction:
-  - name: "finance_interaction"
-    class_name: "internbootcamp.bootcamps.finance_bootcamp.finance_interaction.FinanceInteraction"
-    config: {}

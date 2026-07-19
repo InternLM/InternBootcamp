@@ -1,4 +1,0 @@
-interaction:
-  - name: "korPuzzle24Points_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.korpuzzle24points.korPuzzle24Points_interaction.Korpuzzle24pointsInteraction"
-    config: {}

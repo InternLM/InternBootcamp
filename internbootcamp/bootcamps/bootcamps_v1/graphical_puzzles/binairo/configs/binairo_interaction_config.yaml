@@ -1,4 +1,0 @@
-interaction:
-  - name: "binairo_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.binairo.binairo_interaction.BinairoInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cluckysubsequence_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cluckysubsequence.Cluckysubsequence_interaction.CluckysubsequenceInteraction"
-    config: {}

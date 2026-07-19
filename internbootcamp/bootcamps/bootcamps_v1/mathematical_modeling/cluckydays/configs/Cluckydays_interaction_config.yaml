@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cluckydays_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cluckydays.Cluckydays_interaction.CluckydaysInteraction"
-    config: {}

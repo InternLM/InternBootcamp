@@ -1,0 +1,14 @@
+[
+    {
+        "max_n": 2,
+        "coord_range": 5
+    },
+    {
+        "max_n": 5,
+        "coord_range": 20
+    },
+    {
+        "max_n": 4,
+        "coord_range": 15
+    }
+]

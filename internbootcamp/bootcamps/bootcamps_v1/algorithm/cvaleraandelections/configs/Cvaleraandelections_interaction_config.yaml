@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvaleraandelections_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvaleraandelections.Cvaleraandelections_interaction.CvaleraandelectionsInteraction"
-    config: {}

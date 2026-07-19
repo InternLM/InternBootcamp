@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eserejaandbrackets_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eserejaandbrackets.Eserejaandbrackets_interaction.EserejaandbracketsInteraction"
-    config: {}

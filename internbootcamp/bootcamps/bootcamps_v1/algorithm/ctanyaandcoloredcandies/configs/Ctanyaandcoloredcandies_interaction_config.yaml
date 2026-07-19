@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctanyaandcoloredcandies_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctanyaandcoloredcandies.Ctanyaandcoloredcandies_interaction.CtanyaandcoloredcandiesInteraction"
-    config: {}

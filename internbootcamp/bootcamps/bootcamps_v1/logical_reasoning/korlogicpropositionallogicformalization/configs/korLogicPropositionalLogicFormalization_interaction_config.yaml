@@ -1,4 +1,0 @@
-interaction:
-  - name: "korLogicPropositionalLogicFormalization_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogicpropositionallogicformalization.korLogicPropositionalLogicFormalization_interaction.KorlogicpropositionallogicformalizationInteraction"
-    config: {}

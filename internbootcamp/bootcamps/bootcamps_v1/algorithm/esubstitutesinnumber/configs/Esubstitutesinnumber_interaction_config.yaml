@@ -1,4 +1,0 @@
-interaction:
-  - name: "Esubstitutesinnumber_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esubstitutesinnumber.Esubstitutesinnumber_interaction.EsubstitutesinnumberInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bkarenandtest_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bkarenandtest.Bkarenandtest_interaction.BkarenandtestInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccaptainmarmot_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccaptainmarmot.Ccaptainmarmot_interaction.CcaptainmarmotInteraction"
-    config: {}

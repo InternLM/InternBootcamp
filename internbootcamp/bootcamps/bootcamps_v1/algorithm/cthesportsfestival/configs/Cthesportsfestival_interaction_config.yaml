@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cthesportsfestival_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cthesportsfestival.Cthesportsfestival_interaction.CthesportsfestivalInteraction"
-    config: {}

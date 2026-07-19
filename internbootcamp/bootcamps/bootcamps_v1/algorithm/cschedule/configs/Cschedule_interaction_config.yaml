@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cschedule_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cschedule.Cschedule_interaction.CscheduleInteraction"
-    config: {}

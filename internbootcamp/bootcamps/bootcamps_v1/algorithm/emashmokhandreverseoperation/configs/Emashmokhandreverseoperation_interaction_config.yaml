@@ -1,4 +1,0 @@
-interaction:
-  - name: "Emashmokhandreverseoperation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.emashmokhandreverseoperation.Emashmokhandreverseoperation_interaction.EmashmokhandreverseoperationInteraction"
-    config: {}

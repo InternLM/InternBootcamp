@@ -1,4 +1,0 @@
-interaction:
-  - name: "circuit_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.natural_science.circuit.circuit_interaction.CircuitInteraction"
-    config: {}

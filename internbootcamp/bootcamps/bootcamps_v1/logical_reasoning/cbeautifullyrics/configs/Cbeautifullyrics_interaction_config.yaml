@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cbeautifullyrics_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cbeautifullyrics.Cbeautifullyrics_interaction.CbeautifullyricsInteraction"
-    config: {}

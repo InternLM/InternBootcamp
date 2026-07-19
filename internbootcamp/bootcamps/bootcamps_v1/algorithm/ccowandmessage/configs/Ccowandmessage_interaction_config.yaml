@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccowandmessage_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccowandmessage.Ccowandmessage_interaction.CcowandmessageInteraction"
-    config: {}

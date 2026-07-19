@@ -1,0 +1,26 @@
+[
+    {
+        "max_n": 500,
+        "min_m": 1,
+        "default_m": 250,
+        "default_n": 500
+    },
+    {
+        "max_n": 2000,
+        "min_m": 3,
+        "default_m": 1000,
+        "default_n": 2000
+    },
+    {
+        "max_n": 1000,
+        "min_m": 1,
+        "default_m": 500,
+        "default_n": 1000
+    },
+    {
+        "max_n": 1500,
+        "min_m": 2,
+        "default_m": 750,
+        "default_n": 1500
+    }
+]

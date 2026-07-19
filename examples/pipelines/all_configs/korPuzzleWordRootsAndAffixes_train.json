@@ -1,0 +1,32 @@
+[
+    {
+        "affix_type": "prefix",
+        "min_segments": 2,
+        "max_segments": 5
+    },
+    {
+        "affix_type": "prefix",
+        "min_segments": 2,
+        "max_segments": 4
+    },
+    {
+        "affix_type": "random",
+        "min_segments": 4,
+        "max_segments": 5
+    },
+    {
+        "affix_type": "suffix",
+        "min_segments": 2,
+        "max_segments": 4
+    },
+    {
+        "affix_type": "random",
+        "min_segments": 3,
+        "max_segments": 5
+    },
+    {
+        "affix_type": "random",
+        "min_segments": 2,
+        "max_segments": 3
+    }
+]

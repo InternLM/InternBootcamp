@@ -1,4 +1,0 @@
-interaction:
-  - name: "Deels_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.deels.Deels_interaction.DeelsInteraction"
-    config: {}

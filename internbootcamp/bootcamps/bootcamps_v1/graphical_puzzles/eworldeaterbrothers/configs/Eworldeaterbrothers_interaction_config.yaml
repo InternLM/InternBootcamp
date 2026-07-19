@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eworldeaterbrothers_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.eworldeaterbrothers.Eworldeaterbrothers_interaction.EworldeaterbrothersInteraction"
-    config: {}

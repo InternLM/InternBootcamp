@@ -1,4 +1,0 @@
-interaction:
-  - name: "BbehMultistepArithmetic_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bbehmultisteparithmetic.BbehMultistepArithmetic_interaction.BbehmultisteparithmeticInteraction"
-    config: {}

@@ -1,0 +1,38 @@
+[
+    {
+        "max_n": 80,
+        "max_k": 80,
+        "max_m": 80,
+        "city_max": 40
+    },
+    {
+        "max_n": 50,
+        "max_k": 100,
+        "max_m": 100,
+        "city_max": 50
+    },
+    {
+        "max_n": 90,
+        "max_k": 90,
+        "max_m": 90,
+        "city_max": 40
+    },
+    {
+        "max_n": 100,
+        "max_k": 50,
+        "max_m": 50,
+        "city_max": 20
+    },
+    {
+        "max_n": 50,
+        "max_k": 50,
+        "max_m": 50,
+        "city_max": 20
+    },
+    {
+        "max_n": 20,
+        "max_k": 50,
+        "max_m": 50,
+        "city_max": 30
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctrack_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctrack.Ctrack_interaction.CtrackInteraction"
-    config: {}

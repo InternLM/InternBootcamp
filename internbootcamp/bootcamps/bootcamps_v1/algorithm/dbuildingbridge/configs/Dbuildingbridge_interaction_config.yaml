@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dbuildingbridge_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dbuildingbridge.Dbuildingbridge_interaction.DbuildingbridgeInteraction"
-    config: {}

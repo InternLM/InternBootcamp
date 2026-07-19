@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccleverfatrat_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccleverfatrat.Ccleverfatrat_interaction.CcleverfatratInteraction"
-    config: {}

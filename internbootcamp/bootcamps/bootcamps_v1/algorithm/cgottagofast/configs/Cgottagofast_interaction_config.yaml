@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgottagofast_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgottagofast.Cgottagofast_interaction.CgottagofastInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Binterestingarray_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.binterestingarray.Binterestingarray_interaction.BinterestingarrayInteraction"
-    config: {}

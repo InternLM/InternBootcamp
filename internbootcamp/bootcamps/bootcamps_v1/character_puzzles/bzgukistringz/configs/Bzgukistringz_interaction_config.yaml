@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bzgukistringz_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.bzgukistringz.Bzgukistringz_interaction.BzgukistringzInteraction"
-    config: {}

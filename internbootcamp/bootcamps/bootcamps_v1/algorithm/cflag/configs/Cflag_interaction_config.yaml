@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cflag_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cflag.Cflag_interaction.CflagInteraction"
-    config: {}

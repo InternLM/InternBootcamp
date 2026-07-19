@@ -1,0 +1,38 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 25,
+        "ti_min": 20,
+        "ti_max": 10000
+    },
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "ti_min": 5,
+        "ti_max": 50
+    },
+    {
+        "min_n": 2,
+        "max_n": 30,
+        "ti_min": 50,
+        "ti_max": 1000
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "ti_min": 1,
+        "ti_max": 1000
+    },
+    {
+        "min_n": 4,
+        "max_n": 30,
+        "ti_min": 10,
+        "ti_max": 1000
+    },
+    {
+        "min_n": 2,
+        "max_n": 15,
+        "ti_min": 1,
+        "ti_max": 500
+    }
+]

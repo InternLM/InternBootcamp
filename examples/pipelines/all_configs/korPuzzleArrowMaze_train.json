@@ -1,0 +1,62 @@
+[
+    {
+        "vars": [
+            "p",
+            "q",
+            "r",
+            "s"
+        ],
+        "max_clause_length": 3,
+        "problem_types": [
+            "can_resolve",
+            "compute_dispel",
+            "algorithm_output"
+        ],
+        "seed": 123
+    },
+    {
+        "vars": [
+            "p",
+            "q",
+            "r",
+            "s"
+        ],
+        "max_clause_length": 3,
+        "problem_types": [
+            "can_resolve",
+            "compute_dispel",
+            "algorithm_output"
+        ],
+        "seed": 42
+    },
+    {
+        "vars": [
+            "p",
+            "q",
+            "r",
+            "s"
+        ],
+        "max_clause_length": 3,
+        "problem_types": [
+            "can_resolve",
+            "compute_dispel"
+        ],
+        "seed": 456
+    },
+    {
+        "vars": [
+            "p",
+            "q",
+            "r",
+            "s",
+            "t"
+        ],
+        "max_clause_length": 3,
+        "problem_types": [
+            "can_resolve",
+            "compute_dispel",
+            "algorithm_output"
+        ],
+        "seed": 789
+    }
+]

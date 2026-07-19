@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvanyaandscales_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvanyaandscales.Cvanyaandscales_interaction.CvanyaandscalesInteraction"
-    config: {}

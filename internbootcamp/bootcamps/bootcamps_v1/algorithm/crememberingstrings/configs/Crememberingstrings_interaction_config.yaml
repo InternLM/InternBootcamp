@@ -1,4 +1,0 @@
-interaction:
-  - name: "Crememberingstrings_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crememberingstrings.Crememberingstrings_interaction.CrememberingstringsInteraction"
-    config: {}

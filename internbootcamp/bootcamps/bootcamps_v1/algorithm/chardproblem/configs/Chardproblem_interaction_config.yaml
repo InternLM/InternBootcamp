@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chardproblem_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.chardproblem.Chardproblem_interaction.ChardproblemInteraction"
-    config: {}

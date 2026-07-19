@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cthebigrace_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.cthebigrace.Cthebigrace_interaction.CthebigraceInteraction"
-    config: {}

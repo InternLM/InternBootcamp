@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cjonsnowandhisfavouritenumber_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cjonsnowandhisfavouritenumber.Cjonsnowandhisfavouritenumber_interaction.CjonsnowandhisfavouritenumberInteraction"
-    config: {}

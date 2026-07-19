@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bbornthisway_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bbornthisway.Bbornthisway_interaction.BbornthiswayInteraction"
-    config: {}

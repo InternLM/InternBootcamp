@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cserejaandthearrangementofnumbers_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cserejaandthearrangementofnumbers.Cserejaandthearrangementofnumbers_interaction.CserejaandthearrangementofnumbersInteraction"
-    config: {}

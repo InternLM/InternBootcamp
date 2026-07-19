@@ -1,0 +1,17 @@
+[
+    {
+        "tree_type": "random",
+        "min_nodes": 5,
+        "max_nodes": 10
+    },
+    {
+        "tree_type": "chain",
+        "min_nodes": 3,
+        "max_nodes": 5
+    },
+    {
+        "tree_type": "random",
+        "min_nodes": 3,
+        "max_nodes": 15
+    }
+]

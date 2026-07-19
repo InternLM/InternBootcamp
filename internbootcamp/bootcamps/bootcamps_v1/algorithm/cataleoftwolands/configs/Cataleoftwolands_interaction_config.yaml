@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cataleoftwolands_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cataleoftwolands.Cataleoftwolands_interaction.CataleoftwolandsInteraction"
-    config: {}

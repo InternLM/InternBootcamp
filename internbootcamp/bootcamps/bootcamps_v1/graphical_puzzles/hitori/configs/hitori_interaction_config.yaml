@@ -1,4 +1,0 @@
-interaction:
-  - name: "hitori_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.hitori.hitori_interaction.HitoriInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgeorgeandnumber_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgeorgeandnumber.Cgeorgeandnumber_interaction.CgeorgeandnumberInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cemailaddress_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.cemailaddress.Cemailaddress_interaction.CemailaddressInteraction"
-    config: {}

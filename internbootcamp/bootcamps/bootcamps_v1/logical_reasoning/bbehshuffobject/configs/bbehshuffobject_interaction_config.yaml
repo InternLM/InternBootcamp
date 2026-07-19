@@ -1,4 +1,0 @@
-interaction:
-  - name: "bbehshuffobject_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.bbehshuffobject.bbehshuffobject_interaction.BbehshuffobjectInteraction"
-    config: {}

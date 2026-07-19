@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chackerpackyourbags_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.chackerpackyourbags.Chackerpackyourbags_interaction.ChackerpackyourbagsInteraction"
-    config: {}

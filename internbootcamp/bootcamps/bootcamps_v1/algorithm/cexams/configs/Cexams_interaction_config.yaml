@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cexams_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cexams.Cexams_interaction.CexamsInteraction"
-    config: {}

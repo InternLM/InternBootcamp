@@ -1,4 +1,0 @@
-interaction:
-  - name: "Caupontrouge_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.caupontrouge.Caupontrouge_interaction.CaupontrougeInteraction"
-    config: {}

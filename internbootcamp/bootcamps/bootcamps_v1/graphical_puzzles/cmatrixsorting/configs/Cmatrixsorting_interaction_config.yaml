@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmatrixsorting_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.cmatrixsorting.Cmatrixsorting_interaction.CmatrixsortingInteraction"
-    config: {}

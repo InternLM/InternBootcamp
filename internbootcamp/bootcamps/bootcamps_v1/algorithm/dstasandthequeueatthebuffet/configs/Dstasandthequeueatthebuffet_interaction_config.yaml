@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dstasandthequeueatthebuffet_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dstasandthequeueatthebuffet.Dstasandthequeueatthebuffet_interaction.DstasandthequeueatthebuffetInteraction"
-    config: {}

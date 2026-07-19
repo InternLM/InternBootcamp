@@ -1,0 +1,23 @@
+[
+    {
+        "s_length": 20,
+        "num_queries": 10,
+        "query_length_min": 1,
+        "query_length_max": 10,
+        "seed": 0
+    },
+    {
+        "s_length": 10,
+        "num_queries": 5,
+        "query_length_min": 1,
+        "query_length_max": 10,
+        "seed": 42
+    },
+    {
+        "s_length": 5,
+        "num_queries": 3,
+        "query_length_min": 2,
+        "query_length_max": 5,
+        "seed": 123
+    }
+]

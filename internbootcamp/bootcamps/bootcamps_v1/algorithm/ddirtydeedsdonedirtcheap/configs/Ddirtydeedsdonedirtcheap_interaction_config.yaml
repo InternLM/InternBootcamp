@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ddirtydeedsdonedirtcheap_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ddirtydeedsdonedirtcheap.Ddirtydeedsdonedirtcheap_interaction.DdirtydeedsdonedirtcheapInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Csearchingforgraph_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csearchingforgraph.Csearchingforgraph_interaction.CsearchingforgraphInteraction"
-    config: {}

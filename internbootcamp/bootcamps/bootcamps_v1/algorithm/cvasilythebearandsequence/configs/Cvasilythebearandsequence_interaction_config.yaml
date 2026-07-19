@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cvasilythebearandsequence_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cvasilythebearandsequence.Cvasilythebearandsequence_interaction.CvasilythebearandsequenceInteraction"
-    config: {}

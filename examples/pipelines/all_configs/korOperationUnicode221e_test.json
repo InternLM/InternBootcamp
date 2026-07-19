@@ -1,0 +1,30 @@
+[
+    {
+        "max_num": 7,
+        "solve_ratio": 0.6
+    },
+    {
+        "max_num": 18,
+        "solve_ratio": 0.1
+    },
+    {
+        "max_num": 9,
+        "solve_ratio": 0.45
+    },
+    {
+        "max_num": 14,
+        "solve_ratio": 0.65
+    },
+    {
+        "max_num": 5,
+        "solve_ratio": 0.3
+    },
+    {
+        "max_num": 10,
+        "solve_ratio": 0.5
+    },
+    {
+        "max_num": 20,
+        "solve_ratio": 0.4
+    }
+]

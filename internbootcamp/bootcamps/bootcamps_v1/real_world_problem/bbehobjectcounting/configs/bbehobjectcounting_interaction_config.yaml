@@ -1,4 +1,0 @@
-interaction:
-  - name: "bbehobjectcounting_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.real_world_problem.bbehobjectcounting.bbehobjectcounting_interaction.BbehobjectcountingInteraction"
-    config: {}

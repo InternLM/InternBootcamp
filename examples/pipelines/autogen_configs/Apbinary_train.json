@@ -1,0 +1,30 @@
+[
+    {
+        "p_min": -50,
+        "p_max": 50,
+        "n_min": 1000,
+        "n_max": 100000,
+        "edge_case_prob": 0.25
+    },
+    {
+        "p_min": -10,
+        "p_max": 10,
+        "n_min": 500000,
+        "n_max": 1000000,
+        "edge_case_prob": 0.1
+    },
+    {
+        "p_min": -100,
+        "p_max": 100,
+        "n_min": 1,
+        "n_max": 100000,
+        "edge_case_prob": 0.3
+    },
+    {
+        "p_min": -500,
+        "p_max": 500,
+        "n_min": 100,
+        "n_max": 1000000,
+        "edge_case_prob": 0.2
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "random_param" : true,
+    "random_param_rule" : {
+        "_comment" : "word_length合法区间[2,15]",
+        "random_word_length": false,
+        "word_length" : 4,
+        "solutions" : 8
+    },
+    "specify_param": {
+        "_comment" : "未使用random_param时调用,单词长度需要一致,单词需要存在于词库",
+        "start_word": "nice",
+        "end_word": "good",
+        "solutions": 8
+    },
+    "_comment":"max_ladder影响在解答数量不足solutions时的探索深度,会显著增加程序运行时间,合法区间是[1,20]",
+    "max_ladder": 18,
+
+    "output_file_path" : "outputs.jsonl",
+    "NL_describe_output" : true
+}

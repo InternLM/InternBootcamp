@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bcountpairs_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bcountpairs.Bcountpairs_interaction.BcountpairsInteraction"
-    config: {}

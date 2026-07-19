@@ -1,0 +1,51 @@
+[
+    {
+        "n_min": 4,
+        "n_max": 12,
+        "p_min": 500,
+        "p_max": 3000,
+        "k_gen_strategy": "solvable"
+    },
+    {
+        "n_min": 3,
+        "n_max": 15,
+        "p_min": 200,
+        "p_max": 3000,
+        "k_gen_strategy": "solvable"
+    },
+    {
+        "n_min": 1,
+        "n_max": 20,
+        "p_min": 100,
+        "p_max": 1000,
+        "k_gen_strategy": "mixed"
+    },
+    {
+        "n_min": 5,
+        "n_max": 15,
+        "p_min": 100,
+        "p_max": 2000,
+        "k_gen_strategy": "mixed"
+    },
+    {
+        "n_min": 1,
+        "n_max": 10,
+        "p_min": 1,
+        "p_max": 500,
+        "k_gen_strategy": "mixed"
+    },
+    {
+        "n_min": 5,
+        "n_max": 20,
+        "p_min": 100,
+        "p_max": 2000,
+        "k_gen_strategy": "solvable"
+    },
+    {
+        "n_min": 2,
+        "n_max": 10,
+        "p_min": 100,
+        "p_max": 500,
+        "k_gen_strategy": "unsolvable"
+    }
+]

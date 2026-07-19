@@ -1,4 +1,0 @@
-interaction:
-  - name: "Csergeysproblem_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.csergeysproblem.Csergeysproblem_interaction.CsergeysproblemInteraction"
-    config: {}

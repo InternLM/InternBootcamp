@@ -1,0 +1,58 @@
+[
+    {
+        "min_socks": 2,
+        "max_socks": 50,
+        "min_days": 0,
+        "max_days": 30,
+        "min_colors": 1,
+        "max_colors": 15
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 100,
+        "min_days": 0,
+        "max_days": 50,
+        "min_colors": 1,
+        "max_colors": 20
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 120,
+        "min_days": 0,
+        "max_days": 60,
+        "min_colors": 1,
+        "max_colors": 20
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 200,
+        "min_days": 0,
+        "max_days": 100,
+        "min_colors": 1,
+        "max_colors": 30
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 10,
+        "min_days": 0,
+        "max_days": 10,
+        "min_colors": 1,
+        "max_colors": 5
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 80,
+        "min_days": 0,
+        "max_days": 40,
+        "min_colors": 1,
+        "max_colors": 10
+    },
+    {
+        "min_socks": 2,
+        "max_socks": 250,
+        "min_days": 0,
+        "max_days": 120,
+        "min_colors": 1,
+        "max_colors": 35
+    }
+]

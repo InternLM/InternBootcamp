@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dweirdchess_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dweirdchess.Dweirdchess_interaction.DweirdchessInteraction"
-    config: {}

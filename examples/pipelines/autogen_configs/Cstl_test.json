@@ -1,0 +1,22 @@
+[
+    {
+        "max_depth": 3,
+        "min_n": 1,
+        "max_n": 1000
+    },
+    {
+        "max_depth": 5,
+        "min_n": 5,
+        "max_n": 1000
+    },
+    {
+        "max_depth": 3,
+        "min_n": 2,
+        "max_n": 500
+    },
+    {
+        "max_depth": 1,
+        "min_n": 1,
+        "max_n": 1
+    }
+]

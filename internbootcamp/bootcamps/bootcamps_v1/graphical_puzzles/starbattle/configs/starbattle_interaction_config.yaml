@@ -1,4 +1,0 @@
-interaction:
-  - name: "starbattle_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.starbattle.starbattle_interaction.StarbattleInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgeraldandgiantchess_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgeraldandgiantchess.Cgeraldandgiantchess_interaction.CgeraldandgiantchessInteraction"
-    config: {}

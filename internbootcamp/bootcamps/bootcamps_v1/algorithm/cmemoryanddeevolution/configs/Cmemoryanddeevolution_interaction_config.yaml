@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmemoryanddeevolution_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmemoryanddeevolution.Cmemoryanddeevolution_interaction.CmemoryanddeevolutionInteraction"
-    config: {}

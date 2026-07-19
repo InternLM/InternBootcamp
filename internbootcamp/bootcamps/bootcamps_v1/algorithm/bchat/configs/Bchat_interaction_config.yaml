@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bchat_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bchat.Bchat_interaction.BchatInteraction"
-    config: {}

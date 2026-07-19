@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 3,
+        "max_n": 10,
+        "unsolvable_prob": 0.25
+    },
+    {
+        "min_n": 1,
+        "max_n": 5,
+        "unsolvable_prob": 0.1
+    },
+    {
+        "min_n": 2,
+        "max_n": 8,
+        "unsolvable_prob": 0.15
+    },
+    {
+        "min_n": 1,
+        "max_n": 10,
+        "unsolvable_prob": 0.2
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Crandomevents_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crandomevents.Crandomevents_interaction.CrandomeventsInteraction"
-    config: {}

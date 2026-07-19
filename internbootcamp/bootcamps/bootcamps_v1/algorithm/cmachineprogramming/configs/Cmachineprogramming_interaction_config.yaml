@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmachineprogramming_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmachineprogramming.Cmachineprogramming_interaction.CmachineprogrammingInteraction"
-    config: {}

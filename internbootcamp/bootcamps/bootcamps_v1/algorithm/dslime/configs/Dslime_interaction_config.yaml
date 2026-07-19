@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dslime_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dslime.Dslime_interaction.DslimeInteraction"
-    config: {}

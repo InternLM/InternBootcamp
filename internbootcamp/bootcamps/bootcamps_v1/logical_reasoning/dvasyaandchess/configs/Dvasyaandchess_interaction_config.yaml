@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dvasyaandchess_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.dvasyaandchess.Dvasyaandchess_interaction.DvasyaandchessInteraction"
-    config: {}

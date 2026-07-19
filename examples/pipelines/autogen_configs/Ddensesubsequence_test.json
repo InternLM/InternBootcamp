@@ -1,0 +1,18 @@
+[
+    {
+        "max_s_length": 50,
+        "test_edge_cases": true
+    },
+    {
+        "max_s_length": 20,
+        "test_edge_cases": true
+    },
+    {
+        "max_s_length": 20,
+        "test_edge_cases": false
+    },
+    {
+        "max_s_length": 30,
+        "test_edge_cases": true
+    }
+]

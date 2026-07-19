@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cxorinverse_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cxorinverse.Cxorinverse_interaction.CxorinverseInteraction"
-    config: {}

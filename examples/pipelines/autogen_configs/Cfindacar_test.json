@@ -1,0 +1,27 @@
+[
+    {
+        "max_requests": 2,
+        "max_xy": 5,
+        "max_k": 50
+    },
+    {
+        "max_requests": 6,
+        "max_xy": 18,
+        "max_k": 180
+    },
+    {
+        "max_requests": 4,
+        "max_xy": 12,
+        "max_k": 120
+    },
+    {
+        "max_requests": 3,
+        "max_xy": 8,
+        "max_k": 80
+    },
+    {
+        "max_requests": 1,
+        "max_xy": 3,
+        "max_k": 30
+    }
+]

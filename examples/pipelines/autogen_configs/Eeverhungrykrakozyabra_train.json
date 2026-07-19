@@ -1,0 +1,14 @@
+[
+    {
+        "max_case_size": 100000
+    },
+    {
+        "max_case_size": 1000
+    },
+    {
+        "max_case_size": 10000
+    },
+    {
+        "max_case_size": 100
+    }
+]

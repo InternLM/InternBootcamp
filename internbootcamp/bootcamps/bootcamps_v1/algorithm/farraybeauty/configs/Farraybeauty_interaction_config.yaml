@@ -1,4 +1,0 @@
-interaction:
-  - name: "Farraybeauty_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.farraybeauty.Farraybeauty_interaction.FarraybeautyInteraction"
-    config: {}

@@ -1,0 +1,32 @@
+[
+    {
+        "seed": 0,
+        "max_num_items": 2,
+        "augment_unit": true
+    },
+    {
+        "seed": 1,
+        "max_num_items": 4,
+        "augment_unit": true
+    },
+    {
+        "seed": 2,
+        "max_num_items": 8,
+        "augment_unit": true
+    },
+    {
+        "seed": 3,
+        "max_num_items": 16,
+        "augment_unit": true
+    },
+    {
+        "seed": 4,
+        "max_num_items": 20,
+        "augment_unit": true
+    },
+    {
+        "seed": 114,
+        "max_num_items": 24,
+        "augment_unit": true
+    }
+]

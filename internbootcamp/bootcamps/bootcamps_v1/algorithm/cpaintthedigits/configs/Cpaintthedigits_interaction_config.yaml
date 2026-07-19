@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpaintthedigits_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpaintthedigits.Cpaintthedigits_interaction.CpaintthedigitsInteraction"
-    config: {}

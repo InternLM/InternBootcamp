@@ -1,0 +1,30 @@
+[
+    {
+        "max_length": 12,
+        "max_m": 6
+    },
+    {
+        "max_length": 9,
+        "max_m": 5
+    },
+    {
+        "max_length": 6,
+        "max_m": 2
+    },
+    {
+        "max_length": 13,
+        "max_m": 4
+    },
+    {
+        "max_length": 4,
+        "max_m": 2
+    },
+    {
+        "max_length": 5,
+        "max_m": 3
+    },
+    {
+        "max_length": 8,
+        "max_m": 3
+    }
+]

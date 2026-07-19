@@ -1,0 +1,32 @@
+[
+    {
+        "max_n": 6,
+        "max_m": 6,
+        "max_cost": 500000
+    },
+    {
+        "max_n": 10,
+        "max_m": 8,
+        "max_cost": 1000000
+    },
+    {
+        "max_n": 8,
+        "max_m": 5,
+        "max_cost": 5000
+    },
+    {
+        "max_n": 5,
+        "max_m": 3,
+        "max_cost": 1000
+    },
+    {
+        "max_n": 7,
+        "max_m": 4,
+        "max_cost": 10000
+    },
+    {
+        "max_n": 3,
+        "max_m": 3,
+        "max_cost": 100000
+    }
+]

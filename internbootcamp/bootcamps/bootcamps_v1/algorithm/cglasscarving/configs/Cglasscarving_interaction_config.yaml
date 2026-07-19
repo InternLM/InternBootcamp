@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cglasscarving_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cglasscarving.Cglasscarving_interaction.CglasscarvingInteraction"
-    config: {}

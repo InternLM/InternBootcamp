@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctryandcatch_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctryandcatch.Ctryandcatch_interaction.CtryandcatchInteraction"
-    config: {}

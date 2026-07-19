@@ -1,6 +1,0 @@
-interaction:
-  - name: "battery_design_interaction"
-    # 请根据实际项目目录结构修改路径
-    # 例如：internbootcamp.bootcamps.battery_bootcamp.battery_interaction.BatteryInteraction
-    class_name: "internbootcamp.bootcamps.battery_bootcamp.battery_interaction.BatteryInteraction"
-    config: {}

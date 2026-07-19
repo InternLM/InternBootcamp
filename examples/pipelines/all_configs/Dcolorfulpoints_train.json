@@ -1,0 +1,27 @@
+[
+    {
+        "min_blocks": 3,
+        "max_blocks": 9,
+        "max_block_length": 8
+    },
+    {
+        "min_blocks": 4,
+        "max_blocks": 11,
+        "max_block_length": 7
+    },
+    {
+        "min_blocks": 3,
+        "max_blocks": 10,
+        "max_block_length": 5
+    },
+    {
+        "min_blocks": 5,
+        "max_blocks": 12,
+        "max_block_length": 6
+    },
+    {
+        "min_blocks": 3,
+        "max_blocks": 6,
+        "max_block_length": 3
+    }
+]

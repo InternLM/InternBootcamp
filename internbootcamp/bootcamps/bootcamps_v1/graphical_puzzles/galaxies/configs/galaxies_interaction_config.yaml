@@ -1,4 +1,0 @@
-interaction:
-  - name: "galaxies_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.galaxies.galaxies_interaction.GalaxiesInteraction"
-    config: {}

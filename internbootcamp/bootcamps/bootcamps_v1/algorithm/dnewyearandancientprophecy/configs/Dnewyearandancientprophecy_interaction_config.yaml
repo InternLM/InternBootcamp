@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dnewyearandancientprophecy_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dnewyearandancientprophecy.Dnewyearandancientprophecy_interaction.DnewyearandancientprophecyInteraction"
-    config: {}

@@ -1,0 +1,26 @@
+[
+    {
+        "ip_count": 5,
+        "net_count": 3,
+        "max_octet": 255,
+        "allow_unsolvable": true
+    },
+    {
+        "ip_count": 20,
+        "net_count": 10,
+        "max_octet": 255,
+        "allow_unsolvable": true
+    },
+    {
+        "ip_count": 5,
+        "net_count": 1,
+        "max_octet": 255,
+        "allow_unsolvable": true
+    },
+    {
+        "ip_count": 15,
+        "net_count": 7,
+        "max_octet": 255,
+        "allow_unsolvable": true
+    }
+]

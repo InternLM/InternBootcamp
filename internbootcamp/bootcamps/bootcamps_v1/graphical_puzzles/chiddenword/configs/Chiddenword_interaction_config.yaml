@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chiddenword_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.chiddenword.Chiddenword_interaction.ChiddenwordInteraction"
-    config: {}

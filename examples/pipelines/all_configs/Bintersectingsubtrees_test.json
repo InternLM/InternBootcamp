@@ -1,0 +1,22 @@
+[
+    {
+        "max_n": 10,
+        "default_n": 3,
+        "max_questions": 5
+    },
+    {
+        "max_n": 50,
+        "default_n": 5,
+        "max_questions": 5
+    },
+    {
+        "max_n": 100,
+        "default_n": 10,
+        "max_questions": 5
+    },
+    {
+        "max_n": 500,
+        "default_n": 50,
+        "max_questions": 5
+    }
+]

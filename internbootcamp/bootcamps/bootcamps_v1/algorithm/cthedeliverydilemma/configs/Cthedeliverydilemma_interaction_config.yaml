@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cthedeliverydilemma_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cthedeliverydilemma.Cthedeliverydilemma_interaction.CthedeliverydilemmaInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cnetworkmask_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cnetworkmask.Cnetworkmask_interaction.CnetworkmaskInteraction"
-    config: {}

@@ -1,0 +1,23 @@
+[
+    {
+        "min_names": 5,
+        "max_names": 15,
+        "min_length": 3,
+        "max_length": 15,
+        "valid_ratio": 0.3
+    },
+    {
+        "min_names": 1,
+        "max_names": 5,
+        "min_length": 1,
+        "max_length": 5,
+        "valid_ratio": 0.7
+    },
+    {
+        "min_names": 3,
+        "max_names": 10,
+        "min_length": 1,
+        "max_length": 10,
+        "valid_ratio": 0.5
+    }
+]

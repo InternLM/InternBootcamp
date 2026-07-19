@@ -1,0 +1,42 @@
+[
+    {
+        "min_n": 2,
+        "max_n": 3,
+        "min_x": -5,
+        "max_x": 5,
+        "min_y": -5,
+        "max_y": 5,
+        "min_r": 2,
+        "max_r": 5
+    },
+    {
+        "min_n": 3,
+        "max_n": 3,
+        "min_x": -10,
+        "max_x": 10,
+        "min_y": -10,
+        "max_y": 10,
+        "min_r": 5,
+        "max_r": 10
+    },
+    {
+        "min_n": 1,
+        "max_n": 3,
+        "min_x": -10,
+        "max_x": 10,
+        "min_y": -10,
+        "max_y": 10,
+        "min_r": 1,
+        "max_r": 10
+    },
+    {
+        "min_n": 1,
+        "max_n": 1,
+        "min_x": -5,
+        "max_x": 5,
+        "min_y": -5,
+        "max_y": 5,
+        "min_r": 1,
+        "max_r": 5
+    }
+]

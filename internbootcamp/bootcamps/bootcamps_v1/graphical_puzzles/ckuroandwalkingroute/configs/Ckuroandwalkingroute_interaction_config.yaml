@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckuroandwalkingroute_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.ckuroandwalkingroute.Ckuroandwalkingroute_interaction.CkuroandwalkingrouteInteraction"
-    config: {}

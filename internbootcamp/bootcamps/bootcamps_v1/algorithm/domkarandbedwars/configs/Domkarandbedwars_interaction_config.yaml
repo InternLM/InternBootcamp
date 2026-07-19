@@ -1,4 +1,0 @@
-interaction:
-  - name: "Domkarandbedwars_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.domkarandbedwars.Domkarandbedwars_interaction.DomkarandbedwarsInteraction"
-    config: {}

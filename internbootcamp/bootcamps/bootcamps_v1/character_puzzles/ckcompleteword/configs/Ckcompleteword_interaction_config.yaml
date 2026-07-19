@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckcompleteword_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.ckcompleteword.Ckcompleteword_interaction.CkcompletewordInteraction"
-    config: {}

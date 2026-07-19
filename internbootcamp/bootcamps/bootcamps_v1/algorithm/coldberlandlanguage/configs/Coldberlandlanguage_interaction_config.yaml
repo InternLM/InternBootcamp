@@ -1,4 +1,0 @@
-interaction:
-  - name: "Coldberlandlanguage_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.coldberlandlanguage.Coldberlandlanguage_interaction.ColdberlandlanguageInteraction"
-    config: {}

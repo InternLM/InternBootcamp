@@ -1,4 +1,0 @@
-interaction:
-  - name: "Esubsetsums_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.esubsetsums.Esubsetsums_interaction.EsubsetsumsInteraction"
-    config: {}

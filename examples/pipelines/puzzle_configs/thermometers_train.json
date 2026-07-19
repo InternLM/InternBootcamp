@@ -1,0 +1,26 @@
+[
+    {
+        "size": 6,
+        "num_thermometers": 4,
+        "enforce_latin": true,
+        "max_retries": 100
+    },
+    {
+        "size": 5,
+        "num_thermometers": 4,
+        "enforce_latin": true,
+        "max_retries": 100
+    },
+    {
+        "size": 6,
+        "num_thermometers": 5,
+        "enforce_latin": true,
+        "max_retries": 100
+    },
+    {
+        "size": 4,
+        "num_thermometers": 2,
+        "enforce_latin": true,
+        "max_retries": 100
+    }
+]

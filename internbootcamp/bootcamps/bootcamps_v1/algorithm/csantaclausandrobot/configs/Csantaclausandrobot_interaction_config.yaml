@@ -1,4 +1,0 @@
-interaction:
-  - name: "Csantaclausandrobot_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.csantaclausandrobot.Csantaclausandrobot_interaction.CsantaclausandrobotInteraction"
-    config: {}

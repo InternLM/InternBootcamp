@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdigittree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdigittree.Cdigittree_interaction.CdigittreeInteraction"
-    config: {}

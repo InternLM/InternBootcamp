@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dletsplaythewords_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dletsplaythewords.Dletsplaythewords_interaction.DletsplaythewordsInteraction"
-    config: {}

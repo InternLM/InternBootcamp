@@ -1,0 +1,66 @@
+[
+    {
+        "n_range": [
+            1,
+            10000
+        ],
+        "m_range_low": 2,
+        "m_range_high": 500,
+        "g_range": [
+            1,
+            500
+        ],
+        "r_range": [
+            1,
+            500
+        ]
+    },
+    {
+        "n_range": [
+            1,
+            500
+        ],
+        "m_range_low": 2,
+        "m_range_high": 200,
+        "g_range": [
+            1,
+            200
+        ],
+        "r_range": [
+            1,
+            200
+        ]
+    },
+    {
+        "n_range": [
+            1,
+            1000
+        ],
+        "m_range_low": 2,
+        "m_range_high": 300,
+        "g_range": [
+            1,
+            300
+        ],
+        "r_range": [
+            1,
+            300
+        ]
+    },
+    {
+        "n_range": [
+            1,
+            100
+        ],
+        "m_range_low": 2,
+        "m_range_high": 100,
+        "g_range": [
+            1,
+            100
+        ],
+        "r_range": [
+            1,
+            100
+        ]
+    }
+]

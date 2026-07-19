@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dpiet_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dpiet.Dpiet_interaction.DpietInteraction"
-    config: {}

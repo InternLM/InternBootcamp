@@ -1,4 +1,0 @@
-interaction:
-  - name: "Chackit_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.chackit.Chackit_interaction.ChackitInteraction"
-    config: {}

@@ -1,0 +1,18 @@
+[
+    {
+        "max_regular": 1000,
+        "edge_prob": 0.5
+    },
+    {
+        "max_regular": 1000,
+        "edge_prob": 0.2
+    },
+    {
+        "max_regular": 5000,
+        "edge_prob": 0.3
+    },
+    {
+        "max_regular": 0,
+        "edge_prob": 1.0
+    }
+]

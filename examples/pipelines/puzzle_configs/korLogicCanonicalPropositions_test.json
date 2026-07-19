@@ -1,0 +1,100 @@
+[
+    {
+        "variable_pool": [
+            "operate legally for reasonable profits",
+            "price fraud occurs",
+            "abuse of vulnerable groups",
+            "reasonable sports collisions",
+            "disruptive behavior in cultural venues",
+            "tobacco use in public areas",
+            "contract fulfillment",
+            "citizens' rights protection",
+            "youth development support",
+            "national property protection",
+            "noise in quiet zones",
+            "remarriage rights"
+        ],
+        "formula_pool": [
+            [
+                2,
+                "‽p←→¬§p",
+                "Prohibition-Permission Negation"
+            ],
+            [
+                3,
+                "§p←→¬‽p",
+                "Permission-Prohibition Duality"
+            ],
+            [
+                5,
+                "¶p→¬‽p",
+                "Obligation-Prohibition Exclusion"
+            ],
+            [
+                7,
+                "¬§p→§¬p",
+                "Permission Negation Implication"
+            ],
+            [
+                9,
+                "¶p→§p",
+                "Obligation-Permission Entailment"
+            ],
+            [
+                10,
+                "‽p→§¬p",
+                "Prohibition-Permission Consequence"
+            ]
+        ]
+    },
+    {
+        "variable_pool": [
+            "operate legally for reasonable profits",
+            "price fraud occurs",
+            "abuse of vulnerable groups",
+            "reasonable sports collisions",
+            "disruptive behavior in cultural venues",
+            "tobacco use in public areas",
+            "contract fulfillment",
+            "citizens' rights protection",
+            "youth development support",
+            "national property protection",
+            "noise in quiet zones",
+            "remarriage rights",
+            "donation activities",
+            "public speech"
+        ],
+        "formula_pool": [
+            [
+                3,
+                "§p←→¬‽p",
+                "Permission-Prohibition Duality"
+            ],
+            [
+                2,
+                "‽p←→¬§p",
+                "Prohibition-Permission Negation"
+            ],
+            [
+                5,
+                "¶p→¬‽p",
+                "Obligation-Prohibition Exclusion"
+            ],
+            [
+                7,
+                "¬§p→§¬p",
+                "Permission Negation Implication"
+            ],
+            [
+                9,
+                "¶p→§p",
+                "Obligation-Permission Entailment"
+            ],
+            [
+                10,
+                "‽p→§¬p",
+                "Prohibition-Permission Consequence"
+            ]
+        ]
+    }
+]

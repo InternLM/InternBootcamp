@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ecyclicalquest_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecyclicalquest.Ecyclicalquest_interaction.EcyclicalquestInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Emikeandfoam_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.unknown.emikeandfoam.Emikeandfoam_interaction.EmikeandfoamInteraction"
-    config: {}

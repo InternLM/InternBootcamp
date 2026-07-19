@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ecnf2_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ecnf2.Ecnf2_interaction.Ecnf2Interaction"
-    config: {}

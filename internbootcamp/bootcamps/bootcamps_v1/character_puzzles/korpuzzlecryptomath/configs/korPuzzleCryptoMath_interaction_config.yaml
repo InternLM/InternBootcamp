@@ -1,4 +1,0 @@
-interaction:
-  - name: "korPuzzleCryptoMath_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.character_puzzles.korpuzzlecryptomath.korPuzzleCryptoMath_interaction.KorpuzzlecryptomathInteraction"
-    config: {}

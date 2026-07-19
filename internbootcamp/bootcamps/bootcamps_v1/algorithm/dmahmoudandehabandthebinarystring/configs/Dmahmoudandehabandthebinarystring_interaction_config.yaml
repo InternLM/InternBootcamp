@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dmahmoudandehabandthebinarystring_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dmahmoudandehabandthebinarystring.Dmahmoudandehabandthebinarystring_interaction.DmahmoudandehabandthebinarystringInteraction"
-    config: {}

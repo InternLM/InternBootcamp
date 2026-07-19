@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bdzylovesmodification_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bdzylovesmodification.Bdzylovesmodification_interaction.BdzylovesmodificationInteraction"
-    config: {}

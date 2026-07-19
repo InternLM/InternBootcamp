@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cfancynumber_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cfancynumber.Cfancynumber_interaction.CfancynumberInteraction"
-    config: {}

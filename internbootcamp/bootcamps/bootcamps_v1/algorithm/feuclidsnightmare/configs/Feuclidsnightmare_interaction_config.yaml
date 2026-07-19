@@ -1,4 +1,0 @@
-interaction:
-  - name: "Feuclidsnightmare_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.feuclidsnightmare.Feuclidsnightmare_interaction.FeuclidsnightmareInteraction"
-    config: {}

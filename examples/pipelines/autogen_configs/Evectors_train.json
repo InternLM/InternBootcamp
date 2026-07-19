@@ -1,0 +1,11 @@
+[
+    {
+        "max_coordinate": 10000
+    },
+    {
+        "max_coordinate": 500
+    },
+    {
+        "max_coordinate": 1000
+    }
+]

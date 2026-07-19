@@ -1,4 +1,0 @@
-interaction:
-  - name: "Elru_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.elru.Elru_interaction.ElruInteraction"
-    config: {}

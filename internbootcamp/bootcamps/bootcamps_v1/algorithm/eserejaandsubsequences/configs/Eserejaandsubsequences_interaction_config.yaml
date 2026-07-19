@@ -1,4 +1,0 @@
-interaction:
-  - name: "Eserejaandsubsequences_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.eserejaandsubsequences.Eserejaandsubsequences_interaction.EserejaandsubsequencesInteraction"
-    config: {}

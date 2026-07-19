@@ -1,4 +1,0 @@
-interaction:
-  - name: "Fu2_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.fu2.Fu2_interaction.Fu2Interaction"
-    config: {}

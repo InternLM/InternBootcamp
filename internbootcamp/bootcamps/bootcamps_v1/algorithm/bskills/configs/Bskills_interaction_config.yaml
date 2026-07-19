@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bskills_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bskills.Bskills_interaction.BskillsInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccycleinmaze_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccycleinmaze.Ccycleinmaze_interaction.CcycleinmazeInteraction"
-    config: {}

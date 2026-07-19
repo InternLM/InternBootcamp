@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cmaximumsubrectangle_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cmaximumsubrectangle.Cmaximumsubrectangle_interaction.CmaximumsubrectangleInteraction"
-    config: {}

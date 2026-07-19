@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cdimaandstaircase_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cdimaandstaircase.Cdimaandstaircase_interaction.CdimaandstaircaseInteraction"
-    config: {}

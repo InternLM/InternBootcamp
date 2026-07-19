@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dlcc_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.natural_science.dlcc.Dlcc_interaction.DlccInteraction"
-    config: {}

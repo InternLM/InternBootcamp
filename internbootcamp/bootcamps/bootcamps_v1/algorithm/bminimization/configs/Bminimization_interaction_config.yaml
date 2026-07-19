@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bminimization_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bminimization.Bminimization_interaction.BminimizationInteraction"
-    config: {}

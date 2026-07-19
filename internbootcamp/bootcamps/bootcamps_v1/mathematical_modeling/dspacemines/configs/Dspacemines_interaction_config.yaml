@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dspacemines_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.dspacemines.Dspacemines_interaction.DspaceminesInteraction"
-    config: {}

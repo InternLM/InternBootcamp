@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cyuhaoandaparenthesis_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cyuhaoandaparenthesis.Cyuhaoandaparenthesis_interaction.CyuhaoandaparenthesisInteraction"
-    config: {}

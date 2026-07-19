@@ -1,0 +1,7 @@
+{
+    "DEBUG": false,
+
+    "_comment":"生成有概率无解，陷入死循环，gen_depth限制生成尝试次数，尝试 pow(gen_depth,size) 次，失败就重新随机logic开始生成",
+    "gen_depth":1.2
+
+}

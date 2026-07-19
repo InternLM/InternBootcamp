@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dthebestvacation_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dthebestvacation.Dthebestvacation_interaction.DthebestvacationInteraction"
-    config: {}

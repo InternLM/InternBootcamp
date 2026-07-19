@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bdreamoonandwifi_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.bdreamoonandwifi.Bdreamoonandwifi_interaction.BdreamoonandwifiInteraction"
-    config: {}

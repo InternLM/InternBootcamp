@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctouristsnotes_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.mathematical_modeling.ctouristsnotes.Ctouristsnotes_interaction.CtouristsnotesInteraction"
-    config: {}

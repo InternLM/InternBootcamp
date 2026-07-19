@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cayoubsfunction_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cayoubsfunction.Cayoubsfunction_interaction.CayoubsfunctionInteraction"
-    config: {}

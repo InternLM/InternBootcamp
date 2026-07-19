@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ckaaviandmagicspell_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ckaaviandmagicspell.Ckaaviandmagicspell_interaction.CkaaviandmagicspellInteraction"
-    config: {}

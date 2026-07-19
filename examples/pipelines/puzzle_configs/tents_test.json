@@ -1,0 +1,42 @@
+[
+    {
+        "rows": 5,
+        "cols": 3
+    },
+    {
+        "rows": 6,
+        "cols": 7
+    },
+    {
+        "rows": 9,
+        "cols": 8
+    },
+    {
+        "rows": 6,
+        "cols": 6
+    },
+    {
+        "rows": 7,
+        "cols": 6
+    },
+    {
+        "rows": 8,
+        "cols": 8
+    },
+    {
+        "rows": 8,
+        "cols": 9
+    },
+    {
+        "rows": 3,
+        "cols": 5
+    },
+    {
+        "rows": 6,
+        "cols": 4
+    },
+    {
+        "rows": 4,
+        "cols": 4
+    }
+]

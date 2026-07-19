@@ -1,4 +1,0 @@
-interaction:
-  - name: "Crationallee_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.crationallee.Crationallee_interaction.CrationalleeInteraction"
-    config: {}

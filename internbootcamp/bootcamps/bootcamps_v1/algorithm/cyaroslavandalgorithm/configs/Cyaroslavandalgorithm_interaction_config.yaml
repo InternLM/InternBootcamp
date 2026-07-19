@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cyaroslavandalgorithm_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cyaroslavandalgorithm.Cyaroslavandalgorithm_interaction.CyaroslavandalgorithmInteraction"
-    config: {}

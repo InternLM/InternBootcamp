@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cereaderdisplay_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cereaderdisplay.Cereaderdisplay_interaction.CereaderdisplayInteraction"
-    config: {}

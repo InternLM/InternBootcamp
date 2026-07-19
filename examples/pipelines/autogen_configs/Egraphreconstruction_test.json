@@ -1,0 +1,30 @@
+[
+    {
+        "max_nodes": 12,
+        "prob_impossible": 0.15
+    },
+    {
+        "max_nodes": 50,
+        "prob_impossible": 0.25
+    },
+    {
+        "max_nodes": 7,
+        "prob_impossible": 0.45
+    },
+    {
+        "max_nodes": 10,
+        "prob_impossible": 0.5
+    },
+    {
+        "max_nodes": 8,
+        "prob_impossible": 0.2
+    },
+    {
+        "max_nodes": 100,
+        "prob_impossible": 0.35
+    },
+    {
+        "max_nodes": 25,
+        "prob_impossible": 0.28
+    }
+]

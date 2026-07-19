@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dstrip_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dstrip.Dstrip_interaction.DstripInteraction"
-    config: {}

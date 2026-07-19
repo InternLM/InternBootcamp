@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dtimetorun_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.dtimetorun.Dtimetorun_interaction.DtimetorunInteraction"
-    config: {}

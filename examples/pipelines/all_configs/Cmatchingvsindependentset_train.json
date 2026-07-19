@@ -1,0 +1,22 @@
+[
+    {
+        "min_n": 1,
+        "max_n": 5,
+        "case_type": "indset"
+    },
+    {
+        "min_n": 3,
+        "max_n": 3,
+        "case_type": "random"
+    },
+    {
+        "min_n": 2,
+        "max_n": 5,
+        "case_type": "random"
+    },
+    {
+        "min_n": 2,
+        "max_n": 3,
+        "case_type": "matching"
+    }
+]

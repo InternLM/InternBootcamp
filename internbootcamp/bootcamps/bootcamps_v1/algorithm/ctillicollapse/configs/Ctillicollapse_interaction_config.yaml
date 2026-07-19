@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctillicollapse_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctillicollapse.Ctillicollapse_interaction.CtillicollapseInteraction"
-    config: {}

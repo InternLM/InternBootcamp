@@ -1,4 +1,0 @@
-interaction:
-  - name: "Amrkitayutathetreasurehunter_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.amrkitayutathetreasurehunter.Amrkitayutathetreasurehunter_interaction.AmrkitayutathetreasurehunterInteraction"
-    config: {}

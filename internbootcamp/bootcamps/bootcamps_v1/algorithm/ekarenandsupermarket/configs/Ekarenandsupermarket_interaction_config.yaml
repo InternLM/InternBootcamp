@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ekarenandsupermarket_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ekarenandsupermarket.Ekarenandsupermarket_interaction.EkarenandsupermarketInteraction"
-    config: {}

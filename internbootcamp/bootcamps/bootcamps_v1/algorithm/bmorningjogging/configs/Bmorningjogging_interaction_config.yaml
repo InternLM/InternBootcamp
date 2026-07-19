@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bmorningjogging_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bmorningjogging.Bmorningjogging_interaction.BmorningjoggingInteraction"
-    config: {}

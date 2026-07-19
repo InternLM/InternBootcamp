@@ -1,4 +1,0 @@
-interaction:
-  - name: "Dbookshelves_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.dbookshelves.Dbookshelves_interaction.DbookshelvesInteraction"
-    config: {}

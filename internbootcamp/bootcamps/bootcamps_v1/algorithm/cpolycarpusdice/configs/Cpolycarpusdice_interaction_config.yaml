@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpolycarpusdice_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpolycarpusdice.Cpolycarpusdice_interaction.CpolycarpusdiceInteraction"
-    config: {}

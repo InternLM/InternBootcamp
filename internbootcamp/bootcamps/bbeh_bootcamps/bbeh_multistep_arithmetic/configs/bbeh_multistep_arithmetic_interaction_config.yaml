@@ -1,8 +1,0 @@
-interaction:
-  - name: "bbeh_multistep_arithmetic_interaction"
-    class_name: "internbootcamp.bootcamps.bbeh_bootcamps.bbeh_multistep_arithmetic.interaction.BbehMultistepArithmeticInteraction"
-    config:
-      score_threshold: 0.95
-      success_feedback: "数值正确，感谢你的细致推算，可以总结关键过程后结束本轮。"
-      retry_feedback: "答案尚未通过验证，请重算 A + B - C，并以 [answer]数值[/answer] 格式提供结果。"
-

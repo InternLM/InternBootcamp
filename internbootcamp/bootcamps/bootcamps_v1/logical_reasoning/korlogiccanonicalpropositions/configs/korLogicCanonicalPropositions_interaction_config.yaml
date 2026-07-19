@@ -1,4 +1,0 @@
-interaction:
-  - name: "korLogicCanonicalPropositions_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.korlogiccanonicalpropositions.korLogicCanonicalPropositions_interaction.KorlogiccanonicalpropositionsInteraction"
-    config: {}

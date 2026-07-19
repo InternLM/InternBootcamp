@@ -1,4 +1,0 @@
-interaction:
-  - name: "Asearchingforgraph_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.graphical_puzzles.asearchingforgraph.Asearchingforgraph_interaction.AsearchingforgraphInteraction"
-    config: {}

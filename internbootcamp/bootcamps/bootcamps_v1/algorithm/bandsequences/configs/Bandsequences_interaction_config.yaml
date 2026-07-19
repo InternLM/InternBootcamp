@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bandsequences_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bandsequences.Bandsequences_interaction.BandsequencesInteraction"
-    config: {}

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cplasticinezebra_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cplasticinezebra.Cplasticinezebra_interaction.CplasticinezebraInteraction"
-    config: {}

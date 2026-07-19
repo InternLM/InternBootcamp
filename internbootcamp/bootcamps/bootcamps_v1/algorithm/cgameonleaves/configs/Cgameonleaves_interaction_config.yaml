@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cgameonleaves_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cgameonleaves.Cgameonleaves_interaction.CgameonleavesInteraction"
-    config: {}

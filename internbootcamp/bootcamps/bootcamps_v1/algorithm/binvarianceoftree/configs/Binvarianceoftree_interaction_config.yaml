@@ -1,4 +1,0 @@
-interaction:
-  - name: "Binvarianceoftree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.binvarianceoftree.Binvarianceoftree_interaction.BinvarianceoftreeInteraction"
-    config: {}

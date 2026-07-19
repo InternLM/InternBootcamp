@@ -1,4 +1,0 @@
-interaction:
-  - name: "Croundcorridor_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.croundcorridor.Croundcorridor_interaction.CroundcorridorInteraction"
-    config: {}

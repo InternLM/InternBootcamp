@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpropagatingtree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.cpropagatingtree.Cpropagatingtree_interaction.CpropagatingtreeInteraction"
-    config: {}

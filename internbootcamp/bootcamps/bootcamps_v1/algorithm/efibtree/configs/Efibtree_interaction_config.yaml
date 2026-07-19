@@ -1,4 +1,0 @@
-interaction:
-  - name: "Efibtree_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.efibtree.Efibtree_interaction.EfibtreeInteraction"
-    config: {}

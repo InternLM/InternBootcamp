@@ -1,4 +1,0 @@
-interaction:
-  - name: "Cpieordie_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.logical_reasoning.cpieordie.Cpieordie_interaction.CpieordieInteraction"
-    config: {}

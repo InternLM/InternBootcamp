@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ccolorstripe_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ccolorstripe.Ccolorstripe_interaction.CcolorstripeInteraction"
-    config: {}

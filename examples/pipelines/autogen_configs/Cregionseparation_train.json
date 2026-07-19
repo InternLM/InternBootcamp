@@ -1,0 +1,42 @@
+[
+    {
+        "max_n": 9,
+        "value_range": [
+            1,
+            20
+        ],
+        "force_tree_shape": true
+    },
+    {
+        "max_n": 6,
+        "value_range": [
+            1,
+            20
+        ],
+        "force_tree_shape": true
+    },
+    {
+        "max_n": 4,
+        "value_range": [
+            1,
+            5
+        ],
+        "force_tree_shape": true
+    },
+    {
+        "max_n": 5,
+        "value_range": [
+            1,
+            10
+        ],
+        "force_tree_shape": true
+    },
+    {
+        "max_n": 7,
+        "value_range": [
+            1,
+            10
+        ],
+        "force_tree_shape": true
+    }
+]

@@ -1,4 +1,0 @@
-interaction:
-  - name: "Bzuma_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.bzuma.Bzuma_interaction.BzumaInteraction"
-    config: {}

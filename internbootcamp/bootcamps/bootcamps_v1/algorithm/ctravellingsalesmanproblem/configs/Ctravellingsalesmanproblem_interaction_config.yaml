@@ -1,4 +1,0 @@
-interaction:
-  - name: "Ctravellingsalesmanproblem_interaction"
-    class_name: "internbootcamp.bootcamps.bootcamps_v1.algorithm.ctravellingsalesmanproblem.Ctravellingsalesmanproblem_interaction.CtravellingsalesmanproblemInteraction"
-    config: {}
