@@ -8,7 +8,7 @@
 
 ## 总体概要
 
-**InternAgentHarness** 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
+**InternAgentHarness** (曾用名：InternBootcamp) 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
 
 它并不只关注一次性的 benchmark 分数，而是为智能体构建可执行、可交互、可验证的任务环境。模型可以在真实的工具调用、状态反馈、多轮交互和奖励信号中持续学习与改进。
 
@@ -27,7 +27,7 @@
 
 ## BootCampCLI
 
-InternAgentHarness (曾用名：InternBootcamp) 同时提供 **BootCampCLI**，用于将任务配置自动转换为可运行的智能体交互流程。
+InternAgentHarness 同时提供 **BootCampCLI**，用于将任务配置自动转换为可运行的智能体交互流程。
 
 用户可以先在本地调试单个任务，再将相同配置扩展到：
 
