@@ -4,11 +4,7 @@
 
 📄 技术报告：[InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling](https://arxiv.org/abs/2508.08636)
 
-📦 报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
-
-<div align="center">
-  <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
-</div>
+📦 技术报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
 
 ## 总体概要
 
@@ -25,9 +21,13 @@
 
 通过这套统一接口，科研工具调用、路径规划、金融推理、游戏决策、视觉任务等不同场景都可以在同一流程下完成运行、记录、训练和评测。
 
+<div align="center">
+  <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
+</div>
+
 ## BootCampCLI
 
-InternAgentHarness 同时提供 **BootCampCLI**，用于将任务配置自动转换为可运行的智能体交互流程。
+InternAgentHarness (曾用名：InternBootcamp) 同时提供 **BootCampCLI**，用于将任务配置自动转换为可运行的智能体交互流程。
 
 用户可以先在本地调试单个任务，再将相同配置扩展到：
 
