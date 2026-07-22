@@ -4,15 +4,11 @@
 
 📄 技术报告：[InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling](https://arxiv.org/abs/2508.08636)
 
-📦 报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
-
-<div align="center">
-  <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
-</div>
+📦 技术报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
 
 ## 总体概要
 
-**InternAgentHarness** 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
+**InternAgentHarness** (曾用名：InternBootcamp) 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
 
 它并不只关注一次性的 benchmark 分数，而是为智能体构建可执行、可交互、可验证的任务环境。模型可以在真实的工具调用、状态反馈、多轮交互和奖励信号中持续学习与改进。
 
@@ -24,6 +20,10 @@
 - **奖励计算**：根据任务结果和中间过程提供可训练的反馈信号
 
 通过这套统一接口，科研工具调用、路径规划、金融推理、游戏决策、视觉任务等不同场景都可以在同一流程下完成运行、记录、训练和评测。
+
+<div align="center">
+  <img src="./figs/overview.png" width="800" alt="InternAgentHarness Overview"/>
+</div>
 
 ## BootCampCLI
 
