@@ -1,14 +1,16 @@
 # InternAgentHarness
 
-🎉 基于 **InternBootcamp v1** 的技术报告已被 [**WAICA 2026**](https://waica2026.worldaic.com.cn/program/program-glance/) 接收！
+🎉 **InternAgentHarness technical report**: [InternAgentHarness: A Scalable Synthetic Environment for Enhancing LLM Agentic Abilities](https://arxiv.org/pdf/2508.08636)
 
-📄 技术报告：[InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling](https://arxiv.org/abs/2508.08636)
+🎉 **InternBootcamp v1** 的技术报告已被 [**WAICA 2026**](https://waica2026.worldaic.com.cn/program/program-glance/) 接收！
+
+📄 技术报告：[InternBootcamp Technical Report: Boosting LLM Reasoning with Verifiable Task Scaling](https://arxiv.org/abs/2508.08636v2)
 
 📦 技术报告对应代码版本：[InternBootcamp v1](https://github.com/InternLM/InternBootcamp/tree/v1)
 
 ## 总体概要
 
-**InternAgentHarness** (曾用名：InternBootcamp) 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
+**InternAgentHarness** (InternBootcamp) 是一个面向大语言模型智能体训练与评测的可扩展合成环境框架。
 
 它并不只关注一次性的 benchmark 分数，而是为智能体构建可执行、可交互、可验证的任务环境。模型可以在真实的工具调用、状态反馈、多轮交互和奖励信号中持续学习与改进。
 
