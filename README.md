@@ -1,6 +1,6 @@
 # InternAgentHarness
 
-🎉 **InternAgentHarness technical report**: [InternAgentHarness: A Scalable Synthetic Environment for Enhancing LLM Agentic Abilities](https://arxiv.org/pdf/2508.08636)
+🎉 **InternAgentHarness technical report**: [InternAgentHarness: A Scalable Synthetic Environment for Enhancing LLM Agentic Abilities](https://www.preprints.org/manuscript/202609.0958)
 
 🎉 **InternBootcamp v1** 的技术报告已被 [**WAICA 2026**](https://waica2026.worldaic.com.cn/program/program-glance/) 接收！
 
